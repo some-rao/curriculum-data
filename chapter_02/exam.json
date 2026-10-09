@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "chapterId": "chapter_02",
+  "title": "Kapitel 2 — Goethe-Test",
+  "timeLimitMin": 10,
+  "passPercent": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "topic": "Uhrzeit",
+      "passage": "»Wie spät ist es?«\n»Es ist halb ___.«",
+      "prompt": "It's 8:30. Which word completes the answer?",
+      "options": ["acht", "neun", "zehn"],
+      "correctIndex": 1,
+      "explanationEnglish": "'Halb neun' counts forward to the next hour — half [to] nine is 8:30.",
+      "concept": {
+        "title": "Halb N = halbe Stunde vor N",
+        "rule": "German tells time by counting TO the next hour. 'Halb neun' is 8:30, 'halb sechs' is 5:30. Never translate 'half past' literally.",
+        "exampleGerman": "Es ist halb sechs. → 5:30",
+        "exampleEnglish": "It's half past five."
+      }
+    },
+    {
+      "id": "q2",
+      "topic": "Akkusativ",
+      "passage": "»Ich möchte ___ Kaffee, bitte.«",
+      "prompt": "Choose the correct article for ordering a coffee.",
+      "options": ["ein", "einen", "eine"],
+      "correctIndex": 1,
+      "explanationEnglish": "'der Kaffee' is masculine and becomes the direct object of 'möchten', so it shifts to the accusative 'einen'.",
+      "concept": {
+        "title": "Akkusativ: nur Maskulinum ändert sich",
+        "rule": "In the accusative only masculine nouns change: der → den, ein → einen, kein → keinen. Feminine, neuter and plural stay as they are.",
+        "exampleGerman": "Ich möchte einen Kuchen. — Ich möchte eine Milch.",
+        "exampleEnglish": "I'd like a cake. — I'd like a milk."
+      }
+    },
+    {
+      "id": "q3",
+      "topic": "Zahlen",
+      "passage": "Der Preis: 21 Euro.",
+      "prompt": "How is 21 said in German?",
+      "options": ["zwanzig eins", "einundzwanzig", "zwei zwanzig"],
+      "correctIndex": 1,
+      "explanationEnglish": "Unit first, then 'und', then the decade — the reverse of English.",
+      "concept": {
+        "title": "Zahlen 21–99: Einers zuerst",
+        "rule": "For 21–99 German reverses the order: unit + und + decade. 'Einundzwanzig' = one-and-twenty. Above 99 normal order returns: 'hundertzwanzig'.",
+        "exampleGerman": "34 = vierunddreißig",
+        "exampleEnglish": "34 = four-and-thirty"
+      }
+    },
+    {
+      "id": "q4",
+      "topic": "Zeitform",
+      "passage": "Der Zug fährt ___ vierzehn Uhr.",
+      "prompt": "Which preposition introduces a time?",
+      "options": ["in", "um", "an"],
+      "correctIndex": 1,
+      "explanationEnglish": "Clock times take 'um': 'um vierzehn Uhr'. Months/years take 'im', days take 'am'.",
+      "concept": {
+        "title": "Temporalpräpositionen",
+        "rule": "Clock time → 'um' (um acht Uhr). Day → 'am' (am Montag). Month/year → 'im' (im Mai, im 2026). Fixed phrases: 'am Morgen', 'am Abend'.",
+        "exampleGerman": "Um acht Uhr gehe ich zur Arbeit.",
+        "exampleEnglish": "At eight o'clock I go to work."
+      }
+    },
+    {
+      "id": "q5",
+      "topic": "Geld",
+      "passage": "»Das macht sieben Euro ___.« (7,50)",
+      "prompt": "How do you say the cents?",
+      "options": ["fünfzig", "fünf", "fünfte"],
+      "correctIndex": 0,
+      "explanationEnglish": "Cents are stated as the full number: 50 cents is 'fünfzig'.",
+      "concept": {
+        "title": "Preise aussprechen",
+        "rule": "German quotes prices as euros then cents in full numbers: 7,50 → 'sieben Euro fünfzig'. The decimal comma reads as a gap, not 'point'.",
+        "exampleGerman": "2,05 → zwei Euro fünf",
+        "exampleEnglish": "€2.05 → two euro five"
+      }
+    }
+  ]
+}

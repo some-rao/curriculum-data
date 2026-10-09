@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "id": "s1_begruessung",
+  "title": "Begrüßen & Vorstellen",
+  "corePages": [
+    {
+      "id": "s1p1",
+      "kind": "DIALOGUE",
+      "headline": "Am Flughafen",
+      "bodyGerman": "Guten Tag! Ich heiße Thomas Müller. Wie heißen Sie?\n\nGuten Tag! Ich heiße Alex und ich komme aus Indien.\n\nFreut mich, Sie kennenzulernen!",
+      "bodyEnglish": "Good day! My name is Thomas Müller. What's your name?\n\nGood day! My name is Alex and I come from India.\n\nPleased to meet you!",
+      "vocabHighlight": [
+        { "german": "Guten Tag", "english": "Good day / Hello" },
+        { "german": "Ich heiße …", "english": "My name is …" },
+        { "german": "Wie heißen Sie?", "english": "What's your name? (formal)" },
+        { "german": "Ich komme aus …", "english": "I come from …" }
+      ],
+      "culturalTip": "Capitalized 'Sie' = formal you. 'du' is for friends, family and children."
+    },
+    {
+      "id": "s1p2",
+      "kind": "VOCAB",
+      "headline": "Die Kernwörter",
+      "bodyEnglish": "The five words that carry every first conversation.",
+      "vocabHighlight": [
+        { "german": "heißen", "english": "to be called" },
+        { "german": "kommen", "english": "to come" },
+        { "german": "wohnen", "english": "to live / reside" },
+        { "german": "der Name", "english": "the name" },
+        { "german": "das Land", "english": "the country" }
+      ]
+    },
+    {
+      "id": "s1p3",
+      "kind": "GRAMMAR",
+      "headline": "Sie vs du",
+      "bodyEnglish": "German has two 'you'. Formal 'Sie' (always capitalized!) takes verb + -en like they: 'Wie heißen Sie?' — 'wohnen Sie'. Informal 'du' takes -st / -t: 'Wie heißt du?' — 'wohnst du'. First meetings with adults = Sie, until invited to use du.",
+      "culturalTip": "Getting the form wrong isn't rude, but staying on 'du' too early can be. When unsure: Sie."
+    },
+    {
+      "id": "s1p4",
+      "kind": "CULTURE",
+      "headline": "Sich verabschieden",
+      "bodyGerman": "Auf Wiedersehen! — Tschüss!",
+      "bodyEnglish": "'Auf Wiedersehen' is the safe formal goodbye anywhere. 'Tschüss' is casual — friends and family only. In the south you'll also hear 'Servus' for both hello and goodbye.",
+      "vocabHighlight": [
+        { "german": "Auf Wiedersehen", "english": "Goodbye (formal)" },
+        { "german": "Tschüss", "english": "Bye (informal)" }
+      ]
+    }
+  ],
+  "patterns": [
+    {
+      "id": "s1pat1",
+      "title": "Sich vorstellen",
+      "formula": "Ich heiße + [Name] + und ich komme aus + [Land/Stadt].",
+      "explanationEnglish": "The standard self-introduction. The 'und' joins two full clauses — each keeps its own verb position.",
+      "examples": [
+        { "german": "Ich heiße Lukas und ich komme aus Wien.", "english": "My name is Lukas and I come from Vienna." },
+        { "german": "Ich heiße Anna und ich komme aus Berlin.", "english": "My name is Anna and I come from Berlin." }
+      ]
+    },
+    {
+      "id": "s1pat2",
+      "title": "Nachfragen (formal)",
+      "formula": "Woher + kommen/wohnen + Sie?",
+      "explanationEnglish": "W-question word first, verb second — the V2 skeleton you'll meet in section 2.",
+      "examples": [
+        { "german": "Woher kommen Sie?", "english": "Where do you come from?" },
+        { "german": "Wo wohnen Sie?", "english": "Where do you live?" }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "s1p_q1",
+      "prompt": "Finish: »Guten Tag! Ich ___ Alex.«",
+      "options": ["heiße", "komme", "wohne"],
+      "correctIndex": 0,
+      "explanationEnglish": "'Ich heiße …' introduces your name. 'komme' needs 'aus', 'wohnen' needs a place."
+    },
+    {
+      "id": "s1p_q2",
+      "prompt": "Which goodbye fits a job interview?",
+      "options": ["Tschüss!", "Auf Wiedersehen!", "Servus!"],
+      "correctIndex": 1,
+      "explanationEnglish": "Formal setting = 'Auf Wiedersehen'. 'Tschüss' and 'Servus' are casual."
+    },
+    {
+      "id": "s1p_q3",
+      "prompt": "Ask a stranger their name (formal):",
+      "options": ["Wie heißt du?", "Wie heißen Sie?", "Was bist du?"],
+      "correctIndex": 1,
+      "explanationEnglish": "Stranger + formal = 'Wie heißen Sie?' — note the capital S."
+    }
+  ]
+}

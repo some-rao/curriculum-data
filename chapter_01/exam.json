@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "chapterId": "chapter_01",
+  "title": "Kapitel 1 — Goethe-Test",
+  "timeLimitMin": 10,
+  "passPercent": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "topic": "Fragewörter",
+      "passage": "A: »_____ heißen Sie?«\nB: »Ich heiße Maria Weber.«",
+      "prompt": "Welches Fragewort passt?",
+      "options": ["Wie", "Woher", "Was"],
+      "correctIndex": 0,
+      "explanationEnglish": "'Wie heißen Sie?' literally 'How are you called?' — the standard way to ask a name.",
+      "concept": {
+        "title": "Wie fragt nach Zuständigkeit",
+        "rule": "'Wie' asks about manner or identity: wie heißen, wie alt, wie bitte. 'Woher' asks origin, 'Was' asks for a thing.",
+        "exampleGerman": "Wie heißen Sie? — Ich heiße Maria.",
+        "exampleEnglish": "What's your name? — My name is Maria."
+      }
+    },
+    {
+      "id": "q2",
+      "topic": "Verbposition",
+      "passage": "Wähle die korrekte Wortstellung:",
+      "prompt": "Welcher Satz steht richtig?",
+      "options": [
+        "Aus Deutschland ich komme.",
+        "Ich komme aus Deutschland.",
+        "Ich aus Deutschland komme."
+      ],
+      "correctIndex": 1,
+      "explanationEnglish": "V2: the conjugated verb 'komme' must occupy position 2.",
+      "concept": {
+        "title": "V2 — Verb an Position 2",
+        "rule": "In German statements the conjugated verb is always the second element. Whatever fills position 1, the verb follows immediately.",
+        "exampleGerman": "Heute wohne ich in Berlin.",
+        "exampleEnglish": "Today I live in Berlin. (verb still second!)"
+      }
+    },
+    {
+      "id": "q3",
+      "topic": "Konjugation",
+      "passage": "»Wo _____ Sie, Herr Schmidt?«",
+      "prompt": "Choose the correct ending for formal 'Sie':",
+      "options": ["wohnst", "wohnt", "wohnen"],
+      "correctIndex": 2,
+      "explanationEnglish": "Formal 'Sie' takes the infinitive -en ending: 'wohnen Sie'.",
+      "concept": {
+        "title": "Formal Sie = infinitive form",
+        "rule": "The formal 'Sie' conjugates exactly like 'sie' (they): base verb + en. Always capitalized.",
+        "exampleGerman": "Wo wohnen Sie? — Ich wohne in Wien.",
+        "exampleEnglish": "Where do you live? — I live in Vienna."
+      }
+    },
+    {
+      "id": "q4",
+      "topic": "Aussprache",
+      "passage": "Vokalverbindungen:",
+      "prompt": "How is 'ei' pronounced in 'heißen' and 'mein'?",
+      "options": ["Like 'ee' in see", "Like 'eye' in my", "Like 'ay' in say"],
+      "correctIndex": 1,
+      "explanationEnglish": "German 'ei' is always the 'eye' sound. 'ie' is the 'ee' sound.",
+      "concept": {
+        "title": "ei = eye, ie = ee",
+        "rule": "When e and i go walking, the LAST letter talks: 'ei' → [aɪ] (eye), 'ie' → [iː] (ee).",
+        "exampleGerman": "heißen [ˈhaɪsən] · Sie [ziː]",
+        "exampleEnglish": "'to be called' · 'you (formal)'"
+      }
+    }
+  ]
+}

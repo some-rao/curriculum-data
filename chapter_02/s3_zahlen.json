@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "id": "s3_zahlen",
+  "title": "Zahlen & Preise",
+  "corePages": [
+    {
+      "id": "s3p1",
+      "kind": "PRONUNCIATION",
+      "headline": "Die Zahlen von1 bis 20",
+      "bodyGerman": "eins · zwei · drei · vier · fünf · sechs · sieben · acht · neun · zehn\nelf · zwölf · dreizehn · vierzehn · fünfzehn · sechzehn · siebzehn · achtzehn · neunzehn · zwanzig",
+      "bodyEnglish": "The teen numbers (13–19) are just the unit plus '-zehn': drei+zehn, vier+zehn. Watch the two that change spelling: 'sechs' → 'sechzehn' and 'sieben' → 'siebzehn' (the 'en' drops). 'Eins' loses its s before a noun: 'eine Stunde'.",
+      "culturalTip": "Count on your fingers the German way: thumb = 1, little finger = 5. Asking for 'drei' of something while holding up three fingers works everywhere."
+    },
+    {
+      "id": "s3p2",
+      "kind": "GRAMMAR",
+      "headline": "Zahlen21–99: die Einers zuerst",
+      "bodyGerman": "21  einundzwanzig   (ein + und + zwanzig)\n34  vierunddreißig\n57  siebenundfünfzig",
+      "bodyEnglish": "German reverses the tens: you say the ONES first, then 'und', then the TENS.21 is literally 'one and twenty'. The '-zig' ending is a z-sound, and 30 is the odd one out: 'dreißig' with an ß.",
+      "culturalTip": "Prices in shops are quoted in full: 'das macht sieben Euro fünfzig' = 7.50. Coins stop at 2 Euro; banknotes start at 5."
+    },
+    {
+      "id": "s3p3",
+      "kind": "CULTURE",
+      "headline": "Pfand & Trinkgeld",
+      "bodyGerman": "Mit Pfand: 0,25 € extra.\nTrinkgeld: rund5–10 %.",
+      "bodyEnglish": "Bottles and cans carry a 'Pfand' deposit (0.08–0.25 €) refunded when you return them — look for 'mit Pfand' on the label. Tipping is low: round up5–10% and say the amount as you hand it over ('Das macht neun, bitte' while giving a note).",
+      "vocabHighlight": [
+        { "german": "das Pfand", "english": "the deposit (refunded)" },
+        { "german": "das Trinkgeld", "english": "the tip" },
+        { "german": "die Quittung", "english": "the receipt" }
+      ],
+      "culturalTip": "Card payments under5 € are often refused — carry some cash."
+    }
+  ],
+  "grammar": {
+    "id": "s3gram",
+    "ruleHeadline": "Einers zuerst, Zehner danach",
+    "explanationEnglish": "For21–99, German puts the unit first, joins with 'und', then the decade — the reverse of English. 'Einundzwanzig' = one-and-twenty. Everything above99 uses normal order again: 'hundertzwanzig' = 120.",
+    "englishBridge": "English: 'twenty-one' (tenner first) → German: 'ein-und-zwanzig' (unit first). Flip the order and you've got it.",
+    "commonMistake": "'zwanzig-eins' ✗ → 'einundzwanzig' ✓. Also '-zig' sounds like 'tsig', not 'zig'.",
+    "targetSentenceGerman": "Das kostet einundzwanzig Euro.",
+    "targetSentenceEnglish": "That costs twenty-one euros.",
+    "builder": {
+      "fixedPrefix": "Das kostet",
+      "solutionWords": ["einundzwanzig", "Euro"],
+      "wordPool": ["einundzwanzig", "zwanzig", "Euro", "drei"]
+    }
+  },
+  "writing": {
+    "id": "s3write",
+    "promptEnglish": "Build: 'Das Wasser kostet zwei Euro.'",
+    "solutionWords": ["Das", "Wasser", "kostet", "zwei", "Euro"],
+    "wordPool": ["Wasser", "drei", "kostet", "Das", "kosten", "zwei", "Euro"]
+  },
+  "practice": [
+    {
+      "id": "s3p_q1",
+      "prompt": "How do you say 21?",
+      "options": ["zwanzig-eins", "einundzwanzig", "zweiundzwanzig"],
+      "correctIndex": 1,
+      "explanationEnglish": "Unit first, then 'und', then the decade: ein + und + zwanzig = einundzwanzig."
+    },
+    {
+      "id": "s3p_q2",
+      "prompt": "Complete: »Das macht sieben Euro ___.« (7.50)",
+      "options": ["fünfzig", "fünf", "fünfte"],
+      "correctIndex": 0,
+      "explanationEnglish": "Cents are stated as the full number: 'fünfzig' (50), not 'fünf'. So7.50 = 'sieben Euro fünfzig'."
+    },
+    {
+      "id": "s3p_q3",
+      "prompt": "Which number is correct for 30?",
+      "options": ["dreißig", "dreizig", "dreihundert"],
+      "correctIndex": 0,
+      "explanationEnglish": "30 is the exception: 'dreißig' takes an ß, not a z. All other decades end in '-zig'."
+    }
+  ]
+}

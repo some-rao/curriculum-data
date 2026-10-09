@@ -1,0 +1,22 @@
+name: Validate curriculum
+
+# Every PR gets automatic schema validation; only green PRs can merge
+# (enable branch protection on main → require status check "validate").
+
+on:
+  pull_request:
+    paths: ["chapter_*/**", "manifest.json", "tools/**"]
+  push:
+    branches: [main]
+    paths: ["chapter_*/**", "manifest.json", "tools/**"]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate curriculum schema
+        run: python3 tools/validate.py --root .

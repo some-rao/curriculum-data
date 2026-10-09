@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "s3_aussprache",
+  "title": "Aussprache-Fallen",
+  "corePages": [
+    {
+      "id": "s3p1",
+      "kind": "PRONUNCIATION",
+      "headline": "ei, ie und der Reim",
+      "bodyGerman": "ei → [aɪ]  (heißen, mein, zwei)\nie → [iː]   (Sie, wie, wieder)",
+      "bodyEnglish": "German vowel pairs trick English speakers: 'ei' sounds like the English word 'eye', 'ie' sounds like 'ee' in see. Mnemonic: when e and i go walking, the LAST one does the talking.",
+      "culturalTip": "Say it out loud three times: 'ei = eye, ie = ee'. This one rhyme saves you from misreading half of A1 vocabulary."
+    },
+    {
+      "id": "s3p2",
+      "kind": "PRONUNCIATION",
+      "headline": "w, v, z und ch",
+      "bodyGerman": "w → [v]   (wohnen, wer, was)\nv → [f]   (vier, Vater)\nz → [ts]  (zu, zwei, Zoo)\nch → [ç] nach i/e  (ich, nicht)",
+      "bodyEnglish": "The letters exist but lie: German 'w' is English 'v', 'v' is English 'f', 'z' is 'ts' as in cats. The 'ch' after i or e is a soft hiss — like saying 'hue' without the vowel."
+    },
+    {
+      "id": "s3p3",
+      "kind": "CULTURE",
+      "headline": "Betonnung",
+      "bodyEnglish": "German stresses the root of most words: 'WOHnen', 'HEIßen', 'KOMmen'. Loanwords keep English stress: 'KOM-puter', 'HO-tel'. When in doubt, stress the first syllable — even natives will understand you.",
+      "culturalTip": "Stress is meaning: 'üBEr' (over) vs 'Über' — okay, that's A2 drama. For now: first syllable."
+    }
+  ],
+  "practice": [
+    {
+      "id": "s3p_q1",
+      "prompt": "How is 'ei' pronounced in 'mein'?",
+      "options": ["Like 'ee' in see", "Like 'eye' in my", "Like 'ay' in say"],
+      "correctIndex": 1,
+      "explanationEnglish": "'ei' = 'eye' sound, always. 'ie' is the 'ee' one."
+    },
+    {
+      "id": "s3p_q2",
+      "prompt": "German 'zwei' starts with which sound?",
+      "options": ["[z] like zebra", "[ts] like cats", "[s] like see"],
+      "correctIndex": 1,
+      "explanationEnglish": "German 'z' is always 'ts' — 'zwei' = 'tsv-eye'."
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "chapterId": "chapter_01",
+  "number": 1,
+  "level": "A1",
+  "titleGerman": "Erste Schritte & Kennenlernen",
+  "titleEnglish": "First Steps & Introductions",
+  "descriptionEnglish": "Greetings, self-introduction, the V2 word-order rule, and the sounds that trip every English speaker.",
+  "sections": [
+    {
+      "id": "s1_begruessung",
+      "title": "Begrüßen & Vorstellen",
+      "file": "s1_begruessung.json",
+      "version": 1,
+      "estimatedMin": 8
+    },
+    {
+      "id": "s2_satzbau",
+      "title": "Satzbau & Verb an Position 2",
+      "file": "s2_satzbau.json",
+      "version": 1,
+      "estimatedMin": 8
+    },
+    {
+      "id": "s3_aussprache",
+      "title": "Aussprache-Fallen",
+      "file": "s3_aussprache.json",
+      "version": 1,
+      "estimatedMin": 6
+    }
+  ],
+  "vocabFile": "vocab.json",
+  "examFile": "exam.json"
+}

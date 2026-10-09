@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "chapterId": "chapter_02",
+  "number": 2,
+  "level": "A1",
+  "titleGerman": "Im Alltag",
+  "titleEnglish": "Everyday Life",
+  "descriptionEnglish": "Telling the time, ordering in a café, and handling numbers and prices — plus the accusative article you need to order anything.",
+  "sections": [
+    {
+      "id": "s1_zeit",
+      "title": "Die Uhrzeit",
+      "file": "s1_zeit.json",
+      "version": 1,
+      "estimatedMin": 8
+    },
+    {
+      "id": "s2_essen",
+      "title": "Im Café bestellen",
+      "file": "s2_essen.json",
+      "version": 1,
+      "estimatedMin": 8
+    },
+    {
+      "id": "s3_zahlen",
+      "title": "Zahlen & Preise",
+      "file": "s3_zahlen.json",
+      "version": 1,
+      "estimatedMin": 7
+    }
+  ],
+  "vocabFile": "vocab.json",
+  "examFile": "exam.json"
+}

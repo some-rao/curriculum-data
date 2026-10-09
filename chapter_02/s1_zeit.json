@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "id": "s1_zeit",
+  "title": "Die Uhrzeit",
+  "corePages": [
+    {
+      "id": "s1p1",
+      "kind": "DIALOGUE",
+      "headline": "Am Bahnhof",
+      "bodyGerman": "Entschuldigung, wie spät ist es?\n\nEs ist acht Uhr.\n\nUnd wann fährt der nächste Zug nach Berlin?\n\nEr fährt um vierzehn Uhr.",
+      "bodyEnglish": "Excuse me, what time is it?\n\nIt's eight o'clock.\n\nAnd when does the next train to Berlin leave?\n\nIt leaves at two p.m. (fourteen hundred).",
+      "vocabHighlight": [
+        { "german": "Wie spät ist es?", "english": "What time is it?" },
+        { "german": "Es ist … Uhr", "english": "It's … o'clock" },
+        { "german": "Wann fährt …?", "english": "When does … leave?" },
+        { "german": "um … Uhr", "english": "at … o'clock" }
+      ],
+      "culturalTip": "'Wie spät ist es?' is the standard way to ask the time. You'll also hear 'Wie viel Uhr ist es?' — both are correct."
+    },
+    {
+      "id": "s1p2",
+      "kind": "VOCAB",
+      "headline": "Die Zeitwörter",
+      "bodyEnglish": "The words that carry every time question.",
+      "vocabHighlight": [
+        { "german": "die Uhr", "english": "the clock / o'clock" },
+        { "german": "die Zeit", "english": "the time" },
+        { "german": "spät", "english": "late" },
+        { "german": "früh", "english": "early" },
+        { "german": "wann", "english": "when" }
+      ]
+    },
+    {
+      "id": "s1p3",
+      "kind": "GRAMMAR",
+      "headline": "halb neun ist8:30",
+      "bodyGerman": "Es ist acht Uhr.            → 8:00\nEs ist acht Uhr fünfzehn.   → 8:15\nEs ist halb neun.           → 8:30",
+      "bodyEnglish": "German tells time by counting TO the next hour. 'Halb neun' literally means 'half to nine' — so it's 8:30, not 9:30. This is the single most confusing clock pattern for English speakers.",
+      "culturalTip": "Never translate 'half past eight' word-for-word. Train timetables use the 24-hour clock: 'um vierzehn Uhr' = 2 p.m."
+    },
+    {
+      "id": "s1p4",
+      "kind": "CULTURE",
+      "headline": "Der24-Stunden-Tag",
+      "bodyGerman": "Der Film beginnt um20 Uhr.",
+      "bodyEnglish": "Germany runs on the24-hour clock. TV guides, timetables, doctor's appointments and shop hours all use it — 'von 9 bis 18 Uhr'. In conversation people still say 'acht Uhr' for 8 a.m. and 'zwanzig Uhr' for 8 p.m.",
+      "vocabHighlight": [
+        { "german": "von … bis … Uhr", "english": "from … to … o'clock" },
+        { "german": "am Morgen / am Abend", "english": "in the morning / evening" }
+      ]
+    }
+  ],
+  "grammar": {
+    "id": "s1gram",
+    "ruleHeadline": "Es ist … Uhr — die Uhrzeit",
+    "explanationEnglish": "Telling the time always uses 'sein' in third person singular: 'Es ist'. Add the hour, then the minutes. 'Halb N' means half an hour BEFORE N — it counts forward to the next hour, not back from the current one.",
+    "englishBridge": "English: 'It's half past eight.' → German looks ahead: 'Es ist HALB NEUN' (half [to] nine). Same moment, opposite direction.",
+    "commonMistake": "'halb neun' = 8:30, NOT 9:30. And it's 'Es ist' — never 'Es hat' for time.",
+    "targetSentenceGerman": "Es ist halb neun.",
+    "targetSentenceEnglish": "It's half past eight.",
+    "builder": {
+      "fixedPrefix": "Es ist",
+      "solutionWords": ["halb", "neun"],
+      "wordPool": ["halb", "neun", "acht", "viertel"]
+    }
+  },
+  "writing": {
+    "id": "s1write",
+    "promptEnglish": "Build: 'Der Zug fährt um vierzehn Uhr.'",
+    "solutionWords": ["Der", "Zug", "fährt", "um", "vierzehn", "Uhr"],
+    "wordPool": ["Zug", "um", "Der", "fünfzehn", "Uhr", "fährt", "vierzehn", "in"]
+  },
+  "practice": [
+    {
+      "id": "s1p_q1",
+      "prompt": "It's 8:30. What do you say?",
+      "options": ["Es ist halb neun.", "Es ist halb acht.", "Es ist neun Uhr."],
+      "correctIndex": 0,
+      "explanationEnglish": "'Halb neun' counts forward to the next hour: half [to] nine = 8:30."
+    },
+    {
+      "id": "s1p_q2",
+      "prompt": "Complete: »Wie spät ist es? — Es ist ___ Uhr.« (3:00)",
+      "options": ["drei", "zweite", "dritt"],
+      "correctIndex": 0,
+      "explanationEnglish": "The hour is stated as the plain cardinal number: 'Es ist drei Uhr.'"
+    },
+    {
+      "id": "s1p_q3",
+      "prompt": "A train leaves at 14:00. Choose the right sentence:",
+      "options": [
+        "Der Zug fährt um vier Uhr.",
+        "Der Zug fährt um vierzehn Uhr.",
+        "Der Zug fährt vierzehn Uhr um."
+      ],
+      "correctIndex": 1,
+      "explanationEnglish": "Timetables use the 24-hour clock, and the preposition 'um' comes before the time: 'um vierzehn Uhr'."
+    }
+  ]
+}
