@@ -1,11 +1,12 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "s1_begruessung",
   "title": "Begrüßen & Vorstellen",
-  "corePages": [
+  "blocks": [
     {
+      "type": "LESSON_PAGE",
+      "variant": "DIALOGUE",
       "id": "s1p1",
-      "kind": "DIALOGUE",
       "headline": "Am Flughafen",
       "bodyGerman": "Guten Tag! Ich heiße Thomas Müller. Wie heißen Sie?\n\nGuten Tag! Ich heiße Alex und ich komme aus Indien.\n\nFreut mich, Sie kennenzulernen!",
       "bodyEnglish": "Good day! My name is Thomas Müller. What's your name?\n\nGood day! My name is Alex and I come from India.\n\nPleased to meet you!",
@@ -14,12 +15,26 @@
         { "german": "Ich heiße …", "english": "My name is …" },
         { "german": "Wie heißen Sie?", "english": "What's your name? (formal)" },
         { "german": "Ich komme aus …", "english": "I come from …" }
-      ],
-      "culturalTip": "Capitalized 'Sie' = formal you. 'du' is for friends, family and children."
+      ]
     },
     {
+      "type": "NOTE",
+      "variant": "CULTURE",
+      "id": "s1_n1",
+      "title": "Du oder Sie?",
+      "bodyEnglish": "Capitalized 'Sie' is the formal you. 'du' is for friends, family and children. First meetings with adults use 'Sie' until you are invited to use 'du' — being offered the first name is the signal."
+    },
+    {
+      "type": "NOTE",
+      "variant": "CULTURE",
+      "id": "s1_n2",
+      "title": "Handschlag oder Küsschen?",
+      "bodyEnglish": "A firm handshake is the default greeting almost everywhere, including on meeting someone for the first time. Cheek kisses are for people you already know well, and mostly in the south. When in doubt: handshake, and stand a little closer than you would in English."
+    },
+    {
+      "type": "LESSON_PAGE",
+      "variant": "VOCAB",
       "id": "s1p2",
-      "kind": "VOCAB",
       "headline": "Die Kernwörter",
       "bodyEnglish": "The five words that carry every first conversation.",
       "vocabHighlight": [
@@ -31,15 +46,16 @@
       ]
     },
     {
+      "type": "LESSON_PAGE",
+      "variant": "GRAMMAR",
       "id": "s1p3",
-      "kind": "GRAMMAR",
       "headline": "Sie vs du",
-      "bodyEnglish": "German has two 'you'. Formal 'Sie' (always capitalized!) takes verb + -en like they: 'Wie heißen Sie?' — 'wohnen Sie'. Informal 'du' takes -st / -t: 'Wie heißt du?' — 'wohnst du'. First meetings with adults = Sie, until invited to use du.",
-      "culturalTip": "Getting the form wrong isn't rude, but staying on 'du' too early can be. When unsure: Sie."
+      "bodyEnglish": "German has two 'you'. Formal 'Sie' (always capitalized!) takes verb + -en like they: 'Wie heißen Sie?' — 'wohnen Sie'. Informal 'du' takes -st / -t: 'Wie heißt du?' — 'wohnst du'."
     },
     {
+      "type": "LESSON_PAGE",
+      "variant": "VOCAB",
       "id": "s1p4",
-      "kind": "CULTURE",
       "headline": "Sich verabschieden",
       "bodyGerman": "Auf Wiedersehen! — Tschüss!",
       "bodyEnglish": "'Auf Wiedersehen' is the safe formal goodbye anywhere. 'Tschüss' is casual — friends and family only. In the south you'll also hear 'Servus' for both hello and goodbye.",
@@ -47,10 +63,10 @@
         { "german": "Auf Wiedersehen", "english": "Goodbye (formal)" },
         { "german": "Tschüss", "english": "Bye (informal)" }
       ]
-    }
-  ],
-  "patterns": [
+    },
     {
+      "type": "PATTERN",
+      "variant": "FORMULA",
       "id": "s1pat1",
       "title": "Sich vorstellen",
       "formula": "Ich heiße + [Name] + und ich komme aus + [Land/Stadt].",
@@ -61,6 +77,8 @@
       ]
     },
     {
+      "type": "PATTERN",
+      "variant": "FORMULA",
       "id": "s1pat2",
       "title": "Nachfragen (formal)",
       "formula": "Woher + kommen/wohnen + Sie?",
@@ -69,29 +87,48 @@
         { "german": "Woher kommen Sie?", "english": "Where do you come from?" },
         { "german": "Wo wohnen Sie?", "english": "Where do you live?" }
       ]
-    }
-  ],
-  "practice": [
+    },
     {
+      "type": "EXERCISE",
+      "variant": "MULTIPLE_CHOICE",
       "id": "s1p_q1",
+      "points": 2,
       "prompt": "Finish: »Guten Tag! Ich ___ Alex.«",
       "options": ["heiße", "komme", "wohne"],
       "correctIndex": 0,
       "explanationEnglish": "'Ich heiße …' introduces your name. 'komme' needs 'aus', 'wohnen' needs a place."
     },
     {
+      "type": "EXERCISE",
+      "variant": "MULTIPLE_CHOICE",
       "id": "s1p_q2",
+      "points": 2,
       "prompt": "Which goodbye fits a job interview?",
       "options": ["Tschüss!", "Auf Wiedersehen!", "Servus!"],
       "correctIndex": 1,
       "explanationEnglish": "Formal setting = 'Auf Wiedersehen'. 'Tschüss' and 'Servus' are casual."
     },
     {
+      "type": "EXERCISE",
+      "variant": "MULTIPLE_CHOICE",
       "id": "s1p_q3",
+      "points": 2,
       "prompt": "Ask a stranger their name (formal):",
       "options": ["Wie heißt du?", "Wie heißen Sie?", "Was bist du?"],
       "correctIndex": 1,
       "explanationEnglish": "Stranger + formal = 'Wie heißen Sie?' — note the capital S."
+    },
+    {
+      "type": "SUMMARY",
+      "variant": "RECAP",
+      "id": "s1_sum",
+      "title": "Was du jetzt kannst",
+      "bullets": [
+        "Vorstellen: Ich heiße … und ich komme aus …",
+        "Formal fragen: Wie heißen Sie? — Woher kommen Sie?",
+        "Sie vs du: mit Erwachsenen erst 'Sie', bis du angeboten wird.",
+        "Verabschieden: Auf Wiedersehen (formal) · Tschüss (freundlich)."
+      ]
     }
   ]
 }

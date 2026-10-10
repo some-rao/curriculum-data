@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "chapterId": "chapter_02",
   "number": 2,
   "level": "A1",
@@ -11,21 +11,21 @@
       "id": "s1_zeit",
       "title": "Die Uhrzeit",
       "file": "s1_zeit.json",
-      "version": 1,
+      "version": 2,
       "estimatedMin": 8
     },
     {
       "id": "s2_essen",
       "title": "Im Café bestellen",
       "file": "s2_essen.json",
-      "version": 1,
+      "version": 2,
       "estimatedMin": 8
     },
     {
       "id": "s3_zahlen",
       "title": "Zahlen & Preise",
       "file": "s3_zahlen.json",
-      "version": 1,
+      "version": 2,
       "estimatedMin": 7
     }
   ],

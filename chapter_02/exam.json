@@ -1,12 +1,15 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "chapterId": "chapter_02",
   "title": "Kapitel 2 — Goethe-Test",
   "timeLimitMin": 10,
   "passPercent": 70,
-  "questions": [
+  "blocks": [
     {
+      "type": "EXERCISE",
+      "variant": "MULTIPLE_CHOICE",
       "id": "q1",
+      "points": 2,
       "topic": "Uhrzeit",
       "passage": "»Wie spät ist es?«\n»Es ist halb ___.«",
       "prompt": "It's 8:30. Which word completes the answer?",
@@ -21,7 +24,42 @@
       }
     },
     {
-      "id": "q2",
+      "type": "EXERCISE",
+      "variant": "FILL_BLANK",
+      "id": "q2_fill",
+      "points": 4,
+      "topic": "Uhrzeit & Akkusativ",
+      "prompt": "Fill in the missing word.",
+      "explanationEnglish": "'um' introduces clock times, and the accusative only ever changes masculine articles.",
+      "items": [
+        {
+          "sentence": "Der Zug fährt ___ vierzehn Uhr.",
+          "answers": ["um"],
+          "hint": "clock times take this preposition"
+        },
+        {
+          "sentence": "Ich möchte ___ Kaffee, bitte.",
+          "answers": ["einen"],
+          "hint": "masculine, accusative"
+        },
+        {
+          "sentence": "Ich möchte ___ Milch, bitte.",
+          "answers": ["eine"],
+          "hint": "feminine stays the same"
+        }
+      ],
+      "concept": {
+        "title": "Temporalpräpositionen",
+        "rule": "Clock time → 'um' (um acht Uhr). Day → 'am' (am Montag). Month/year → 'im' (im Mai). Fixed phrases: 'am Morgen', 'am Abend'.",
+        "exampleGerman": "Um acht Uhr gehe ich zur Arbeit.",
+        "exampleEnglish": "At eight o'clock I go to work."
+      }
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "MULTIPLE_CHOICE",
+      "id": "q3",
+      "points": 2,
       "topic": "Akkusativ",
       "passage": "»Ich möchte ___ Kaffee, bitte.«",
       "prompt": "Choose the correct article for ordering a coffee.",
@@ -36,7 +74,10 @@
       }
     },
     {
-      "id": "q3",
+      "type": "EXERCISE",
+      "variant": "MULTIPLE_CHOICE",
+      "id": "q4",
+      "points": 2,
       "topic": "Zahlen",
       "passage": "Der Preis: 21 Euro.",
       "prompt": "How is 21 said in German?",
@@ -51,22 +92,10 @@
       }
     },
     {
-      "id": "q4",
-      "topic": "Zeitform",
-      "passage": "Der Zug fährt ___ vierzehn Uhr.",
-      "prompt": "Which preposition introduces a time?",
-      "options": ["in", "um", "an"],
-      "correctIndex": 1,
-      "explanationEnglish": "Clock times take 'um': 'um vierzehn Uhr'. Months/years take 'im', days take 'am'.",
-      "concept": {
-        "title": "Temporalpräpositionen",
-        "rule": "Clock time → 'um' (um acht Uhr). Day → 'am' (am Montag). Month/year → 'im' (im Mai, im 2026). Fixed phrases: 'am Morgen', 'am Abend'.",
-        "exampleGerman": "Um acht Uhr gehe ich zur Arbeit.",
-        "exampleEnglish": "At eight o'clock I go to work."
-      }
-    },
-    {
+      "type": "EXERCISE",
+      "variant": "MULTIPLE_CHOICE",
       "id": "q5",
+      "points": 2,
       "topic": "Geld",
       "passage": "»Das macht sieben Euro ___.« (7,50)",
       "prompt": "How do you say the cents?",

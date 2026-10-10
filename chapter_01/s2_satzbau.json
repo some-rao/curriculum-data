@@ -1,59 +1,85 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "s2_satzbau",
   "title": "Satzbau & Verb an Position 2",
-  "corePages": [
+  "blocks": [
     {
+      "type": "LESSON_PAGE",
+      "variant": "GRAMMAR",
       "id": "s2p1",
-      "kind": "GRAMMAR",
       "headline": "Die V2-Regel",
       "bodyGerman": "Ich (1) komme (2) aus Deutschland.\nHeute (1) wohne (2) ich in Berlin.\nMorgen (1) lerne (2) ich Deutsch.",
-      "bodyEnglish": "In every German statement the conjugated verb is the SECOND element — no matter what fills position 1. Move a time word to the front and the subject slides behind the verb. This is the single most important rule in basic German.",
-      "culturalTip": "'Heute ich lerne' is the classic learner mistake. Time first → verb second → subject third: 'Heute lerne ich'."
+      "bodyEnglish": "In every German statement the conjugated verb is the SECOND element — no matter what fills position 1. Move a time word to the front and the subject slides behind the verb. This is the single most important rule in basic German."
     },
     {
+      "type": "LESSON_PAGE",
+      "variant": "GRAMMAR",
       "id": "s2p2",
-      "kind": "GRAMMAR",
       "headline": "Fragen bauen",
       "bodyGerman": "Kommen (1) Sie (2) aus Deutschland?   →  Ja.\nWoher (1) kommen (2) Sie?              →  Aus Indien.",
       "bodyEnglish": "Yes/No question: verb takes position 1. W-question (Woher, Wo, Wie, Was): question word is position 1, verb stays position 2. Same V2 skeleton, different occupant of slot 1."
     },
     {
+      "type": "LESSON_PAGE",
+      "variant": "VOCAB",
       "id": "s2p3",
-      "kind": "VOCAB",
       "headline": "Orte & Länder",
+      "bodyEnglish": "'kommen aus' = you originate there. 'wohnen in' = you live there. Both fixed phrases — learn them as chunks.",
       "vocabHighlight": [
         { "german": "aus", "english": "from (origin)" },
         { "german": "in", "english": "in (place)" },
         { "german": "die Stadt", "english": "the city" },
         { "german": "wohnen", "english": "to live" }
-      ],
-      "bodyEnglish": "'kommen aus' = you originate there. 'wohnen in' = you live there. Both fixed phrases — learn them as chunks."
-    }
-  ],
-  "grammar": {
-    "id": "s2gram",
-    "ruleHeadline": "Das Verb steht immer an Position 2!",
-    "explanationEnglish": "German word order is verb-second (V2). Count elements, not words: whatever you put first, the conjugated verb follows immediately, and the subject usually finishes the clause.",
-    "englishBridge": "English: 'Today I go to school.' → German flips it: 'Heute GEHE ich zur Schule.' The verb still owns slot 2 — the subject just moved after it.",
-    "commonMistake": "Don't translate English order directly: 'Heute ich gehe' ✗ → 'Heute gehe ich' ✓",
-    "targetSentenceGerman": "Ich komme aus Deutschland und wohne in Berlin.",
-    "targetSentenceEnglish": "I come from Germany and live in Berlin.",
-    "builder": {
-      "fixedPrefix": "Ich komme aus Deutschland,",
-      "solutionWords": ["und", "ich", "wohne", "in Berlin"],
-      "wordPool": ["wohne", "und", "ich", "in Berlin", "komme", "bist"]
-    }
-  },
-  "writing": {
-    "id": "s2write",
-    "promptEnglish": "Build: 'Morgen lerne ich Deutsch mit Maria.'",
-    "solutionWords": ["Morgen", "lerne", "ich", "Deutsch", "mit", "Maria"],
-    "wordPool": ["ich", "Morgen", "Maria", "lerne", "Deutsch", "mit"]
-  },
-  "practice": [
+      ]
+    },
     {
+      "type": "GRAMMAR",
+      "variant": "RULE",
+      "id": "s2gram",
+      "ruleHeadline": "Das Verb steht immer an Position 2!",
+      "explanationEnglish": "German word order is verb-second (V2). Count elements, not words: whatever you put first, the conjugated verb follows immediately, and the subject usually finishes the clause.",
+      "englishBridge": "English: 'Today I go to school.' → German flips it: 'Heute GEHE ich zur Schule.' The verb still owns slot 2 — the subject just moved after it.",
+      "targetSentenceGerman": "Ich komme aus Deutschland und wohne in Berlin.",
+      "targetSentenceEnglish": "I come from Germany and live in Berlin.",
+      "builder": {
+        "fixedPrefix": "Ich komme aus Deutschland,",
+        "solutionWords": ["und", "ich", "wohne", "in Berlin"],
+        "wordPool": ["wohne", "und", "ich", "in Berlin", "komme", "bist"]
+      }
+    },
+    {
+      "type": "NOTE",
+      "variant": "MISTAKE",
+      "id": "s2_n_mistake",
+      "title": "»Heute ich lerne«",
+      "bodyEnglish": "The classic learner mistake. A time word in position 1 pushes the subject behind the verb: 'Heute ich lerne' ✗ → 'Heute lerne ich' ✓"
+    },
+    {
+      "type": "BREAKDOWN",
+      "variant": "WORD_BY_WORD",
+      "id": "s2_breakdown",
+      "sentenceGerman": "Heute wohne ich in Berlin.",
+      "sentenceEnglish": "Today I live in Berlin.",
+      "tokens": [
+        { "token": "Heute", "english": "today — fills position 1" },
+        { "token": "wohne", "english": "live — the verb, locked to position 2" },
+        { "token": "ich", "english": "I — the subject, pushed after the verb" },
+        { "token": "in Berlin", "english": "in Berlin — the remaining chunk" }
+      ]
+    },
+    {
+      "type": "WRITING",
+      "variant": "WORD_POOL",
+      "id": "s2write",
+      "promptEnglish": "Build: 'Morgen lerne ich Deutsch mit Maria.'",
+      "solutionWords": ["Morgen", "lerne", "ich", "Deutsch", "mit", "Maria"],
+      "wordPool": ["ich", "Morgen", "Maria", "lerne", "Deutsch", "mit"]
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "MULTIPLE_CHOICE",
       "id": "s2p_q1",
+      "points": 2,
       "prompt": "Choose the correct order:",
       "options": [
         "Aus Deutschland ich komme.",
@@ -64,14 +90,20 @@
       "explanationEnglish": "V2: subject (1), verb (2), then the rest. 'komme' must be second."
     },
     {
+      "type": "EXERCISE",
+      "variant": "MULTIPLE_CHOICE",
       "id": "s2p_q2",
+      "points": 2,
       "prompt": "Complete: »Wo ___ Sie, Herr Schmidt?«",
       "options": ["wohnst", "wohnt", "wohnen"],
       "correctIndex": 2,
       "explanationEnglish": "Formal 'Sie' always takes the -en ending: 'wohnen Sie'."
     },
     {
+      "type": "EXERCISE",
+      "variant": "MULTIPLE_CHOICE",
       "id": "s2p_q3",
+      "points": 2,
       "prompt": "Which yes/no question is correct?",
       "options": [
         "Sie kommen aus Wien?",
@@ -80,6 +112,18 @@
       ],
       "correctIndex": 1,
       "explanationEnglish": "Yes/No questions put the verb in position 1: verb + Sie + rest."
+    },
+    {
+      "type": "SUMMARY",
+      "variant": "RECAP",
+      "id": "s2_sum",
+      "title": "Was du jetzt kannst",
+      "bullets": [
+        "V2: das konjugierte Verb steht immer an Position 2.",
+        "Zeitwort vorne → Subjekt rutscht hinter das Verb: Heute lerne ich.",
+        "Ja/Nein-Frage: Verb an Position 1. W-Frage: Fragewort 1, Verb 2.",
+        "'kommen aus' und 'wohnen in' als feste Brocken lernen."
+      ]
     }
   ]
 }

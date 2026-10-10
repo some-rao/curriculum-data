@@ -1,96 +1,139 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "s2_essen",
   "title": "Im Café bestellen",
-  "corePages": [
+  "blocks": [
     {
+      "type": "LESSON_PAGE",
+      "variant": "DIALOGUE",
       "id": "s2p1",
-      "kind": "DIALOGUE",
       "headline": "In der Konditorei",
-      "bodyGerman": "Guten Tag! Was darf es sein?\n\nEinen Kaffee mit Milch, bitte.\n\nSonst noch etwas?\n\nJa, ein Stück Käsekuchen. Was kostet das?\n\nDas macht zusammen sieben Euro fünfzig.",
-      "bodyEnglish": "Good day! What would you like?\n\nA coffee with milk, please.\n\nAnything else?\n\nYes, a piece of cheesecake. How much is that?\n\nThat comes to seven euros fifty.",
-      "vocabHighlight": [
-        { "german": "Was darf es sein?", "english": "What would you like?" },
-        { "german": "Einen … bitte", "english": "A … please (accusative)" },
-        { "german": "Sonst noch etwas?", "english": "Anything else?" },
-        { "german": "Was kostet das?", "english": "How much is that?" }
-      ],
-      "culturalTip": "Ordering is one of the few situations where Germans stay formal — 'Sie' with a shopkeeper is normal even in a small village café."
-    },
-    {
-      "id": "s2p2",
-      "kind": "VOCAB",
-      "headline": "Essen & Trinken",
-      "bodyEnglish": "The words you need to survive a menu.",
-      "vocabHighlight": [
-        { "german": "der Kaffee", "english": "the coffee" },
-        { "german": "der Kuchen", "english": "the cake" },
-        { "german": "das Wasser", "english": "the water" },
-        { "german": "die Milch", "english": "the milk" },
-        { "german": "bitte", "english": "please / you're welcome" }
+      "turns": [
+        { "speaker": "Service", "german": "Guten Tag! Was darf es sein?", "english": "Good day! What would you like?" },
+        { "speaker": "Gast", "german": "Einen Kaffee mit Milch, bitte.", "english": "A coffee with milk, please." },
+        { "speaker": "Service", "german": "Sonst noch etwas?", "english": "Anything else?" },
+        { "speaker": "Gast", "german": "Ja, ein Stück Käsekuchen. Was kostet das?", "english": "Yes, a piece of cheesecake. How much is that?" },
+        { "speaker": "Service", "german": "Das macht zusammen sieben Euro fünfzig.", "english": "That comes to seven euros fifty." }
       ]
     },
     {
+      "type": "NOTE",
+      "variant": "CULTURE",
+      "id": "s2_n_formal",
+      "title": "Bestellen bleibt höflich",
+      "bodyEnglish": "Ordering is one of the few situations where Germans stay formal — 'Sie' with a shopkeeper is normal even in a small village café. The one relaxed exception: dropping the verb entirely and saying just 'Einen Kaffee, bitte'."
+    },
+    {
+      "type": "VOCAB",
+      "variant": "CARD_SET",
+      "id": "s2_vocab",
+      "title": "Essen & Trinken",
+      "wordIds": ["w2_kaffee", "w2_kuchen", "w2_wasser", "w2_milch", "w2_moeglich"]
+    },
+    {
+      "type": "LESSON_PAGE",
+      "variant": "GRAMMAR",
       "id": "s2p3",
-      "kind": "GRAMMAR",
       "headline": "Einen, bitte — der Akkusativ",
       "bodyGerman": "der Kaffee  →  einen Kaffee     (masculine shifts)\ndie Milch   →  eine Milch      (feminine stays)\ndas Wasser  →  ein Wasser      (neuter stays)",
-      "bodyEnglish": "When a masculine noun is the thing you WANT (the direct object), 'der' becomes 'den' and 'ein' becomes 'einen'. Feminine and neuter don't change. This is the accusative case — you already use it every time you order something.",
-      "culturalTip": "'Einen Kaffee, bitte' is so common it works as a full sentence. Drop the verb entirely — Germans do."
+      "bodyEnglish": "When a masculine noun is the thing you WANT (the direct object), 'der' becomes 'den' and 'ein' becomes 'einen'. Feminine and neuter don't change. This is the accusative case — you already use it every time you order something."
     },
     {
-      "id": "s2p4",
-      "kind": "PATTERN",
-      "headline": "Bestellen",
-      "bodyGerman": "Ich möchte einen Kaffee, bitte.\n\nIch hätte gern einen Tee mit Zitrone.",
-      "bodyEnglish": "'Ich möchte' (I would like) is the polite workhorse of every order. 'Ich hätte gern' is a notch more formal and sounds perfectly natural — either is safe.",
-      "vocabHighlight": [
-        { "german": "Ich möchte …", "english": "I would like …" },
-        { "german": "Ich hätte gern …", "english": "I'd prefer …" }
+      "type": "PATTERN",
+      "variant": "FORMULA",
+      "id": "s2pat1",
+      "title": "Bestellen",
+      "formula": "Ich möchte + [Akkusativ-Objekt] + , bitte.",
+      "explanationEnglish": "'Ich möchte' (I would like) is the polite workhorse of every order. 'Ich hätte gern' is a notch more formal and sounds perfectly natural — either is safe.",
+      "examples": [
+        { "german": "Ich möchte einen Kaffee, bitte.", "english": "I'd like a coffee, please." },
+        { "german": "Ich hätte gern einen Tee mit Zitrone.", "english": "I'd prefer a tea with lemon." }
       ]
-    }
-  ],
-  "grammar": {
-    "id": "s2gram",
-    "ruleHeadline": "den / einen — der Akkusativ",
-    "explanationEnglish": "The accusative case marks the thing you act ON. Only masculine nouns change: 'der' → 'den', 'ein' → 'einen', 'kein' → 'keinen'. Feminine, neuter and plural look identical to the nominative. Order anything masculine and you've used the accusative.",
-    "englishBridge": "English lost its cases, so there's nothing to compare — just memorise the masculine flip. 'A coffee' as a customer is ALWAYS 'einen Kaffee'.",
-    "commonMistake": "'ein Kaffee' ✗ when ordering → 'einen Kaffee' ✓. Masculine is the only gender that shifts.",
-    "targetSentenceGerman": "Ich möchte einen Kaffee, bitte.",
-    "targetSentenceEnglish": "I would like a coffee, please.",
-    "builder": {
-      "fixedPrefix": "Ich möchte",
-      "solutionWords": ["einen", "Kaffee", "bitte"],
-      "wordPool": ["einen", "eine", "Kaffee", "Kuchen", "bitte", "einem"]
-    }
-  },
-  "writing": {
-    "id": "s2write",
-    "promptEnglish": "Build: 'Ich möchte einen Tee mit Zitrone.'",
-    "solutionWords": ["Ich", "möchte", "einen", "Tee", "mit", "Zitrone"],
-    "wordPool": ["möchte", "eine", "einen", "Zitrone", "Ich", "mit", "Tee", "der"]
-  },
-  "practice": [
+    },
     {
+      "type": "GRAMMAR",
+      "variant": "RULE",
+      "id": "s2gram",
+      "ruleHeadline": "den / einen — der Akkusativ",
+      "explanationEnglish": "The accusative case marks the thing you act ON. Only masculine nouns change: 'der' → 'den', 'ein' → 'einen', 'kein' → 'keinen'. Feminine, neuter and plural look identical to the nominative. Order anything masculine and you've used the accusative.",
+      "englishBridge": "English lost its cases, so there's nothing to compare — just memorise the masculine flip. 'A coffee' as a customer is ALWAYS 'einen Kaffee'.",
+      "targetSentenceGerman": "Ich möchte einen Kaffee, bitte.",
+      "targetSentenceEnglish": "I would like a coffee, please.",
+      "builder": {
+        "fixedPrefix": "Ich möchte",
+        "solutionWords": ["einen", "Kaffee", "bitte"],
+        "wordPool": ["einen", "eine", "Kaffee", "Kuchen", "bitte", "einem"]
+      }
+    },
+    {
+      "type": "NOTE",
+      "variant": "MISTAKE",
+      "id": "s2_n_mistake",
+      "title": "»ein Kaffee« beim Bestellen",
+      "bodyEnglish": "Masculine is the only gender that shifts. Ordering: 'ein Kaffee' ✗ → 'einen Kaffee' ✓. Feminine and neuter stay as they are: 'eine Milch', 'ein Wasser'."
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "MATCH",
+      "id": "s2_ex_match",
+      "points": 5,
+      "prompt": "Ordne jedem deutschen Wort die richtige Übersetzung zu.",
+      "pairs": [
+        { "german": "der Kaffee", "english": "the coffee" },
+        { "german": "die Milch", "english": "the milk" },
+        { "german": "das Wasser", "english": "the water" },
+        { "german": "der Kuchen", "english": "the cake" }
+      ]
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "MULTIPLE_CHOICE",
       "id": "s2p_q1",
+      "points": 2,
       "prompt": "Order a coffee (polite):",
       "options": ["Ich möchte ein Kaffee.", "Ich möchte einen Kaffee.", "Ich möchte eine Kaffee."],
       "correctIndex": 1,
       "explanationEnglish": "'der Kaffee' is masculine, and as the thing you want it shifts to the accusative: 'einen Kaffee'."
     },
     {
+      "type": "EXERCISE",
+      "variant": "MULTIPLE_CHOICE",
       "id": "s2p_q2",
+      "points": 2,
       "prompt": "Complete: »Einen ___, bitte.« (a piece of cake)",
       "options": ["Kuchen", "Kuchenstück", "Stück Kuchen"],
       "correctIndex": 2,
       "explanationEnglish": "'Stück' is neuter, so the article stays 'ein': 'Ein Stück Kuchen'. Serving sizes come before the noun."
     },
     {
+      "type": "EXERCISE",
+      "variant": "MULTIPLE_CHOICE",
       "id": "s2p_q3",
+      "points": 2,
       "prompt": "Which stays unchanged in the accusative?",
       "options": ["der Tee", "die Milch", "den Tee"],
       "correctIndex": 1,
       "explanationEnglish": "Only masculine shifts. 'die Milch' is feminine, so it stays 'eine Milch'."
+    },
+    {
+      "type": "WRITING",
+      "variant": "WORD_POOL",
+      "id": "s2write",
+      "promptEnglish": "Build: 'Ich möchte einen Tee mit Zitrone.'",
+      "solutionWords": ["Ich", "möchte", "einen", "Tee", "mit", "Zitrone"],
+      "wordPool": ["möchte", "eine", "einen", "Zitrone", "Ich", "mit", "Tee", "der"]
+    },
+    {
+      "type": "SUMMARY",
+      "variant": "RECAP",
+      "id": "s2_sum",
+      "title": "Bestellen in einer Zeile",
+      "bullets": [
+        "Ich möchte … / Ich hätte gern … — beide höflich.",
+        "Akkusativ: nur Maskulinum ändert sich (der → den, ein → einen).",
+        "Größen kommen voran: ein Stück Kuchen, ein Glas Wasser.",
+        "Zahlen: Das macht sieben Euro fünfzig."
+      ]
     }
   ]
 }

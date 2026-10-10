@@ -1,26 +1,63 @@
 #!/usr/bin/env python3
 """
-GermanFlow curriculum validator.
+GermanFlow curriculum validator — schema v2 (typed content blocks).
 
 Run:  python3 validate.py [--root .]
 
-Validates the split curriculum schema before merge:
+A section (and an exam) is an ordered array of typed blocks. This gate
+checks that every block declares a family this build can render, that the
+fields that family needs are present, and that the whole file is
+internally consistent.
+
   - manifest.json parses and lists every chapter index
   - every index references existing section/vocab/exam files
-  - section referential integrity (IDs unique, practice answers in range)
+  - block system: known `type`, `variant` recognised, unique ids
+  - per-family payloads (exercise points, builder word pools, …)
   - vocab cards carry the full Stimmung-card fields
-  - exam answers in range; concept blocks well-formed
+
+A new *flavour* inside an existing family is a warning, not an error —
+that is the whole point of keeping `variant` free-form: the renderer
+styles itself from it and an unknown one degrades to the family default.
+A new *family* is an error, because it needs a renderer and a release.
 
 Exit code 0 = valid, 1 = errors found (CI fails the PR).
 No third-party dependencies — stdlib only.
 """
 import json
-import re
 import sys
 from pathlib import Path
 
 errors = []
 warnings = []
+
+SUPPORTED_SCHEMA_VERSION = 2
+
+# family -> variants this build recognises. Unknown variant = warning.
+FAMILIES = {
+    "NOTE": {"TIP", "USAGE", "CULTURE", "MISTAKE"},
+    "LESSON_PAGE": {"DIALOGUE", "GRAMMAR", "VOCAB", "PRONUNCIATION", "READING", "ROLEPLAY"},
+    "EXAMPLES": {"PHRASE_LIST", "EXAMPLE_BOX"},
+    "GRAMMAR": {"RULE"},
+    "PATTERN": {"FORMULA"},
+    "BREAKDOWN": {"WORD_BY_WORD"},
+    "VOCAB": {"CARD_SET"},
+    "EXERCISE": {"MULTIPLE_CHOICE", "FILL_BLANK", "MATCH", "REORDER"},
+    "WRITING": {"WORD_POOL"},
+    "SUMMARY": {"RECAP"},
+}
+
+# Fields every family must carry to render at all.
+REQUIRED_BY_FAMILY = {
+    "NOTE": ["title", "bodyEnglish"],
+    "LESSON_PAGE": ["headline"],
+    "EXAMPLES": ["items"],
+    "GRAMMAR": ["ruleHeadline", "explanationEnglish"],
+    "PATTERN": ["title", "formula"],
+    "BREAKDOWN": ["sentenceGerman", "tokens"],
+    "EXERCISE": ["prompt"],
+    "WRITING": ["promptEnglish", "solutionWords", "wordPool"],
+    "SUMMARY": ["bullets"],
+}
 
 
 def err(path, msg):
@@ -45,13 +82,182 @@ def require(obj, path, fields, where):
             err(path, f"{where}: missing required field '{f}'")
 
 
+def check_schema_version(path, obj, what, exact=True):
+    """`exact` files must match the current version; others (formats that did
+    not change, like vocab.json) only need to be no newer than we understand —
+    the same rule the app applies before parsing."""
+    v = obj.get("schemaVersion")
+    if exact:
+        if v != SUPPORTED_SCHEMA_VERSION:
+            err(path, f"{what} schemaVersion is {v!r}, expected {SUPPORTED_SCHEMA_VERSION}")
+    elif isinstance(v, int) and v > SUPPORTED_SCHEMA_VERSION:
+        err(path, f"{what} schemaVersion {v} is newer than this validator understands "
+                  f"({SUPPORTED_SCHEMA_VERSION})")
+
+
+# ── Blocks ─────────────────────────────────────────────────────────
+
+def validate_blocks(path, blocks, where, vocab_ids=None):
+    """Validate one ordered block array. Returns nothing; records errors."""
+    if not isinstance(blocks, list) or not blocks:
+        err(path, f"{where}: 'blocks' must be a non-empty array")
+        return
+
+    seen = set()
+    for i, b in enumerate(blocks):
+        where_b = f"{where} block {i}"
+
+        if not isinstance(b, dict):
+            err(path, f"{where_b}: must be an object")
+            continue
+
+        btype = b.get("type")
+        variant = b.get("variant", "")
+        bid = b.get("id", "")
+        label = f"{btype or '?'}[{variant or '-'}] id={bid or '?'}"
+
+        if not btype:
+            err(path, f"{where_b}: missing 'type'")
+            continue
+
+        if btype not in FAMILIES:
+            err(path, f"{where_b}: unknown block type '{btype}' — "
+                      f"a new family needs a renderer and a schemaVersion bump. "
+                      f"Known: {', '.join(sorted(FAMILIES))}")
+            continue
+
+        if not bid:
+            err(path, f"{where_b} ({label}): missing 'id'")
+        elif bid in seen:
+            err(path, f"{where} block {i} ({label}): duplicate block id — ids must be unique per file")
+        else:
+            seen.add(bid)
+
+        if variant and variant not in FAMILIES[btype]:
+            warn(path, f"{where_b} ({label}): variant '{variant}' is not one of "
+                       f"{sorted(FAMILIES[btype])} — it will render with default styling")
+
+        for f in REQUIRED_BY_FAMILY.get(btype, []):
+            if b.get(f) in (None, "", []):
+                err(path, f"{where_b} ({label}): {btype} requires '{f}'")
+
+        # Per-family payload rules.
+        if btype == "EXERCISE":
+            validate_exercise(path, b, where_b, label)
+        elif btype == "WRITING":
+            check_word_pool(path, b, label)
+        elif btype == "BREAKDOWN":
+            check_breakdown(path, b, label)
+        elif btype == "VOCAB":
+            check_vocab_block(path, b, label, vocab_ids)
+        elif btype == "GRAMMAR" and b.get("builder"):
+            check_word_pool(path, b["builder"], f"{label} builder")
+
+
+def validate_exercise(path, b, where_b, label):
+    variant = b.get("variant", "MULTIPLE_CHOICE")
+    points = b.get("points")
+
+    if not isinstance(points, int) or points <= 0:
+        err(path, f"{where_b} ({label}): every EXERCISE needs 'points' as a positive integer")
+
+    if b.get("concept") is not None:
+        require(b["concept"], path, ["title", "rule"], f"{where_b} ({label}) concept")
+
+    if variant == "MULTIPLE_CHOICE":
+        opts = b.get("options", [])
+        ci = b.get("correctIndex", -1)
+        if not opts:
+            err(path, f"{where_b} ({label}): MULTIPLE_CHOICE requires 'options'")
+        elif not (0 <= ci < len(opts)):
+            err(path, f"{where_b} ({label}): correctIndex {ci} out of range (0..{len(opts) - 1})")
+
+    elif variant == "FILL_BLANK":
+        items = b.get("items", [])
+        if not items:
+            err(path, f"{where_b} ({label}): FILL_BLANK requires 'items'")
+        for j, item in enumerate(items):
+            where_i = f"{where_b} ({label}) item {j}"
+            if "___" not in item.get("sentence", ""):
+                err(path, f"{where_i}: sentence must contain a '___' gap")
+            answers = item.get("answers", [])
+            if not answers:
+                err(path, f"{where_i}: needs at least one accepted 'answers' entry")
+
+    elif variant == "MATCH":
+        pairs = b.get("pairs", [])
+        if not pairs:
+            err(path, f"{where_b} ({label}): MATCH requires 'pairs'")
+        else:
+            left = [p.get("german") for p in pairs]
+            if len(set(left)) != len(left):
+                err(path, f"{where_b} ({label}): MATCH german sides must be distinct")
+            if len(left) < 2:
+                warn(path, f"{where_b} ({label}): MATCH needs at least two pairs to be worth playing")
+
+    elif variant == "REORDER":
+        builder = b.get("builder")
+        if not builder:
+            err(path, f"{where_b} ({label}): REORDER requires a 'builder'")
+        else:
+            check_word_pool(path, builder, f"{label} builder")
+
+    else:
+        warn(path, f"{where_b} ({label}): exercise variant '{variant}' is not scored by the app")
+
+
+def check_word_pool(path, obj, label):
+    solution = obj.get("solutionWords", [])
+    pool = obj.get("wordPool", [])
+    if not solution:
+        err(path, f"{label}: needs 'solutionWords'")
+    if not pool:
+        err(path, f"{label}: needs 'wordPool'")
+    if solution and pool and not set(solution) <= set(pool):
+        missing = sorted(set(solution) - set(pool))
+        err(path, f"{label}: solutionWords must all appear in wordPool — missing {missing}")
+
+
+def check_breakdown(path, b, label):
+    sentence = b.get("sentenceGerman", "")
+    tokens = b.get("tokens", [])
+    if not sentence:
+        return
+    # Every gloss token should actually occur in the sentence being glossed,
+    # otherwise the breakdown silently drifts away from what it explains.
+    flattened = sentence.replace(",", " ").replace(".", " ").replace("!", " ")
+    for t in tokens:
+        word = t.get("token", "")
+        if word and word not in flattened:
+            err(path, f"{label}: gloss token '{word}' does not appear in '{sentence}'")
+
+
+def check_vocab_block(path, b, label, vocab_ids):
+    ids = b.get("wordIds", [])
+    inline = b.get("words", [])
+    if not ids and not inline:
+        err(path, f"{label}: VOCAB needs 'wordIds' or inline 'words'")
+    if ids and vocab_ids is not None:
+        unknown = [i for i in ids if i not in vocab_ids]
+        if unknown:
+            err(path, f"{label}: wordIds not found in vocab.json: {unknown}")
+
+
+# ── Files ──────────────────────────────────────────────────────────
+
+def load_vocab_ids(path: Path):
+    bank = load(path)
+    if bank is None:
+        return None
+    return {w.get("id") for w in bank.get("words", [])}
+
+
 def validate_index(chapter_dir: Path, index_path: Path):
     idx = load(index_path)
     if idx is None:
         return None
     require(idx, index_path, ["chapterId", "number", "titleGerman", "titleEnglish", "sections"], "index")
-    if idx.get("schemaVersion", 1) > 1:
-        warn(index_path, f"schemaVersion {idx['schemaVersion']} > 1 (validator may lag)")
+    check_schema_version(index_path, idx, "index")
 
     seen_ids = set()
     for s in idx.get("sections", []):
@@ -60,59 +266,51 @@ def validate_index(chapter_dir: Path, index_path: Path):
             err(index_path, f"duplicate section id '{sid}'")
         seen_ids.add(sid)
         require(s, index_path, ["id", "title", "file"], f"section '{sid}'")
-        section_file = chapter_dir / s.get("file", "")
-        if not section_file.exists():
-            err(index_path, f"section '{sid}' references missing file '{s.get('file')}'")
-        else:
-            validate_section(section_file, sid)
+        if not isinstance(s.get("version"), int):
+            err(index_path, f"section '{sid}': missing integer 'version' — the OTA sync needs it to detect updates")
 
+    vocab_ids = None
     for f in (idx.get("vocabFile", "vocab.json"), idx.get("examFile", "exam.json")):
         fp = chapter_dir / f
         if not fp.exists():
             err(index_path, f"missing referenced file '{f}'")
         elif f.endswith("vocab.json"):
+            vocab_ids = load_vocab_ids(fp)
             validate_vocab(fp, seen_ids)
         elif f.endswith("exam.json"):
             validate_exam(fp)
+
+    # Sections come after vocab so VOCAB blocks can resolve their wordIds.
+    for s in idx.get("sections", []):
+        section_file = chapter_dir / s.get("file", "")
+        if section_file.exists():
+            validate_section(section_file, s.get("id", "?"), vocab_ids)
     return idx
 
 
-def validate_section(path: Path, section_id: str):
+def validate_section(path: Path, section_id: str, vocab_ids=None):
     sec = load(path)
     if sec is None:
         return
-    require(sec, path, ["id", "corePages"], f"section '{section_id}'")
+    check_schema_version(path, sec, "section")
+    require(sec, path, ["id", "title", "blocks"], f"section '{section_id}'")
     if sec.get("id") != section_id:
         err(path, f"section id '{sec.get('id')}' does not match index reference '{section_id}'")
 
-    for q in sec.get("practice", []):
-        opts = q.get("options", [])
-        ci = q.get("correctIndex", -1)
-        if not (0 <= ci < len(opts)):
-            err(path, f"practice '{q.get('id')}': correctIndex {ci} out of range (0..{len(opts)-1})")
+    legacy = [k for k in ("corePages", "grammar", "patterns", "writing", "practice") if k in sec]
+    if legacy:
+        err(path, f"section '{section_id}': the v1 slots {legacy} were replaced by 'blocks' in schema v2")
 
-    for name in ("grammar", "writing"):
-        mod = sec.get(name)
-        if mod and "solutionWords" not in str(mod):
-            pass  # builder lives inside grammar; writing has its own shape
-
-    w = sec.get("writing")
-    if w:
-        require(w, path, ["promptEnglish", "solutionWords", "wordPool"], "writing module")
-        if not set(w.get("solutionWords", [])) <= set(w.get("wordPool", [])):
-            err(path, "writing: solutionWords must all appear in wordPool")
-
-    g = sec.get("grammar")
-    if g and g.get("builder"):
-        b = g["builder"]
-        if not set(b.get("solutionWords", [])) <= set(b.get("wordPool", [])):
-            err(path, "grammar.builder: solutionWords must all appear in wordPool")
+    validate_blocks(path, sec.get("blocks", []), f"section '{section_id}'", vocab_ids)
 
 
 def validate_vocab(path: Path, section_ids: set):
     bank = load(path)
     if bank is None:
         return
+    # vocab.json did not change between v1 and v2 — it only must not be
+    # newer than this build can read.
+    check_schema_version(path, bank, "vocab bank", exact=False)
     seen = set()
     for card in bank.get("words", []):
         wid = card.get("id", "?")
@@ -136,16 +334,14 @@ def validate_exam(path: Path):
     paper = load(path)
     if paper is None:
         return
-    require(paper, path, ["chapterId", "questions"], "exam")
-    for q in paper.get("questions", []):
-        opts = q.get("options", [])
-        ci = q.get("correctIndex", -1)
-        where = f"exam '{q.get('id')}'"
-        if not (0 <= ci < len(opts)):
-            err(path, f"{where}: correctIndex {ci} out of range")
-        c = q.get("concept")
-        if c is not None:
-            require(c, path, ["title", "rule"], f"{where} concept")
+    check_schema_version(path, paper, "exam")
+    require(paper, path, ["chapterId", "blocks"], "exam")
+    validate_blocks(path, paper.get("blocks", []), "exam")
+
+    concepts = [b for b in paper.get("blocks", [])
+                if isinstance(b, dict) and b.get("concept") is not None]
+    if not concepts:
+        warn(path, "exam: no exercise carries a 'concept' — nothing can be saved to the concept book")
 
 
 def main():
@@ -156,6 +352,7 @@ def main():
         report()
         return 1
     require(manifest, manifest_path, ["contentVersion", "remoteBaseUrl", "chapters"], "manifest")
+    check_schema_version(manifest_path, manifest, "manifest")
 
     for ref in manifest.get("chapters", []):
         index_rel = ref.get("indexFile", "")
@@ -178,8 +375,8 @@ def report():
         print(line)
     total = len(errors)
     print(f"\n{'FAIL' if total else 'PASS'}: {total} error(s), {len(warnings)} warning(s)")
-    print("hint: word ids like 'w_stadt' must be globally unique per chapter; "
-          "section files must match their index reference exactly.")
+    print("hint: a section is an ordered 'blocks' array; 'type' picks the renderer, "
+          "'variant' only styles it. Word ids like 'w_stadt' are unique per chapter.")
 
 
 if __name__ == "__main__":

@@ -1,12 +1,23 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "chapterId": "chapter_01",
   "title": "Kapitel 1 — Goethe-Test",
   "timeLimitMin": 10,
   "passPercent": 70,
-  "questions": [
+  "blocks": [
     {
+      "type": "LESSON_PAGE",
+      "variant": "READING",
+      "id": "q0_intro",
+      "headline": "Am Telefon",
+      "bodyGerman": "»Guten Tag, hier ist Anna Berger.«\n»Guten Tag, wie kann ich Ihnen helfen?«",
+      "bodyEnglish": "Read the exchange once, then answer the questions that follow. Every question can pin a concept to your concept book."
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "MULTIPLE_CHOICE",
       "id": "q1",
+      "points": 2,
       "topic": "Fragewörter",
       "passage": "A: »_____ heißen Sie?«\nB: »Ich heiße Maria Weber.«",
       "prompt": "Welches Fragewort passt?",
@@ -21,7 +32,10 @@
       }
     },
     {
+      "type": "EXERCISE",
+      "variant": "MULTIPLE_CHOICE",
       "id": "q2",
+      "points": 2,
       "topic": "Verbposition",
       "passage": "Wähle die korrekte Wortstellung:",
       "prompt": "Welcher Satz steht richtig?",
@@ -40,7 +54,31 @@
       }
     },
     {
-      "id": "q3",
+      "type": "EXERCISE",
+      "variant": "REORDER",
+      "id": "q3_reorder",
+      "points": 4,
+      "topic": "Verbposition",
+      "passage": "Baue den Satz in korrekter Reihenfolge:",
+      "prompt": "Ordne die Wörter zu einem richtigen Satz.",
+      "explanationEnglish": "Time word first, conjugated verb second, subject third — the V2 skeleton in one sentence.",
+      "builder": {
+        "fixedPrefix": "Heute",
+        "solutionWords": ["lerne", "ich", "Deutsch"],
+        "wordPool": ["lerne", "Deutsch", "ich", "lernen", "heute"]
+      },
+      "concept": {
+        "title": "V2 im Satzbau",
+        "rule": "Zeitwort (Position 1) · konjugiertes Verb (Position 2) · Subjekt (Position 3). 'Heute lerne ich Deutsch.'",
+        "exampleGerman": "Morgen wohne ich in Wien.",
+        "exampleEnglish": "Tomorrow I live in Vienna."
+      }
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "MULTIPLE_CHOICE",
+      "id": "q4",
+      "points": 2,
       "topic": "Konjugation",
       "passage": "»Wo _____ Sie, Herr Schmidt?«",
       "prompt": "Choose the correct ending for formal 'Sie':",
@@ -55,7 +93,10 @@
       }
     },
     {
-      "id": "q4",
+      "type": "EXERCISE",
+      "variant": "MULTIPLE_CHOICE",
+      "id": "q5",
+      "points": 2,
       "topic": "Aussprache",
       "passage": "Vokalverbindungen:",
       "prompt": "How is 'ei' pronounced in 'heißen' and 'mein'?",

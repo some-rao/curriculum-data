@@ -1,7 +1,7 @@
 {
-  "schemaVersion": 1,
-  "contentVersion": 1,
-  "lastUpdated": "2026-10-10T00:00:00Z",
+  "schemaVersion": 2,
+  "contentVersion": 2,
+  "lastUpdated": "2026-10-11T00:00:00Z",
   "remoteBaseUrl": "https://raw.githubusercontent.com/some-rao/curriculum-data/main/",
   "chapters": [
     {
@@ -10,7 +10,7 @@
       "title": "Erste Schritte & Kennenlernen",
       "level": "A1",
       "indexFile": "chapter_01/index.json",
-      "version": 1
+      "version": 2
     },
     {
       "id": "chapter_02",
@@ -18,7 +18,7 @@
       "title": "Im Alltag",
       "level": "A1",
       "indexFile": "chapter_02/index.json",
-      "version": 1
+      "version": 2
     }
   ]
 }

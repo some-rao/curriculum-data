@@ -1,45 +1,99 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "s3_aussprache",
   "title": "Aussprache-Fallen",
-  "corePages": [
+  "blocks": [
     {
+      "type": "LESSON_PAGE",
+      "variant": "PRONUNCIATION",
       "id": "s3p1",
-      "kind": "PRONUNCIATION",
       "headline": "ei, ie und der Reim",
       "bodyGerman": "ei → [aɪ]  (heißen, mein, zwei)\nie → [iː]   (Sie, wie, wieder)",
-      "bodyEnglish": "German vowel pairs trick English speakers: 'ei' sounds like the English word 'eye', 'ie' sounds like 'ee' in see. Mnemonic: when e and i go walking, the LAST one does the talking.",
-      "culturalTip": "Say it out loud three times: 'ei = eye, ie = ee'. This one rhyme saves you from misreading half of A1 vocabulary."
+      "bodyEnglish": "German vowel pairs trick English speakers: 'ei' sounds like the English word 'eye', 'ie' sounds like 'ee' in see."
     },
     {
+      "type": "NOTE",
+      "variant": "TIP",
+      "id": "s3_n_mnemonic",
+      "title": "Der Merkspruch",
+      "bodyEnglish": "Say it out loud three times: 'ei = eye, ie = ee'. Mnemonic: when e and i go walking, the LAST one does the talking. This one rhyme saves you from misreading half of A1 vocabulary."
+    },
+    {
+      "type": "EXAMPLES",
+      "variant": "PHRASE_LIST",
+      "id": "s3_ex_ei_ie",
+      "title": "Hören und nachsprechen",
+      "items": [
+        { "german": "heißen [ˈhaɪsən]", "english": "to be called — the 'eye' sound" },
+        { "german": "mein [maɪn]", "english": "my — same 'ei'" },
+        { "german": "zwei [tsvaɪ]", "english": "two — also starts with 'ts'" },
+        { "german": "Sie [ziː]", "english": "you (formal) — the 'ee' sound" },
+        { "german": "wie [viː]", "english": "how — the 'ee' sound" },
+        { "german": "wieder [ˈviːdɐ]", "english": "again — 'ee' plus a soft r" }
+      ]
+    },
+    {
+      "type": "LESSON_PAGE",
+      "variant": "PRONUNCIATION",
       "id": "s3p2",
-      "kind": "PRONUNCIATION",
       "headline": "w, v, z und ch",
       "bodyGerman": "w → [v]   (wohnen, wer, was)\nv → [f]   (vier, Vater)\nz → [ts]  (zu, zwei, Zoo)\nch → [ç] nach i/e  (ich, nicht)",
       "bodyEnglish": "The letters exist but lie: German 'w' is English 'v', 'v' is English 'f', 'z' is 'ts' as in cats. The 'ch' after i or e is a soft hiss — like saying 'hue' without the vowel."
     },
     {
+      "type": "EXAMPLES",
+      "variant": "PHRASE_LIST",
+      "id": "s3_ex_wvz",
+      "title": "Die Laute im Vergleich",
+      "items": [
+        { "german": "wohnen [ˈvoːnən]", "english": "'w' sounds like English 'v'" },
+        { "german": "vier [fiːɐ̯]", "english": "'v' sounds like English 'f'" },
+        { "german": "zwei [tsvaɪ]", "english": "'z' sounds like 'ts'" },
+        { "german": "ich [ɪç]", "english": "soft hiss after an 'i'" }
+      ]
+    },
+    {
+      "type": "LESSON_PAGE",
+      "variant": "READING",
       "id": "s3p3",
-      "kind": "CULTURE",
       "headline": "Betonnung",
       "bodyEnglish": "German stresses the root of most words: 'WOHnen', 'HEIßen', 'KOMmen'. Loanwords keep English stress: 'KOM-puter', 'HO-tel'. When in doubt, stress the first syllable — even natives will understand you.",
-      "culturalTip": "Stress is meaning: 'üBEr' (over) vs 'Über' — okay, that's A2 drama. For now: first syllable."
-    }
-  ],
-  "practice": [
+      "vocabHighlight": [
+        { "german": "üBEr", "english": "over — stress changes meaning (A2)" },
+        { "german": "erste Silbe", "english": "first syllable — the safe default" }
+      ]
+    },
     {
+      "type": "EXERCISE",
+      "variant": "MULTIPLE_CHOICE",
       "id": "s3p_q1",
+      "points": 2,
       "prompt": "How is 'ei' pronounced in 'mein'?",
       "options": ["Like 'ee' in see", "Like 'eye' in my", "Like 'ay' in say"],
       "correctIndex": 1,
       "explanationEnglish": "'ei' = 'eye' sound, always. 'ie' is the 'ee' one."
     },
     {
+      "type": "EXERCISE",
+      "variant": "MULTIPLE_CHOICE",
       "id": "s3p_q2",
+      "points": 2,
       "prompt": "German 'zwei' starts with which sound?",
       "options": ["[z] like zebra", "[ts] like cats", "[s] like see"],
       "correctIndex": 1,
       "explanationEnglish": "German 'z' is always 'ts' — 'zwei' = 'tsv-eye'."
+    },
+    {
+      "type": "SUMMARY",
+      "variant": "RECAP",
+      "id": "s3_sum",
+      "title": "Aussprache in einer Zeile",
+      "bullets": [
+        "ei = [aɪ] wie 'eye' · ie = [iː] wie 'see'",
+        "w = [v] · v = [f] · z = [ts]",
+        "ch nach i/e = leises Zischen (ich, nicht)",
+        "Betone die erste Silbe, wenn du unsicher bist."
+      ]
     }
   ]
 }
