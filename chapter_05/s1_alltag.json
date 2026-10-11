@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 2,
+  "id": "s1_alltag",
+  "title": "Alltag: Kaans Tag",
+  "blocks": [
+    {
+      "type": "LESSON_PAGE",
+      "variant": "DIALOGUE",
+      "id": "s1p1",
+      "headline": "Kaan am Tag",
+      "bodyGerman": "Am Morgen duscht Kaan. Dann frühstückt er und liest Nachrichten.\nDanach fährt er in die Uni. Er trifft Marie und lernt in der Bibliothek.\nAm Nachmittag geht er in die Mensa. Am Abend besucht er seine Oma.",
+      "bodyEnglish": "In the morning Kaan showers. Then he has breakfast and reads the news.\nAfter that he goes to the university. He meets Marie and studies in the library.\nIn the afternoon he eats at the canteen. In the evening he visits his grandma.",
+      "vocabHighlight": [
+        { "german": "duschen", "english": "to shower" },
+        { "german": "frühstücken", "english": "to have breakfast" },
+        { "german": "in die Uni fahren", "english": "to go to the university" },
+        { "german": "in der Bibliothek lernen", "english": "to study in the library" },
+        { "german": "die Oma besuchen", "english": "to visit grandma" }
+      ]
+    },
+    {
+      "type": "NOTE",
+      "variant": "USAGE",
+      "id": "s1_n1",
+      "title": "Dann erzählt die Reihenfolge",
+      "bodyEnglish": "Use »dann« and »danach« to tell events in order. Both words start the sentence. The verb stays in position 2."
+    },
+    {
+      "type": "LESSON_PAGE",
+      "variant": "VOCAB",
+      "id": "s1p2",
+      "headline": "Aktivitäten am Wochenende",
+      "bodyEnglish": "These words describe a free day. Say the activity with the verb first, then the person.",
+      "vocabHighlight": [
+        { "german": "Zeitung lesen", "english": "to read the newspaper" },
+        { "german": "lange schlafen", "english": "to sleep long" },
+        { "german": "Fußball spielen", "english": "to play football" },
+        { "german": "Freunde treffen", "english": "to meet friends" },
+        { "german": "in den Supermarkt gehen", "english": "to go to the supermarket" },
+        { "german": "ins Kino gehen", "english": "to go to the cinema" },
+        { "german": "am Computer arbeiten", "english": "to work on the computer" }
+      ]
+    },
+    {
+      "type": "LESSON_PAGE",
+      "variant": "READING",
+      "id": "s1p3",
+      "headline": "Und dein Tag?",
+      "bodyGerman": "Morgens trinke ich einen Kaffee und esse Müsli mit Obst. Dann gehe ich ins Büro.\nAm Sonntag schläft Kaan lange. Er isst mit der Familie zu Mittag und geht ins Kino.",
+      "bodyEnglish": "In the morning I drink a coffee and eat muesli with fruit. Then I go to the office.\nOn Sunday Kaan sleeps long. He eats lunch with the family and goes to the cinema."
+    },
+    {
+      "type": "PATTERN",
+      "variant": "FORMULA",
+      "id": "s1pat1",
+      "title": "Den Tagesablauf erzählen",
+      "formula": "Am Morgen / Dann / Am Abend + Verb + Subjekt.",
+      "explanationEnglish": "Time words come first. The conjugated verb comes second. The subject follows the verb.",
+      "examples": [
+        { "german": "Am Morgen duscht Kaan.", "english": "In the morning Kaan showers." },
+        { "german": "Dann frühstückt er.", "english": "Then he has breakfast." },
+        { "german": "Am Abend besucht er seine Oma.", "english": "In the evening he visits his grandma." }
+      ]
+    },
+    {
+      "type": "PATTERN",
+      "variant": "FORMULA",
+      "id": "s1pat2",
+      "title": "Das Wochenende",
+      "formula": "Am Samstag / Am Sonntag + Verb + Subjekt.",
+      "explanationEnglish": "»Am Samstag« is one time word. It takes position 1. The verb stays in position 2.",
+      "examples": [
+        { "german": "Am Sonntag schläft Kaan lange.", "english": "On Sunday Kaan sleeps long." },
+        { "german": "Am Samstag trifft er Freunde.", "english": "On Saturday he meets friends." }
+      ]
+    },
+    {
+      "type": "VOCAB",
+      "variant": "CARD_SET",
+      "id": "s1v1",
+      "title": "Die Wörter des Tages",
+      "wordIds": [
+        "w_morgen",
+        "w_wochenende",
+        "w_kaffee",
+        "w_zeitung",
+        "w_buero",
+        "w_kino",
+        "w_supermarkt",
+        "w_fruhstuecken",
+        "w_duschen",
+        "w_schlafen",
+        "w_besuchen",
+        "w_treffen"
+      ]
+    },
+    {
+      "type": "WRITING",
+      "variant": "WORD_POOL",
+      "id": "s1w1",
+      "promptEnglish": "Write: On Sunday I read the newspaper and meet friends.",
+      "solutionWords": ["Am", "Sonntag", "lese", "ich", "die", "Zeitung", "und", "treffe", "Freunde"],
+      "wordPool": ["Am", "Sonntag", "lese", "ich", "die", "Zeitung", "und", "treffe", "Freunde", "liest", "Kaffee", "Morgen"]
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "MATCH",
+      "id": "s1q1",
+      "points": 4,
+      "prompt": "Match the German activity to the English meaning:",
+      "pairs": [
+        { "german": "frühstücken", "english": "to have breakfast" },
+        { "german": "die Zeitung lesen", "english": "to read the newspaper" },
+        { "german": "Freunde treffen", "english": "to meet friends" },
+        { "german": "die Oma besuchen", "english": "to visit grandma" },
+        { "german": "lange schlafen", "english": "to sleep long" }
+      ],
+      "explanationEnglish": "Learn the activity with its article. The article belongs to the noun: die Zeitung, die Oma."
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "REORDER",
+      "id": "s1q2",
+      "points": 3,
+      "prompt": "Put the sentence in order:",
+      "builder": {
+        "fixedPrefix": "Am Morgen",
+        "solutionWords": ["duscht", "Kaan"],
+        "wordPool": ["duscht", "Kaan", "duschen", "Am", "Morgen"]
+      },
+      "explanationEnglish": "»Am Morgen« takes position 1. The conjugated verb »duscht« comes second.",
+      "concept": {
+        "title": "Zeitangabe zuerst",
+        "rule": "A time word such as »am Morgen« sits first. The conjugated verb stays in position 2.",
+        "exampleGerman": "Am Morgen duscht Kaan.",
+        "exampleEnglish": "In the morning Kaan showers."
+      }
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "FILL_BLANK",
+      "id": "s1q3",
+      "points": 3,
+      "prompt": "Fill the gap:",
+      "items": [
+        { "sentence": "Am Sonntag ___ Kaan lange.", "answers": ["schläft"], "hint": "schlafen" },
+        { "sentence": "Ich ___ einen Kaffee und esse Müsli.", "answers": ["trinke"], "hint": "trinken" },
+        { "sentence": "Am Abend ___ er seine Oma.", "answers": ["besucht"], "hint": "besuchen" }
+      ],
+      "explanationEnglish": "»Kaan« and »er« take a -t ending: schläft, besucht. The form »ich« takes no ending: trinke."
+    },
+    {
+      "type": "SUMMARY",
+      "variant": "RECAP",
+      "id": "s1_sum",
+      "title": "Was du jetzt kannst",
+      "bullets": [
+        "Tagesablauf: Am Morgen duscht Kaan. Dann frühstückt er.",
+        "Wochenende: Am Sonntag schläft Kaan lange.",
+        "Aktivitäten: Zeitung lesen · Freunde treffen · ins Kino gehen.",
+        "Merke: Zeitangabe zuerst, Verb an Position 2."
+      ]
+    }
+  ]
+}

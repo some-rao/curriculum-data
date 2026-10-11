@@ -3,30 +3,37 @@
   "chapterId": "chapter_02",
   "number": 2,
   "level": "A1",
-  "titleGerman": "Im Alltag",
-  "titleEnglish": "Everyday Life",
-  "descriptionEnglish": "Telling the time, ordering in a café, and handling numbers and prices — plus the accusative article you need to order anything.",
+  "titleGerman": "Freunde, Kollegen und ich",
+  "titleEnglish": "Friends, Colleagues & I",
+  "descriptionEnglish": "Hobbies, appointments, weekdays, jobs and work times. Present tense endings, yes/no questions, noun articles and plurals, numbers from 20.",
   "sections": [
     {
-      "id": "s1_zeit",
-      "title": "Die Uhrzeit",
-      "file": "s1_zeit.json",
-      "version": 2,
+      "id": "s1_hobbys",
+      "title": "Meine Hobbys",
+      "file": "s1_hobbys.json",
+      "version": 1,
       "estimatedMin": 8
     },
     {
-      "id": "s2_essen",
-      "title": "Im Café bestellen",
-      "file": "s2_essen.json",
-      "version": 2,
-      "estimatedMin": 8
-    },
-    {
-      "id": "s3_zahlen",
-      "title": "Zahlen & Preise",
-      "file": "s3_zahlen.json",
-      "version": 2,
+      "id": "s2_verabreden",
+      "title": "Gehen wir ins Kino?",
+      "file": "s2_verabreden.json",
+      "version": 1,
       "estimatedMin": 7
+    },
+    {
+      "id": "s3_beruf",
+      "title": "Mein Beruf",
+      "file": "s3_beruf.json",
+      "version": 1,
+      "estimatedMin": 8
+    },
+    {
+      "id": "s4_artikel_club",
+      "title": "Artikel lernen & Neu im Club",
+      "file": "s4_artikel_club.json",
+      "version": 1,
+      "estimatedMin": 8
     }
   ],
   "vocabFile": "vocab.json",

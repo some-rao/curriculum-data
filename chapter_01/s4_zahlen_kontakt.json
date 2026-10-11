@@ -1,0 +1,201 @@
+{
+  "schemaVersion": 2,
+  "id": "s4_zahlen_kontakt",
+  "title": "Zahlen und Buchstaben",
+  "blocks": [
+    {
+      "type": "LESSON_PAGE",
+      "variant": "VOCAB",
+      "id": "s4p1",
+      "headline": "6a Die Zahlen 0 bis 20",
+      "bodyGerman": "0 null · 1 eins · 2 zwei · 3 drei · 4 vier · 5 fünf · 6 sechs · 7 sieben · 8 acht · 9 neun · 10 zehn\n11 elf · 12 zwölf · 13 dreizehn · 14 vierzehn · 15 fünfzehn · 16 sechzehn · 17 siebzehn · 18 achtzehn · 19 neunzehn · 20 zwanzig",
+      "bodyEnglish": "These are the numbers from zero to twenty. You need them for phone numbers and for exercise 6.",
+      "vocabHighlight": [
+        { "german": "null", "english": "zero — the number 0" },
+        { "german": "elf / zwölf", "english": "eleven / twelve — two special words" },
+        { "german": "dreizehn … neunzehn", "english": "13 to 19 — all end in -zehn" },
+        { "german": "zwanzig", "english": "twenty — the number 20" }
+      ]
+    },
+    {
+      "type": "NOTE",
+      "variant": "USAGE",
+      "id": "s4_n1",
+      "title": "Zahlen lesen und sprechen",
+      "bodyEnglish": "14 is vier plus zehn. 16 is sechzehn without the final -s. 17 is siebzehn without -en."
+    },
+    {
+      "type": "LESSON_PAGE",
+      "variant": "DIALOGUE",
+      "id": "s4p2",
+      "headline": "7c Und wie ist deine E-Mail-Adresse?",
+      "bodyEnglish": "Alexis gives an e-mail address. The other person asks again and requests the spelling.",
+      "vocabHighlight": [
+        { "german": "Und wie ist deine E-Mail-Adresse?", "english": "And what is your e-mail address?" },
+        { "german": "Wie bitte?", "english": "Sorry? — ask to repeat" },
+        { "german": "Kannst du das buchstabieren?", "english": "Can you spell that?" }
+      ],
+      "turns": [
+        { "speaker": "A", "german": "Wie heißt du?", "english": "What is your name?" },
+        { "speaker": "B", "german": "Alexis Barbos.", "english": "Alexis Barbos." },
+        { "speaker": "A", "german": "Und wie ist deine E-Mail-Adresse?", "english": "And what is your e-mail address?" },
+        { "speaker": "B", "german": "alexis_barbos@quinnet.com.", "english": "alexis_barbos@quinnet.com." },
+        { "speaker": "A", "german": "Wie bitte? Kannst du das buchstabieren?", "english": "Sorry? Can you spell that?" },
+        { "speaker": "B", "german": "A L E …", "english": "A L E …" }
+      ]
+    },
+    {
+      "type": "LESSON_PAGE",
+      "variant": "PRONUNCIATION",
+      "id": "s4p3",
+      "headline": "7a Das Alphabet",
+      "bodyGerman": "a · be · tse · de · e · ef · ge · ha · i · jot · ka · el · em\nen · o · pe · ku · er · es · te · u · fau · we · iks · üpsilon · tset\nä · ö · ü · estset",
+      "bodyEnglish": "Every letter has a name in German. Learn the names. You need them to spell names and addresses.",
+      "vocabHighlight": [
+        { "german": "jot", "english": "the name of the letter j" },
+        { "german": "tset", "english": "the name of the letter z" },
+        { "german": "estset", "english": "the name of the letter ß" },
+        { "german": "buchstabieren", "english": "to spell — to say each letter" }
+      ]
+    },
+    {
+      "type": "NOTE",
+      "variant": "USAGE",
+      "id": "s4_n2",
+      "title": "E-Mail-Adresse sagen",
+      "bodyEnglish": "Say @ as ät, . as Punkt, - as minus, and _ as Unterstrich. Then say each letter."
+    },
+    {
+      "type": "NOTE",
+      "variant": "TIP",
+      "id": "s4_n3",
+      "title": "Wie bitte?",
+      "bodyEnglish": "These phrases ask for repetition: Entschuldigung, noch einmal bitte. Das verstehe ich nicht. Bitte ein bisschen langsamer."
+    },
+    {
+      "type": "EXAMPLES",
+      "variant": "PHRASE_LIST",
+      "id": "s4ex1",
+      "title": "Nach Nummern fragen",
+      "items": [
+        { "german": "Wie ist deine Telefonnummer?", "english": "What is your telephone number?" },
+        { "german": "Wie ist deine Handynummer?", "english": "What is your mobile number?" },
+        { "german": "Wie ist Ihre E-Mail-Adresse?", "english": "What is your e-mail address?" },
+        { "german": "Und wie ist deine Nummer?", "english": "And what is your number?" },
+        { "german": "Kannst du das buchstabieren?", "english": "Can you spell that?" },
+        { "german": "Entschuldigung, noch einmal bitte.", "english": "Excuse me, once again please." }
+      ]
+    },
+    {
+      "type": "BREAKDOWN",
+      "variant": "WORD_BY_WORD",
+      "id": "s4bd1",
+      "sentenceGerman": "Und wie ist deine E-Mail-Adresse?",
+      "sentenceEnglish": "And what is your e-mail address?",
+      "tokens": [
+        { "token": "Und", "english": "and" },
+        { "token": "wie", "english": "how / what" },
+        { "token": "ist", "english": "is" },
+        { "token": "deine", "english": "your (informal)" },
+        { "token": "E-Mail-Adresse", "english": "e-mail address" }
+      ]
+    },
+    {
+      "type": "LESSON_PAGE",
+      "variant": "READING",
+      "id": "s4p4",
+      "headline": "9–12 Die Netzwerk-WG",
+      "bodyGerman": "Bea, das ist Anna.\nAh, du bist neu hier. Ich bin Luca.\nWoher kommst du denn?\nUnd wie ist deine Nummer?\nMax, Bea und Luca wohnen in München. Anna ist neu.",
+      "bodyEnglish": "Anna moves into a shared flat in Munich. Luca welcomes her. Then they ask for her phone number.",
+      "vocabHighlight": [
+        { "german": "du bist neu hier", "english": "you are new here" },
+        { "german": "die Nummer", "english": "number — here: the phone number" },
+        { "german": "wohnen in München", "english": "to live in Munich" }
+      ]
+    },
+    {
+      "type": "VOCAB",
+      "variant": "CARD_SET",
+      "id": "s4v1",
+      "title": "Kontakt: Nummer und Adresse",
+      "wordIds": ["w_telefonnummer", "w_email", "w_nummer", "w_buchstabieren"]
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "MULTIPLE_CHOICE",
+      "id": "s4q1",
+      "points": 2,
+      "topic": "Zahlen bis 20",
+      "passage": "Die Zahlen 13 bis 20:",
+      "prompt": "Which number word is correct for 14?",
+      "options": [
+        "vierzehn",
+        "vierundzehn",
+        "zehn vier"
+      ],
+      "correctIndex": 0,
+      "explanationEnglish": "German teen numbers join the unit and -zehn: vier plus zehn. -und is only used above 20.",
+      "concept": {
+        "title": "Zahlen 11 bis 20",
+        "rule": "The teen numbers end in -zehn: dreizehn, vierzehn, siebzehn. -und appears only from 21: einundzwanzig.",
+        "exampleGerman": "14 = vierzehn · 20 = zwanzig",
+        "exampleEnglish": "14 = fourteen · 20 = twenty"
+      }
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "FILL_BLANK",
+      "id": "s4q2",
+      "points": 3,
+      "topic": "Buchstabieren",
+      "prompt": "Fill the gap:",
+      "items": [
+        { "sentence": "Man schreibt @ und sagt ___.", "answers": ["ät"], "hint": "E-Mail" },
+        { "sentence": "Man schreibt . und sagt ___.", "answers": ["Punkt"], "hint": "E-Mail" },
+        { "sentence": "A L E … — Kannst du das ___?", "answers": ["buchstabieren"], "hint": "Verb" }
+      ],
+      "explanationEnglish": "Every symbol has a spoken name: ät, Punkt, minus, Unterstrich. buchstabieren means to spell.",
+      "concept": {
+        "title": "E-Mail-Adresse sagen",
+        "rule": "Say the symbols: @ = ät, . = Punkt, - = minus, _ = Unterstrich. Then say each letter.",
+        "exampleGerman": "alex@net.de — man sagt: ät, Punkt",
+        "exampleEnglish": "alex@net.de — one says: ät, Punkt"
+      }
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "MATCH",
+      "id": "s4q3",
+      "points": 3,
+      "topic": "Zahlen",
+      "prompt": "Match the number word to the digit:",
+      "pairs": [
+        { "german": "elf", "english": "11" },
+        { "german": "zwölf", "english": "12" },
+        { "german": "vierzehn", "english": "14" },
+        { "german": "siebzehn", "english": "17" },
+        { "german": "zwanzig", "english": "20" }
+      ],
+      "explanationEnglish": "Learn each number word as one word. Do not build it from single parts.",
+      "concept": {
+        "title": "Zahlen bis 20",
+        "rule": "0 to 20: null, eins, zwei … zehn, elf, zwölf, dreizehn … zwanzig.",
+        "exampleGerman": "0154-76895321",
+        "exampleEnglish": "zero one five four — seven six eight nine — five three two one"
+      }
+    },
+    {
+      "type": "SUMMARY",
+      "variant": "RECAP",
+      "id": "s4_sum",
+      "title": "Was du jetzt kannst",
+      "bullets": [
+        "Zahlen: null bis zwanzig. 14 = vierzehn. 17 = siebzehn.",
+        "Telefon: Wie ist deine Telefonnummer? — 0154-76895321.",
+        "E-Mail: Wie ist deine E-Mail-Adresse? — alexis_barbos@quinnet.com.",
+        "Sagen: @ = ät · . = Punkt · - = minus · _ = Unterstrich.",
+        "Nachfragen: Wie bitte? · Entschuldigung, noch einmal bitte."
+      ]
+    }
+  ]
+}

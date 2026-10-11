@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 2,
+  "chapterId": "chapter_05",
+  "number": 5,
+  "level": "A1",
+  "titleGerman": "Alltag und Familie",
+  "titleEnglish": "Daily Life & Family",
+  "descriptionEnglish": "Telling the time, family and possessives, modal verbs, and fixing an appointment by phone.",
+  "sections": [
+    {
+      "id": "s1_alltag",
+      "title": "Alltag: Kaans Tag",
+      "file": "s1_alltag.json",
+      "version": 1,
+      "estimatedMin": 7
+    },
+    {
+      "id": "s2_uhrzeit",
+      "title": "Wie spät ist es?",
+      "file": "s2_uhrzeit.json",
+      "version": 1,
+      "estimatedMin": 8
+    },
+    {
+      "id": "s3_familie",
+      "title": "Familie und Termine",
+      "file": "s3_familie.json",
+      "version": 1,
+      "estimatedMin": 8
+    },
+    {
+      "id": "s4_vereinbaren",
+      "title": "Verabredung & Termin",
+      "file": "s4_vereinbaren.json",
+      "version": 1,
+      "estimatedMin": 8
+    }
+  ],
+  "vocabFile": "vocab.json",
+  "examFile": "exam.json"
+}

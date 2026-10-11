@@ -1,0 +1,142 @@
+{
+  "schemaVersion": 2,
+  "id": "s4_artikel_club",
+  "title": "Artikel lernen & Neu im Club",
+  "blocks": [
+    {
+      "type": "LESSON_PAGE",
+      "variant": "GRAMMAR",
+      "id": "s4p1",
+      "headline": "Strategie: Artikel lernen",
+      "bodyGerman": "das Krankenhaus, -(e)s, Pl. die Krankenhäuser\ndas Seminar, Pl: die Seminare\nder Kilometer\nder Tag, -e, m\ndie Woche, -n, f",
+      "bodyEnglish": "A dictionary entry shows the article, the plural and the gender. m means masculine, f means feminine, n means neuter. Learn the noun with article and plural together."
+    },
+    {
+      "type": "NOTE",
+      "variant": "TIP",
+      "id": "s4_n1",
+      "title": "Das Artikelbild",
+      "bodyEnglish": "Draw one picture with many nouns. Write each noun in the colour of its article: der = blue, das = green, die = red. The picture fixes the article in your memory."
+    },
+    {
+      "type": "LESSON_PAGE",
+      "variant": "VOCAB",
+      "id": "s4p2",
+      "headline": "Persönliche Angaben",
+      "bodyGerman": "der Vorname · der Familienname · das Geburtsdatum\nder Geburtsort · die Adresse · die Telefonnummer",
+      "bodyEnglish": "A form asks for your personal data. Vorname is your first name. Familienname is your family name. Geburtsdatum is your date of birth.",
+      "vocabHighlight": [
+        { "german": "der Vorname", "english": "first name" },
+        { "german": "der Familienname", "english": "family name" },
+        { "german": "das Geburtsdatum", "english": "date of birth" },
+        { "german": "der Geburtsort", "english": "place of birth" },
+        { "german": "die Adresse", "english": "address" },
+        { "german": "die Telefonnummer", "english": "phone number" }
+      ]
+    },
+    {
+      "type": "LESSON_PAGE",
+      "variant": "READING",
+      "id": "s4p3",
+      "headline": "Sportclub »Fit« — die Kurse",
+      "bodyGerman": "Basketball: Dienstag und Donnerstag, 19–21 Uhr\nFußball: Mittwoch, 20–21:30 Uhr\nKarate: Montag, 18:30–20 Uhr\nTennis: Samstag, 15–17 Uhr\nYoga: Freitag, 18–20 Uhr\nZumba: Montag und Mittwoch, 10–11 Uhr",
+      "bodyEnglish": "The sport club offers six courses. Each course has a weekday and a time. Choose one course, then fill in the form on the next page."
+    },
+    {
+      "type": "LESSON_PAGE",
+      "variant": "DIALOGUE",
+      "id": "s4p4",
+      "headline": "Die Netzwerk-WG",
+      "bodyEnglish": "Anna and Max look for a common sport. The dialogue repeats the hobbies, the yes/no question and the weekdays.",
+      "turns": [
+        { "speaker": "Anna", "german": "Was machst du gern?", "english": "What do you like to do?" },
+        { "speaker": "Max", "german": "Ich mache gern Sport.", "english": "I like doing sport." },
+        { "speaker": "Anna", "german": "Spielst du gern Fußball?", "english": "Do you like playing football?" },
+        { "speaker": "Max", "german": "Nein. Ich spiele gern Tennis und ich jogge.", "english": "No. I like playing tennis and I jog." },
+        { "speaker": "Anna", "german": "Joggen ist super. Gehen wir zusammen?", "english": "Jogging is great. Shall we go together?" },
+        { "speaker": "Max", "german": "Ja, gern. Wann?", "english": "Yes, gladly. When?" },
+        { "speaker": "Anna", "german": "Am Mittwoch?", "english": "On Wednesday?" },
+        { "speaker": "Max", "german": "Nein, das geht leider nicht.", "english": "No, that doesn't work, sorry." },
+        { "speaker": "Anna", "german": "Und am Freitag?", "english": "And on Friday?" },
+        { "speaker": "Max", "german": "Ja, am Freitag ist gut.", "english": "Yes, Friday is good." }
+      ]
+    },
+    {
+      "type": "PATTERN",
+      "variant": "FORMULA",
+      "id": "s4pat1",
+      "title": "Der Kurs-Tag",
+      "formula": "Der [Kurs] ist am [Wochentag] von [Zeit] bis [Zeit] Uhr.",
+      "explanationEnglish": "am + day names the weekday. von … bis … Uhr names the time of the course.",
+      "examples": [
+        { "german": "Fußball ist am Mittwoch von 20 bis 21:30 Uhr.", "english": "Football is on Wednesday from 8 to 9:30 pm." },
+        { "german": "Tennis ist am Samstag von 15 bis 17 Uhr.", "english": "Tennis is on Saturday from 3 to 5 pm." }
+      ]
+    },
+    {
+      "type": "VOCAB",
+      "variant": "CARD_SET",
+      "id": "s4v1",
+      "title": "Das Formular",
+      "wordIds": ["w_vorname", "w_familienname", "w_geburtsdatum", "w_adresse"]
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "FILL_BLANK",
+      "id": "s4q1",
+      "points": 2,
+      "prompt": "Fill the correct article: der, das or die:",
+      "items": [
+        { "sentence": "___ Computer ist neu.", "answers": ["Der"], "hint": "maskulin" },
+        { "sentence": "___ Rechnung ist teuer.", "answers": ["Die"], "hint": "feminin" },
+        { "sentence": "___ Buch ist gut.", "answers": ["Das"], "hint": "neutrum" }
+      ],
+      "explanationEnglish": "Computer is masculine: der. Rechnung is feminine: die. Buch is neuter: das. Learn each noun with its article."
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "MULTIPLE_CHOICE",
+      "id": "s4q2",
+      "points": 2,
+      "prompt": "Which course is on Saturday?",
+      "options": ["Basketball", "Tennis", "Yoga"],
+      "correctIndex": 1,
+      "explanationEnglish": "The list says: Tennis, Samstag, 15–17 Uhr. Basketball is on Tuesday and Thursday, Yoga is on Friday."
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "MATCH",
+      "id": "s4q3",
+      "points": 3,
+      "prompt": "Match the form field to the meaning:",
+      "pairs": [
+        { "german": "der Vorname", "english": "first name" },
+        { "german": "der Familienname", "english": "family name" },
+        { "german": "das Geburtsdatum", "english": "date of birth" },
+        { "german": "die Adresse", "english": "address" },
+        { "german": "die Telefonnummer", "english": "phone number" }
+      ],
+      "explanationEnglish": "German forms use these labels. Read them before you write anything in the form."
+    },
+    {
+      "type": "WRITING",
+      "variant": "WORD_POOL",
+      "id": "s4w1",
+      "promptEnglish": "Build: »Tennis ist am Samstag.«",
+      "solutionWords": ["Tennis", "ist", "am", "Samstag"],
+      "wordPool": ["Tennis", "ist", "am", "Samstag", "Yoga", "sind", "Freitag"]
+    },
+    {
+      "type": "SUMMARY",
+      "variant": "RECAP",
+      "id": "s4_sum",
+      "title": "Was du jetzt kannst",
+      "bullets": [
+        "Nomen immer mit Artikel und Plural lernen: der Arzt, die Ärzte.",
+        "Artikel mit Farben: der = blau · das = grün · die = rot.",
+        "Formular: Vorname · Familienname · Geburtsdatum · Adresse · Telefonnummer.",
+        "Kurs-Tag: Fußball ist am Mittwoch von 20 bis 21:30 Uhr."
+      ]
+    }
+  ]
+}

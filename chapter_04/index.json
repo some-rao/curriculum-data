@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 2,
+  "chapterId": "chapter_04",
+  "number": 4,
+  "level": "A1",
+  "titleGerman": "Guten Appetit!",
+  "titleEnglish": "Food, Shopping & Meals",
+  "descriptionEnglish": "Food and meals, shops and shopping, talk at the table. Accusative, mögen and möchte, verb in position 2.",
+  "sections": [
+    {
+      "id": "s1_lebensmittel",
+      "title": "Lebensmittel und Mahlzeiten",
+      "file": "s1_lebensmittel.json",
+      "version": 1,
+      "estimatedMin": 7
+    },
+    {
+      "id": "s2_einkauf_planen",
+      "title": "Einkauf planen: Kommt ihr?",
+      "file": "s2_einkauf_planen.json",
+      "version": 1,
+      "estimatedMin": 8
+    },
+    {
+      "id": "s3_gespraeche",
+      "title": "Gespräche beim Einkaufen und beim Essen",
+      "file": "s3_gespraeche.json",
+      "version": 1,
+      "estimatedMin": 8
+    },
+    {
+      "id": "s4_vorlieben",
+      "title": "Was essen Sie? Vorlieben",
+      "file": "s4_vorlieben.json",
+      "version": 1,
+      "estimatedMin": 8
+    }
+  ],
+  "vocabFile": "vocab.json",
+  "examFile": "exam.json"
+}

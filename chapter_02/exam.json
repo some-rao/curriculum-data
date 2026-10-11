@@ -6,89 +6,96 @@
   "passPercent": 70,
   "blocks": [
     {
+      "type": "LESSON_PAGE",
+      "variant": "READING",
+      "id": "q0_intro",
+      "headline": "Im Sportclub",
+      "bodyGerman": "»Was machst du gern?«\n»Ich jogge gern. Wann gehen wir?«\n»Am Freitag?«",
+      "bodyEnglish": "Read the exchange, then answer the questions. Every question saves a concept to your concept book."
+    },
+    {
       "type": "EXERCISE",
       "variant": "MULTIPLE_CHOICE",
       "id": "q1",
       "points": 2,
-      "topic": "Uhrzeit",
-      "passage": "»Wie spät ist es?«\n»Es ist halb ___.«",
-      "prompt": "It's 8:30. Which word completes the answer?",
-      "options": ["acht", "neun", "zehn"],
+      "topic": "Ja-/Nein-Frage",
+      "passage": "Wähle die richtige Frage:",
+      "prompt": "Which yes/no question is correct?",
+      "options": [
+        "Wir gehen am Montag ins Kino.",
+        "Gehen wir am Montag ins Kino?",
+        "Am Montag gehen wir ins Kino?"
+      ],
       "correctIndex": 1,
-      "explanationEnglish": "'Halb neun' counts forward to the next hour — half [to] nine is 8:30.",
+      "explanationEnglish": "A yes/no question starts with the conjugated verb. 'Wir gehen' becomes 'Gehen wir …?'",
       "concept": {
-        "title": "Halb N = halbe Stunde vor N",
-        "rule": "German tells time by counting TO the next hour. 'Halb neun' is 8:30, 'halb sechs' is 5:30. Never translate 'half past' literally.",
-        "exampleGerman": "Es ist halb sechs. → 5:30",
-        "exampleEnglish": "It's half past five."
+        "title": "Ja-/Nein-Frage",
+        "rule": "The verb moves to position 1 and the subject follows: Gehen wir …? The statement stays: Wir gehen …",
+        "exampleGerman": "Gehen wir ins Kino? — Ja, gern.",
+        "exampleEnglish": "Shall we go to the cinema? — Yes, gladly."
       }
     },
     {
       "type": "EXERCISE",
       "variant": "FILL_BLANK",
-      "id": "q2_fill",
-      "points": 4,
-      "topic": "Uhrzeit & Akkusativ",
-      "prompt": "Fill in the missing word.",
-      "explanationEnglish": "'um' introduces clock times, and the accusative only ever changes masculine articles.",
+      "id": "q2",
+      "points": 2,
+      "topic": "Präsens",
+      "prompt": "Fill the gaps with the correct form:",
       "items": [
-        {
-          "sentence": "Der Zug fährt ___ vierzehn Uhr.",
-          "answers": ["um"],
-          "hint": "clock times take this preposition"
-        },
-        {
-          "sentence": "Ich möchte ___ Kaffee, bitte.",
-          "answers": ["einen"],
-          "hint": "masculine, accusative"
-        },
-        {
-          "sentence": "Ich möchte ___ Milch, bitte.",
-          "answers": ["eine"],
-          "hint": "feminine stays the same"
-        }
+        { "sentence": "Du ___ gern Fußball.", "answers": ["spielst"], "hint": "spielen, du" },
+        { "sentence": "Sie ___ im Krankenhaus.", "answers": ["arbeitet"], "hint": "arbeiten, sie" },
+        { "sentence": "Ich ___ gern Bücher.", "answers": ["lese"], "hint": "lesen, ich" }
       ],
+      "explanationEnglish": "du takes -st, sie takes -t, ich takes -e. lesen changes the vowel: ich lese, du liest.",
       "concept": {
-        "title": "Temporalpräpositionen",
-        "rule": "Clock time → 'um' (um acht Uhr). Day → 'am' (am Montag). Month/year → 'im' (im Mai). Fixed phrases: 'am Morgen', 'am Abend'.",
-        "exampleGerman": "Um acht Uhr gehe ich zur Arbeit.",
-        "exampleEnglish": "At eight o'clock I go to work."
+        "title": "Verben und Personalpronomina",
+        "rule": "Endings: ich -e · du -st · er/sie -t · wir -en · ihr -t · sie/Sie -en. Some verbs change the stem vowel: lesen → du liest.",
+        "exampleGerman": "Du spielst gern Fußball. Sie arbeitet im Krankenhaus.",
+        "exampleEnglish": "You like playing football. She works in the hospital."
       }
     },
     {
       "type": "EXERCISE",
-      "variant": "MULTIPLE_CHOICE",
+      "variant": "MATCH",
       "id": "q3",
-      "points": 2,
-      "topic": "Akkusativ",
-      "passage": "»Ich möchte ___ Kaffee, bitte.«",
-      "prompt": "Choose the correct article for ordering a coffee.",
-      "options": ["ein", "einen", "eine"],
-      "correctIndex": 1,
-      "explanationEnglish": "'der Kaffee' is masculine and becomes the direct object of 'möchten', so it shifts to the accusative 'einen'.",
+      "points": 3,
+      "topic": "Berufe",
+      "prompt": "Match the job to the meaning:",
+      "pairs": [
+        { "german": "der Taxifahrer", "english": "taxi driver" },
+        { "german": "die Ärztin", "english": "female doctor" },
+        { "german": "der Kellner", "english": "waiter" },
+        { "german": "die Studentin", "english": "female student" },
+        { "german": "der Ingenieur", "english": "engineer" }
+      ],
+      "explanationEnglish": "Jobs for women end in -in: die Ärztin, die Studentin. Every job carries its article.",
       "concept": {
-        "title": "Akkusativ: nur Maskulinum ändert sich",
-        "rule": "In the accusative only masculine nouns change: der → den, ein → einen, kein → keinen. Feminine, neuter and plural stay as they are.",
-        "exampleGerman": "Ich möchte einen Kuchen. — Ich möchte eine Milch.",
-        "exampleEnglish": "I'd like a cake. — I'd like a milk."
+        "title": "Berufe mit Artikel",
+        "rule": "Jobs end in -er (man) or -in (woman). Learn each job with its article: der Taxifahrer, die Taxifahrerin.",
+        "exampleGerman": "Magda Donat ist Ärztin. Leon Schöpe ist Kellner.",
+        "exampleEnglish": "Magda Donat is a doctor. Leon Schöpe is a waiter."
       }
     },
     {
       "type": "EXERCISE",
-      "variant": "MULTIPLE_CHOICE",
-      "id": "q4",
-      "points": 2,
-      "topic": "Zahlen",
-      "passage": "Der Preis: 21 Euro.",
-      "prompt": "How is 21 said in German?",
-      "options": ["zwanzig eins", "einundzwanzig", "zwei zwanzig"],
-      "correctIndex": 1,
-      "explanationEnglish": "Unit first, then 'und', then the decade — the reverse of English.",
+      "variant": "REORDER",
+      "id": "q4_reorder",
+      "points": 4,
+      "topic": "Satzbau",
+      "passage": "Baue den Satz in korrekter Reihenfolge:",
+      "prompt": "Build the sentence: »Am Samstag gehen wir ins Kino.«",
+      "explanationEnglish": "The time phrase takes position 1. The conjugated verb still stands at position 2, the subject follows.",
+      "builder": {
+        "fixedPrefix": "Am Samstag",
+        "solutionWords": ["gehen", "wir", "ins Kino"],
+        "wordPool": ["gehen", "wir", "ins Kino", "du", "ins Café", "geht"]
+      },
       "concept": {
-        "title": "Zahlen 21–99: Einers zuerst",
-        "rule": "For 21–99 German reverses the order: unit + und + decade. 'Einundzwanzig' = one-and-twenty. Above 99 normal order returns: 'hundertzwanzig'.",
-        "exampleGerman": "34 = vierunddreißig",
-        "exampleEnglish": "34 = four-and-thirty"
+        "title": "V2 mit Zeitangabe",
+        "rule": "A time phrase can take position 1. The conjugated verb still stands at position 2: Am Samstag GEHEN wir ins Kino.",
+        "exampleGerman": "Am Samstag gehen wir ins Kino.",
+        "exampleEnglish": "On Saturday we go to the cinema."
       }
     },
     {
@@ -96,17 +103,37 @@
       "variant": "MULTIPLE_CHOICE",
       "id": "q5",
       "points": 2,
-      "topic": "Geld",
-      "passage": "»Das macht sieben Euro ___.« (7,50)",
-      "prompt": "How do you say the cents?",
-      "options": ["fünfzig", "fünf", "fünfte"],
-      "correctIndex": 0,
-      "explanationEnglish": "Cents are stated as the full number: 50 cents is 'fünfzig'.",
+      "topic": "Zahlen ab 20",
+      "passage": "Zahlen ab zwanzig:",
+      "prompt": "How do you say 45?",
+      "options": ["vierzigfünf", "fünfundvierzig", "fünfzig vier"],
+      "correctIndex": 1,
+      "explanationEnglish": "German numbers put the units first: five-and-forty = fünfundvierzig. 'vierzigfünf' uses the English order.",
       "concept": {
-        "title": "Preise aussprechen",
-        "rule": "German quotes prices as euros then cents in full numbers: 7,50 → 'sieben Euro fünfzig'. The decimal comma reads as a gap, not 'point'.",
-        "exampleGerman": "2,05 → zwei Euro fünf",
-        "exampleEnglish": "€2.05 → two euro five"
+        "title": "Zahlen ab 20",
+        "rule": "Compound numbers put the units first: 45 = fünfundvierzig. 30 = dreißig, 40 = vierzig, 100 = (ein)hundert.",
+        "exampleGerman": "45 = fünfundvierzig",
+        "exampleEnglish": "45 = five-and-forty"
+      }
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "FILL_BLANK",
+      "id": "q6",
+      "points": 2,
+      "topic": "Artikel und Plural",
+      "prompt": "Fill the article or the plural:",
+      "items": [
+        { "sentence": "___ Stift ist blau.", "answers": ["Der"], "hint": "maskulin" },
+        { "sentence": "___ Tablette ist rot.", "answers": ["Die"], "hint": "feminin" },
+        { "sentence": "Plural von der Arzt: die ___", "answers": ["Ärzte", "Aerzte"], "hint": "Umlaut und -e" }
+      ],
+      "explanationEnglish": "Stift is masculine: der Stift. Tablette is feminine: die Tablette. Arzt forms the plural with umlaut and -e: die Ärzte.",
+      "concept": {
+        "title": "bestimmter Artikel und Plural",
+        "rule": "der (maskulin) · das (neutrum) · die (feminin). All plurals take die. Learn: der Arzt, die Ärzte.",
+        "exampleGerman": "der Stift · die Tablette · die Ärzte",
+        "exampleEnglish": "the pen (masc.) · the tablet (fem.) · the doctors"
       }
     }
   ]

@@ -1,0 +1,214 @@
+{
+  "schemaVersion": 2,
+  "id": "s3_woher_kommen",
+  "title": "Woher kommen Sie?",
+  "blocks": [
+    {
+      "type": "LESSON_PAGE",
+      "variant": "READING",
+      "id": "s3p1",
+      "headline": "4a Selina Lang — Reiseführerin",
+      "bodyGerman": "SELINA LANG · Reiseführerin\nDeutsch · Spanisch · Englisch\nLudwigstraße 39 · 60327 Frankfurt\n\n1 Woher kommen Sie, Frau Lang? — Ich komme aus Deutschland.\n2 Welche Sprachen sprechen Sie? — Ich spreche Spanisch, Englisch und Deutsch.\n3 Wo wohnen Sie? — Ich wohne in Frankfurt.",
+      "bodyEnglish": "Selina Lang is a tourist guide. She comes from Germany and lives in Frankfurt. Answer the three questions.",
+      "vocabHighlight": [
+        { "german": "die Reiseführerin", "english": "tourist guide — a woman who shows a city" },
+        { "german": "Woher kommen Sie?", "english": "Where do you come from?" },
+        { "german": "Welche Sprachen sprechen Sie?", "english": "Which languages do you speak?" },
+        { "german": "Wo wohnen Sie?", "english": "Where do you live?" }
+      ]
+    },
+    {
+      "type": "LESSON_PAGE",
+      "variant": "DIALOGUE",
+      "id": "s3p2",
+      "headline": "4b Woher kommst du?",
+      "bodyEnglish": "Two people talk informally. Ask the name, the origin, and the place where someone lives.",
+      "vocabHighlight": [
+        { "german": "Woher kommst du?", "english": "Where do you come from?" },
+        { "german": "Aus Frankfurt.", "english": "From Frankfurt." },
+        { "german": "Und wo wohnst du?", "english": "And where do you live?" },
+        { "german": "In Zürich.", "english": "In Zurich." }
+      ],
+      "turns": [
+        { "speaker": "A", "german": "Wie heißt du?", "english": "What is your name?" },
+        { "speaker": "B", "german": "Ich heiße Jan.", "english": "My name is Jan." },
+        { "speaker": "A", "german": "Woher kommst du?", "english": "Where do you come from?" },
+        { "speaker": "B", "german": "Aus Frankfurt.", "english": "From Frankfurt." },
+        { "speaker": "A", "german": "Und wo wohnst du?", "english": "And where do you live?" },
+        { "speaker": "B", "german": "In Zürich.", "english": "In Zurich." }
+      ]
+    },
+    {
+      "type": "NOTE",
+      "variant": "USAGE",
+      "id": "s3_n1",
+      "title": "Wo? Woher? Wer? Wie?",
+      "bodyEnglish": "Wo asks for a place. Woher for the origin. Wer for a person. Wie for a name or a way."
+    },
+    {
+      "type": "LESSON_PAGE",
+      "variant": "GRAMMAR",
+      "id": "s3p3",
+      "headline": "Verben und Personalpronomen",
+      "bodyGerman": "wohnen: ich wohne · du wohnst · er/sie wohnt · Sie wohnen\nkommen: ich komme · du kommst · er/sie kommt · Sie kommen\nsein: ich bin · du bist · er/sie ist · Sie sind",
+      "bodyEnglish": "The verb changes with the person: ich -e, du -st, er/sie -t, Sie -en. sein is special.",
+      "vocabHighlight": [
+        { "german": "ich wohne", "english": "I live" },
+        { "german": "du wohnst", "english": "you live (informal)" },
+        { "german": "er/sie wohnt", "english": "he/she lives" },
+        { "german": "Sie wohnen", "english": "you live (formal)" }
+      ]
+    },
+    {
+      "type": "GRAMMAR",
+      "variant": "RULE",
+      "id": "s3g1",
+      "ruleHeadline": "W-Frage und Aussagesatz",
+      "explanationEnglish": "A W-question starts with the W-word, then the verb, then the person. A statement starts with the person.",
+      "englishBridge": "English does the same: Where do you live? — You live in Zurich. German needs no helping verb.",
+      "targetSentenceGerman": "Woher kommst du?",
+      "targetSentenceEnglish": "Where do you come from?",
+      "builder": {
+        "fixedPrefix": "Woher",
+        "solutionWords": ["kommst", "du"],
+        "wordPool": ["kommst", "komm", "du", "wohne", "wohnt"]
+      }
+    },
+    {
+      "type": "PATTERN",
+      "variant": "FORMULA",
+      "id": "s3pat1",
+      "title": "Herkunft und Wohnort",
+      "formula": "Woher + kommen + du/Sie?  →  [Person] + kommen + aus + [Land].  ·  Wo + wohnen + du/Sie?  →  [Person] + wohnen + in + [Stadt].",
+      "explanationEnglish": "Use aus for the origin. Use in for the place where a person lives now.",
+      "examples": [
+        { "german": "Woher kommen Sie? — Ich komme aus Deutschland.", "english": "Where do you come from? — I come from Germany." },
+        { "german": "Wo wohnst du? — Ich wohne in Zürich.", "english": "Where do you live? — I live in Zurich." }
+      ]
+    },
+    {
+      "type": "EXAMPLES",
+      "variant": "PHRASE_LIST",
+      "id": "s3ex1",
+      "title": "Fragen über sich und andere",
+      "items": [
+        { "german": "Wo wohnen Sie?", "english": "Where do you live?" },
+        { "german": "Woher kommen Sie?", "english": "Where do you come from?" },
+        { "german": "Welche Sprachen sprechen Sie?", "english": "Which languages do you speak?" },
+        { "german": "Welche Sprachen sprichst du?", "english": "Which languages do you speak? (informal)" },
+        { "german": "Wer ist das?", "english": "Who is that?" },
+        { "german": "Das ist Selina Lang.", "english": "That is Selina Lang." }
+      ]
+    },
+    {
+      "type": "LESSON_PAGE",
+      "variant": "READING",
+      "id": "s3p4",
+      "headline": "8a Länder und Sprachen",
+      "bodyGerman": "Olivia Miller kommt aus den USA. Sie wohnt in San Francisco. Sie spricht Englisch und Deutsch. Sie lernt Spanisch.\nGabriel Santos kommt aus Brasilien. Er wohnt in Köln. Er spricht Portugiesisch, Deutsch und Englisch.\nAlessia Conti kommt aus der Schweiz. Sie wohnt in Lugano. Sie spricht Italienisch, Französisch und Deutsch.\nSaki Tanaka kommt aus Tokio, Japan. Sie wohnt in Berlin. Sie lernt Englisch.",
+      "bodyEnglish": "Four people talk about their origin, their home, and their languages. Fill the table in exercise 8a.",
+      "vocabHighlight": [
+        { "german": "kommt aus", "english": "comes from" },
+        { "german": "wohnt in", "english": "lives in" },
+        { "german": "spricht", "english": "speaks" },
+        { "german": "lernt", "english": "learns" }
+      ]
+    },
+    {
+      "type": "NOTE",
+      "variant": "USAGE",
+      "id": "s3_n2",
+      "title": "aus + Land",
+      "bodyEnglish": "Use aus plus the country: aus Spanien. Some countries take an article: aus der Schweiz, aus den USA."
+    },
+    {
+      "type": "VOCAB",
+      "variant": "CARD_SET",
+      "id": "s3v1",
+      "title": "Länder, Sprachen, Städte",
+      "wordIds": ["w_kommen", "w_wohnen", "w_sprechen", "w_lernen", "w_sprache", "w_land", "w_stadt"]
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "MULTIPLE_CHOICE",
+      "id": "s3q1",
+      "points": 2,
+      "topic": "W-Frage",
+      "passage": "»___ kommst du? — Aus Frankfurt.«",
+      "prompt": "Which W-word fits?",
+      "options": ["Wo", "Woher", "Wie"],
+      "correctIndex": 1,
+      "explanationEnglish": "The answer is a place of origin: Aus Frankfurt. The W-word for origin is Woher.",
+      "concept": {
+        "title": "W-Frage",
+        "rule": "W-word + conjugated verb + person. Wo = place, Woher = origin, Wie = how or what, Wer = who.",
+        "exampleGerman": "Woher kommst du? — Aus Frankfurt.",
+        "exampleEnglish": "Where do you come from? — From Frankfurt."
+      }
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "FILL_BLANK",
+      "id": "s3q2",
+      "points": 3,
+      "topic": "wohnen und kommen",
+      "prompt": "Fill the gap:",
+      "items": [
+        { "sentence": "Ich ___ in Frankfurt.", "answers": ["wohne"], "hint": "wohnen, ich" },
+        { "sentence": "Jan ___ aus Frankfurt.", "answers": ["kommt"], "hint": "kommen, er" },
+        { "sentence": "Sie ___ in Lugano.", "answers": ["wohnen"], "hint": "wohnen, Sie" }
+      ],
+      "explanationEnglish": "ich takes -e, er/sie takes -t, Sie takes -en: wohne, wohnt, wohnen.",
+      "concept": {
+        "title": "Verben: wohnen, kommen, sein",
+        "rule": "Endings: ich -e · du -st · er/sie -t · Sie -en. sein: ich bin · du bist · er/sie ist · Sie sind.",
+        "exampleGerman": "Ich wohne in Frankfurt. Sie kommt aus Japan.",
+        "exampleEnglish": "I live in Frankfurt. She comes from Japan."
+      }
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "MATCH",
+      "id": "s3q3",
+      "points": 3,
+      "topic": "Länder und Sprachen",
+      "prompt": "Match the country or language to the English meaning:",
+      "pairs": [
+        { "german": "aus Brasilien", "english": "from Brazil" },
+        { "german": "die Schweiz", "english": "Switzerland" },
+        { "german": "Spanien", "english": "Spain" },
+        { "german": "Portugiesisch", "english": "Portuguese" },
+        { "german": "Japanisch", "english": "Japanese" },
+        { "german": "die Türkei", "english": "Turkey" }
+      ],
+      "explanationEnglish": "Countries and languages are nouns. Some need an article: die Schweiz, die Türkei.",
+      "concept": {
+        "title": "Länder und Sprachen",
+        "rule": "Names of countries and languages are nouns. Some take an article: die Schweiz, die Türkei, die Ukraine.",
+        "exampleGerman": "Ich komme aus der Schweiz. Sie spricht Japanisch.",
+        "exampleEnglish": "I come from Switzerland. She speaks Japanese."
+      }
+    },
+    {
+      "type": "WRITING",
+      "variant": "WORD_POOL",
+      "id": "s3w1",
+      "promptEnglish": "Write: I come from Spain and I live in Berlin.",
+      "solutionWords": ["Ich", "komme", "aus", "Spanien", "und", "ich", "wohne", "in", "Berlin"],
+      "wordPool": ["Ich", "komme", "aus", "Spanien", "und", "ich", "wohne", "in", "Berlin", "Du", "kommst", "Frankfurt"]
+    },
+    {
+      "type": "SUMMARY",
+      "variant": "RECAP",
+      "id": "s3_sum",
+      "title": "Was du jetzt kannst",
+      "bullets": [
+        "Fragen: Wo wohnen Sie? · Woher kommen Sie? · Welche Sprachen sprechen Sie?",
+        "Antworten: Ich wohne in Frankfurt. · Ich komme aus Deutschland.",
+        "W-Frage: W-Wort + Verb + Person. Aussagesatz: Person + Verb + Rest.",
+        "Endungen: ich -e · du -st · er/sie -t · Sie -en.",
+        "aus + Land · in + Stadt: aus Spanien · in Berlin."
+      ]
+    }
+  ]
+}

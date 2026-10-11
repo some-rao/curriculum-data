@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 2,
+  "id": "s1_lebensmittel",
+  "title": "Lebensmittel und Mahlzeiten",
+  "blocks": [
+    {
+      "type": "LESSON_PAGE",
+      "variant": "VOCAB",
+      "id": "s1p1",
+      "headline": "Frühstück und Mittagessen",
+      "bodyGerman": "Frühstück: die Banane · der Orangensaft · das Müsli · der Joghurt · der Tee · die Milch · der Käse · die Marmelade · das Ei · das Brötchen\nMittagessen: der Apfelsaft · die Kartoffeln · das Salz · der Pfeffer · das Gemüse · das Wasser · der Essig · das Öl · die Cola · das Fleisch",
+      "bodyEnglish": "These are the food words for breakfast and for lunch. Learn every word with its article.",
+      "vocabHighlight": [
+        { "german": "das Brötchen", "english": "bread roll" },
+        { "german": "das Müsli", "english": "muesli" },
+        { "german": "der Käse", "english": "cheese" },
+        { "german": "die Marmelade", "english": "jam" },
+        { "german": "das Ei", "english": "egg" },
+        { "german": "der Orangensaft", "english": "orange juice" },
+        { "german": "das Gemüse", "english": "vegetables" },
+        { "german": "die Kartoffeln", "english": "potatoes" },
+        { "german": "das Fleisch", "english": "meat" },
+        { "german": "das Wasser", "english": "water" }
+      ]
+    },
+    {
+      "type": "LESSON_PAGE",
+      "variant": "VOCAB",
+      "id": "s1p2",
+      "headline": "Kaffee und Kuchen, Abendessen",
+      "bodyGerman": "Kaffee und Kuchen: der Kaffee · der Kuchen · die Sahne · die Schokolade · der Keks · der Zucker\nAbendessen: die Butter · das Brot · die Tomate · die Gurke · der Salat · die Suppe · die Wurst · der Schinken",
+      "bodyEnglish": "These words are for coffee time and for dinner. Say every word with its article.",
+      "vocabHighlight": [
+        { "german": "der Kuchen", "english": "cake" },
+        { "german": "die Sahne", "english": "cream" },
+        { "german": "die Schokolade", "english": "chocolate" },
+        { "german": "das Brot", "english": "bread" },
+        { "german": "die Tomate", "english": "tomato" },
+        { "german": "die Gurke", "english": "cucumber" },
+        { "german": "der Salat", "english": "salad" },
+        { "german": "die Suppe", "english": "soup" },
+        { "german": "die Wurst", "english": "sausage" },
+        { "german": "der Schinken", "english": "ham" }
+      ]
+    },
+    {
+      "type": "LESSON_PAGE",
+      "variant": "DIALOGUE",
+      "id": "s1p3",
+      "headline": "In der Bäckerei",
+      "bodyEnglish": "A works in the bakery. B is a customer. Read the short talk first.",
+      "vocabHighlight": [
+        { "german": "Was möchten Sie?", "english": "What would you like?" },
+        { "german": "Sonst noch etwas?", "english": "Anything else?" },
+        { "german": "ein Brot", "english": "one bread" }
+      ],
+      "turns": [
+        { "speaker": "A", "german": "Guten Tag! Was möchten Sie?", "english": "Good day! What would you like?" },
+        { "speaker": "B", "german": "Zwei Brötchen und ein Brot, bitte.", "english": "Two bread rolls and one bread, please." },
+        { "speaker": "A", "german": "Sonst noch etwas?", "english": "Anything else?" },
+        { "speaker": "B", "german": "Nein, danke.", "english": "No, thank you." },
+        { "speaker": "A", "german": "Auf Wiedersehen!", "english": "Goodbye!" },
+        { "speaker": "B", "german": "Auf Wiedersehen!", "english": "Goodbye!" }
+      ]
+    },
+    {
+      "type": "NOTE",
+      "variant": "USAGE",
+      "id": "s1_n1",
+      "title": "Wo kaufen Sie ein?",
+      "bodyEnglish": "Learn each shop with its preposition: in der Bäckerei, auf dem Markt, in der Metzgerei, im Supermarkt."
+    },
+    {
+      "type": "PATTERN",
+      "variant": "FORMULA",
+      "id": "s1pat1",
+      "title": "Wo kaufen Sie ein?",
+      "formula": "[Person] + [kaufen] + [Lebensmittel] + in der / auf dem / im + [Geschäft].",
+      "explanationEnglish": "The food word comes after the verb. The place comes at the end of the sentence.",
+      "examples": [
+        { "german": "Ich kaufe Brot in der Bäckerei.", "english": "I buy bread in the bakery." },
+        { "german": "Wir kaufen Gemüse auf dem Markt.", "english": "We buy vegetables at the market." },
+        { "german": "Ich kaufe die Wurst in der Metzgerei.", "english": "I buy the sausage at the butcher's." }
+      ]
+    },
+    {
+      "type": "VOCAB",
+      "variant": "CARD_SET",
+      "id": "s1v1",
+      "title": "Die Lebensmittel",
+      "wordIds": ["w_broetchen", "w_brot", "w_kaese", "w_ei", "w_muesli", "w_marmelade", "w_orangensaft", "w_baeckerei", "w_markt", "w_metzgerei", "w_supermarkt", "w_kaufen"]
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "MATCH",
+      "id": "s1q1",
+      "points": 3,
+      "prompt": "Match the food to the English meaning:",
+      "pairs": [
+        { "german": "der Käse", "english": "cheese" },
+        { "german": "das Brot", "english": "bread" },
+        { "german": "das Brötchen", "english": "bread roll" },
+        { "german": "die Marmelade", "english": "jam" },
+        { "german": "das Gemüse", "english": "vegetables" },
+        { "german": "der Orangensaft", "english": "orange juice" }
+      ],
+      "explanationEnglish": "Learn every food word with its article: der, die or das.",
+      "concept": {
+        "title": "Nomen mit Artikel",
+        "rule": "Every German noun has an article. Learn the word with the article: der Käse, das Brot, die Marmelade.",
+        "exampleGerman": "Ich kaufe den Käse und das Brot.",
+        "exampleEnglish": "I buy the cheese and the bread."
+      }
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "FILL_BLANK",
+      "id": "s1q2",
+      "points": 3,
+      "prompt": "Fill in the shop:",
+      "items": [
+        { "sentence": "Ich kaufe Brot in der ___.", "answers": ["Bäckerei"], "hint": "bread shop" },
+        { "sentence": "Wir kaufen Gemüse auf dem ___.", "answers": ["Markt"], "hint": "vegetable stall" },
+        { "sentence": "Die Wurst kaufen wir in der ___.", "answers": ["Metzgerei"], "hint": "meat shop" }
+      ],
+      "explanationEnglish": "Bread comes from the Bäckerei. Vegetables come from the Markt. Sausage comes from the Metzgerei.",
+      "concept": {
+        "title": "Geschäfte mit Präposition",
+        "rule": "in der Bäckerei · auf dem Markt · in der Metzgerei · im Supermarkt.",
+        "exampleGerman": "Ich kaufe Brot in der Bäckerei.",
+        "exampleEnglish": "I buy bread in the bakery."
+      }
+    },
+    {
+      "type": "SUMMARY",
+      "variant": "RECAP",
+      "id": "s1_sum",
+      "title": "Was du jetzt kannst",
+      "bullets": [
+        "Frühstück: das Brötchen · das Müsli · der Käse · die Marmelade · das Ei.",
+        "Mittagessen: das Gemüse · die Kartoffeln · das Fleisch · das Wasser.",
+        "Geschäfte: in der Bäckerei · auf dem Markt · in der Metzgerei · im Supermarkt.",
+        "Satz: Ich kaufe Brot in der Bäckerei."
+      ]
+    }
+  ]
+}

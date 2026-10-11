@@ -1,24 +1,48 @@
 {
   "schemaVersion": 2,
-  "contentVersion": 2,
+  "contentVersion": 3,
   "lastUpdated": "2026-10-11T00:00:00Z",
   "remoteBaseUrl": "https://raw.githubusercontent.com/some-rao/curriculum-data/main/",
   "chapters": [
     {
       "id": "chapter_01",
       "number": 1,
-      "title": "Erste Schritte & Kennenlernen",
+      "title": "Guten Tag!",
       "level": "A1",
       "indexFile": "chapter_01/index.json",
-      "version": 2
+      "version": 3
     },
     {
       "id": "chapter_02",
       "number": 2,
-      "title": "Im Alltag",
+      "title": "Freunde, Kollegen und ich",
       "level": "A1",
       "indexFile": "chapter_02/index.json",
-      "version": 2
+      "version": 3
+    },
+    {
+      "id": "chapter_03",
+      "number": 3,
+      "title": "In Hamburg",
+      "level": "A1",
+      "indexFile": "chapter_03/index.json",
+      "version": 1
+    },
+    {
+      "id": "chapter_04",
+      "number": 4,
+      "title": "Guten Appetit!",
+      "level": "A1",
+      "indexFile": "chapter_04/index.json",
+      "version": 1
+    },
+    {
+      "id": "chapter_05",
+      "number": 5,
+      "title": "Alltag und Familie",
+      "level": "A1",
+      "indexFile": "chapter_05/index.json",
+      "version": 1
     }
   ]
 }

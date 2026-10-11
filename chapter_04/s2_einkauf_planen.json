@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 2,
+  "id": "s2_einkauf_planen",
+  "title": "Einkauf planen: Kommt ihr?",
+  "blocks": [
+    {
+      "type": "LESSON_PAGE",
+      "variant": "DIALOGUE",
+      "id": "s2p1",
+      "headline": "Kommt ihr?",
+      "bodyGerman": "»Wir grillen heute Abend bei uns. Kommt ihr?«",
+      "bodyEnglish": "Mario and Elena plan a barbecue. They telephone and make a shopping list.",
+      "vocabHighlight": [
+        { "german": "den Einkaufszettel schreiben", "english": "to write the shopping list" },
+        { "german": "die Getränke", "english": "the drinks" },
+        { "german": "brauchen", "english": "to need" }
+      ],
+      "turns": [
+        { "speaker": "Elena", "german": "Wir machen den Salat und kaufen die Getränke.", "english": "We make the salad and buy the drinks." },
+        { "speaker": "Mario", "german": "Okay. Was brauchen wir noch für den Salat?", "english": "Okay. What do we still need for the salad?" },
+        { "speaker": "Elena", "german": "Salat haben wir. Wir brauchen Tomaten, Eier, Öl und eine Gurke.", "english": "We have salad. We need tomatoes, eggs, oil and a cucumber." },
+        { "speaker": "Mario", "german": "Ach, und Käse! Wir haben keinen Käse mehr.", "english": "Oh, and cheese! We have no more cheese." },
+        { "speaker": "Elena", "german": "Ich gehe zum Markt und kaufe die Eier und die Tomaten.", "english": "I go to the market and buy the eggs and the tomatoes." },
+        { "speaker": "Mario", "german": "Ich gehe zum Supermarkt und kaufe Käse, Öl und die Getränke.", "english": "I go to the supermarket and buy cheese, oil and the drinks." }
+      ]
+    },
+    {
+      "type": "NOTE",
+      "variant": "TIP",
+      "id": "s2_n1",
+      "title": "Der Einkaufszettel",
+      "bodyEnglish": "Write a shopping list before you buy. Put every word with its article: die Eier, den Käse, das Öl."
+    },
+    {
+      "type": "LESSON_PAGE",
+      "variant": "GRAMMAR",
+      "id": "s2p2",
+      "headline": "Nominativ und Akkusativ",
+      "bodyGerman": "Der Käse ist gut. — Ich kaufe den Käse.\nDas Brot ist gut. — Ich kaufe das Brot.\nDie Gurke ist gut. — Ich kaufe die Gurke.\nDie Tomaten sind gut. — Ich kaufe die Tomaten.",
+      "bodyEnglish": "The article of the object changes after kaufen, brauchen and haben. Only masculine changes: der becomes den."
+    },
+    {
+      "type": "GRAMMAR",
+      "variant": "RULE",
+      "id": "s2g1",
+      "ruleHeadline": "Akkusativ: der → den",
+      "explanationEnglish": "The object of kaufen, brauchen and haben is in the accusative. Only masculine changes: der → den.",
+      "englishBridge": "English never changes the object: I buy the cheese. German changes it: Ich kaufe den Käse.",
+      "targetSentenceGerman": "Ich kaufe den Käse und das Brot.",
+      "targetSentenceEnglish": "I buy the cheese and the bread.",
+      "builder": {
+        "fixedPrefix": "Ich",
+        "solutionWords": ["kaufe", "den", "Käse"],
+        "wordPool": ["kaufe", "kaufst", "den", "der", "Käse", "Brot"]
+      }
+    },
+    {
+      "type": "EXAMPLES",
+      "variant": "PHRASE_LIST",
+      "id": "s2ex1",
+      "title": "Verben mit Akkusativ",
+      "items": [
+        { "german": "Wir brauchen eine Gurke.", "english": "We need a cucumber." },
+        { "german": "Wir haben keinen Käse.", "english": "We have no cheese." },
+        { "german": "Wir machen einen Salat.", "english": "We make a salad." },
+        { "german": "Wir essen das Fleisch.", "english": "We eat the meat." },
+        { "german": "Wir kaufen die Getränke.", "english": "We buy the drinks." },
+        { "german": "Ich nehme den Schinken.", "english": "I take the ham." }
+      ]
+    },
+    {
+      "type": "LESSON_PAGE",
+      "variant": "PRONUNCIATION",
+      "id": "s2p3",
+      "headline": "Umlaute: ä · ö · ü",
+      "bodyGerman": "Apfel — Äpfel · Saft — Säfte · Brot — Brötchen · Markt — Märkte\nWir kaufen Müsli zum Frühstück. Wir brauchen Öl, Käse, Gemüse und Getränke.",
+      "bodyEnglish": "ä sounds like the e in »met«. ö and ü are rounded. The singular changes: Apfel → Äpfel."
+    },
+    {
+      "type": "VOCAB",
+      "variant": "CARD_SET",
+      "id": "s2v1",
+      "title": "Die Wörter für die Party",
+      "wordIds": ["w_brauchen", "w_fleisch", "w_gemuese", "w_salat"]
+    },
+    {
+      "type": "WRITING",
+      "variant": "WORD_POOL",
+      "id": "s2w1",
+      "promptEnglish": "Write: We need tomatoes, eggs and one cucumber.",
+      "solutionWords": ["Wir", "brauchen", "Tomaten", "Eier", "und", "eine", "Gurke"],
+      "wordPool": ["Wir", "brauchen", "Tomaten", "Eier", "und", "eine", "Gurke", "braucht", "Käse", "Morgen"]
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "FILL_BLANK",
+      "id": "s2q1",
+      "points": 3,
+      "prompt": "Fill in the correct article:",
+      "items": [
+        { "sentence": "Ich kaufe ___ Käse.", "answers": ["den"], "hint": "Nominativ: der Käse" },
+        { "sentence": "Ich kaufe ___ Gurke.", "answers": ["die"], "hint": "feminin" },
+        { "sentence": "Ich brauche ___ Brot.", "answers": ["das"], "hint": "neutrum" },
+        { "sentence": "Wir machen ___ Salat.", "answers": ["einen"], "hint": "Nominativ: der Salat" }
+      ],
+      "explanationEnglish": "Only masculine changes: der → den, ein → einen. Feminine and neuter stay the same.",
+      "concept": {
+        "title": "Akkusativ der Artikel",
+        "rule": "After brauchen, haben, kaufen: der → den, ein → einen, kein → keinen. Feminine, neuter and plural stay.",
+        "exampleGerman": "Ich kaufe den Käse und das Brot.",
+        "exampleEnglish": "I buy the cheese and the bread."
+      }
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "REORDER",
+      "id": "s2q2",
+      "points": 4,
+      "prompt": "Put the sentence in order:",
+      "builder": {
+        "fixedPrefix": "Ich",
+        "solutionWords": ["kaufe", "den Käse", "im Supermarkt"],
+        "wordPool": ["kaufe", "den Käse", "im Supermarkt", "kaufen", "der Käse", "Brot"]
+      },
+      "explanationEnglish": "The conjugated verb »kaufe« is in position 2. The place comes at the end.",
+      "concept": {
+        "title": "Verb auf Position 2",
+        "rule": "The conjugated verb stands in position 2. The subject stands before the verb.",
+        "exampleGerman": "Ich kaufe den Käse im Supermarkt.",
+        "exampleEnglish": "I buy the cheese in the supermarket."
+      }
+    },
+    {
+      "type": "SUMMARY",
+      "variant": "RECAP",
+      "id": "s2_sum",
+      "title": "Was du jetzt kannst",
+      "bullets": [
+        "Einkauf planen: Was brauchen wir? — Wir brauchen Tomaten, Eier, Öl und eine Gurke.",
+        "Akkusativ: der → den · ein → einen · kein → keinen.",
+        "Neutrum, Feminin und Plural bleiben: das Brot, die Gurke, die Tomaten.",
+        "Umlaute: Apfel — Äpfel · Brot — Brötchen · Markt — Märkte."
+      ]
+    }
+  ]
+}

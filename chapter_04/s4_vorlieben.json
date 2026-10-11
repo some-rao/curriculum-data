@@ -1,0 +1,173 @@
+{
+  "schemaVersion": 2,
+  "id": "s4_vorlieben",
+  "title": "Was essen Sie? Vorlieben",
+  "blocks": [
+    {
+      "type": "LESSON_PAGE",
+      "variant": "READING",
+      "id": "s4p1",
+      "headline": "Was essen Sie?",
+      "bodyGerman": "Maria Hepp: Wir frühstücken morgens zusammen. Ich esse Brot mit Käse oder Schinken. Lina isst Müsli mit Milch.\nLars und Ben: Am Wochenende essen wir zusammen. Zum Frühstück mag ich sehr gerne Obst: Äpfel, Birnen oder Bananen.\nEmma Baumeister: Zum Frühstück esse ich zwei Brötchen mit Butter, Käse und Wurst. Mittags kaufe ich einen Döner oder eine Pizza.",
+      "bodyEnglish": "Three people say what they eat. Note the time words: morgens, am Wochenende, mittags.",
+      "vocabHighlight": [
+        { "german": "morgens", "english": "in the morning" },
+        { "german": "mittags", "english": "at midday" },
+        { "german": "am Wochenende", "english": "at the weekend" },
+        { "german": "das Obst", "english": "fruit" }
+      ]
+    },
+    {
+      "type": "LESSON_PAGE",
+      "variant": "GRAMMAR",
+      "id": "s4p2",
+      "headline": "mögen",
+      "bodyGerman": "ich mag · du magst · er/sie mag\nwir mögen · ihr mögt · sie/Sie mögen\n\nIch esse gern Schokolade. = Ich mag Schokolade.",
+      "bodyEnglish": "mögen means »to like«. ich and er/sie change the vowel: mag. gern and mögen say the same."
+    },
+    {
+      "type": "GRAMMAR",
+      "variant": "RULE",
+      "id": "s4g1",
+      "ruleHeadline": "mögen: ich mag",
+      "explanationEnglish": "mögen is irregular. The stem vowel changes: ich mag, du magst, er mag.",
+      "englishBridge": "English says: I like chocolate. German has two options: Ich mag Schokolade. Ich esse gern Schokolade.",
+      "targetSentenceGerman": "Ich mag Obst und Gemüse.",
+      "targetSentenceEnglish": "I like fruit and vegetables.",
+      "builder": {
+        "fixedPrefix": "Ich",
+        "solutionWords": ["mag", "Schokolade"],
+        "wordPool": ["mag", "magst", "mögen", "Schokolade", "Obst"]
+      }
+    },
+    {
+      "type": "PATTERN",
+      "variant": "FORMULA",
+      "id": "s4pat1",
+      "title": "Vorlieben: Was essen Sie gern?",
+      "formula": "Was essen Sie gern? → Ich esse gern … · Ich mag … · Nein, ich mag nicht.",
+      "explanationEnglish": "gern comes after the verb. mögen works too. To say no, use nicht: ich mag nicht.",
+      "examples": [
+        { "german": "Ich esse gern Schokolade.", "english": "I like eating chocolate." },
+        { "german": "Ich mag Käse sehr gern.", "english": "I like cheese very much." },
+        { "german": "Nein, ich mag keine Gurken.", "english": "No, I do not like cucumbers." }
+      ]
+    },
+    {
+      "type": "PATTERN",
+      "variant": "FORMULA",
+      "id": "s4pat2",
+      "title": "Positionen im Satz",
+      "formula": "[Zeit] + [Verb] + [Subjekt] + Rest.",
+      "explanationEnglish": "The conjugated verb stands in position 2. The subject stands before or after the verb.",
+      "examples": [
+        { "german": "Lina isst morgens Müsli.", "english": "Lina eats muesli in the morning." },
+        { "german": "Morgens isst Lina Müsli.", "english": "In the morning Lina eats muesli." }
+      ]
+    },
+    {
+      "type": "NOTE",
+      "variant": "TIP",
+      "id": "s4_n1",
+      "title": "Wörter ordnen und lernen",
+      "bodyEnglish": "Learn words in groups: Lebensmittel, Getränke, Geschäfte, Mahlzeiten. Learn words in pairs: das Brot und das Brötchen."
+    },
+    {
+      "type": "EXAMPLES",
+      "variant": "PHRASE_LIST",
+      "id": "s4ex1",
+      "title": "Wörter in Paaren",
+      "items": [
+        { "german": "das Brot und das Brötchen", "english": "bread and bread roll" },
+        { "german": "das Salz und der Pfeffer", "english": "salt and pepper" },
+        { "german": "der Essig und das Öl", "english": "vinegar and oil" },
+        { "german": "der Kaffee und der Zucker", "english": "coffee and sugar" },
+        { "german": "Essen und Trinken", "english": "food and drink" }
+      ]
+    },
+    {
+      "type": "VOCAB",
+      "variant": "CARD_SET",
+      "id": "s4v1",
+      "title": "Vorlieben und Mahlzeiten",
+      "wordIds": ["w_moegen", "w_essen", "w_trinken", "w_fruhstuecken", "w_mittagessen", "w_abendessen"]
+    },
+    {
+      "type": "WRITING",
+      "variant": "WORD_POOL",
+      "id": "s4w1",
+      "promptEnglish": "Write: For breakfast I eat bread with cheese.",
+      "solutionWords": ["Zum", "Frühstück", "esse", "ich", "Brot", "mit", "Käse"],
+      "wordPool": ["Zum", "Frühstück", "esse", "ich", "isst", "Brot", "mit", "Käse", "der", "Morgen"]
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "FILL_BLANK",
+      "id": "s4q1",
+      "points": 3,
+      "prompt": "Fill in the correct form:",
+      "items": [
+        { "sentence": "Ich ___ Obst zum Frühstück.", "answers": ["mag", "esse"], "hint": "mögen oder essen, ich" },
+        { "sentence": "Du ___ gern Käse.", "answers": ["isst", "magst"], "hint": "essen oder mögen, du" },
+        { "sentence": "Um sieben Uhr ___ wir zusammen.", "answers": ["essen"], "hint": "essen, wir" }
+      ],
+      "explanationEnglish": "mögen: ich mag, du magst. essen: ich esse, du isst. The stem vowel changes with du.",
+      "concept": {
+        "title": "essen und mögen",
+        "rule": "essen: ich esse, du isst, wir essen. mögen: ich mag, du magst, wir mögen.",
+        "exampleGerman": "Du isst gern Käse. Ich mag Obst.",
+        "exampleEnglish": "You like eating cheese. I like fruit."
+      }
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "REORDER",
+      "id": "s4q2",
+      "points": 4,
+      "prompt": "Put the sentence in order:",
+      "builder": {
+        "fixedPrefix": "Morgens",
+        "solutionWords": ["isst", "Lina", "Müsli"],
+        "wordPool": ["isst", "Lina", "Müsli", "essen", "ich", "Morgen"]
+      },
+      "explanationEnglish": "The time word »Morgens« takes position 1. The verb »isst« stays in position 2.",
+      "concept": {
+        "title": "Positionen im Satz",
+        "rule": "The conjugated verb stands in position 2. The subject can stand before or after the verb.",
+        "exampleGerman": "Morgens isst Lina Müsli.",
+        "exampleEnglish": "In the morning Lina eats muesli."
+      }
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "MULTIPLE_CHOICE",
+      "id": "s4q3",
+      "points": 2,
+      "topic": "Wörter in Paaren",
+      "passage": "Welche Wörter stehen oft zusammen?",
+      "prompt": "Which two words often go together?",
+      "options": ["das Salz und der Pfeffer", "das Salz und der Kaffee", "der Essig und die Milch"],
+      "correctIndex": 0,
+      "explanationEnglish": "Salt and pepper go together. Vinegar goes with oil. Coffee goes with sugar.",
+      "concept": {
+        "title": "Wörter in Paaren",
+        "rule": "Learn words in pairs: das Salz und der Pfeffer, der Essig und das Öl, das Brot und das Brötchen.",
+        "exampleGerman": "das Brot und das Brötchen",
+        "exampleEnglish": "bread and bread roll"
+      }
+    },
+    {
+      "type": "SUMMARY",
+      "variant": "RECAP",
+      "id": "s4_sum",
+      "title": "Was du jetzt kannst",
+      "bullets": [
+        "Vorlieben: Ich esse gern Schokolade. · Ich mag Schokolade.",
+        "mögen: ich mag · du magst · er/sie mag · wir mögen · ihr mögt · sie mögen.",
+        "Mahlzeiten: das Frühstück · das Mittagessen · das Abendessen.",
+        "Das Verb steht auf Position 2: Morgens isst Lina Müsli.",
+        "Strategie: Wörter in Gruppen und Paaren lernen."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "schemaVersion": 2,
+  "id": "s2_guten_tag",
+  "title": "Guten Tag! Auf Wiedersehen!",
+  "blocks": [
+    {
+      "type": "LESSON_PAGE",
+      "variant": "DIALOGUE",
+      "id": "s2p1",
+      "headline": "3 Guten Tag. Wie heißen Sie?",
+      "bodyEnglish": "Nina Weber, Oliver Hansen and Frau Kowalski meet at work. They use Sie, the polite form.",
+      "vocabHighlight": [
+        { "german": "Guten Morgen!", "english": "Good morning!" },
+        { "german": "Wie geht es Ihnen?", "english": "How are you? (formal)" },
+        { "german": "Mein Name ist …", "english": "My name is …" },
+        { "german": "Das ist Frau …", "english": "This is Ms …" },
+        { "german": "Auf Wiedersehen!", "english": "Goodbye!" }
+      ],
+      "turns": [
+        { "speaker": "Nina Weber", "german": "Guten Morgen. Mein Name ist Nina Weber.", "english": "Good morning. My name is Nina Weber." },
+        { "speaker": "Oliver Hansen", "german": "Guten Morgen, Frau Weber! Ich heiße Oliver Hansen.", "english": "Good morning, Ms Weber! My name is Oliver Hansen." },
+        { "speaker": "Nina Weber", "german": "Guten Tag, Frau Kowalski.", "english": "Good day, Ms Kowalski." },
+        { "speaker": "Frau Kowalski", "german": "Guten Tag, Frau Weber. Wie geht es Ihnen?", "english": "Good day, Ms Weber. How are you?" },
+        { "speaker": "Nina Weber", "german": "Danke, gut. Und Ihnen?", "english": "Thanks, good. And you?" },
+        { "speaker": "Frau Kowalski", "german": "Auch gut, danke.", "english": "Also good, thanks." },
+        { "speaker": "Oliver Hansen", "german": "Hallo Frau Weber.", "english": "Hello Ms Weber." },
+        { "speaker": "Nina Weber", "german": "Hallo Herr Hansen. Das ist Frau Kowalski.", "english": "Hello Mr Hansen. This is Ms Kowalski." },
+        { "speaker": "Oliver Hansen", "german": "Guten Tag, Frau Kowalski. Mein Name ist Oliver Hansen.", "english": "Good day, Ms Kowalski. My name is Oliver Hansen." },
+        { "speaker": "Frau Kowalski", "german": "Guten Tag! Entschuldigung, wie heißen Sie?", "english": "Good day! Excuse me, what is your name?" },
+        { "speaker": "Oliver Hansen", "german": "Oliver Hansen.", "english": "Oliver Hansen." },
+        { "speaker": "Frau Kowalski", "german": "Auf Wiedersehen, Herr Hansen. Tschüs, Frau Weber.", "english": "Goodbye, Mr Hansen. Bye, Ms Weber." },
+        { "speaker": "Oliver Hansen", "german": "Auf Wiedersehen, Frau Kowalski.", "english": "Goodbye, Ms Kowalski." },
+        { "speaker": "Nina Weber", "german": "Auf Wiedersehen!", "english": "Goodbye!" }
+      ]
+    },
+    {
+      "type": "EXAMPLES",
+      "variant": "PHRASE_LIST",
+      "id": "s2ex1",
+      "title": "Grüßen und verabschieden",
+      "items": [
+        { "german": "Guten Morgen!", "english": "Good morning!" },
+        { "german": "Guten Tag!", "english": "Good day!" },
+        { "german": "Guten Abend!", "english": "Good evening!" },
+        { "german": "Gute Nacht!", "english": "Good night!" },
+        { "german": "Auf Wiedersehen!", "english": "Goodbye!" },
+        { "german": "Tschüs!", "english": "Bye!" }
+      ]
+    },
+    {
+      "type": "NOTE",
+      "variant": "USAGE",
+      "id": "s2_n1",
+      "title": "du und Sie",
+      "bodyEnglish": "du is informal: use a first name. Sie is formal: use Herr or Frau plus the last name."
+    },
+    {
+      "type": "LESSON_PAGE",
+      "variant": "GRAMMAR",
+      "id": "s2p2",
+      "headline": "Verben und Personalpronomen",
+      "bodyGerman": "heißen: ich heiße · du heißt · Sie heißen\nsein: ich bin · du bist · Sie sind",
+      "bodyEnglish": "The personal pronoun decides the verb ending. ich, du and Sie each have one fixed form.",
+      "vocabHighlight": [
+        { "german": "ich heiße", "english": "I am called" },
+        { "german": "du heißt", "english": "you are called (informal)" },
+        { "german": "Sie heißen", "english": "you are called (formal)" },
+        { "german": "ich bin", "english": "I am" },
+        { "german": "du bist", "english": "you are (informal)" },
+        { "german": "Sie sind", "english": "you are (formal)" }
+      ]
+    },
+    {
+      "type": "GRAMMAR",
+      "variant": "RULE",
+      "id": "s2g1",
+      "ruleHeadline": "Personalpronomen + Verb",
+      "explanationEnglish": "Say the person first, then the verb. Each person has one fixed ending. Learn the three rows together.",
+      "englishBridge": "English keeps I am and you are. German marks the person on the verb: ich heiße, du heißt, Sie heißen.",
+      "targetSentenceGerman": "Sie heißen Oliver Hansen.",
+      "targetSentenceEnglish": "Your name is Oliver Hansen.",
+      "builder": {
+        "fixedPrefix": "Sie",
+        "solutionWords": ["heißen", "Oliver Hansen"],
+        "wordPool": ["heißen", "heiße", "heißt", "Oliver Hansen", "Nina Weber"]
+      }
+    },
+    {
+      "type": "PATTERN",
+      "variant": "FORMULA",
+      "id": "s2pat1",
+      "title": "Nach dem Namen fragen",
+      "formula": "Wie + heißen + du/Sie?  ·  Wie ist + Ihr + Name?",
+      "explanationEnglish": "Two questions ask for a name. Use the Sie form with Herr or Frau.",
+      "examples": [
+        { "german": "Wie heißen Sie? — Mein Name ist Nina Weber.", "english": "What is your name? — My name is Nina Weber." },
+        { "german": "Wie heißt du? — Ich heiße Julia.", "english": "What is your name? — I am Julia." }
+      ]
+    },
+    {
+      "type": "NOTE",
+      "variant": "MISTAKE",
+      "id": "s2_n2",
+      "title": "»Wie heißt Sie?«",
+      "bodyEnglish": "✗ Wie heißt Sie? → ✓ Wie heißen Sie? ✗ Du heiße. → ✓ Du heißt. The ending marks the person."
+    },
+    {
+      "type": "VOCAB",
+      "variant": "CARD_SET",
+      "id": "s2v1",
+      "title": "Titel, Namen und Grüße",
+      "wordIds": ["w_name", "w_vorname", "w_nachname", "w_guten_tag", "w_auf_wiedersehen"]
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "MULTIPLE_CHOICE",
+      "id": "s2q1",
+      "points": 2,
+      "topic": "du und Sie",
+      "passage": "Sie sprechen mit Ihrem Lehrer.",
+      "prompt": "Which question is correct?",
+      "options": [
+        "Wie heißt du?",
+        "Wie heißen Sie?",
+        "Wie heißt Sie?"
+      ],
+      "correctIndex": 1,
+      "explanationEnglish": "The teacher is a formal person. The Sie-form always takes the ending -en.",
+      "concept": {
+        "title": "du und Sie",
+        "rule": "du + first name = informal. Sie + Herr/Frau + last name = formal. The Sie-form verb ends in -en.",
+        "exampleGerman": "Wie heißen Sie? — Ich heiße Nina Weber.",
+        "exampleEnglish": "What is your name? — My name is Nina Weber."
+      }
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "FILL_BLANK",
+      "id": "s2q2",
+      "points": 3,
+      "topic": "Grußformeln",
+      "prompt": "Fill the gap:",
+      "items": [
+        { "sentence": "___ Morgen, Frau Weber!", "answers": ["Guten"], "hint": "der Morgen" },
+        { "sentence": "Ich ___ Oliver Hansen.", "answers": ["heiße"], "hint": "heißen, ich" },
+        { "sentence": "Sie ___ Nina Weber.", "answers": ["heißen"], "hint": "heißen, Sie" }
+      ],
+      "explanationEnglish": "Morgen is masculine, so Guten Morgen. ich takes -e, Sie takes -en.",
+      "concept": {
+        "title": "Guten … + Tageszeit",
+        "rule": "Guten Morgen, Guten Tag, Guten Abend. Only Gute Nacht takes the ending -e: die Nacht.",
+        "exampleGerman": "Guten Tag, Frau Weber! Gute Nacht!",
+        "exampleEnglish": "Good day, Ms Weber! Good night!"
+      }
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "REORDER",
+      "id": "s2q3",
+      "points": 3,
+      "topic": "Verabschieden",
+      "prompt": "Put the sentence in order:",
+      "builder": {
+        "fixedPrefix": "Auf",
+        "solutionWords": ["Wiedersehen", "Herr", "Hansen"],
+        "wordPool": ["Wiedersehen", "Herr", "Hansen", "Frau", "Weber", "Guten"]
+      },
+      "explanationEnglish": "The title Herr comes after Wiedersehen, then the last name.",
+      "concept": {
+        "title": "Verabschieden mit Titel",
+        "rule": "Say Auf Wiedersehen plus title and last name: Auf Wiedersehen, Herr Hansen.",
+        "exampleGerman": "Auf Wiedersehen, Frau Kowalski!",
+        "exampleEnglish": "Goodbye, Ms Kowalski!"
+      }
+    },
+    {
+      "type": "SUMMARY",
+      "variant": "RECAP",
+      "id": "s2_sum",
+      "title": "Was du jetzt kannst",
+      "bullets": [
+        "Grußformeln: Guten Morgen! · Guten Tag! · Guten Abend! · Gute Nacht!",
+        "Formell: Wie heißen Sie? · Wie ist Ihr Name? · Mein Name ist …",
+        "sein: ich bin · du bist · Sie sind.",
+        "heißen: ich heiße · du heißt · Sie heißen.",
+        "Verabschieden: Auf Wiedersehen!"
+      ]
+    }
+  ]
+}

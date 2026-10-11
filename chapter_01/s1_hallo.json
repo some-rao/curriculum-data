@@ -1,0 +1,188 @@
+{
+  "schemaVersion": 2,
+  "id": "s1_hallo",
+  "title": "Hallo! Tschüs!",
+  "blocks": [
+    {
+      "type": "LESSON_PAGE",
+      "variant": "VOCAB",
+      "id": "s1p1",
+      "headline": "1a Deutsch international",
+      "bodyGerman": "Russisch: buterbrod → das Butterbrot\nSerbisch: flaša → die Flasche\nBulgarisch: kufar → der Koffer\nIndonesisch: handuk → das Handtuch\nTürkisch: otoban → die Autobahn\nItalienisch: wurstel → das Würstchen\nEnglisch: kindergarten → der Kindergarten",
+      "bodyEnglish": "German words exist in many other languages. Match each foreign word to the German word. That is exercise 1a.",
+      "vocabHighlight": [
+        { "german": "das Butterbrot", "english": "bread and butter" },
+        { "german": "die Flasche", "english": "bottle — a container for drinks" },
+        { "german": "der Koffer", "english": "suitcase — a bag for travel" },
+        { "german": "das Handtuch", "english": "towel — a cloth for drying" },
+        { "german": "der Kindergarten", "english": "nursery school for small children" },
+        { "german": "die Autobahn", "english": "motorway — a fast road for cars" },
+        { "german": "das Würstchen", "english": "small sausage" }
+      ]
+    },
+    {
+      "type": "NOTE",
+      "variant": "CULTURE",
+      "id": "s1_n1",
+      "title": "Deutsch international",
+      "bodyEnglish": "Many German words are used in other languages. You may already know them: kindergarten, Autobahn, Handtuch."
+    },
+    {
+      "type": "LESSON_PAGE",
+      "variant": "DIALOGUE",
+      "id": "s1p2",
+      "headline": "2 Hallo! Tschüs!",
+      "bodyEnglish": "Julia and Niklas meet. They say hello, ask how they feel, and then say goodbye.",
+      "vocabHighlight": [
+        { "german": "Wie geht's?", "english": "How are you? — a friendly question" },
+        { "german": "Danke, sehr gut.", "english": "Thanks, very good. — a positive answer" },
+        { "german": "Und dir?", "english": "And you? — ask the same question back" },
+        { "german": "Wer bist du?", "english": "Who are you?" }
+      ],
+      "turns": [
+        { "speaker": "Julia", "german": "Hallo Niklas!", "english": "Hello Niklas!" },
+        { "speaker": "Niklas", "german": "Hallo Julia! Wie geht's dir?", "english": "Hello Julia! How are you?" },
+        { "speaker": "Julia", "german": "Danke, gut. Und dir?", "english": "Thanks, good. And you?" },
+        { "speaker": "Niklas", "german": "Auch gut, danke.", "english": "Also good, thanks." },
+        { "speaker": "Julia", "german": "Hallo, ich bin Julia. Und du? Wer bist du?", "english": "Hello, I am Julia. And you? Who are you?" },
+        { "speaker": "Niklas", "german": "Ich heiße Niklas.", "english": "My name is Niklas." },
+        { "speaker": "Julia", "german": "Tschüs!", "english": "Bye!" },
+        { "speaker": "Niklas", "german": "Tschüs Julia! Bis bald!", "english": "Bye Julia! See you soon!" },
+        { "speaker": "Nina", "german": "Ciao!", "english": "Bye!" }
+      ]
+    },
+    {
+      "type": "NOTE",
+      "variant": "USAGE",
+      "id": "s1_n2",
+      "title": "Informell: Hallo, Tschüs, Ciao",
+      "bodyEnglish": "Hallo and Tschüs are informal. Use them with friends and first names. Ciao comes from Italian."
+    },
+    {
+      "type": "LESSON_PAGE",
+      "variant": "GRAMMAR",
+      "id": "s1p3",
+      "headline": "heißen und sein",
+      "bodyGerman": "heißen: ich heiße · du heißt · Sie heißen\nsein: ich bin · du bist · Sie sind",
+      "bodyEnglish": "Two verbs introduce you. heißen means be called. sein means be. The ending changes with the person.",
+      "vocabHighlight": [
+        { "german": "heißen", "english": "to be called" },
+        { "german": "sein", "english": "to be" },
+        { "german": "du heißt", "english": "you are called (informal)" },
+        { "german": "Sie heißen", "english": "you are called (formal)" }
+      ]
+    },
+    {
+      "type": "PATTERN",
+      "variant": "FORMULA",
+      "id": "s1pat1",
+      "title": "Sich vorstellen",
+      "formula": "[ich/du/Sie] + heißen + [Name]  ·  [ich/du/Sie] + sein + [Name]  ·  Mein Name ist + [Name].",
+      "explanationEnglish": "Present yourself with heißen plus a name. sein plus a name works too. All three forms are correct.",
+      "examples": [
+        { "german": "Ich heiße Niklas.", "english": "My name is Niklas." },
+        { "german": "Ich bin Julia.", "english": "I am Julia." },
+        { "german": "Mein Name ist Nina Weber.", "english": "My name is Nina Weber." }
+      ]
+    },
+    {
+      "type": "EXAMPLES",
+      "variant": "PHRASE_LIST",
+      "id": "s1ex1",
+      "title": "Nach dem Befinden fragen",
+      "items": [
+        { "german": "Hallo!", "english": "Hello!" },
+        { "german": "Wie geht's?", "english": "How are you?" },
+        { "german": "Wie geht's dir?", "english": "How are you? (informal)" },
+        { "german": "Danke, sehr gut!", "english": "Thanks, very good!" },
+        { "german": "Und dir?", "english": "And you?" },
+        { "german": "Danke, gut.", "english": "Thanks, good." },
+        { "german": "Ganz gut.", "english": "Very good." },
+        { "german": "Tschüs!", "english": "Bye!" },
+        { "german": "Bis bald!", "english": "See you soon!" }
+      ]
+    },
+    {
+      "type": "VOCAB",
+      "variant": "CARD_SET",
+      "id": "s1v1",
+      "title": "Die Wörter aus 1a",
+      "wordIds": ["w_butterbrot", "w_flasche", "w_koffer", "w_handtuch", "w_kindergarten", "w_autobahn", "w_wuerstchen"]
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "MULTIPLE_CHOICE",
+      "id": "s1q1",
+      "points": 2,
+      "topic": "Sich vorstellen",
+      "passage": "Nina stellt sich vor:",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "Ich heiß Nina.",
+        "Ich heiße Nina.",
+        "Du heiße Nina."
+      ],
+      "correctIndex": 1,
+      "explanationEnglish": "After ich, heißen takes the ending -e: ich heiße. The du-form is du heißt.",
+      "concept": {
+        "title": "heißen",
+        "rule": "heißen: ich heiße · du heißt · er/sie heißt · Sie heißen. The ending marks the person.",
+        "exampleGerman": "Ich heiße Niklas.",
+        "exampleEnglish": "My name is Niklas."
+      }
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "FILL_BLANK",
+      "id": "s1q2",
+      "points": 3,
+      "topic": "Wie geht's?",
+      "prompt": "Fill the gap:",
+      "items": [
+        { "sentence": "Wie ___'s, Niklas?", "answers": ["geht"], "hint": "Wie geht's?" },
+        { "sentence": "Ich ___ Julia.", "answers": ["bin"], "hint": "sein, ich" },
+        { "sentence": "Danke, sehr ___!", "answers": ["gut"], "hint": "Antwort" }
+      ],
+      "explanationEnglish": "geht belongs to the fixed phrase Wie geht's. ich of sein is bin. The answer word is gut.",
+      "concept": {
+        "title": "Nach dem Befinden fragen",
+        "rule": "Ask: Wie geht's? Answer: Danke, sehr gut. / Danke, gut. / Ganz gut. Then ask back: Und dir?",
+        "exampleGerman": "Wie geht's? — Danke, sehr gut!",
+        "exampleEnglish": "How are you? — Thanks, very good!"
+      }
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "REORDER",
+      "id": "s1q3",
+      "points": 3,
+      "topic": "Satzstellung",
+      "prompt": "Put the sentence in order:",
+      "builder": {
+        "fixedPrefix": "Ich",
+        "solutionWords": ["heiße", "Niklas"],
+        "wordPool": ["heiße", "heißt", "Niklas", "bin", "Julia"]
+      },
+      "explanationEnglish": "The subject comes first, then the verb, then the name. ich takes the ending -e.",
+      "concept": {
+        "title": "Aussagesatz mit heißen",
+        "rule": "A statement has three parts: subject, verb, name. Ich heiße Niklas.",
+        "exampleGerman": "Ich heiße Niklas.",
+        "exampleEnglish": "My name is Niklas."
+      }
+    },
+    {
+      "type": "SUMMARY",
+      "variant": "RECAP",
+      "id": "s1_sum",
+      "title": "Was du jetzt kannst",
+      "bullets": [
+        "Begrüßen: Hallo! · Wie geht's?",
+        "Antworten: Danke, sehr gut. · Danke, gut. · Ganz gut.",
+        "Vorstellen: Ich heiße … · Ich bin … · Mein Name ist …",
+        "Verabschieden: Tschüs! · Ciao! · Bis bald!",
+        "1a: viele deutsche Wörter kennt man auch in anderen Sprachen."
+      ]
+    }
+  ]
+}

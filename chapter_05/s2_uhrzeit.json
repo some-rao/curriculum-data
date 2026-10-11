@@ -1,0 +1,192 @@
+{
+  "schemaVersion": 2,
+  "id": "s2_uhrzeit",
+  "title": "Wie spät ist es?",
+  "blocks": [
+    {
+      "type": "LESSON_PAGE",
+      "variant": "DIALOGUE",
+      "id": "s2p1",
+      "headline": "Die Uhrzeit sagen",
+      "bodyGerman": "A: Wie spät ist es? — B: Es ist Viertel vor drei.\nA: Wie viel Uhr ist es? — B: Es ist vierzehn Uhr fünfundvierzug.",
+      "bodyEnglish": "A: What time is it? — B: It is a quarter to three.\nA: What time is it? — B: It is fourteen forty-five.",
+      "vocabHighlight": [
+        { "german": "Wie spät ist es?", "english": "What time is it?" },
+        { "german": "Wie viel Uhr ist es?", "english": "What time is it? (second question)" },
+        { "german": "Viertel vor drei", "english": "a quarter to three" },
+        { "german": "vierzehn Uhr fünfundvierzug", "english": "fourteen forty-five" }
+      ]
+    },
+    {
+      "type": "NOTE",
+      "variant": "USAGE",
+      "id": "s2_n1",
+      "title": "Inoffiziell und offiziell",
+      "bodyEnglish": "Informal time counts the minutes to the next hour. 14:45 is fifteen minutes before three. Official time uses the 24-hour numbers: fourteen forty-five. Stations, doctors and offices use the official form."
+    },
+    {
+      "type": "LESSON_PAGE",
+      "variant": "GRAMMAR",
+      "id": "s2p2",
+      "headline": "Die Uhrzeit im Satz",
+      "bodyGerman": "Inoffiziell: Es ist zehn nach neun. Es ist Viertel vor drei. Es ist halb acht.\nOffiziell: Es ist neun Uhr zehn. Es ist vierzehn Uhr fünfundvierzug.\nFragen: Wann? — Um zehn nach neun. Um neun Uhr zehn.",
+      "bodyEnglish": "German says »Es ist …« for the time. Informal: »Es ist halb acht.« Official: »Es ist neun Uhr zehn.« For the question »wann?« add »um«: »Um halb acht.«",
+      "vocabHighlight": [
+        { "german": "nach", "english": "past" },
+        { "german": "vor", "english": "to / before" },
+        { "german": "halb acht", "english": "half past seven (8 is coming)" },
+        { "german": "um … Uhr", "english": "at … o'clock" }
+      ]
+    },
+    {
+      "type": "PATTERN",
+      "variant": "FORMULA",
+      "id": "s2pat1",
+      "title": "Die Uhrzeit inoffiziell",
+      "formula": "Es ist + [Minuten] nach/vor + [Stunde] · Es ist + halb + [nächste Stunde] · Es ist Viertel nach/vor + [Stunde].",
+      "explanationEnglish": "Informal time counts to the next hour. »halb acht« means 7:30. Eight is coming.",
+      "examples": [
+        { "german": "Es ist zehn nach neun.", "english": "It is ten past nine." },
+        { "german": "Es ist Viertel vor drei.", "english": "It is a quarter to three." },
+        { "german": "Es ist halb zwei.", "english": "It is half past one." }
+      ]
+    },
+    {
+      "type": "PATTERN",
+      "variant": "FORMULA",
+      "id": "s2pat2",
+      "title": "Die Uhrzeit offiziell",
+      "formula": "Es ist + [Stunde] Uhr + [Minute]. · Wann? Um + [Stunde] Uhr + [Minute].",
+      "explanationEnglish": "Official time uses the 24-hour clock. The hour comes first, then the minutes.",
+      "examples": [
+        { "german": "Es ist vierzehn Uhr fünfundvierzug.", "english": "It is fourteen forty-five." },
+        { "german": "Es ist dreizehn Uhr dreißig.", "english": "It is thirteen thirty." },
+        { "german": "Um neun Uhr zehn.", "english": "At nine ten." }
+      ]
+    },
+    {
+      "type": "BREAKDOWN",
+      "variant": "WORD_BY_WORD",
+      "id": "s2bd1",
+      "sentenceGerman": "Es ist Viertel vor drei.",
+      "sentenceEnglish": "It is a quarter to three.",
+      "tokens": [
+        { "token": "Viertel", "english": "quarter (fifteen minutes)" },
+        { "token": "vor", "english": "before / to" },
+        { "token": "drei", "english": "three" }
+      ]
+    },
+    {
+      "type": "EXAMPLES",
+      "variant": "PHRASE_LIST",
+      "id": "s2ex1",
+      "title": "Fragen nach der Zeit",
+      "items": [
+        { "german": "Wie spät ist es?", "english": "What time is it?" },
+        { "german": "Wie viel Uhr ist es?", "english": "What time is it? (second question)" },
+        { "german": "Wann frühstückst du?", "english": "When do you have breakfast?" },
+        { "german": "Um Viertel nach sieben.", "english": "At a quarter past seven." },
+        { "german": "Um vierzehn Uhr fünfundvierzug.", "english": "At fourteen forty-five." }
+      ]
+    },
+    {
+      "type": "VOCAB",
+      "variant": "CARD_SET",
+      "id": "s2v1",
+      "title": "Die Uhrzeit-Wörter",
+      "wordIds": ["w_uhr", "w_viertel", "w_wie_spaet"]
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "MULTIPLE_CHOICE",
+      "id": "s2q1",
+      "points": 2,
+      "passage": "14:45 Uhr — inoffiziell:",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "Es ist Viertel vor drei.",
+        "Es ist Viertel nach drei.",
+        "Es ist Viertel vor zwei."
+      ],
+      "correctIndex": 0,
+      "explanationEnglish": "14:45 is fifteen minutes before three o'clock. Informal German counts to the next hour.",
+      "concept": {
+        "title": "Inoffizielle Uhrzeit",
+        "rule": "Informal time counts the minutes to the next hour: nach = after, vor = before, halb = half.",
+        "exampleGerman": "Es ist Viertel vor drei.",
+        "exampleEnglish": "It is a quarter to three."
+      }
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "FILL_BLANK",
+      "id": "s2q2",
+      "points": 3,
+      "prompt": "Fill the gap:",
+      "items": [
+        { "sentence": "Wann? — ___ zehn nach neun.", "answers": ["um", "Um"], "hint": "Zeitangabe" },
+        { "sentence": "Es ist ___ nach neun.", "answers": ["zehn"], "hint": "Zahl" },
+        { "sentence": "Offiziell: Es ist ___ Uhr zehn.", "answers": ["neun"], "hint": "24-Stunden-Form" }
+      ],
+      "explanationEnglish": "»Um« introduces a time. Official time starts with the hour: neun Uhr zehn.",
+      "concept": {
+        "title": "Wann? — Um …",
+        "rule": "The question »wann?« is answered with »um« plus the time: um drei Uhr, um zehn nach neun.",
+        "exampleGerman": "Wann? — Um neun Uhr zehn.",
+        "exampleEnglish": "When? — At nine ten."
+      }
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "REORDER",
+      "id": "s2q3",
+      "points": 3,
+      "prompt": "Put the sentence in order:",
+      "builder": {
+        "fixedPrefix": "Um",
+        "solutionWords": ["zehn", "nach", "neun"],
+        "wordPool": ["zehn", "nach", "neun", "vor", "halb", "Um"]
+      },
+      "explanationEnglish": "»Um« comes first. Then the minutes, then »nach« and the hour.",
+      "concept": {
+        "title": "Zeitangabe mit um",
+        "rule": "»um« + minutes + nach/vor + hour. The minutes always come before the hour.",
+        "exampleGerman": "Um zehn nach neun.",
+        "exampleEnglish": "At ten past nine."
+      }
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "MULTIPLE_CHOICE",
+      "id": "s2q4",
+      "points": 2,
+      "passage": "Du willst die Uhrzeit wissen:",
+      "prompt": "Which question asks for the time?",
+      "options": [
+        "Wie viel Uhr ist es?",
+        "Wie viel kostet das?",
+        "Wo ist die Uhr?"
+      ],
+      "correctIndex": 0,
+      "explanationEnglish": "»Wie viel Uhr ist es?« asks the time. »Wie viel kostet …?« asks a price.",
+      "concept": {
+        "title": "Nach der Uhrzeit fragen",
+        "rule": "»Wie spät ist es?« and »Wie viel Uhr ist es?« both ask for the time.",
+        "exampleGerman": "Wie spät ist es? — Es ist halb acht.",
+        "exampleEnglish": "What time is it? — It is half past seven."
+      }
+    },
+    {
+      "type": "SUMMARY",
+      "variant": "RECAP",
+      "id": "s2_sum",
+      "title": "Was du jetzt kannst",
+      "bullets": [
+        "Fragen: Wie spät ist es? · Wie viel Uhr ist es?",
+        "Inoffiziell: Es ist halb acht. · Es ist Viertel vor drei.",
+        "Offiziell: Es ist siebzehn Uhr dreißig.",
+        "Wann? — Um halb acht. · Um neun Uhr zehn."
+      ]
+    }
+  ]
+}

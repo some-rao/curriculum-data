@@ -1,0 +1,140 @@
+{
+  "schemaVersion": 2,
+  "chapterId": "chapter_04",
+  "title": "Kapitel 4 — Goethe-Test",
+  "timeLimitMin": 10,
+  "passPercent": 70,
+  "blocks": [
+    {
+      "type": "LESSON_PAGE",
+      "variant": "READING",
+      "id": "q0_intro",
+      "headline": "Im Supermarkt",
+      "bodyGerman": "»Was möchten Sie?«\n»Ich möchte einen Käse, bitte.«\n»Sonst noch etwas? — Nein, danke.«",
+      "bodyEnglish": "Read the exchange, then answer the questions. Every question saves a concept to your concept book."
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "MULTIPLE_CHOICE",
+      "id": "q1",
+      "points": 2,
+      "topic": "Akkusativ",
+      "passage": "Wähle den richtigen Artikel:",
+      "prompt": "Which article is correct? »Ich kaufe ___ Käse.«",
+      "options": ["den", "der", "dem"],
+      "correctIndex": 0,
+      "explanationEnglish": "After kaufen the object is accusative. Masculine changes: der Käse → den Käse.",
+      "concept": {
+        "title": "Akkusativ",
+        "rule": "After brauchen, haben and kaufen the object is accusative: der → den, ein → einen, kein → keinen.",
+        "exampleGerman": "Ich kaufe den Käse und das Brot.",
+        "exampleEnglish": "I buy the cheese and the bread."
+      }
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "FILL_BLANK",
+      "id": "q2",
+      "points": 3,
+      "topic": "essen · mögen · möchten",
+      "prompt": "Fill the gaps with the correct form:",
+      "items": [
+        { "sentence": "Du ___ gern Käse.", "answers": ["isst", "magst"], "hint": "essen oder mögen, du" },
+        { "sentence": "Ich ___ einen Kaffee, bitte.", "answers": ["möchte"], "hint": "möchten, ich" },
+        { "sentence": "Mein Bruder ___ Obst.", "answers": ["mag"], "hint": "mögen, er" }
+      ],
+      "explanationEnglish": "essen: du isst. möchten: ich möchte. mögen: er mag. The stem vowel changes.",
+      "concept": {
+        "title": "essen · mögen · möchten",
+        "rule": "essen: ich esse, du isst. mögen: ich mag, du magst. möchten: ich möchte, du möchtest.",
+        "exampleGerman": "Du isst gern Käse. Ich möchte einen Kaffee.",
+        "exampleEnglish": "You like eating cheese. I would like a coffee."
+      }
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "MATCH",
+      "id": "q3",
+      "points": 3,
+      "topic": "Lebensmittel",
+      "prompt": "Match the German word to the meaning:",
+      "pairs": [
+        { "german": "der Käse", "english": "cheese" },
+        { "german": "das Brot", "english": "bread" },
+        { "german": "das Frühstück", "english": "breakfast" },
+        { "german": "die Bäckerei", "english": "bakery" },
+        { "german": "das Gemüse", "english": "vegetables" },
+        { "german": "der Orangensaft", "english": "orange juice" }
+      ],
+      "explanationEnglish": "Learn every food word with its article: der Käse, das Brot, die Bäckerei.",
+      "concept": {
+        "title": "Lebensmittel mit Artikel",
+        "rule": "Food words keep their article: der (masc.), die (fem.), das (neuter). All shops are feminine or masculine.",
+        "exampleGerman": "Zum Frühstück esse ich Brot mit Käse.",
+        "exampleEnglish": "For breakfast I eat bread with cheese."
+      }
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "REORDER",
+      "id": "q4_reorder",
+      "points": 4,
+      "topic": "Positionen im Satz",
+      "passage": "Baue den Satz in korrekter Reihenfolge:",
+      "prompt": "Build the sentence: »Mittags essen wir zusammen.«",
+      "builder": {
+        "fixedPrefix": "Mittags",
+        "solutionWords": ["essen", "wir", "zusammen"],
+        "wordPool": ["essen", "wir", "zusammen", "esst", "ich", "Morgen"]
+      },
+      "explanationEnglish": "The time word takes position 1. The conjugated verb »essen« stays in position 2.",
+      "concept": {
+        "title": "Positionen im Satz",
+        "rule": "The conjugated verb stands in position 2. The subject stands before or after the verb.",
+        "exampleGerman": "Morgens isst Lina Müsli.",
+        "exampleEnglish": "In the morning Lina eats muesli."
+      }
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "MULTIPLE_CHOICE",
+      "id": "q5",
+      "points": 2,
+      "topic": "Preise sprechen",
+      "passage": "Preise sprechen:",
+      "prompt": "How do you say 1,09 Euro?",
+      "options": ["ein Euro neun", "neun Euro eins", "hundertneun Cent"],
+      "correctIndex": 0,
+      "explanationEnglish": "German says the euros first, then the digits: 1,09 = ein Euro neun.",
+      "concept": {
+        "title": "Preise sprechen",
+        "rule": "Say euros first, then the digits: 1,09 Euro = ein Euro neun. Below one euro: 0,99 = neunundneunzig Cent.",
+        "exampleGerman": "2,20 Euro = zwei Euro zwanzig.",
+        "exampleEnglish": "2.20 euros = two euros twenty."
+      }
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "MATCH",
+      "id": "q6",
+      "points": 4,
+      "topic": "Redemittel",
+      "prompt": "Match the phrase to the meaning:",
+      "pairs": [
+        { "german": "Was möchten Sie?", "english": "What would you like?" },
+        { "german": "Sonst noch etwas?", "english": "Anything else?" },
+        { "german": "Ist das alles?", "english": "Is that all?" },
+        { "german": "Guten Appetit!", "english": "Enjoy your meal!" },
+        { "german": "Nein, danke. Ich bin satt.", "english": "No, thank you. I am full." },
+        { "german": "Wie viel kostet das?", "english": "How much does it cost?" }
+      ],
+      "explanationEnglish": "The shop and the table each have a fixed set of short phrases.",
+      "concept": {
+        "title": "Redemittel beim Einkaufen und beim Essen",
+        "rule": "Shop: Was möchten Sie? · Sonst noch etwas? · Ist das alles? Table: Guten Appetit! · Ich bin satt.",
+        "exampleGerman": "— Guten Appetit! — Danke, gleichfalls!",
+        "exampleEnglish": "— Enjoy your meal! — Thank you, same to you!"
+      }
+    }
+  ]
+}

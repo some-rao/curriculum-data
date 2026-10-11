@@ -3,30 +3,37 @@
   "chapterId": "chapter_01",
   "number": 1,
   "level": "A1",
-  "titleGerman": "Erste Schritte & Kennenlernen",
-  "titleEnglish": "First Steps & Introductions",
-  "descriptionEnglish": "Greetings, self-introduction, the V2 word-order rule, and the sounds that trip every English speaker.",
+  "titleGerman": "Guten Tag!",
+  "titleEnglish": "Hello & Goodbye",
+  "descriptionEnglish": "Greetings and farewells, introducing yourself and others, asking about wellbeing, countries and languages, numbers to 20, phone numbers and e-mail addresses.",
   "sections": [
     {
-      "id": "s1_begruessung",
-      "title": "Begrüßen & Vorstellen",
-      "file": "s1_begruessung.json",
-      "version": 2,
+      "id": "s1_hallo",
+      "title": "Hallo! Tschüs!",
+      "file": "s1_hallo.json",
+      "version": 1,
+      "estimatedMin": 7
+    },
+    {
+      "id": "s2_guten_tag",
+      "title": "Guten Tag! Auf Wiedersehen!",
+      "file": "s2_guten_tag.json",
+      "version": 1,
+      "estimatedMin": 7
+    },
+    {
+      "id": "s3_woher_kommen",
+      "title": "Woher kommen Sie?",
+      "file": "s3_woher_kommen.json",
+      "version": 1,
       "estimatedMin": 8
     },
     {
-      "id": "s2_satzbau",
-      "title": "Satzbau & Verb an Position 2",
-      "file": "s2_satzbau.json",
-      "version": 2,
+      "id": "s4_zahlen_kontakt",
+      "title": "Zahlen und Buchstaben",
+      "file": "s4_zahlen_kontakt.json",
+      "version": 1,
       "estimatedMin": 8
-    },
-    {
-      "id": "s3_aussprache",
-      "title": "Aussprache-Fallen",
-      "file": "s3_aussprache.json",
-      "version": 2,
-      "estimatedMin": 6
     }
   ],
   "vocabFile": "vocab.json",

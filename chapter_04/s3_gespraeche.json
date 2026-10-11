@@ -1,0 +1,171 @@
+{
+  "schemaVersion": 2,
+  "id": "s3_gespraeche",
+  "title": "Gespräche beim Einkaufen und beim Essen",
+  "blocks": [
+    {
+      "type": "LESSON_PAGE",
+      "variant": "DIALOGUE",
+      "id": "s3p1",
+      "headline": "Einkaufen im Supermarkt",
+      "bodyEnglish": "A works at the counter. B is a customer. Read the talk at the cheese counter first.",
+      "vocabHighlight": [
+        { "german": "ein Stück", "english": "a piece" },
+        { "german": "150 Gramm", "english": "150 grams" },
+        { "german": "Ist das alles?", "english": "Is that all?" }
+      ],
+      "turns": [
+        { "speaker": "A", "german": "Was möchten Sie?", "english": "What would you like?" },
+        { "speaker": "B", "german": "Ich möchte ein Stück Emmentaler, bitte.", "english": "I would like a piece of Emmentaler, please." },
+        { "speaker": "A", "german": "Sonst noch etwas?", "english": "Anything else?" },
+        { "speaker": "B", "german": "Ja, ich nehme noch 150 Gramm Schinken.", "english": "Yes, I take another 150 grams of ham." },
+        { "speaker": "A", "german": "Ist das alles?", "english": "Is that all?" },
+        { "speaker": "B", "german": "Ja, danke.", "english": "Yes, thank you." }
+      ]
+    },
+    {
+      "type": "NOTE",
+      "variant": "USAGE",
+      "id": "s3_n1",
+      "title": "Preise sprechen",
+      "bodyEnglish": "Say the price in words: 0,99 Euro = neunundneunzig Cent. 1,09 Euro = ein Euro neun. 2,20 Euro = zwei Euro zwanzig."
+    },
+    {
+      "type": "EXAMPLES",
+      "variant": "PHRASE_LIST",
+      "id": "s3ex1",
+      "title": "Gespräche beim Einkaufen führen",
+      "items": [
+        { "german": "Was möchten Sie?", "english": "What would you like?" },
+        { "german": "Sonst noch etwas?", "english": "Anything else?" },
+        { "german": "Ist das alles?", "english": "Is that all?" },
+        { "german": "Wo finde ich Reis?", "english": "Where do I find rice?" },
+        { "german": "Was kostet der Apfelsaft?", "english": "How much does the apple juice cost?" },
+        { "german": "Können Sie wechseln?", "english": "Can you give change?" },
+        { "german": "Ja, Moment.", "english": "Yes, one moment." }
+      ]
+    },
+    {
+      "type": "LESSON_PAGE",
+      "variant": "DIALOGUE",
+      "id": "s3p2",
+      "headline": "Die Grillparty",
+      "bodyEnglish": "A offers food at the barbecue. B and C are guests at the table.",
+      "vocabHighlight": [
+        { "german": "Guten Appetit!", "english": "Enjoy your meal!" },
+        { "german": "gleichfalls", "english": "same to you" },
+        { "german": "satt", "english": "full" }
+      ],
+      "turns": [
+        { "speaker": "A", "german": "Guten Appetit!", "english": "Enjoy your meal!" },
+        { "speaker": "B", "german": "Danke, gleichfalls!", "english": "Thank you, same to you!" },
+        { "speaker": "A", "german": "Möchtet ihr noch ein Würstchen?", "english": "Would you like another sausage?" },
+        { "speaker": "B", "german": "Ja, gerne. Die Würstchen sind wirklich lecker.", "english": "Yes, gladly. The sausages are really tasty." },
+        { "speaker": "C", "german": "Nein, danke. Ich bin satt.", "english": "No, thank you. I am full." }
+      ]
+    },
+    {
+      "type": "NOTE",
+      "variant": "CULTURE",
+      "id": "s3_n2",
+      "title": "Gut gesagt: Beim Essen",
+      "bodyEnglish": "Say Prost! and hear Zum Wohl! Say Guten Appetit! and hear Danke, gleichfalls! Mahlzeit! is a greeting at lunch."
+    },
+    {
+      "type": "LESSON_PAGE",
+      "variant": "GRAMMAR",
+      "id": "s3p3",
+      "headline": "möchten",
+      "bodyGerman": "ich möchte · du möchtest · er/sie möchte\nwir möchten · ihr möchtet · Sie möchten\n\nWas möchten Sie? — Ich möchte einen Kaffee, bitte.",
+      "bodyEnglish": "möchten means »would like«. It is a polite form. The endings are: -e, -st, -e, -en, -t, -en."
+    },
+    {
+      "type": "GRAMMAR",
+      "variant": "RULE",
+      "id": "s3g1",
+      "ruleHeadline": "möchten: höflich fragen",
+      "explanationEnglish": "möchten is polite for »want«. ich möchte · du möchtest · er möchte · wir möchten.",
+      "englishBridge": "English says: I want a coffee. German asks politely: Ich möchte einen Kaffee, bitte.",
+      "targetSentenceGerman": "Ich möchte einen Kaffee, bitte.",
+      "targetSentenceEnglish": "I would like a coffee, please.",
+      "builder": {
+        "fixedPrefix": "Ich",
+        "solutionWords": ["möchte", "einen", "Kaffee"],
+        "wordPool": ["möchte", "möchtest", "einen", "ein", "Kaffee", "Käse"]
+      }
+    },
+    {
+      "type": "BREAKDOWN",
+      "variant": "WORD_BY_WORD",
+      "id": "s3bd1",
+      "sentenceGerman": "Ich möchte einen Kaffee, bitte.",
+      "sentenceEnglish": "I would like a coffee, please.",
+      "tokens": [
+        { "token": "möchte", "english": "would like" },
+        { "token": "einen", "english": "a (accusative)" },
+        { "token": "Kaffee", "english": "coffee" },
+        { "token": "bitte", "english": "please" }
+      ]
+    },
+    {
+      "type": "VOCAB",
+      "variant": "CARD_SET",
+      "id": "s3v1",
+      "title": "Beim Einkaufen und beim Essen",
+      "wordIds": ["w_moechten", "w_essen", "w_nehmen", "w_kosten", "w_satt", "w_lecker"]
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "MULTIPLE_CHOICE",
+      "id": "s3q1",
+      "points": 2,
+      "topic": "möchten",
+      "passage": "Complete the sentence:",
+      "prompt": "Choose the correct word: »Ich ___ einen Kaffee, bitte.«",
+      "options": ["möchte", "möchten", "mag"],
+      "correctIndex": 0,
+      "explanationEnglish": "ich takes the ending -e: möchten → ich möchte. möchten is wir/Sie. mag means like.",
+      "concept": {
+        "title": "möchten",
+        "rule": "möchten means would like. ich möchte · du möchtest · er möchte · wir möchten · ihr möchtet · Sie möchten.",
+        "exampleGerman": "Ich möchte einen Kaffee, bitte.",
+        "exampleEnglish": "I would like a coffee, please."
+      }
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "MATCH",
+      "id": "s3q2",
+      "points": 4,
+      "prompt": "Match the phrase to the meaning:",
+      "pairs": [
+        { "german": "Guten Appetit!", "english": "Enjoy your meal!" },
+        { "german": "Sonst noch etwas?", "english": "Anything else?" },
+        { "german": "Ist das alles?", "english": "Is that all?" },
+        { "german": "Was kostet der Apfelsaft?", "english": "How much does the apple juice cost?" },
+        { "german": "Nein, danke. Ich bin satt.", "english": "No, thank you. I am full." },
+        { "german": "Ja, Moment.", "english": "Yes, one moment." }
+      ],
+      "explanationEnglish": "These phrases open and close a talk at the shop and at the table.",
+      "concept": {
+        "title": "Redemittel beim Einkaufen und beim Essen",
+        "rule": "Shop: Was möchten Sie? · Sonst noch etwas? · Ist das alles? Table: Guten Appetit! · Ich bin satt.",
+        "exampleGerman": "— Guten Appetit! — Danke, gleichfalls!",
+        "exampleEnglish": "— Enjoy your meal! — Thank you, same to you!"
+      }
+    },
+    {
+      "type": "SUMMARY",
+      "variant": "RECAP",
+      "id": "s3_sum",
+      "title": "Was du jetzt kannst",
+      "bullets": [
+        "Im Laden: Was möchten Sie? · Sonst noch etwas? · Ist das alles?",
+        "Preise: 1,09 Euro = ein Euro neun. · 0,99 Euro = neunundneunzig Cent.",
+        "Am Tisch: Guten Appetit! — Danke, gleichfalls!",
+        "möchten: ich möchte · du möchtest · er/sie möchte · wir möchten.",
+        "Akkusativ: Ich möchte einen Kaffee, bitte."
+      ]
+    }
+  ]
+}

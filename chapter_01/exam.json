@@ -9,87 +9,93 @@
       "type": "LESSON_PAGE",
       "variant": "READING",
       "id": "q0_intro",
-      "headline": "Am Telefon",
-      "bodyGerman": "»Guten Tag, hier ist Anna Berger.«\n»Guten Tag, wie kann ich Ihnen helfen?«",
-      "bodyEnglish": "Read the exchange once, then answer the questions that follow. Every question can pin a concept to your concept book."
+      "headline": "Guten Tag!",
+      "bodyGerman": "»Guten Tag! Wie heißen Sie?«\n»Mein Name ist Nina Weber.«\n»Woher kommen Sie?«\n»Ich komme aus Deutschland. Ich wohne in Frankfurt.«",
+      "bodyEnglish": "Read the exchange, then answer the questions. Every question saves a concept to your concept book."
     },
     {
       "type": "EXERCISE",
       "variant": "MULTIPLE_CHOICE",
       "id": "q1",
       "points": 2,
-      "topic": "Fragewörter",
-      "passage": "A: »_____ heißen Sie?«\nB: »Ich heiße Maria Weber.«",
-      "prompt": "Welches Fragewort passt?",
-      "options": ["Wie", "Woher", "Was"],
-      "correctIndex": 0,
-      "explanationEnglish": "'Wie heißen Sie?' literally 'How are you called?' — the standard way to ask a name.",
+      "topic": "Sich vorstellen",
+      "passage": "Sie sprechen mit Ihrem Lehrer:",
+      "prompt": "Which sentence introduces you correctly?",
+      "options": [
+        "Ich heiß Müller.",
+        "Ich bin heiß Müller.",
+        "Ich heiße Müller."
+      ],
+      "correctIndex": 2,
+      "explanationEnglish": "Use heißen with the ending -e after ich. Never combine bin and heißen.",
       "concept": {
-        "title": "Wie fragt nach Zuständigkeit",
-        "rule": "'Wie' asks about manner or identity: wie heißen, wie alt, wie bitte. 'Woher' asks origin, 'Was' asks for a thing.",
-        "exampleGerman": "Wie heißen Sie? — Ich heiße Maria.",
-        "exampleEnglish": "What's your name? — My name is Maria."
+        "title": "Sich vorstellen",
+        "rule": "ich heiße + Name · ich bin + Name · Mein Name ist + Name. bin and heißen are never combined.",
+        "exampleGerman": "Ich heiße Oliver Hansen.",
+        "exampleEnglish": "My name is Oliver Hansen."
       }
     },
     {
       "type": "EXERCISE",
-      "variant": "MULTIPLE_CHOICE",
+      "variant": "FILL_BLANK",
       "id": "q2",
-      "points": 2,
-      "topic": "Verbposition",
-      "passage": "Wähle die korrekte Wortstellung:",
-      "prompt": "Welcher Satz steht richtig?",
-      "options": [
-        "Aus Deutschland ich komme.",
-        "Ich komme aus Deutschland.",
-        "Ich aus Deutschland komme."
+      "points": 3,
+      "topic": "Verben und Personalpronomen",
+      "prompt": "Fill the gaps with the correct form:",
+      "items": [
+        { "sentence": "Ich ___ Nina Weber.", "answers": ["heiße"], "hint": "heißen, ich" },
+        { "sentence": "Du ___ in Köln.", "answers": ["wohnst"], "hint": "wohnen, du" },
+        { "sentence": "Sie ___ aus Brasilien.", "answers": ["kommen"], "hint": "kommen, Sie" }
       ],
-      "correctIndex": 1,
-      "explanationEnglish": "V2: the conjugated verb 'komme' must occupy position 2.",
+      "explanationEnglish": "ich takes -e, du takes -st, Sie takes -en: heiße, wohnst, kommen.",
       "concept": {
-        "title": "V2 — Verb an Position 2",
-        "rule": "In German statements the conjugated verb is always the second element. Whatever fills position 1, the verb follows immediately.",
-        "exampleGerman": "Heute wohne ich in Berlin.",
-        "exampleEnglish": "Today I live in Berlin. (verb still second!)"
+        "title": "Verben und Personalpronomen",
+        "rule": "Endings: ich -e · du -st · er/sie -t · Sie -en. sein: ich bin · du bist · Sie sind.",
+        "exampleGerman": "Ich heiße Nina. Du wohnst in Köln.",
+        "exampleEnglish": "My name is Nina. You live in Cologne."
       }
     },
     {
       "type": "EXERCISE",
       "variant": "REORDER",
       "id": "q3_reorder",
-      "points": 4,
-      "topic": "Verbposition",
-      "passage": "Baue den Satz in korrekter Reihenfolge:",
-      "prompt": "Ordne die Wörter zu einem richtigen Satz.",
-      "explanationEnglish": "Time word first, conjugated verb second, subject third — the V2 skeleton in one sentence.",
+      "points": 3,
+      "topic": "W-Frage",
+      "passage": "Baue die Frage in korrekter Reihenfolge:",
+      "prompt": "Build the question: »Woher kommst du?«",
       "builder": {
-        "fixedPrefix": "Heute",
-        "solutionWords": ["lerne", "ich", "Deutsch"],
-        "wordPool": ["lerne", "Deutsch", "ich", "lernen", "heute"]
+        "fixedPrefix": "Woher",
+        "solutionWords": ["kommst", "du"],
+        "wordPool": ["kommst", "komm", "du", "wohne", "ist"]
       },
+      "explanationEnglish": "The W-word comes first. Then the conjugated verb, then the person.",
       "concept": {
-        "title": "V2 im Satzbau",
-        "rule": "Zeitwort (Position 1) · konjugiertes Verb (Position 2) · Subjekt (Position 3). 'Heute lerne ich Deutsch.'",
-        "exampleGerman": "Morgen wohne ich in Wien.",
-        "exampleEnglish": "Tomorrow I live in Vienna."
+        "title": "W-Frage",
+        "rule": "W-word + conjugated verb + person: Woher kommst du? The statement is: Du kommst aus Frankfurt.",
+        "exampleGerman": "Woher kommst du? — Aus Frankfurt.",
+        "exampleEnglish": "Where do you come from? — From Frankfurt."
       }
     },
     {
       "type": "EXERCISE",
-      "variant": "MULTIPLE_CHOICE",
+      "variant": "MATCH",
       "id": "q4",
-      "points": 2,
-      "topic": "Konjugation",
-      "passage": "»Wo _____ Sie, Herr Schmidt?«",
-      "prompt": "Choose the correct ending for formal 'Sie':",
-      "options": ["wohnst", "wohnt", "wohnen"],
-      "correctIndex": 2,
-      "explanationEnglish": "Formal 'Sie' takes the infinitive -en ending: 'wohnen Sie'.",
+      "points": 3,
+      "topic": "Grüßen und verabschieden",
+      "prompt": "Match the German phrase to the English meaning:",
+      "pairs": [
+        { "german": "Guten Morgen!", "english": "Good morning!" },
+        { "german": "Guten Abend!", "english": "Good evening!" },
+        { "german": "Gute Nacht!", "english": "Good night!" },
+        { "german": "Auf Wiedersehen!", "english": "Goodbye!" },
+        { "german": "Wie geht's?", "english": "How are you?" }
+      ],
+      "explanationEnglish": "Guten + masculine nouns: der Morgen, der Abend. Only die Nacht takes Gute.",
       "concept": {
-        "title": "Formal Sie = infinitive form",
-        "rule": "The formal 'Sie' conjugates exactly like 'sie' (they): base verb + en. Always capitalized.",
-        "exampleGerman": "Wo wohnen Sie? — Ich wohne in Wien.",
-        "exampleEnglish": "Where do you live? — I live in Vienna."
+        "title": "Grüßen und Verabschieden",
+        "rule": "Guten Morgen, Guten Tag, Guten Abend, Gute Nacht. Auf Wiedersehen says goodbye.",
+        "exampleGerman": "Guten Tag, Frau Weber! Auf Wiedersehen!",
+        "exampleEnglish": "Good day, Ms Weber! Goodbye!"
       }
     },
     {
@@ -97,17 +103,41 @@
       "variant": "MULTIPLE_CHOICE",
       "id": "q5",
       "points": 2,
-      "topic": "Aussprache",
-      "passage": "Vokalverbindungen:",
-      "prompt": "How is 'ei' pronounced in 'heißen' and 'mein'?",
-      "options": ["Like 'ee' in see", "Like 'eye' in my", "Like 'ay' in say"],
-      "correctIndex": 1,
-      "explanationEnglish": "German 'ei' is always the 'eye' sound. 'ie' is the 'ee' sound.",
+      "topic": "Zahlen bis 20",
+      "passage": "Die Zahlen 11 bis 20:",
+      "prompt": "Which number word is correct for 16?",
+      "options": [
+        "sechzehn",
+        "sechszehn",
+        "sechs zehn"
+      ],
+      "correctIndex": 0,
+      "explanationEnglish": "sechs loses the final -s before -zehn: sechzehn. A space would make two words.",
       "concept": {
-        "title": "ei = eye, ie = ee",
-        "rule": "When e and i go walking, the LAST letter talks: 'ei' → [aɪ] (eye), 'ie' → [iː] (ee).",
-        "exampleGerman": "heißen [ˈhaɪsən] · Sie [ziː]",
-        "exampleEnglish": "'to be called' · 'you (formal)'"
+        "title": "Zahlen bis 20",
+        "rule": "Teen numbers end in -zehn and are one word: dreizehn, vierzehn, sechzehn, siebzehn, zwanzig.",
+        "exampleGerman": "16 = sechzehn · 20 = zwanzig",
+        "exampleEnglish": "16 = sixteen · 20 = twenty"
+      }
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "FILL_BLANK",
+      "id": "q6",
+      "points": 3,
+      "topic": "Herkunft und Wohnort",
+      "prompt": "Fill the gaps with the correct form:",
+      "items": [
+        { "sentence": "Ich ___ aus Deutschland.", "answers": ["komme"], "hint": "kommen, ich" },
+        { "sentence": "Welche Sprachen ___ du?", "answers": ["sprichst"], "hint": "sprechen, du" },
+        { "sentence": "Saki ___ in Berlin.", "answers": ["wohnt"], "hint": "wohnen, sie" }
+      ],
+      "explanationEnglish": "kommt aus shows the origin, wohnt in shows the home. The verb follows the person.",
+      "concept": {
+        "title": "kommt aus, wohnt in",
+        "rule": "kommt aus + origin. wohnt in + place. sprechen has a vowel change: du sprichst.",
+        "exampleGerman": "Ich komme aus Deutschland. Ich wohne in Frankfurt.",
+        "exampleEnglish": "I come from Germany. I live in Frankfurt."
       }
     }
   ]

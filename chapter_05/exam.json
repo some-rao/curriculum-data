@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 2,
+  "chapterId": "chapter_05",
+  "title": "Kapitel 5 — Goethe-Test",
+  "timeLimitMin": 10,
+  "passPercent": 70,
+  "blocks": [
+    {
+      "type": "LESSON_PAGE",
+      "variant": "READING",
+      "id": "q0_intro",
+      "headline": "Kurz wiederholen",
+      "bodyGerman": "»Wie spät ist es?« »Ich hätte gern einen Termin.« »Wir müssen jeden Tag arbeiten.«",
+      "bodyEnglish": "Read the three sentences once. Then answer the questions. Every question can pin a concept to your concept book."
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "MULTIPLE_CHOICE",
+      "id": "q1",
+      "points": 2,
+      "topic": "Uhrzeit",
+      "passage": "14:45 Uhr — inoffiziell:",
+      "prompt": "Welcher Satz ist richtig?",
+      "options": [
+        "Es ist Viertel vor drei.",
+        "Es ist Viertel nach drei.",
+        "Es ist halb drei."
+      ],
+      "correctIndex": 0,
+      "explanationEnglish": "14:45 is fifteen minutes before three o'clock. Informal German counts to the next hour.",
+      "concept": {
+        "title": "Inoffizielle Uhrzeit",
+        "rule": "Informal time counts the minutes to the next hour: nach = after, vor = before, halb = half.",
+        "exampleGerman": "Es ist Viertel vor drei.",
+        "exampleEnglish": "It is a quarter to three."
+      }
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "FILL_BLANK",
+      "id": "q2",
+      "points": 4,
+      "topic": "Zeitangaben",
+      "passage": "Familie Dobart — Termine:",
+      "prompt": "Fill the gap with am, um or von:",
+      "items": [
+        { "sentence": "Wann? — ___ Viertel vor drei.", "answers": ["um", "Um"], "hint": "Uhrzeit" },
+        { "sentence": "Florian hat ___ Samstag ein Spiel.", "answers": ["am"], "hint": "Tag" },
+        { "sentence": "Mara arbeitet ___ neun bis siebzehn Uhr.", "answers": ["von"], "hint": "Wie lange?" },
+        { "sentence": "Lena hat ___ Montag Geigenuntererricht.", "answers": ["am"], "hint": "Tag" }
+      ],
+      "explanationEnglish": "»um« introduces a clock time. »am« is for a day. »von … bis« marks a period of time.",
+      "concept": {
+        "title": "Zeitangaben: am, um, von … bis",
+        "rule": "am + Tag, um + Uhrzeit, von … bis + Zeitraum.",
+        "exampleGerman": "Mara arbeitet von neun bis siebzehn Uhr.",
+        "exampleEnglish": "Mara works from 9:00 to 17:00."
+      }
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "MULTIPLE_CHOICE",
+      "id": "q3",
+      "points": 2,
+      "topic": "Possessivartikel",
+      "passage": "»Ich besuche ___ Tochter von Mara.«",
+      "prompt": "Choose the correct possessive article:",
+      "options": ["mein", "meinen", "meine"],
+      "correctIndex": 2,
+      "explanationEnglish": "»die Tochter« is feminine. Feminine nouns keep »meine« in nominative and accusative.",
+      "concept": {
+        "title": "Possessivartikel",
+        "rule": "The possessive agrees with the noun: der → mein/meinen, das → mein, die → meine.",
+        "exampleGerman": "Meine Tochter wohnt in Kiel.",
+        "exampleEnglish": "My daughter lives in Kiel."
+      }
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "REORDER",
+      "id": "q4_reorder",
+      "points": 4,
+      "topic": "Modalverben",
+      "passage": "Baue den Satz in korrekter Reihenfolge:",
+      "prompt": "Ordne die Wörter zu einem richtigen Satz.",
+      "builder": {
+        "fixedPrefix": "Wir",
+        "solutionWords": ["müssen", "jeden", "Tag", "arbeiten"],
+        "wordPool": ["müssen", "jeden", "Tag", "arbeiten", "muss", "Tag", "wir"]
+      },
+      "explanationEnglish": "The modal verb »müssen« is second. The main verb »arbeiten« goes to the end.",
+      "concept": {
+        "title": "Modalverben: die Satzklammer",
+        "rule": "The conjugated modal verb sits in position 2. The main verb goes to the end as an infinitive.",
+        "exampleGerman": "Wir müssen jeden Tag arbeiten.",
+        "exampleEnglish": "We must work every day."
+      }
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "MATCH",
+      "id": "q5",
+      "points": 4,
+      "topic": "Redemittel",
+      "prompt": "Match the German sentence to the English meaning:",
+      "pairs": [
+        { "german": "Ich hätte gern einen Termin.", "english": "I would like an appointment." },
+        { "german": "Es tut mir leid, ich bin zu spät.", "english": "I am sorry, I am late." },
+        { "german": "Meine Schwester wohnt in Kiel.", "english": "My sister lives in Kiel." },
+        { "german": "Wir können nicht ins Kino gehen.", "english": "We cannot go to the cinema." }
+      ],
+      "explanationEnglish": "Read each German sentence. Find the English sentence with the same meaning.",
+      "concept": {
+        "title": "Redemittel der Lektion",
+        "rule": "Fix an appointment, apologize for being late, talk about your family, and make a plan.",
+        "exampleGerman": "Ich hätte gern einen Termin.",
+        "exampleEnglish": "I would like an appointment."
+      }
+    }
+  ]
+}

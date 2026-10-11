@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 2,
+  "chapterId": "chapter_03",
+  "title": "Kapitel 3 — In Hamburg",
+  "timeLimitMin": 10,
+  "passPercent": 70,
+  "blocks": [
+    {
+      "type": "EXERCISE",
+      "variant": "MULTIPLE_CHOICE",
+      "id": "q1",
+      "points": 2,
+      "topic": "Artikel",
+      "passage": "»Das ist ___ Kunsthalle. Das ist ein Museum.«",
+      "prompt": "Choose the correct article:",
+      "options": ["der", "die", "das"],
+      "correctIndex": 1,
+      "explanationEnglish": "Kunsthalle is feminine. Feminine nouns take the article die.",
+      "concept": {
+        "title": "Artikel: der, die, das",
+        "rule": "Every noun has an article: der (masculine), die (feminine) or das (neuter).",
+        "exampleGerman": "Das ist die Kunsthalle.",
+        "exampleEnglish": "That is the art gallery."
+      }
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "FILL_BLANK",
+      "id": "q2",
+      "points": 3,
+      "prompt": "Fill the gap with kein:",
+      "items": [
+        { "sentence": "Das ist ___ See. Das ist ein Fluss.", "answers": ["kein"], "hint": "no lake" },
+        { "sentence": "Das ist ___ Kirche. Das ist das Rathaus.", "answers": ["kein"], "hint": "no church" }
+      ],
+      "explanationEnglish": "kein replaces ein and eine in a negative sentence. It works for all three genders.",
+      "concept": {
+        "title": "Negationsartikel kein",
+        "rule": "kein replaces ein and eine in a negative sentence with a noun.",
+        "exampleGerman": "Das ist kein See.",
+        "exampleEnglish": "That is no lake."
+      }
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "MATCH",
+      "id": "q3",
+      "points": 3,
+      "prompt": "Match the German direction to the English word:",
+      "pairs": [
+        { "german": "rechts", "english": "right" },
+        { "german": "links", "english": "left" },
+        { "german": "geradeaus", "english": "straight ahead" },
+        { "german": "gehen", "english": "to walk / go" }
+      ],
+      "explanationEnglish": "These three words describe a direction. The verb gehen says to move on foot.",
+      "concept": {
+        "title": "Richtungen",
+        "rule": "links = left, rechts = right, geradeaus = straight ahead.",
+        "exampleGerman": "Gehen Sie rechts.",
+        "exampleEnglish": "Go right."
+      }
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "REORDER",
+      "id": "q4_reorder",
+      "points": 4,
+      "prompt": "Put the sentence in order:",
+      "builder": {
+        "fixedPrefix": "",
+        "solutionWords": ["Gehen", "Sie", "rechts", "und", "dann", "geradeaus", "."],
+        "wordPool": ["Gehen", "Sie", "rechts", "und", "dann", "geradeaus", ".", "du", "links"]
+      },
+      "explanationEnglish": "The imperative starts with the verb. Sie is the polite form. The period goes at the end.",
+      "concept": {
+        "title": "Imperativ mit Sie",
+        "rule": "A polite order starts with the verb, then Sie.",
+        "exampleGerman": "Gehen Sie rechts.",
+        "exampleEnglish": "Go right."
+      }
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "MULTIPLE_CHOICE",
+      "id": "q5",
+      "points": 2,
+      "topic": "Monate",
+      "passage": "»Das Konzert ist im ___ . Es ist der siebte Monat.«",
+      "prompt": "Choose the correct month:",
+      "options": ["Juni", "Juli", "August"],
+      "correctIndex": 1,
+      "explanationEnglish": "Juli is the seventh month of the year. Juni is the sixth and August is the eighth.",
+      "concept": {
+        "title": "Monate",
+        "rule": "German has twelve months. Juli is the seventh month.",
+        "exampleGerman": "Das Konzert ist im Juli.",
+        "exampleEnglish": "The concert is in July."
+      }
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "FILL_BLANK",
+      "id": "q6",
+      "points": 3,
+      "prompt": "Fill the gap with the correct word:",
+      "items": [
+        { "sentence": "Der Sommer ist ___.", "answers": ["schön"], "hint": "beautiful" },
+        { "sentence": "Der Winter ist ___.", "answers": ["kalt"], "hint": "cold" },
+        { "sentence": "Die Tage sind ___.", "answers": ["lang"], "hint": "long" }
+      ],
+      "explanationEnglish": "Adjectives after sein stay in their plain form. They take no ending.",
+      "concept": {
+        "title": "Adjektiv mit sein",
+        "rule": "Adjectives after sein stay in their plain form with no ending.",
+        "exampleGerman": "Der Sommer ist schön.",
+        "exampleEnglish": "The summer is beautiful."
+      }
+    }
+  ]
+}
