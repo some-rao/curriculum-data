@@ -22,22 +22,68 @@
       "variant": "GRAMMAR",
       "id": "s4p2",
       "headline": "mögen",
-      "bodyGerman": "ich mag · du magst · er/sie mag\nwir mögen · ihr mögt · sie/Sie mögen\n\nIch esse gern Schokolade. = Ich mag Schokolade.",
-      "bodyEnglish": "mögen means »to like«. ich and er/sie change the vowel: mag. gern and mögen say the same."
+      "bodyEnglish": "mögen means »to like«.\nThe vowel changes: ich mag, du magst, er mag.",
+      "bodyGerman": "Ich mag Schokolade. — Ich esse gern Schokolade.",
+      "vocabHighlight": [
+        { "german": "mögen", "english": "to like" },
+        { "german": "essen", "english": "to eat" }
+      ]
     },
     {
       "type": "GRAMMAR",
       "variant": "RULE",
       "id": "s4g1",
-      "ruleHeadline": "mögen: ich mag",
-      "explanationEnglish": "mögen is irregular. The stem vowel changes: ich mag, du magst, er mag.",
-      "englishBridge": "English says: I like chocolate. German has two options: Ich mag Schokolade. Ich esse gern Schokolade.",
+      "ruleHeadline": "mögen: ich mag · du magst · er/sie mag …",
+      "explanationEnglish": "mögen means »to like«. It is an irregular verb: the vowel changes.\nich and er/sie change ö to a: ich mag, er/sie mag.\nFull paradigm: ich mag · du magst · er/sie mag · wir mögen · ihr mögt · sie/Sie mögen.\ndu and ihr carry the endings -st and -t: du magst, ihr mögt.\nTrap: English keeps one form (like). German changes the stem and the ending.",
+      "englishBridge": "English: I like chocolate. — German has two options: Ich mag Schokolade. · Ich esse gern Schokolade.",
       "targetSentenceGerman": "Ich mag Obst und Gemüse.",
       "targetSentenceEnglish": "I like fruit and vegetables.",
+      "examples": [
+        { "german": "Ich mag die Suppe.", "english": "I like the soup." },
+        { "german": "Du magst die Suppe.", "english": "You like the soup. (informal)" },
+        { "german": "Er mag die Suppe.", "english": "He likes the soup." },
+        { "german": "Wir mögen die Suppe.", "english": "We like the soup." },
+        { "german": "Ihr mögt die Suppe.", "english": "You all like the soup." },
+        { "german": "Sie mögen die Suppe.", "english": "You like the soup. (formal) / They like the soup." }
+      ]
+    },
+    {
+      "type": "GRAMMAR",
+      "variant": "RULE",
+      "id": "s4g2",
+      "ruleHeadline": "essen: ich esse · du isst · er/sie isst …",
+      "explanationEnglish": "essen means »to eat«. It is an irregular verb.\nThe stem vowel changes with du and er/sie: e → i.\nFull paradigm: ich esse · du isst · er/sie isst.\nwir essen · ihr esst · sie/Sie essen.\nTrap: ✗ Du esse. → ✓ Du isst. The ich-form never works for du.\ngern comes after the verb: Ich esse gern Müsli.",
+      "englishBridge": "English uses eat for every person. German changes the stem: ich esse, du isst.",
+      "targetSentenceGerman": "Zum Frühstück esse ich das Brot.",
+      "targetSentenceEnglish": "For breakfast I eat bread.",
+      "examples": [
+        { "german": "Ich esse das Brot.", "english": "I eat the bread." },
+        { "german": "Du isst das Brot.", "english": "You eat the bread. (informal)" },
+        { "german": "Er isst das Brot.", "english": "He eats the bread." },
+        { "german": "Wir essen das Brot.", "english": "We eat the bread." },
+        { "german": "Ihr esst das Brot.", "english": "You all eat the bread." },
+        { "german": "Sie essen das Brot.", "english": "You eat the bread. (formal) / They eat the bread." }
+      ]
+    },
+    {
+      "type": "GRAMMAR",
+      "variant": "RULE",
+      "id": "s4g3",
+      "ruleHeadline": "Position von nicht",
+      "explanationEnglish": "nicht means not. It stands as far back as the sentence allows.\nWith a full verb: nicht goes before the last word: Ich mag Obst nicht.\nWith a modal verb: nicht goes before the infinitive: Ich möchte nicht essen.\nWith sein: nicht comes directly after the verb: Ich bin nicht satt.\nTrap: English uses »do« (I do not like). German has no helper verb.\nTo negate a noun use kein, not nicht: Ich mag keine Gurken.",
+      "englishBridge": "English: I do not like fruit. — German has no »do« and puts nicht at the end.",
+      "targetSentenceGerman": "Ich mag Obst nicht.",
+      "targetSentenceEnglish": "I do not like fruit.",
+      "examples": [
+        { "german": "Ich mag Obst nicht.", "english": "I do not like fruit." },
+        { "german": "Ich möchte nicht essen.", "english": "I do not want to eat." },
+        { "german": "Ich bin nicht satt.", "english": "I am not full." },
+        { "german": "Ich mag keine Gurken.", "english": "I do not like cucumbers. (kein, not nicht)" }
+      ],
       "builder": {
         "fixedPrefix": "Ich",
-        "solutionWords": ["mag", "Schokolade"],
-        "wordPool": ["mag", "magst", "mögen", "Schokolade", "Obst"]
+        "solutionWords": ["mag", "Obst", "nicht"],
+        "wordPool": ["mag", "Obst", "nicht", "kein", "keine", "essen"]
       }
     },
     {
@@ -70,7 +116,8 @@
       "variant": "TIP",
       "id": "s4_n1",
       "title": "Wörter ordnen und lernen",
-      "bodyEnglish": "Learn words in groups: Lebensmittel, Getränke, Geschäfte, Mahlzeiten. Learn words in pairs: das Brot und das Brötchen."
+      "bodyEnglish": "Learn words in groups: Lebensmittel, Getränke, Geschäfte, Mahlzeiten.\nLearn words in pairs: das Brot und das Brötchen = bread and bread roll.\ndas Salz und der Pfeffer = salt and pepper.\nder Essig und das Öl = vinegar and oil.",
+      "bodyGerman": "das Brot und das Brötchen\ndas Salz und der Pfeffer\nder Essig und das Öl"
     },
     {
       "type": "EXAMPLES",
@@ -155,19 +202,6 @@
         "exampleGerman": "das Brot und das Brötchen",
         "exampleEnglish": "bread and bread roll"
       }
-    },
-    {
-      "type": "SUMMARY",
-      "variant": "RECAP",
-      "id": "s4_sum",
-      "title": "Was du jetzt kannst",
-      "bullets": [
-        "Vorlieben: Ich esse gern Schokolade. · Ich mag Schokolade.",
-        "mögen: ich mag · du magst · er/sie mag · wir mögen · ihr mögt · sie mögen.",
-        "Mahlzeiten: das Frühstück · das Mittagessen · das Abendessen.",
-        "Das Verb steht auf Position 2: Morgens isst Lina Müsli.",
-        "Strategie: Wörter in Gruppen und Paaren lernen."
-      ]
     }
   ]
 }

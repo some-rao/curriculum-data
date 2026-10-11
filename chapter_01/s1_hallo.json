@@ -8,16 +8,15 @@
       "variant": "VOCAB",
       "id": "s1p1",
       "headline": "1a Deutsch international",
-      "bodyGerman": "Russisch: buterbrod → das Butterbrot\nSerbisch: flaša → die Flasche\nBulgarisch: kufar → der Koffer\nIndonesisch: handuk → das Handtuch\nTürkisch: otoban → die Autobahn\nItalienisch: wurstel → das Würstchen\nEnglisch: kindergarten → der Kindergarten",
-      "bodyEnglish": "German words exist in many other languages. Match each foreign word to the German word. That is exercise 1a.",
+      "bodyEnglish": "Many German words are used in other languages.\nMatch each foreign word to the German word — that is exercise 1a.",
       "vocabHighlight": [
-        { "german": "das Butterbrot", "english": "bread and butter" },
-        { "german": "die Flasche", "english": "bottle — a container for drinks" },
-        { "german": "der Koffer", "english": "suitcase — a bag for travel" },
-        { "german": "das Handtuch", "english": "towel — a cloth for drying" },
-        { "german": "der Kindergarten", "english": "nursery school for small children" },
-        { "german": "die Autobahn", "english": "motorway — a fast road for cars" },
-        { "german": "das Würstchen", "english": "small sausage" }
+        { "german": "das Butterbrot", "english": "bread and butter — Russian: buterbrod" },
+        { "german": "die Flasche", "english": "bottle — Serbian: flaša" },
+        { "german": "der Koffer", "english": "suitcase — Bulgarian: kufar" },
+        { "german": "das Handtuch", "english": "towel — Indonesian: handuk" },
+        { "german": "der Kindergarten", "english": "kindergarten — English: kindergarten" },
+        { "german": "die Autobahn", "english": "motorway — Turkish: otoban" },
+        { "german": "das Würstchen", "english": "small sausage — Italian: wurstel" }
       ]
     },
     {
@@ -25,7 +24,8 @@
       "variant": "CULTURE",
       "id": "s1_n1",
       "title": "Deutsch international",
-      "bodyEnglish": "Many German words are used in other languages. You may already know them: kindergarten, Autobahn, Handtuch."
+      "bodyEnglish": "Many German words are used in other languages.\nYou may already know some of them.\nThink of kindergarten, Autobahn and Handtuch.",
+      "bodyGerman": "der Kindergarten\ndie Autobahn\ndas Handtuch"
     },
     {
       "type": "LESSON_PAGE",
@@ -56,20 +56,54 @@
       "variant": "USAGE",
       "id": "s1_n2",
       "title": "Informell: Hallo, Tschüs, Ciao",
-      "bodyEnglish": "Hallo and Tschüs are informal. Use them with friends and first names. Ciao comes from Italian."
+      "bodyEnglish": "Hallo and Tschüs are informal.\nUse them with friends and with first names.\nCiao comes from Italian.",
+      "bodyGerman": "Hallo!\nTschüs!\nCiao!"
     },
     {
       "type": "LESSON_PAGE",
       "variant": "GRAMMAR",
       "id": "s1p3",
       "headline": "heißen und sein",
-      "bodyGerman": "heißen: ich heiße · du heißt · Sie heißen\nsein: ich bin · du bist · Sie sind",
-      "bodyEnglish": "Two verbs introduce you. heißen means be called. sein means be. The ending changes with the person.",
+      "bodyEnglish": "Two verbs introduce you: heißen means be called, sein means be.\nThe rule card below gives every form for every person.",
       "vocabHighlight": [
         { "german": "heißen", "english": "to be called" },
-        { "german": "sein", "english": "to be" },
+        { "german": "sein", "english": "to be" }
+      ]
+    },
+    {
+      "type": "GRAMMAR",
+      "variant": "RULE",
+      "id": "s1g1",
+      "ruleHeadline": "sein: ich bin, du bist, er/sie/es ist …",
+      "explanationEnglish": "sein means be. It is irregular, so learn the six forms as one block.\nThe full row: ich bin, du bist, er/sie/es ist, wir sind, ihr seid, sie/Sie sind.\nEvery person has its own word. There is no ending to add.\nTrap: English uses are for almost every person. German does not.\nCapital Sie is the polite form. It always takes sind, like sie (they).",
+      "englishBridge": "English you are covers two words: du bist (informal) and Sie sind (formal).",
+      "targetSentenceGerman": "Ich bin Julia. Sie sind neu hier.",
+      "targetSentenceEnglish": "I am Julia. You are new here.",
+      "examples": [
+        { "german": "ich bin", "english": "I am" },
+        { "german": "du bist", "english": "you are (informal)" },
+        { "german": "er/sie/es ist", "english": "he/she/it is" },
+        { "german": "wir sind", "english": "we are" },
+        { "german": "ihr seid", "english": "you all are (informal)" },
+        { "german": "sie/Sie sind", "english": "they are / you are (formal)" }
+      ]
+    },
+    {
+      "type": "GRAMMAR",
+      "variant": "RULE",
+      "id": "s1g2",
+      "ruleHeadline": "heißen: ich heiße, du heißt, er/sie heißt",
+      "explanationEnglish": "heißen means be called. It gives your name.\nThe stem is heiß-. Add the ending of the person: ich -e, du -t, er/sie -t.\nAll six forms: ich heiße, du heißt, er/sie heißt, wir heißen, ihr heißt, sie/Sie heißen.\nThe du-form ends in -t, not -st: after ß the ending -st becomes -t.\nTrap: ich needs its -e: ✗ Ich heiß Nina. → ✓ Ich heiße Nina.",
+      "englishBridge": "English uses call; German uses heißen: Ich heiße Niklas = I am called Niklas.",
+      "targetSentenceGerman": "Ich heiße Niklas. Wie heißen Sie?",
+      "targetSentenceEnglish": "My name is Niklas. What is your name?",
+      "examples": [
+        { "german": "ich heiße", "english": "I am called" },
         { "german": "du heißt", "english": "you are called (informal)" },
-        { "german": "Sie heißen", "english": "you are called (formal)" }
+        { "german": "er/sie heißt", "english": "he/she is called" },
+        { "german": "wir heißen", "english": "we are called" },
+        { "german": "ihr heißt", "english": "you all are called (informal)" },
+        { "german": "sie/Sie heißen", "english": "they are called / you are called (formal)" }
       ]
     },
     {
@@ -170,19 +204,6 @@
         "exampleGerman": "Ich heiße Niklas.",
         "exampleEnglish": "My name is Niklas."
       }
-    },
-    {
-      "type": "SUMMARY",
-      "variant": "RECAP",
-      "id": "s1_sum",
-      "title": "Was du jetzt kannst",
-      "bullets": [
-        "Begrüßen: Hallo! · Wie geht's?",
-        "Antworten: Danke, sehr gut. · Danke, gut. · Ganz gut.",
-        "Vorstellen: Ich heiße … · Ich bin … · Mein Name ist …",
-        "Verabschieden: Tschüs! · Ciao! · Bis bald!",
-        "1a: viele deutsche Wörter kennt man auch in anderen Sprachen."
-      ]
     }
   ]
 }

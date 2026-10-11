@@ -1,0 +1,186 @@
+{
+  "schemaVersion": 2,
+  "id": "s4_events",
+  "title": "Events und Jahreszeiten",
+  "blocks": [
+    {
+      "type": "LESSON_PAGE",
+      "variant": "READING",
+      "id": "s4p1",
+      "headline": "Events in Hamburg",
+      "bodyGerman": "Veranstaltungstipps für Hamburg:\n1) Hamburger Theater-Festival, 12. bis 18. Oktober. Theater aus Deutschland, Österreich und der Schweiz. Tickets ab 12,50 Euro.\n2) Orchester aus aller Welt, 25. Oktober. Das Orchester spielt das Requiem von Wolfgang Amadeus Mozart. Das Konzert beginnt um 20:00 Uhr. Eintritt ab 29 Euro.\n3) Kino für alle, 27. September bis 6. Oktober. Die Leute sehen über 100 Filme. Der Regisseur Fatih Akin präsentiert dem Publikum seinen neuen Film.",
+      "bodyEnglish": "Event tips for Hamburg:\n1) Hamburg Theatre Festival, 12 to 18 October. Theatres from Germany, Austria and Switzerland. Tickets from 12.50 euros.\n2) Orchestras from all over the world, 25 October. The orchestra plays the Requiem by Wolfgang Amadeus Mozart. The concert starts at 8 pm. Entry from 29 euros.\n3) Cinema for all, 27 September to 6 October. People see over 100 films. Director Fatih Akin presents his new film to the audience.",
+      "vocabHighlight": [
+        { "german": "das Theater", "english": "theatre" },
+        { "german": "das Festival", "english": "festival" },
+        { "german": "das Orchester", "english": "orchestra" },
+        { "german": "das Konzert", "english": "concert" },
+        { "german": "der Film", "english": "film" },
+        { "german": "der Chor", "english": "choir" }
+      ]
+    },
+    {
+      "type": "NOTE",
+      "variant": "TIP",
+      "id": "s4_n1",
+      "title": "Internationale Wörter",
+      "bodyEnglish": "Many German words look like English words. They are international words.\nRead them with German sounds: das Festival = the festival, das Orchester = the orchestra.\nThis trick helps you understand long texts fast.",
+      "bodyGerman": "das Festival\n das Orchester\n der Film\n das Publikum"
+    },
+    {
+      "type": "EXAMPLES",
+      "variant": "PHRASE_LIST",
+      "id": "s4ex1",
+      "title": "Die zwölf Monate",
+      "items": [
+        { "german": "Januar", "english": "January" },
+        { "german": "Februar", "english": "February" },
+        { "german": "März", "english": "March" },
+        { "german": "April", "english": "April" },
+        { "german": "Mai", "english": "May" },
+        { "german": "Juni", "english": "June" },
+        { "german": "Juli", "english": "July" },
+        { "german": "August", "english": "August" },
+        { "german": "September", "english": "September" },
+        { "german": "Oktober", "english": "October" },
+        { "german": "November", "english": "November" },
+        { "german": "Dezember", "english": "December" }
+      ]
+    },
+    {
+      "type": "LESSON_PAGE",
+      "variant": "VOCAB",
+      "id": "s4v1",
+      "headline": "Kultur und Zeit",
+      "bodyEnglish": "Culture and time words for Hamburg.\nLearn every word with its article.",
+      "vocabHighlight": [
+        { "german": "das Theater", "english": "theatre" },
+        { "german": "das Festival", "english": "festival" },
+        { "german": "das Orchester", "english": "orchestra" },
+        { "german": "das Konzert", "english": "concert" },
+        { "german": "der Film", "english": "film" },
+        { "german": "der Chor", "english": "choir" },
+        { "german": "der Monat", "english": "month" },
+        { "german": "die Jahreszeit", "english": "season" }
+      ]
+    },
+    {
+      "type": "VOCAB",
+      "variant": "CARD_SET",
+      "id": "s4v2",
+      "title": "Die Kernwörter: Kultur und Zeit",
+      "wordIds": ["w_theater", "w_festival", "w_orchester", "w_konzert", "w_film", "w_chor", "w_monat", "w_jahreszeit"]
+    },
+    {
+      "type": "LESSON_PAGE",
+      "variant": "GRAMMAR",
+      "id": "s4g0",
+      "headline": "Wann? Jahreszeiten und Monate",
+      "bodyEnglish": "In Hamburg there are four seasons and twelve months.\nGerman uses im before a season: im Sommer, im Winter.\nim is a short form of in + dem."
+    },
+    {
+      "type": "GRAMMAR",
+      "variant": "RULE",
+      "id": "s4g1",
+      "ruleHeadline": "im Frühling, im Sommer, im Herbst, im Winter",
+      "explanationEnglish": "There are twelve months: Januar, Februar, März, April, Mai, Juni, Juli, August, September, Oktober, November, Dezember.\nThere are four seasons with gender: der Frühling, der Sommer, der Herbst, der Winter.\nUse im before a season. im = in + dem. Never say »in dem Sommer« out loud.\nMonths and seasons start with a capital letter.\nTrap: English says in winter. German says im Winter — the article is inside the word.",
+      "englishBridge": "English: in winter, in summer. German: im Winter, im Sommer — im carries the article der.",
+      "targetSentenceGerman": "Im Sommer fahren die Schiffe auf der Elbe.",
+      "targetSentenceEnglish": "In summer the ships sail on the Elbe.",
+      "examples": [
+        { "german": "im Winter", "english": "in winter" },
+        { "german": "im Frühling", "english": "in spring" },
+        { "german": "im Sommer", "english": "in summer" },
+        { "german": "im Herbst", "english": "in autumn" },
+        { "german": "Ich schwimme im Sommer.", "english": "I swim in summer." },
+        { "german": "Wir fahren im Herbst nach Hamburg.", "english": "We travel to Hamburg in autumn." }
+      ]
+    },
+    {
+      "type": "GRAMMAR",
+      "variant": "RULE",
+      "id": "s4g2",
+      "ruleHeadline": "Adjektiv mit sein: Der Turm ist hoch.",
+      "explanationEnglish": "After sein (is) an adjective stays in its base form: Der Turm ist hoch.\nUse it for size and age: alt, hoch, breit, groß, jung, neu.\nWith numbers: Der Turm ist 112 Meter hoch.\nWord order: subject — ist — adjective — end of sentence.\nTrap: no ending for the adjective after ist. Do not add -er or -e.",
+      "englishBridge": "English: the tower is 112 metres high — same order. The adjective stays unchanged after sein.",
+      "targetSentenceGerman": "Der Turm ist 112 Meter hoch.",
+      "targetSentenceEnglish": "The tower is 112 metres high.",
+      "examples": [
+        { "german": "Der Turm ist 112 Meter hoch.", "english": "The tower is 112 metres high." },
+        { "german": "Der Hafen ist groß.", "english": "The harbour is big." },
+        { "german": "Das Rathaus ist über 120 Jahre alt.", "english": "The town hall is over 120 years old." },
+        { "german": "Die Straße ist 111 Meter breit.", "english": "The street is 111 metres wide." },
+        { "german": "Das Hotel ist neu.", "english": "The hotel is new." }
+      ]
+    },
+    {
+      "type": "WRITING",
+      "variant": "WORD_POOL",
+      "id": "s4w1",
+      "promptEnglish": "Say: In winter I go to the museum.",
+      "solutionWords": ["Im", "Winter", "gehe", "ich", "ins", "Museum"],
+      "wordPool": ["Im", "Winter", "Sommer", "gehe", "ich", "ins", "Museum", "geht"]
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "MULTIPLE_CHOICE",
+      "id": "s4q1",
+      "points": 2,
+      "topic": "im + Jahreszeit",
+      "passage": "»Wir fahren ___ Sommer nach Hamburg.«",
+      "prompt": "Choose the correct word:",
+      "options": ["in", "im", "an"],
+      "correctIndex": 1,
+      "explanationEnglish": "Before a season German uses im. im is short for in + dem: im Sommer, im Winter.",
+      "concept": {
+        "title": "im + Jahreszeit",
+        "rule": "Seasons take im: im Winter, im Frühling, im Sommer, im Herbst.",
+        "exampleGerman": "Wir fahren im Sommer nach Hamburg.",
+        "exampleEnglish": "We travel to Hamburg in summer."
+      }
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "FILL_BLANK",
+      "id": "s4q2",
+      "points": 3,
+      "topic": "Adjektiv mit sein",
+      "prompt": "Fill the gap with the correct adjective:",
+      "items": [
+        { "sentence": "Der Turm ist 132 Meter ___.", "answers": ["hoch"], "hint": "Der Michel" },
+        { "sentence": "Der Hafen ist ___.", "answers": ["groß"], "hint": "Der Hafen ist sehr groß." },
+        { "sentence": "Das Rathaus ist über 120 Jahre ___.", "answers": ["alt"], "hint": "Das Rathaus ist nicht neu." }
+      ],
+      "explanationEnglish": "After ist the adjective stays in its base form: hoch, groß, alt. No ending is added.",
+      "concept": {
+        "title": "Adjektiv mit sein",
+        "rule": "Subject + ist + adjective. The adjective has no ending after sein.",
+        "exampleGerman": "Der Turm ist 112 Meter hoch.",
+        "exampleEnglish": "The tower is 112 metres high."
+      }
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "MATCH",
+      "id": "s4q3",
+      "points": 3,
+      "topic": "Monate und Jahreszeiten",
+      "prompt": "Match the German word to the English one:",
+      "pairs": [
+        { "german": "der Januar", "english": "January" },
+        { "german": "der März", "english": "March" },
+        { "german": "der Oktober", "english": "October" },
+        { "german": "der Dezember", "english": "December" },
+        { "german": "der Sommer", "english": "summer" },
+        { "german": "der Herbst", "english": "autumn" }
+      ],
+      "explanationEnglish": "Months and seasons are nouns with a capital letter. The seasons all take der.",
+      "concept": {
+        "title": "Monate und Jahreszeiten",
+        "rule": "Months: Januar bis Dezember. Seasons: der Frühling, der Sommer, der Herbst, der Winter.",
+        "exampleGerman": "Oktober und Dezember sind Monate.",
+        "exampleEnglish": "October and December are months."
+      }
+    }
+  ]
+}

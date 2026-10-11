@@ -23,22 +23,26 @@
       "variant": "USAGE",
       "id": "s1_n1",
       "title": "Dann erzählt die Reihenfolge",
-      "bodyEnglish": "Use »dann« and »danach« to tell events in order. Both words start the sentence. The verb stays in position 2."
+      "bodyEnglish": "Use »dann« and »danach« to tell events in order.\nBoth words start the sentence.\nThe conjugated verb stays in position 2.",
+      "bodyGerman": "Am Morgen duscht Kaan. Dann frühstückt er.\nDanach fährt er in die Uni."
     },
     {
       "type": "LESSON_PAGE",
       "variant": "VOCAB",
       "id": "s1p2",
       "headline": "Aktivitäten am Wochenende",
-      "bodyEnglish": "These words describe a free day. Say the activity with the verb first, then the person.",
+      "bodyEnglish": "These words describe a free day.\nLearn each verb in its dictionary form.",
+      "bodyGerman": "Am Morgen dusche ich und danach frühstücke ich.",
       "vocabHighlight": [
-        { "german": "Zeitung lesen", "english": "to read the newspaper" },
-        { "german": "lange schlafen", "english": "to sleep long" },
-        { "german": "Fußball spielen", "english": "to play football" },
-        { "german": "Freunde treffen", "english": "to meet friends" },
-        { "german": "in den Supermarkt gehen", "english": "to go to the supermarket" },
-        { "german": "ins Kino gehen", "english": "to go to the cinema" },
-        { "german": "am Computer arbeiten", "english": "to work on the computer" }
+        { "german": "frühstücken", "english": "to have breakfast" },
+        { "german": "duschen", "english": "to shower" },
+        { "german": "schlafen", "english": "to sleep" },
+        { "german": "treffen", "english": "to meet" },
+        { "german": "die Zeitung", "english": "the newspaper" },
+        { "german": "der Kaffee", "english": "the coffee" },
+        { "german": "das Kino", "english": "the cinema" },
+        { "german": "der Supermarkt", "english": "the supermarket" },
+        { "german": "das Büro", "english": "the office" }
       ]
     },
     {
@@ -48,6 +52,47 @@
       "headline": "Und dein Tag?",
       "bodyGerman": "Morgens trinke ich einen Kaffee und esse Müsli mit Obst. Dann gehe ich ins Büro.\nAm Sonntag schläft Kaan lange. Er isst mit der Familie zu Mittag und geht ins Kino.",
       "bodyEnglish": "In the morning I drink a coffee and eat muesli with fruit. Then I go to the office.\nOn Sunday Kaan sleeps long. He eats lunch with the family and goes to the cinema."
+    },
+    {
+      "type": "GRAMMAR",
+      "variant": "RULE",
+      "id": "s1g1",
+      "ruleHeadline": "Tageszeiten mit »am«: am Morgen, am Abend",
+      "explanationEnglish": "Tageszeiten are parts of the day: der Morgen, der Nachmittag, der Abend.\nEach part of the day is masculine, so you say »am« plus the day part.\nThe forms are: am Morgen, am Nachmittag, am Abend, am Wochenende.\nA named day also takes »am«: am Montag, am Samstag, am Sonntag.\nTrap: English says »in the morning« — German has no »in« here, only »am«.",
+      "englishBridge": "In English you say in the morning — German drops »in« and uses only »am«.",
+      "targetSentenceGerman": "Am Abend besucht er seine Oma.",
+      "targetSentenceEnglish": "In the evening he visits his grandma.",
+      "examples": [
+        { "german": "der Morgen → am Morgen", "english": "the morning → in the morning" },
+        { "german": "der Nachmittag → am Nachmittag", "english": "the afternoon → in the afternoon" },
+        { "german": "der Abend → am Abend", "english": "the evening → in the evening" },
+        { "german": "das Wochenende → am Wochenende", "english": "the weekend → at the weekend" },
+        { "german": "der Montag → am Montag", "english": "Monday → on Monday" },
+        { "german": "Am Morgen duscht Kaan.", "english": "In the morning Kaan showers." },
+        { "german": "Am Sonntag schläft Kaan lange.", "english": "On Sunday Kaan sleeps long." }
+      ]
+    },
+    {
+      "type": "GRAMMAR",
+      "variant": "RULE",
+      "id": "s1g2",
+      "ruleHeadline": "Die Zeitangabe steht an Position 1",
+      "explanationEnglish": "A German statement has two slots at the front: position 1 and position 2.\nThe time word takes position 1: am Morgen, dann, am Samstag.\nThe conjugated verb always takes position 2.\nThe subject follows the verb: am Morgen duscht Kaan.\nTrap: never start with the subject and put the time after the verb.",
+      "englishBridge": "In English you may say Kaan showers in the morning — German puts the time first.",
+      "targetSentenceGerman": "Am Samstag trifft er Freunde.",
+      "targetSentenceEnglish": "On Saturday he meets friends.",
+      "examples": [
+        { "german": "Am Morgen duscht Kaan.", "english": "In the morning Kaan showers." },
+        { "german": "Dann frühstückt er.", "english": "Then he has breakfast." },
+        { "german": "Danach fährt er in die Uni.", "english": "After that he goes to the university." },
+        { "german": "Am Samstag trifft er Freunde.", "english": "On Saturday he meets friends." },
+        { "german": "Am Abend besucht er seine Oma.", "english": "In the evening he visits his grandma." }
+      ],
+      "builder": {
+        "fixedPrefix": "Am Samstag",
+        "solutionWords": ["trifft", "er", "Freunde"],
+        "wordPool": ["trifft", "er", "Freunde", "treffen", "Kaan", "lernt"]
+      }
     },
     {
       "type": "PATTERN",
@@ -148,18 +193,6 @@
         { "sentence": "Am Abend ___ er seine Oma.", "answers": ["besucht"], "hint": "besuchen" }
       ],
       "explanationEnglish": "»Kaan« and »er« take a -t ending: schläft, besucht. The form »ich« takes no ending: trinke."
-    },
-    {
-      "type": "SUMMARY",
-      "variant": "RECAP",
-      "id": "s1_sum",
-      "title": "Was du jetzt kannst",
-      "bullets": [
-        "Tagesablauf: Am Morgen duscht Kaan. Dann frühstückt er.",
-        "Wochenende: Am Sonntag schläft Kaan lange.",
-        "Aktivitäten: Zeitung lesen · Freunde treffen · ins Kino gehen.",
-        "Merke: Zeitangabe zuerst, Verb an Position 2."
-      ]
     }
   ]
 }

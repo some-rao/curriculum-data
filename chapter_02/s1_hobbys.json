@@ -8,8 +8,7 @@
       "variant": "VOCAB",
       "id": "s1p1",
       "headline": "Hobbys",
-      "bodyGerman": "fotografieren · singen · kochen · schwimmen · reisen\ntanzen · joggen · lesen · Musik hören · ins Kino gehen",
-      "bodyEnglish": "A hobby is an activity you do because you like it. These ten hobbies are the topic of Lektion 2. Say each word with its meaning.",
+      "bodyEnglish": "These ten hobbies are the core words of Lektion 2.\nSay each word with its meaning.",
       "vocabHighlight": [
         { "german": "fotografieren", "english": "to take photos" },
         { "german": "singen", "english": "to sing" },
@@ -48,25 +47,35 @@
       "variant": "USAGE",
       "id": "s1_n1",
       "title": "Drei Antworten auf »… gern?«",
-      "bodyEnglish": "There are three standard answers. Ja, sehr gern. = yes, a lot. Nein, nicht so gern. = not really. Es geht so. = so-so. Use them with a smile."
+      "bodyEnglish": "There are three standard answers.\n»Ja, sehr gern.« = yes, a lot.\n»Nein, nicht so gern.« = not really.\n»Es geht so.« = so-so.",
+      "bodyGerman": "Ja, sehr gern.\nNein, nicht so gern.\nEs geht so."
     },
     {
       "type": "LESSON_PAGE",
       "variant": "GRAMMAR",
       "id": "s1p3",
       "headline": "Das Verb bei »ich« und »du«",
-      "bodyGerman": "ich koche · du kochst · er/sie kocht\nwir kochen · ihr kocht · sie/Sie kochen\n\nich lese · du liest · er/sie liest",
-      "bodyEnglish": "Every verb changes its ending with the person. The endings are: ich -e, du -st, er/sie -t, wir -en, ihr -t, sie/Sie -en. Two verbs also change the vowel: lesen → du liest, singen → du singst."
+      "bodyEnglish": "Every German verb changes its ending with the person.\nA few verbs also change the vowel: lesen → du liest."
     },
     {
       "type": "GRAMMAR",
       "variant": "RULE",
       "id": "s1g1",
-      "ruleHeadline": "Präsens: die Endungen -e, -st, -t",
-      "explanationEnglish": "German has one present tense. Take the infinitive, drop -en, add the ending. ich -e, du -st, er/sie -t, wir -en, ihr -t, sie/Sie -en.",
-      "englishBridge": "English says 'I cook, you cook'. German marks the person: ich koche, du kochst.",
+      "ruleHeadline": "Präsens: ich -e · du -st · er/sie -t",
+      "explanationEnglish": "German has one present tense. It covers now, today and every day.\nTake the infinitive, drop -en and add the ending for the person.\nFull set: ich -e, du -st, er/sie/es -t, wir -en, ihr -t, sie/Sie -en.\nSome verbs change the vowel: lesen → du liest, singen → du singst.\nTrap: Sie takes -en like they. ✗ Sie kocht. → ✓ Sie kochen.",
+      "englishBridge": "English keeps one form: I cook, you cook, we cook. German marks every person: ich koche, du kochst, er kocht.",
       "targetSentenceGerman": "Du kochst gern.",
       "targetSentenceEnglish": "You like to cook.",
+      "examples": [
+        { "german": "ich koche", "english": "I cook" },
+        { "german": "du kochst", "english": "you cook (informal)" },
+        { "german": "er/sie/es kocht", "english": "he/she/it cooks" },
+        { "german": "wir kochen", "english": "we cook" },
+        { "german": "ihr kocht", "english": "you all cook" },
+        { "german": "sie/Sie kochen", "english": "they cook / you cook (formal)" },
+        { "german": "du liest", "english": "you read — vowel change" },
+        { "german": "du singst", "english": "you sing — vowel change" }
+      ],
       "builder": {
         "fixedPrefix": "Du",
         "solutionWords": ["kochst", "gern"],
@@ -90,7 +99,25 @@
       "variant": "MISTAKE",
       "id": "s1_n2",
       "title": "»Du koche«",
-      "bodyEnglish": "The du-form needs -st, and some verbs change the vowel. ✗ Du koche gern. → ✓ Du kochst gern. ✗ Du lese. → ✓ Du liest."
+      "bodyEnglish": "The du-form takes -st, not -e.\n✗ Du koche gern. → ✓ Du kochst gern.\nSome verbs also change the vowel.\n✗ Du lese. → ✓ Du liest.",
+      "bodyGerman": "Du kochst gern.\nDu liest gern."
+    },
+    {
+      "type": "GRAMMAR",
+      "variant": "RULE",
+      "id": "s1g2",
+      "ruleHeadline": "Verneinung mit nicht",
+      "explanationEnglish": "nicht means not. It makes a sentence or a phrase negative.\nPut nicht after the conjugated verb: Ich koche nicht.\nWith an object, nicht goes before the object or to the end.\nFor a soft hobby answer use nicht so gern.\nTrap: ✗ Ich nicht koche gern. → ✓ Ich koche nicht gern.",
+      "englishBridge": "English needs do for a question and puts not after it: I do not cook. German puts nicht at the end.",
+      "targetSentenceGerman": "Ich koche nicht gern.",
+      "targetSentenceEnglish": "I do not like to cook.",
+      "examples": [
+        { "german": "Ich koche nicht.", "english": "I do not cook." },
+        { "german": "Ich lese nicht gern.", "english": "I do not like reading." },
+        { "german": "Nein, nicht so gern.", "english": "No, not really." },
+        { "german": "Das geht leider nicht.", "english": "That does not work, sorry." },
+        { "german": "Ich arbeite am Sonntag nicht.", "english": "I do not work on Sunday." }
+      ]
     },
     {
       "type": "EXAMPLES",
@@ -152,18 +179,6 @@
         { "german": "joggen", "english": "to jog" }
       ],
       "explanationEnglish": "All these words are infinitives. They all end in -en: kochen, schwimmen, tanzen."
-    },
-    {
-      "type": "SUMMARY",
-      "variant": "RECAP",
-      "id": "s1_sum",
-      "title": "Was du jetzt kannst",
-      "bullets": [
-        "Hobbys: kochen · schwimmen · tanzen · singen · lesen · joggen.",
-        "gern steht hinter dem Verb: Ich koche gern.",
-        "Präsens: ich -e · du -st · er/sie -t · wir -en · ihr -t · sie/Sie -en.",
-        "Fragen: Was machst du gern? — Ja, sehr gern. / Nein, nicht so gern. / Es geht so."
-      ]
     }
   ]
 }

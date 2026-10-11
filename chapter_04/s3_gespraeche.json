@@ -28,7 +28,8 @@
       "variant": "USAGE",
       "id": "s3_n1",
       "title": "Preise sprechen",
-      "bodyEnglish": "Say the price in words: 0,99 Euro = neunundneunzig Cent. 1,09 Euro = ein Euro neun. 2,20 Euro = zwei Euro zwanzig."
+      "bodyEnglish": "Say the price in words.\nUnder one euro: 0,99 Euro = neunundneunzig Cent.\nFrom one euro: 1,09 Euro = ein Euro neun.\n2,20 Euro = zwei Euro zwanzig.",
+      "bodyGerman": "0,99 Euro = neunundneunzig Cent\n1,09 Euro = ein Euro neun\n2,20 Euro = zwei Euro zwanzig"
     },
     {
       "type": "EXAMPLES",
@@ -43,6 +44,23 @@
         { "german": "Was kostet der Apfelsaft?", "english": "How much does the apple juice cost?" },
         { "german": "Können Sie wechseln?", "english": "Can you give change?" },
         { "german": "Ja, Moment.", "english": "Yes, one moment." }
+      ]
+    },
+    {
+      "type": "GRAMMAR",
+      "variant": "RULE",
+      "id": "s3g2",
+      "ruleHeadline": "Preise: Das kostet drei Euro",
+      "explanationEnglish": "kosten means »to cost«. The price comes after the verb.\nThe verb kostet fits every single thing: das Brot, der Käse, die Gurke.\nA plural subject takes kosten: die Tomaten kosten zwei Euro.\nAsk with »Was kostet …?«: Was kostet der Apfelsaft?\nTrap: English asks »How much is it?« German asks with das: Was kostet das?",
+      "englishBridge": "English: How much is it? — German asks with das: Was kostet das?",
+      "targetSentenceGerman": "Das kostet drei Euro.",
+      "targetSentenceEnglish": "That costs three euros.",
+      "examples": [
+        { "german": "Das kostet drei Euro.", "english": "That costs three euros." },
+        { "german": "Der Käse kostet vier Euro.", "english": "The cheese costs four euros." },
+        { "german": "Die Tomaten kosten zwei Euro.", "english": "The tomatoes cost two euros." },
+        { "german": "Was kostet der Apfelsaft?", "english": "How much does the apple juice cost?" },
+        { "german": "Das kostet neunundneunzig Cent.", "english": "That costs ninety-nine cents." }
       ]
     },
     {
@@ -69,29 +87,58 @@
       "variant": "CULTURE",
       "id": "s3_n2",
       "title": "Gut gesagt: Beim Essen",
-      "bodyEnglish": "Say Prost! and hear Zum Wohl! Say Guten Appetit! and hear Danke, gleichfalls! Mahlzeit! is a greeting at lunch."
+      "bodyEnglish": "Say »Prost!« and hear »Zum Wohl!«\nSay »Guten Appetit!« and hear »Danke, gleichfalls!«\nMahlzeit! is a greeting at lunch time.",
+      "bodyGerman": "Prost! — Zum Wohl!\nGuten Appetit! — Danke, gleichfalls!\nMahlzeit!"
     },
     {
       "type": "LESSON_PAGE",
       "variant": "GRAMMAR",
       "id": "s3p3",
       "headline": "möchten",
-      "bodyGerman": "ich möchte · du möchtest · er/sie möchte\nwir möchten · ihr möchtet · Sie möchten\n\nWas möchten Sie? — Ich möchte einen Kaffee, bitte.",
-      "bodyEnglish": "möchten means »would like«. It is a polite form. The endings are: -e, -st, -e, -en, -t, -en."
+      "bodyEnglish": "möchten means »would like«.\nIt is the polite way to ask for food or drinks.",
+      "bodyGerman": "Was möchten Sie? — Ich möchte einen Kaffee, bitte.",
+      "vocabHighlight": [
+        { "german": "möchten", "english": "would like" }
+      ]
     },
     {
       "type": "GRAMMAR",
       "variant": "RULE",
       "id": "s3g1",
-      "ruleHeadline": "möchten: höflich fragen",
-      "explanationEnglish": "möchten is polite for »want«. ich möchte · du möchtest · er möchte · wir möchten.",
-      "englishBridge": "English says: I want a coffee. German asks politely: Ich möchte einen Kaffee, bitte.",
+      "ruleHeadline": "möchten: ich möchte · du möchtest · er möchte …",
+      "explanationEnglish": "möchten means »would like«. It is polite for »want«.\nFull paradigm: ich möchte · du möchtest · er/sie möchte.\nwir möchten · ihr möchtet · sie/Sie möchten.\nTrap: ich and er/sie take no extra ending: ich möchte, er möchte.\nIn the shop and at the table always ask with Sie: Was möchten Sie?",
+      "englishBridge": "English says »I want a coffee«. German asks politely: »Ich möchte einen Kaffee, bitte.«",
       "targetSentenceGerman": "Ich möchte einen Kaffee, bitte.",
       "targetSentenceEnglish": "I would like a coffee, please.",
+      "examples": [
+        { "german": "Ich möchte einen Kaffee.", "english": "I would like a coffee." },
+        { "german": "Du möchtest einen Kaffee.", "english": "You would like a coffee. (informal)" },
+        { "german": "Er möchte einen Kaffee.", "english": "He would like a coffee." },
+        { "german": "Wir möchten einen Kaffee.", "english": "We would like a coffee." },
+        { "german": "Ihr möchtet einen Kaffee.", "english": "You all would like a coffee." },
+        { "german": "Sie möchten einen Kaffee.", "english": "You would like a coffee. (formal) / They would like a coffee." }
+      ]
+    },
+    {
+      "type": "GRAMMAR",
+      "variant": "RULE",
+      "id": "s3g3",
+      "ruleHeadline": "Modalverb: das Vollverb steht am Ende",
+      "explanationEnglish": "A modal verb takes position 2. The second verb moves to the end as an infinitive.\nExample: Ich möchte einen Kaffee trinken. — trinken stands at the end.\nA question starts with the modal: Möchtet ihr noch ein Würstchen?\nWith no second verb, the modal stays alone: Was möchten Sie?\nTrap: English keeps both verbs together. German splits them to the two ends.",
+      "englishBridge": "English: I would like to drink. — German splits the verbs: modal in position 2, infinitive at the end.",
+      "targetSentenceGerman": "Ich möchte einen Kaffee trinken.",
+      "targetSentenceEnglish": "I would like to drink a coffee.",
+      "examples": [
+        { "german": "Ich möchte einen Kaffee trinken.", "english": "I would like to drink a coffee." },
+        { "german": "Wir möchten ein Brot kaufen.", "english": "We would like to buy a bread." },
+        { "german": "Möchtet ihr noch ein Würstchen?", "english": "Would you like another sausage?" },
+        { "german": "Können Sie wechseln?", "english": "Can you give change?" },
+        { "german": "Was möchten Sie?", "english": "What would you like?" }
+      ],
       "builder": {
         "fixedPrefix": "Ich",
-        "solutionWords": ["möchte", "einen", "Kaffee"],
-        "wordPool": ["möchte", "möchtest", "einen", "ein", "Kaffee", "Käse"]
+        "solutionWords": ["möchte", "Kaffee", "trinken"],
+        "wordPool": ["möchte", "möchtest", "Kaffee", "trinken", "kaufen", "isst"]
       }
     },
     {
@@ -153,19 +200,6 @@
         "exampleGerman": "— Guten Appetit! — Danke, gleichfalls!",
         "exampleEnglish": "— Enjoy your meal! — Thank you, same to you!"
       }
-    },
-    {
-      "type": "SUMMARY",
-      "variant": "RECAP",
-      "id": "s3_sum",
-      "title": "Was du jetzt kannst",
-      "bullets": [
-        "Im Laden: Was möchten Sie? · Sonst noch etwas? · Ist das alles?",
-        "Preise: 1,09 Euro = ein Euro neun. · 0,99 Euro = neunundneunzig Cent.",
-        "Am Tisch: Guten Appetit! — Danke, gleichfalls!",
-        "möchten: ich möchte · du möchtest · er/sie möchte · wir möchten.",
-        "Akkusativ: Ich möchte einen Kaffee, bitte."
-      ]
     }
   ]
 }

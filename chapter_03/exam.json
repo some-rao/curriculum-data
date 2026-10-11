@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
   "chapterId": "chapter_03",
-  "title": "Kapitel 3 — In Hamburg",
-  "timeLimitMin": 10,
+  "title": "Kapitel 3 — In Hamburg: Goethe-Test",
+  "timeLimitMin": 15,
   "passPercent": 70,
   "blocks": [
     {
@@ -10,17 +10,17 @@
       "variant": "MULTIPLE_CHOICE",
       "id": "q1",
       "points": 2,
-      "topic": "Artikel",
-      "passage": "»Das ist ___ Kunsthalle. Das ist ein Museum.«",
+      "topic": "bestimmter Artikel",
+      "passage": "»Das ist ___ Hafen von Hamburg.«",
       "prompt": "Choose the correct article:",
       "options": ["der", "die", "das"],
-      "correctIndex": 1,
-      "explanationEnglish": "Kunsthalle is feminine. Feminine nouns take the article die.",
+      "correctIndex": 0,
+      "explanationEnglish": "Both people know the harbour, so you use the definite article. Hafen is masculine: der Hafen.",
       "concept": {
-        "title": "Artikel: der, die, das",
-        "rule": "Every noun has an article: der (masculine), die (feminine) or das (neuter).",
-        "exampleGerman": "Das ist die Kunsthalle.",
-        "exampleEnglish": "That is the art gallery."
+        "title": "der / das / die",
+        "rule": "Known thing: use the definite article der (m), das (n) or die (f).",
+        "exampleGerman": "Das ist der Hafen von Hamburg.",
+        "exampleEnglish": "That is the harbour of Hamburg."
       }
     },
     {
@@ -28,56 +28,61 @@
       "variant": "FILL_BLANK",
       "id": "q2",
       "points": 3,
-      "prompt": "Fill the gap with kein:",
+      "topic": "Negationsartikel",
+      "prompt": "Fill the gap with kein or keine:",
       "items": [
-        { "sentence": "Das ist ___ See. Das ist ein Fluss.", "answers": ["kein"], "hint": "no lake" },
-        { "sentence": "Das ist ___ Kirche. Das ist das Rathaus.", "answers": ["kein"], "hint": "no church" }
+        { "sentence": "Das ist ___ U-Bahn.", "answers": ["keine"], "hint": "die U-Bahn" },
+        { "sentence": "Das ist ___ Bus.", "answers": ["kein"], "hint": "der Bus" },
+        { "sentence": "Das sind ___ Autos.", "answers": ["keine"], "hint": "Plural" }
       ],
-      "explanationEnglish": "kein replaces ein and eine in a negative sentence. It works for all three genders.",
+      "explanationEnglish": "kein replaces ein / eine before the noun. Feminine and plural take keine. Masculine and neuter take kein.",
       "concept": {
-        "title": "Negationsartikel kein",
-        "rule": "kein replaces ein and eine in a negative sentence with a noun.",
-        "exampleGerman": "Das ist kein See.",
-        "exampleEnglish": "That is no lake."
-      }
-    },
-    {
-      "type": "EXERCISE",
-      "variant": "MATCH",
-      "id": "q3",
-      "points": 3,
-      "prompt": "Match the German direction to the English word:",
-      "pairs": [
-        { "german": "rechts", "english": "right" },
-        { "german": "links", "english": "left" },
-        { "german": "geradeaus", "english": "straight ahead" },
-        { "german": "gehen", "english": "to walk / go" }
-      ],
-      "explanationEnglish": "These three words describe a direction. The verb gehen says to move on foot.",
-      "concept": {
-        "title": "Richtungen",
-        "rule": "links = left, rechts = right, geradeaus = straight ahead.",
-        "exampleGerman": "Gehen Sie rechts.",
-        "exampleEnglish": "Go right."
+        "title": "kein / keine",
+        "rule": "kein (m/n), keine (f), keine (plural) — before the noun, like the article.",
+        "exampleGerman": "Das ist keine U-Bahn.",
+        "exampleEnglish": "That is not a subway."
       }
     },
     {
       "type": "EXERCISE",
       "variant": "REORDER",
-      "id": "q4_reorder",
-      "points": 4,
+      "id": "q3",
+      "points": 3,
+      "topic": "Imperativ mit Sie",
       "prompt": "Put the sentence in order:",
       "builder": {
-        "fixedPrefix": "",
-        "solutionWords": ["Gehen", "Sie", "rechts", "und", "dann", "geradeaus", "."],
-        "wordPool": ["Gehen", "Sie", "rechts", "und", "dann", "geradeaus", ".", "du", "links"]
+        "fixedPrefix": "Gehen",
+        "solutionWords": ["Sie", "rechts", "und", "dann", "geradeaus"],
+        "wordPool": ["Sie", "rechts", "und", "dann", "geradeaus", "links", "geht"]
       },
-      "explanationEnglish": "The imperative starts with the verb. Sie is the polite form. The period goes at the end.",
+      "explanationEnglish": "In the imperative with Sie the verb comes first, then Sie, then the direction and und dann.",
       "concept": {
         "title": "Imperativ mit Sie",
-        "rule": "A polite order starts with the verb, then Sie.",
-        "exampleGerman": "Gehen Sie rechts.",
-        "exampleEnglish": "Go right."
+        "rule": "Verb on position 1, then Sie, then the rest: Gehen Sie rechts!",
+        "exampleGerman": "Gehen Sie rechts und dann geradeaus.",
+        "exampleEnglish": "Go right and then straight ahead."
+      }
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "MATCH",
+      "id": "q4",
+      "points": 3,
+      "topic": "Weg fragen",
+      "prompt": "Match the German phrase to the English one:",
+      "pairs": [
+        { "german": "Entschuldigung, wo ist bitte der Bahnhof?", "english": "Excuse me, where is the train station?" },
+        { "german": "Gehen Sie links!", "english": "Go left!" },
+        { "german": "Fahren Sie geradeaus!", "english": "Drive straight ahead!" },
+        { "german": "Vielen Dank.", "english": "Thank you very much." },
+        { "german": "Bitte, gern.", "english": "You're welcome, with pleasure." }
+      ],
+      "explanationEnglish": "Polite phrases open and close every question for the way.",
+      "concept": {
+        "title": "Nach dem Weg fragen",
+        "rule": "Open with Entschuldigung … bitte, answer with Gehen Sie …, close with Vielen Dank.",
+        "exampleGerman": "Entschuldigung, wo ist bitte der Bahnhof?",
+        "exampleEnglish": "Excuse me, where is the train station please?"
       }
     },
     {
@@ -85,36 +90,35 @@
       "variant": "MULTIPLE_CHOICE",
       "id": "q5",
       "points": 2,
-      "topic": "Monate",
-      "passage": "»Das Konzert ist im ___ . Es ist der siebte Monat.«",
-      "prompt": "Choose the correct month:",
-      "options": ["Juni", "Juli", "August"],
+      "topic": "im + Jahreszeit",
+      "passage": "»Im ___ ist es kalt und es schneit.«",
+      "prompt": "Choose the correct season:",
+      "options": ["Sommer", "Winter", "Herbst"],
       "correctIndex": 1,
-      "explanationEnglish": "Juli is the seventh month of the year. Juni is the sixth and August is the eighth.",
+      "explanationEnglish": "Snow and cold belong to winter. The season stands after im: im Winter.",
       "concept": {
-        "title": "Monate",
-        "rule": "German has twelve months. Juli is the seventh month.",
-        "exampleGerman": "Das Konzert ist im Juli.",
-        "exampleEnglish": "The concert is in July."
+        "title": "im + Jahreszeit",
+        "rule": "Seasons take im: im Winter, im Frühling, im Sommer, im Herbst.",
+        "exampleGerman": "Im Winter ist es kalt.",
+        "exampleEnglish": "In winter it is cold."
       }
     },
     {
       "type": "EXERCISE",
       "variant": "FILL_BLANK",
       "id": "q6",
-      "points": 3,
-      "prompt": "Fill the gap with the correct word:",
+      "points": 2,
+      "topic": "Adjektiv mit sein",
+      "prompt": "Fill the gap with the correct adjective:",
       "items": [
-        { "sentence": "Der Sommer ist ___.", "answers": ["schön"], "hint": "beautiful" },
-        { "sentence": "Der Winter ist ___.", "answers": ["kalt"], "hint": "cold" },
-        { "sentence": "Die Tage sind ___.", "answers": ["lang"], "hint": "long" }
+        { "sentence": "Der Turm ist 132 Meter ___.", "answers": ["hoch"], "hint": "Der Michel" }
       ],
-      "explanationEnglish": "Adjectives after sein stay in their plain form. They take no ending.",
+      "explanationEnglish": "After ist the adjective stays in its base form: hoch, groß, alt. No ending is added.",
       "concept": {
         "title": "Adjektiv mit sein",
-        "rule": "Adjectives after sein stay in their plain form with no ending.",
-        "exampleGerman": "Der Sommer ist schön.",
-        "exampleEnglish": "The summer is beautiful."
+        "rule": "Subject + ist + adjective. The adjective has no ending after sein.",
+        "exampleGerman": "Der Turm ist 132 Meter hoch.",
+        "exampleEnglish": "The tower is 132 metres high."
       }
     }
   ]

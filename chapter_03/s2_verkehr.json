@@ -1,0 +1,153 @@
+{
+  "schemaVersion": 2,
+  "id": "s2_verkehr",
+  "title": "Verkehrsmittel: Kein Glück?",
+  "blocks": [
+    {
+      "type": "LESSON_PAGE",
+      "variant": "READING",
+      "id": "s2p1",
+      "headline": "Kein Glück?!",
+      "bodyGerman": "Eine Studentin hat Pech.\nDas Fahrrad ist weg. Sie wartet.\nDer Bus ist voll. Der Bus fährt weg.\nDie Studentin läuft zum Bus. Der Bus ist schon weg.\nAn der U-Bahn sagt sie: »Oh, nein! Keine Fahrkarte?!«\nSie geht zu Fuß. Schnell, schnell!\nAn der Tür steht: »Heute kein Test!« So ein Glück!",
+      "bodyEnglish": "A student has bad luck.\nThe bicycle is gone. She waits.\nThe bus is full. The bus drives away.\nThe student runs to the bus. The bus is already gone.\nAt the subway she says: »Oh no! No ticket?!«\nShe walks. Quick, quick!\nOn the door it says: »No test today!« What luck!",
+      "vocabHighlight": [
+        { "german": "der Bus", "english": "bus" },
+        { "german": "das Fahrrad", "english": "bicycle" },
+        { "german": "die U-Bahn", "english": "underground / subway" },
+        { "german": "die Fahrkarte", "english": "ticket" }
+      ]
+    },
+    {
+      "type": "LESSON_PAGE",
+      "variant": "VOCAB",
+      "id": "s2v1",
+      "headline": "Unterwegs in der Stadt",
+      "bodyEnglish": "In the city you need transport words.\nLearn every word with its article: der, das or die.",
+      "vocabHighlight": [
+        { "german": "der Bus", "english": "bus" },
+        { "german": "das Fahrrad", "english": "bicycle" },
+        { "german": "die U-Bahn", "english": "underground / subway" },
+        { "german": "die Fahrkarte", "english": "ticket" },
+        { "german": "das Auto", "english": "car" },
+        { "german": "zu Fuß gehen", "english": "to go on foot" },
+        { "german": "schnell", "english": "fast, quick" },
+        { "german": "das Glück", "english": "luck" }
+      ]
+    },
+    {
+      "type": "VOCAB",
+      "variant": "CARD_SET",
+      "id": "s2v2",
+      "title": "Die Kernwörter: Verkehrsmittel",
+      "wordIds": ["w_bus", "w_fahrrad", "w_ubahn", "w_fahrkarte", "w_auto", "w_zu_fuss", "w_schnell", "w_glueck"]
+    },
+    {
+      "type": "LESSON_PAGE",
+      "variant": "GRAMMAR",
+      "id": "s2g0",
+      "headline": "Sagen, was nicht da ist",
+      "bodyEnglish": "Sometimes something is not there: no bicycle, no bus, no ticket.\nFor not a or no before a noun, German uses the word kein.\nkein changes with the gender of the noun."
+    },
+    {
+      "type": "GRAMMAR",
+      "variant": "RULE",
+      "id": "s2g1",
+      "ruleHeadline": "Negationsartikel: kein / keine",
+      "explanationEnglish": "To say not a or no before a noun, German uses kein instead of ein / eine.\nmasculine: der Bus → kein Bus. neutrum: das Fahrrad → kein Fahrrad.\nfeminin: die U-Bahn → keine U-Bahn. plural: die Autos → keine Autos.\nkein / keine stands directly before the noun, exactly like the article.\nTrap: kein only replaces ein / eine. It never replaces der / das / die for a known thing.",
+      "englishBridge": "English says not a or no. German puts kein right before the noun.",
+      "targetSentenceGerman": "Oh, nein! Keine Fahrkarte?!",
+      "targetSentenceEnglish": "Oh no! No ticket?!",
+      "examples": [
+        { "german": "Das ist kein Bus.", "english": "That is not a bus. (m.)" },
+        { "german": "Das ist kein Fahrrad.", "english": "That is not a bicycle. (n.)" },
+        { "german": "Das ist keine U-Bahn.", "english": "That is not a subway. (f.)" },
+        { "german": "Das sind keine Autos.", "english": "Those are not cars. (plural)" },
+        { "german": "Ich habe keine Fahrkarte.", "english": "I have no ticket." }
+      ]
+    },
+    {
+      "type": "NOTE",
+      "variant": "MISTAKE",
+      "id": "s2_n1",
+      "title": "nicht oder kein?",
+      "bodyEnglish": "Use kein / keine before a noun. Use nicht for verbs and adjectives.\nMany learners say »Das ist nicht ein Bus«. In German this is wrong.\nSay: Das ist kein Bus.",
+      "bodyGerman": "✗ Das ist nicht ein Bus.\n✓ Das ist kein Bus.\n✓ Das ist kein Fahrrad.\n✓ Das sind keine Autos."
+    },
+    {
+      "type": "PATTERN",
+      "variant": "FORMULA",
+      "id": "s2pat1",
+      "title": "Ist das ein ...?",
+      "formula": "Ist das + [ein / eine] + [Nomen]? — Ja, das ist ein / eine ... / Nein, das ist kein / keine ...",
+      "explanationEnglish": "Use this question to ask if something is a bus, a car or a subway.\nAnswer with Ja, das ist ... or Nein, das ist kein / keine ...\nThe article in the answer must match the gender of the noun.",
+      "examples": [
+        { "german": "Ist das ein Bus? — Nein, das ist eine U-Bahn.", "english": "Is that a bus? — No, that is a subway." },
+        { "german": "Ist das ein Auto? — Nein, das ist ein Fahrrad.", "english": "Is that a car? — No, that is a bicycle." },
+        { "german": "Ist das eine Kirche? — Nein, das ist das Rathaus.", "english": "Is that a church? — No, that is the town hall." }
+      ],
+      "builder": {
+        "fixedPrefix": "Nein, das ist",
+        "solutionWords": ["keine", "U-Bahn"],
+        "wordPool": ["kein", "keine", "Bus", "U-Bahn", "Fahrrad"]
+      }
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "MULTIPLE_CHOICE",
+      "id": "s2q1",
+      "points": 2,
+      "topic": "kein / keine",
+      "passage": "»Ist das eine U-Bahn? Nein, das ist ___ U-Bahn.«",
+      "prompt": "Choose the correct word:",
+      "options": ["kein", "keine", "nicht"],
+      "correctIndex": 1,
+      "explanationEnglish": "U-Bahn is feminine: die U-Bahn. The negation article for feminine is keine. nicht cannot stand before a noun.",
+      "concept": {
+        "title": "kein / keine",
+        "rule": "Feminine noun: use keine. Masculine and neuter: use kein.",
+        "exampleGerman": "Das ist keine U-Bahn.",
+        "exampleEnglish": "That is not a subway."
+      }
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "FILL_BLANK",
+      "id": "s2q2",
+      "points": 3,
+      "topic": "Negationsartikel",
+      "prompt": "Fill the gap with kein or keine:",
+      "items": [
+        { "sentence": "Ich habe ___ Fahrkarte.", "answers": ["keine"], "hint": "die Fahrkarte" },
+        { "sentence": "Das ist ___ Bus.", "answers": ["kein"], "hint": "der Bus" },
+        { "sentence": "Das sind ___ Autos.", "answers": ["keine"], "hint": "Plural" }
+      ],
+      "explanationEnglish": "kein replaces ein / eine before the noun. Feminine and plural take keine. Masculine and neuter take kein.",
+      "concept": {
+        "title": "Negationsartikel",
+        "rule": "kein (m/n), keine (f), keine (plural) — like ein / eine, but with a negative meaning.",
+        "exampleGerman": "Ich habe keine Fahrkarte.",
+        "exampleEnglish": "I have no ticket."
+      }
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "REORDER",
+      "id": "s2q3",
+      "points": 3,
+      "topic": "Satzstellung",
+      "prompt": "Put the sentence in order:",
+      "builder": {
+        "fixedPrefix": "Nein,",
+        "solutionWords": ["das", "ist", "keine", "U-Bahn"],
+        "wordPool": ["das", "ist", "keine", "kein", "U-Bahn", "Bus"]
+      },
+      "explanationEnglish": "The verb ist is on position 2. keine stands directly before the feminine noun U-Bahn.",
+      "concept": {
+        "title": "Satzstellung mit kein",
+        "rule": "Verb on position 2, kein / keine directly before the noun.",
+        "exampleGerman": "Nein, das ist keine U-Bahn.",
+        "exampleEnglish": "No, that is not a subway."
+      }
+    }
+  ]
+}

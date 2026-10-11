@@ -455,6 +455,54 @@
       "exampleGerman": "Meine Adresse ist Goethestraße 7.",
       "exampleEnglish": "My address is Goethestraße 7.",
       "sectionIds": ["s4_artikel_club"]
+    },
+    {
+      "id": "w_ingenieur",
+      "word": "Ingenieur",
+      "partOfSpeech": "NOUN",
+      "level": "A1",
+      "article": "der",
+      "gender": "MASCULINE",
+      "plural": "Ingenieure",
+      "ipa": "/ʔɪnɡeˈnjoːʁ/",
+      "meaningsEnglish": ["engineer"],
+      "domainTags": ["Work"],
+      "definitionGerman": "Ein Mann, der technische Dinge plant und baut.",
+      "exampleGerman": "Mein Bruder ist Ingenieur.",
+      "exampleEnglish": "My brother is an engineer.",
+      "sectionIds": ["s3_beruf"]
+    },
+    {
+      "id": "w_geburtsort",
+      "word": "Geburtsort",
+      "partOfSpeech": "NOUN",
+      "level": "A1",
+      "article": "der",
+      "gender": "MASCULINE",
+      "plural": "Geburtsorte",
+      "ipa": "/ɡəˈbʊʁtɔʁt/",
+      "meaningsEnglish": ["birthplace", "place of birth"],
+      "domainTags": ["Identity", "Forms"],
+      "definitionGerman": "Der Ort, an dem eine Person geboren wird.",
+      "exampleGerman": "Mein Geburtsort ist Berlin.",
+      "exampleEnglish": "My birthplace is Berlin.",
+      "sectionIds": ["s4_artikel_club"]
+    },
+    {
+      "id": "w_telefonnummer",
+      "word": "Telefonnummer",
+      "partOfSpeech": "NOUN",
+      "level": "A1",
+      "article": "die",
+      "gender": "FEMININE",
+      "plural": "Telefonnummern",
+      "ipa": "/teleˈfɔnˌnʊmɐ/",
+      "meaningsEnglish": ["telephone number", "phone number"],
+      "domainTags": ["Identity", "Forms"],
+      "definitionGerman": "Die Zahlen für das Telefon.",
+      "exampleGerman": "Meine Telefonnummer ist 0170 1234567.",
+      "exampleEnglish": "My telephone number is 0170 1234567.",
+      "sectionIds": ["s4_artikel_club"]
     }
   ]
 }

@@ -8,13 +8,29 @@
       "variant": "VOCAB",
       "id": "s4p1",
       "headline": "6a Die Zahlen 0 bis 20",
-      "bodyGerman": "0 null · 1 eins · 2 zwei · 3 drei · 4 vier · 5 fünf · 6 sechs · 7 sieben · 8 acht · 9 neun · 10 zehn\n11 elf · 12 zwölf · 13 dreizehn · 14 vierzehn · 15 fünfzehn · 16 sechzehn · 17 siebzehn · 18 achtzehn · 19 neunzehn · 20 zwanzig",
-      "bodyEnglish": "These are the numbers from zero to twenty. You need them for phone numbers and for exercise 6.",
+      "bodyEnglish": "These are the numbers from zero to twenty.\nYou need them for phone numbers and for exercise 6.",
       "vocabHighlight": [
-        { "german": "null", "english": "zero — the number 0" },
-        { "german": "elf / zwölf", "english": "eleven / twelve — two special words" },
-        { "german": "dreizehn … neunzehn", "english": "13 to 19 — all end in -zehn" },
-        { "german": "zwanzig", "english": "twenty — the number 20" }
+        { "german": "null", "english": "0" },
+        { "german": "eins", "english": "1" },
+        { "german": "zwei", "english": "2" },
+        { "german": "drei", "english": "3" },
+        { "german": "vier", "english": "4" },
+        { "german": "fünf", "english": "5" },
+        { "german": "sechs", "english": "6" },
+        { "german": "sieben", "english": "7" },
+        { "german": "acht", "english": "8" },
+        { "german": "neun", "english": "9" },
+        { "german": "zehn", "english": "10" },
+        { "german": "elf", "english": "11" },
+        { "german": "zwölf", "english": "12" },
+        { "german": "dreizehn", "english": "13" },
+        { "german": "vierzehn", "english": "14" },
+        { "german": "fünfzehn", "english": "15" },
+        { "german": "sechzehn", "english": "16" },
+        { "german": "siebzehn", "english": "17" },
+        { "german": "achtzehn", "english": "18" },
+        { "german": "neunzehn", "english": "19" },
+        { "german": "zwanzig", "english": "20" }
       ]
     },
     {
@@ -22,7 +38,26 @@
       "variant": "USAGE",
       "id": "s4_n1",
       "title": "Zahlen lesen und sprechen",
-      "bodyEnglish": "14 is vier plus zehn. 16 is sechzehn without the final -s. 17 is siebzehn without -en."
+      "bodyEnglish": "14 is vier plus zehn: vierzehn.\n16 drops the -s of sechs: sechzehn.\n17 drops the -n of sieben: siebzehn.",
+      "bodyGerman": "14 = vierzehn\n16 = sechzehn\n17 = siebzehn"
+    },
+    {
+      "type": "GRAMMAR",
+      "variant": "RULE",
+      "id": "s4g1",
+      "ruleHeadline": "Die Zahlen 0 bis 20: -zehn am Ende",
+      "explanationEnglish": "The teen numbers join the unit and zehn: drei + zehn = dreizehn.\nAll teens from 13 to 19 end in -zehn: vierzehn, fünfzehn, siebzehn.\n11 and 12 are special words: elf and zwölf.\n20 is a new word: zwanzig. The part -und comes only from 21: einundzwanzig.\nTrap: ✗ vierundzehn → ✓ vierzehn. The part -und never appears below 21.",
+      "englishBridge": "English teen numbers put the unit second: four-teen. German keeps the unit first: vierzehn.",
+      "targetSentenceGerman": "14 = vierzehn · 20 = zwanzig",
+      "targetSentenceEnglish": "14 = fourteen · 20 = twenty",
+      "examples": [
+        { "german": "elf", "english": "11 — special word" },
+        { "german": "zwölf", "english": "12 — special word" },
+        { "german": "dreizehn", "english": "13 (three + ten)" },
+        { "german": "vierzehn", "english": "14 (four + ten)" },
+        { "german": "siebzehn", "english": "17 (seven + ten)" },
+        { "german": "zwanzig", "english": "20 — new word, no -zehn" }
+      ]
     },
     {
       "type": "LESSON_PAGE",
@@ -63,14 +98,16 @@
       "variant": "USAGE",
       "id": "s4_n2",
       "title": "E-Mail-Adresse sagen",
-      "bodyEnglish": "Say @ as ät, . as Punkt, - as minus, and _ as Unterstrich. Then say each letter."
+      "bodyEnglish": "Say @ as ät.\nSay . as Punkt, - as minus and _ as Unterstrich.\nThen say each letter of the address.",
+      "bodyGerman": "@ = ät · . = Punkt\n- = minus · _ = Unterstrich"
     },
     {
       "type": "NOTE",
       "variant": "TIP",
       "id": "s4_n3",
       "title": "Wie bitte?",
-      "bodyEnglish": "These phrases ask for repetition: Entschuldigung, noch einmal bitte. Das verstehe ich nicht. Bitte ein bisschen langsamer."
+      "bodyEnglish": "Use these phrases when you do not hear well.\nAsk once more, say it is too fast, or say you do not understand.\nThen the other person repeats.",
+      "bodyGerman": "Entschuldigung, noch einmal bitte.\nBitte ein bisschen langsamer.\nDas verstehe ich nicht."
     },
     {
       "type": "EXAMPLES",
@@ -183,19 +220,6 @@
         "exampleGerman": "0154-76895321",
         "exampleEnglish": "zero one five four — seven six eight nine — five three two one"
       }
-    },
-    {
-      "type": "SUMMARY",
-      "variant": "RECAP",
-      "id": "s4_sum",
-      "title": "Was du jetzt kannst",
-      "bullets": [
-        "Zahlen: null bis zwanzig. 14 = vierzehn. 17 = siebzehn.",
-        "Telefon: Wie ist deine Telefonnummer? — 0154-76895321.",
-        "E-Mail: Wie ist deine E-Mail-Adresse? — alexis_barbos@quinnet.com.",
-        "Sagen: @ = ät · . = Punkt · - = minus · _ = Unterstrich.",
-        "Nachfragen: Wie bitte? · Entschuldigung, noch einmal bitte."
-      ]
     }
   ]
 }

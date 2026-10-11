@@ -1,0 +1,174 @@
+{
+  "schemaVersion": 2,
+  "id": "s3_weg",
+  "title": "Nach dem Weg fragen",
+  "blocks": [
+    {
+      "type": "LESSON_PAGE",
+      "variant": "DIALOGUE",
+      "id": "s3p1",
+      "headline": "Links, rechts, geradeaus",
+      "bodyGerman": "Eine Reisende fragt nach dem Weg zum Rathaus.",
+      "bodyEnglish": "A traveller asks for the way to the town hall.",
+      "vocabHighlight": [
+        { "german": "Entschuldigung", "english": "excuse me" },
+        { "german": "das Rathaus", "english": "town hall" },
+        { "german": "rechts", "english": "right" },
+        { "german": "geradeaus", "english": "straight ahead" }
+      ],
+      "turns": [
+        { "speaker": "Reisende", "german": "Entschuldigung, wo ist bitte das Rathaus?", "english": "Excuse me, where is the town hall please?" },
+        { "speaker": "Passant", "german": "Das ist ganz einfach. Gehen Sie rechts und dann geradeaus. Da ist das Rathaus.", "english": "That is very easy. Go right and then straight ahead. There is the town hall." },
+        { "speaker": "Reisende", "german": "Also hier rechts und dann geradeaus?", "english": "So here on the right and then straight ahead?" },
+        { "speaker": "Passant", "german": "Ja, genau.", "english": "Yes, exactly." },
+        { "speaker": "Reisende", "german": "Vielen Dank.", "english": "Thank you very much." },
+        { "speaker": "Passant", "german": "Bitte, gern.", "english": "You're welcome, with pleasure." }
+      ]
+    },
+    {
+      "type": "NOTE",
+      "variant": "USAGE",
+      "id": "s3_n1",
+      "title": "Entschuldigung und bitte",
+      "bodyEnglish": "Start a question to a stranger with »Entschuldigung«. It means excuse me.\nAdd »bitte« after the place: Wo ist bitte der Bahnhof?\nClose with Vielen Dank. The answer is Bitte, gern.",
+      "bodyGerman": "Entschuldigung, wo ist bitte der Bahnhof?\nVielen Dank!\nBitte, gern."
+    },
+    {
+      "type": "LESSON_PAGE",
+      "variant": "VOCAB",
+      "id": "s3v1",
+      "headline": "Den Weg beschreiben",
+      "bodyEnglish": "You can ask for the way and describe it.\nThe three direction words are the key.",
+      "vocabHighlight": [
+        { "german": "links", "english": "left" },
+        { "german": "rechts", "english": "right" },
+        { "german": "geradeaus", "english": "straight ahead" },
+        { "german": "gehen", "english": "to go, to walk" },
+        { "german": "fahren", "english": "to go (by vehicle), to travel" },
+        { "german": "Entschuldigung", "english": "excuse me" }
+      ]
+    },
+    {
+      "type": "VOCAB",
+      "variant": "CARD_SET",
+      "id": "s3v2",
+      "title": "Die Kernwörter: Der Weg",
+      "wordIds": ["w_links", "w_rechts", "w_geradeaus", "w_gehen", "w_fahren", "w_entschuldigung"]
+    },
+    {
+      "type": "LESSON_PAGE",
+      "variant": "GRAMMAR",
+      "id": "s3g0",
+      "headline": "Befehle: Gehen Sie links!",
+      "bodyEnglish": "For directions people use short commands: Go left! Go straight ahead!\nGerman has a special form: the imperative.\nWith polite Sie it is easy: the verb comes first, then Sie."
+    },
+    {
+      "type": "GRAMMAR",
+      "variant": "RULE",
+      "id": "s3g1",
+      "ruleHeadline": "Imperativ mit Sie: Gehen Sie links!",
+      "explanationEnglish": "The imperative gives an order or a direction.\nWith polite Sie you use the verb in its normal form: Gehen Sie! Fahren Sie!\nPut the verb on position 1. Then comes Sie. Then the rest: Gehen Sie rechts.\nThis works for every verb: gehen, fahren, kommen, schauen.\nTrap: in a normal sentence the verb is second: Sie gehen links. In the imperative the verb is first: Gehen Sie links!",
+      "englishBridge": "English works the same way: verb first — Go left! German keeps polite Sie right after the verb.",
+      "targetSentenceGerman": "Gehen Sie rechts und dann geradeaus.",
+      "targetSentenceEnglish": "Go right and then straight ahead.",
+      "examples": [
+        { "german": "Gehen Sie links!", "english": "Go left! (polite)" },
+        { "german": "Gehen Sie rechts!", "english": "Go right!" },
+        { "german": "Gehen Sie geradeaus!", "english": "Go straight ahead!" },
+        { "german": "Fahren Sie geradeaus!", "english": "Drive straight ahead!" },
+        { "german": "Sie gehen links.", "english": "You go left. (normal sentence — verb second)" }
+      ],
+      "builder": {
+        "fixedPrefix": "Gehen",
+        "solutionWords": ["Sie", "rechts"],
+        "wordPool": ["Sie", "rechts", "links", "geradeaus", "geht"]
+      }
+    },
+    {
+      "type": "PATTERN",
+      "variant": "FORMULA",
+      "id": "s3pat1",
+      "title": "Nach dem Weg fragen",
+      "formula": "(Entschuldigung,) Wo ist bitte + [der / das / die] + [Nomen]?",
+      "explanationEnglish": "Use this question to ask for a place in the city.\nbitte makes the question polite. The article belongs to the noun.\nAnswer: Das ist ganz einfach. Gehen Sie rechts und dann geradeaus.",
+      "examples": [
+        { "german": "Entschuldigung, wo ist bitte der Bahnhof?", "english": "Excuse me, where is the train station please?" },
+        { "german": "Entschuldigung, wo ist das Hotel?", "english": "Excuse me, where is the hotel?" },
+        { "german": "Wo ist die U-Bahn?", "english": "Where is the subway?" }
+      ]
+    },
+    {
+      "type": "PATTERN",
+      "variant": "FORMULA",
+      "id": "s3pat2",
+      "title": "Den Weg beschreiben",
+      "formula": "Gehen Sie + [Richtung] und dann + [Richtung]. Da ist + [der / das / die] + [Nomen].",
+      "explanationEnglish": "Give the way in short steps.\nFirst step, then und dann, then the goal with Da ist ...\nThe verb goes is on position 1 in every step.",
+      "examples": [
+        { "german": "Gehen Sie rechts und dann geradeaus. Da ist der Park.", "english": "Go right and then straight ahead. There is the park." },
+        { "german": "Gehen Sie links. Da ist das Hotel.", "english": "Go left. There is the hotel." },
+        { "german": "Gehen Sie geradeaus und dann rechts. Da ist die Kirche.", "english": "Go straight ahead and then right. There is the church." }
+      ]
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "MULTIPLE_CHOICE",
+      "id": "s3q1",
+      "points": 2,
+      "topic": "Richtungen",
+      "passage": "»Das Rathaus ist auf der linken Seite. Gehen Sie ___!«",
+      "prompt": "Choose the correct direction:",
+      "options": ["links", "rechts", "geradeaus"],
+      "correctIndex": 0,
+      "explanationEnglish": "links means on the left side. The direction word must match the side of the goal.",
+      "concept": {
+        "title": "links / rechts / geradeaus",
+        "rule": "links = left, rechts = right, geradeaus = straight ahead.",
+        "exampleGerman": "Gehen Sie links!",
+        "exampleEnglish": "Go left!"
+      }
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "MATCH",
+      "id": "s3q2",
+      "points": 3,
+      "topic": "Weg fragen",
+      "prompt": "Match the German phrase to the English one:",
+      "pairs": [
+        { "german": "Entschuldigung, wo ist bitte der Bahnhof?", "english": "Excuse me, where is the train station?" },
+        { "german": "Gehen Sie links!", "english": "Go left!" },
+        { "german": "Fahren Sie geradeaus!", "english": "Drive straight ahead!" },
+        { "german": "Vielen Dank.", "english": "Thank you very much." },
+        { "german": "Bitte, gern.", "english": "You're welcome, with pleasure." }
+      ],
+      "explanationEnglish": "Polite phrases open and close every question for the way.",
+      "concept": {
+        "title": "Nach dem Weg fragen",
+        "rule": "Open with Entschuldigung … bitte, answer with Gehen Sie …, close with Vielen Dank.",
+        "exampleGerman": "Entschuldigung, wo ist bitte der Bahnhof?",
+        "exampleEnglish": "Excuse me, where is the train station please?"
+      }
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "REORDER",
+      "id": "s3q3",
+      "points": 3,
+      "topic": "Frage mit Wo",
+      "prompt": "Put the question in order:",
+      "builder": {
+        "fixedPrefix": "Wo",
+        "solutionWords": ["ist", "bitte", "das", "Rathaus"],
+        "wordPool": ["ist", "bitte", "das", "Rathaus", "der", "Bahnhof"]
+      },
+      "explanationEnglish": "The question word Wo is on position 1. The verb ist is on position 2. bitte comes after the verb.",
+      "concept": {
+        "title": "Frage mit Wo",
+        "rule": "Question word first, verb second, bitte after the verb.",
+        "exampleGerman": "Wo ist bitte das Rathaus?",
+        "exampleEnglish": "Where is the town hall please?"
+      }
+    }
+  ]
+}

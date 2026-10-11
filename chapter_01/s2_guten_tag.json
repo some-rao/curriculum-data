@@ -52,38 +52,61 @@
       "variant": "USAGE",
       "id": "s2_n1",
       "title": "du und Sie",
-      "bodyEnglish": "du is informal: use a first name. Sie is formal: use Herr or Frau plus the last name."
+      "bodyEnglish": "du is informal: use it with a first name.\nSie is formal: use Herr or Frau plus the last name.\nEach form has its own verb ending.",
+      "bodyGerman": "du: Wie heißt du?\nSie: Wie heißen Sie?"
     },
     {
       "type": "LESSON_PAGE",
       "variant": "GRAMMAR",
       "id": "s2p2",
       "headline": "Verben und Personalpronomen",
-      "bodyGerman": "heißen: ich heiße · du heißt · Sie heißen\nsein: ich bin · du bist · Sie sind",
-      "bodyEnglish": "The personal pronoun decides the verb ending. ich, du and Sie each have one fixed form.",
+      "bodyEnglish": "The personal pronoun decides the verb ending.\nich, du and Sie each have one fixed form.",
       "vocabHighlight": [
-        { "german": "ich heiße", "english": "I am called" },
-        { "german": "du heißt", "english": "you are called (informal)" },
-        { "german": "Sie heißen", "english": "you are called (formal)" },
-        { "german": "ich bin", "english": "I am" },
-        { "german": "du bist", "english": "you are (informal)" },
-        { "german": "Sie sind", "english": "you are (formal)" }
+        { "german": "heißen", "english": "to be called" },
+        { "german": "sein", "english": "to be" },
+        { "german": "der Name", "english": "name" }
       ]
     },
     {
       "type": "GRAMMAR",
       "variant": "RULE",
       "id": "s2g1",
-      "ruleHeadline": "Personalpronomen + Verb",
-      "explanationEnglish": "Say the person first, then the verb. Each person has one fixed ending. Learn the three rows together.",
-      "englishBridge": "English keeps I am and you are. German marks the person on the verb: ich heiße, du heißt, Sie heißen.",
+      "ruleHeadline": "Verben: Infinitiv, Position 2, Endungen",
+      "explanationEnglish": "The personal pronoun tells the person: ich, du, er/sie/es, wir, ihr, sie/Sie.\nThe dictionary form is the infinitive: heißen, wohnen, kommen. It ends in -en.\nIn a statement the conjugated verb stands in position 2: Ich wohne in Berlin.\nThe ending marks the person: ich -e, du -st, er/sie -t, wir -en, ihr -t, sie/Sie -en.\nRegular example wohnen: ich wohne, du wohnst, er/sie wohnt, wir wohnen, ihr wohnt, sie/Sie wohnen.\nTrap: with a stem in s, ß or ss the du-form takes -t instead of -st: du heißt.",
+      "englishBridge": "English adds do or does before the verb. German never needs it: Du wohnst hier.",
       "targetSentenceGerman": "Sie heißen Oliver Hansen.",
       "targetSentenceEnglish": "Your name is Oliver Hansen.",
+      "examples": [
+        { "german": "ich wohne", "english": "I live" },
+        { "german": "du wohnst", "english": "you live (informal)" },
+        { "german": "er/sie wohnt", "english": "he/she lives" },
+        { "german": "wir wohnen", "english": "we live" },
+        { "german": "ihr wohnt", "english": "you all live (informal)" },
+        { "german": "sie/Sie wohnen", "english": "they live / you live (formal)" }
+      ],
       "builder": {
         "fixedPrefix": "Sie",
         "solutionWords": ["heißen", "Oliver Hansen"],
         "wordPool": ["heißen", "heiße", "heißt", "Oliver Hansen", "Nina Weber"]
       }
+    },
+    {
+      "type": "GRAMMAR",
+      "variant": "RULE",
+      "id": "s2g2",
+      "ruleHeadline": "Nomen: der, die, das — und Großschreibung",
+      "explanationEnglish": "Every German noun has an article: der = masculine, die = feminine, das = neuter.\nLearn every noun with its article: der Name, die Nacht, das Butterbrot.\nEvery noun starts with a big letter: Name, Nacht, Morgen.\nThe plural article is always die: der Name → die Namen, die Nacht → die Nächte.\nTrap: titles and first names are big too: Frau Weber, Herr Hansen.",
+      "englishBridge": "English has the for all three genders. German splits it into der, die, das.",
+      "targetSentenceGerman": "Der Vorname ist Nina. Die Frau heißt Weber.",
+      "targetSentenceEnglish": "The first name is Nina. The woman is called Weber.",
+      "examples": [
+        { "german": "der Name", "english": "the name (masculine)" },
+        { "german": "die Frau", "english": "the woman (feminine)" },
+        { "german": "das Butterbrot", "english": "bread and butter (neuter)" },
+        { "german": "der Morgen", "english": "the morning (masculine)" },
+        { "german": "die Nacht", "english": "the night (feminine)" },
+        { "german": "das Land", "english": "the country (neuter)" }
+      ]
     },
     {
       "type": "PATTERN",
@@ -102,7 +125,8 @@
       "variant": "MISTAKE",
       "id": "s2_n2",
       "title": "»Wie heißt Sie?«",
-      "bodyEnglish": "✗ Wie heißt Sie? → ✓ Wie heißen Sie? ✗ Du heiße. → ✓ Du heißt. The ending marks the person."
+      "bodyEnglish": "The ending marks the person.\nFormal Sie takes -en: heißen.\nInformal du takes -t: heißt.",
+      "bodyGerman": "✗ Wie heißt Sie?\n✓ Wie heißen Sie?\n✗ Du heiße.\n✓ Du heißt."
     },
     {
       "type": "VOCAB",
@@ -172,19 +196,6 @@
         "exampleGerman": "Auf Wiedersehen, Frau Kowalski!",
         "exampleEnglish": "Goodbye, Ms Kowalski!"
       }
-    },
-    {
-      "type": "SUMMARY",
-      "variant": "RECAP",
-      "id": "s2_sum",
-      "title": "Was du jetzt kannst",
-      "bullets": [
-        "Grußformeln: Guten Morgen! · Guten Tag! · Guten Abend! · Gute Nacht!",
-        "Formell: Wie heißen Sie? · Wie ist Ihr Name? · Mein Name ist …",
-        "sein: ich bin · du bist · Sie sind.",
-        "heißen: ich heiße · du heißt · Sie heißen.",
-        "Verabschieden: Auf Wiedersehen!"
-      ]
     }
   ]
 }

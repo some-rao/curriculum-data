@@ -8,8 +8,7 @@
       "variant": "VOCAB",
       "id": "s2p1",
       "headline": "Die Wochentage",
-      "bodyGerman": "Montag · Dienstag · Mittwoch · Donnerstag\nFreitag · Samstag · Sonntag",
-      "bodyEnglish": "The German week starts on Monday. Every day is a noun and takes der. To name the day you use am: am Montag.",
+      "bodyEnglish": "The German week starts on Monday.\nEvery weekday is a noun with der, and you say am + day.",
       "vocabHighlight": [
         { "german": "der Montag", "english": "Monday" },
         { "german": "der Dienstag", "english": "Tuesday" },
@@ -40,15 +39,62 @@
       "variant": "CULTURE",
       "id": "s2_n1",
       "title": "Gut gesagt: Nein!",
-      "bodyEnglish": "Germans often avoid a hard 'nein'. Casual speakers say 'nee' or 'nö'. In Bavaria and Austria you hear 'na'. 'Das geht leider nicht' is the polite standard."
+      "bodyEnglish": "Germans often avoid a hard »nein«.\nCasual speakers say »nee« or »nö«.\nIn Bavaria and Austria you hear »na«.\nPolite standard: »Das geht leider nicht.«",
+      "bodyGerman": "Nee, das geht leider nicht.\nNein, das geht leider nicht."
     },
     {
       "type": "LESSON_PAGE",
       "variant": "GRAMMAR",
       "id": "s2p3",
       "headline": "Die Ja-/Nein-Frage",
-      "bodyGerman": "Wir gehen ins Kino.  →  Gehen wir ins Kino?\nWir gehen am Mittwoch.  →  Gehen wir am Mittwoch?",
-      "bodyEnglish": "A yes/no question has no question word. The verb takes position 1. The subject follows the verb. Statement: Wir gehen. Question: Gehen wir?"
+      "bodyEnglish": "A yes/no question has no question word.\nThe verb moves to position 1 and the person follows it."
+    },
+    {
+      "type": "GRAMMAR",
+      "variant": "RULE",
+      "id": "s2g1",
+      "ruleHeadline": "Ja-/Nein-Frage: das Verb steht vorne",
+      "explanationEnglish": "A yes/no question has no question word. You ask with a rising voice.\nTake the statement and move the conjugated verb to position 1.\nWir gehen ins Kino. → Gehen wir ins Kino?\nThe ending stays with the verb: Kochst du gern? — Kochen Sie gern?\nTrap: ✗ Wir gehen ins Kino? → ✓ Gehen wir ins Kino?",
+      "englishBridge": "English needs do: Do we go? German has no do — the verb alone leads the question.",
+      "targetSentenceGerman": "Gehen wir ins Kino?",
+      "targetSentenceEnglish": "Shall we go to the cinema?",
+      "examples": [
+        { "german": "Wir gehen ins Kino.", "english": "We go to the cinema." },
+        { "german": "Gehen wir ins Kino?", "english": "Do we go to the cinema?" },
+        { "german": "Wir haben am Montag frei.", "english": "We are free on Monday." },
+        { "german": "Haben wir am Montag frei?", "english": "Are we free on Monday?" },
+        { "german": "Du kochst gern.", "english": "You like to cook." },
+        { "german": "Kochst du gern?", "english": "Do you like cooking?" },
+        { "german": "Sie arbeiten viel.", "english": "You work a lot." },
+        { "german": "Arbeiten Sie viel?", "english": "Do you work a lot?" }
+      ],
+      "builder": {
+        "fixedPrefix": "Haben",
+        "solutionWords": ["wir", "am Montag", "frei"],
+        "wordPool": ["wir", "am Montag", "frei", "am Samstag", "du", "haben"]
+      }
+    },
+    {
+      "type": "GRAMMAR",
+      "variant": "RULE",
+      "id": "s2g2",
+      "ruleHeadline": "W-Fragen: wann? was? wer? wo?",
+      "explanationEnglish": "A W-question starts with a question word: was, wann, wo, wer.\nThen comes the conjugated verb, then the person: Wann gehen wir?\nThe answer gives the information the W-word asks for: Am Montag.\nEnglish keeps the person first: When we go. German moves the verb up.\nTrap: ✗ Wann wir gehen? → ✓ Wann gehen wir?",
+      "englishBridge": "English helps with do: When do we go? German needs no do — the W-word and the verb lead.",
+      "targetSentenceGerman": "Wann gehen wir ins Kino?",
+      "targetSentenceEnglish": "When shall we go to the cinema?",
+      "examples": [
+        { "german": "Was machst du gern?", "english": "What do you like to do?" },
+        { "german": "Wann gehen wir?", "english": "When shall we go?" },
+        { "german": "Was sind Sie von Beruf?", "english": "What is your job?" },
+        { "german": "Wann haben Sie frei?", "english": "When are you off?" },
+        { "german": "Am Montag.", "english": "On Monday — the answer" }
+      ],
+      "builder": {
+        "fixedPrefix": "Wann",
+        "solutionWords": ["haben", "Sie", "frei"],
+        "wordPool": ["haben", "Sie", "frei", "habt", "du", "Freitag"]
+      }
     },
     {
       "type": "PATTERN",
@@ -136,18 +182,6 @@
         "wordPool": ["wir", "am Freitag", "ins Kino", "am Samstag", "du", "Kino"]
       },
       "explanationEnglish": "The verb is already first. Next comes the subject wir, then the day and the place."
-    },
-    {
-      "type": "SUMMARY",
-      "variant": "RECAP",
-      "id": "s2_sum",
-      "title": "Was du jetzt kannst",
-      "bullets": [
-        "Wochentage: Montag · Dienstag · Mittwoch · Donnerstag · Freitag · Samstag · Sonntag.",
-        "Der Tag mit am: am Montag · am Freitag.",
-        "Ja-/Nein-Frage: das Verb steht vorne: Gehen wir ins Kino?",
-        "Verabredung: Ja, gern. / Nee, das geht leider nicht. / Ja, super."
-      ]
     }
   ]
 }

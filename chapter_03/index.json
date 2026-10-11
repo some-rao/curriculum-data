@@ -4,35 +4,35 @@
   "number": 3,
   "level": "A1",
   "titleGerman": "In Hamburg",
-  "titleEnglish": "In Hamburg — Places, Directions & Seasons",
-  "descriptionEnglish": "Places and buildings in Hamburg, the articles der/die/das and kein, asking for directions, events, months and seasons.",
+  "titleEnglish": "In Hamburg",
+  "descriptionEnglish": "Places and buildings in Hamburg, the articles der/das/die and ein/eine, saying no with kein, asking for directions, events, months and seasons.",
   "sections": [
     {
-      "id": "s1_in_hamburg",
-      "title": "In Hamburg: Orte und Zahlen",
-      "file": "s1_in_hamburg.json",
-      "version": 1,
+      "id": "s1_gebaeude",
+      "title": "Plätze und Gebäude",
+      "file": "s1_gebaeude.json",
+      "version": 2,
       "estimatedMin": 7
     },
     {
-      "id": "s2_taxifahrt",
-      "title": "Die Taxifahrt: der, die, das",
-      "file": "s2_taxifahrt.json",
-      "version": 1,
-      "estimatedMin": 8
+      "id": "s2_verkehr",
+      "title": "Verkehrsmittel: Kein Glück?",
+      "file": "s2_verkehr.json",
+      "version": 2,
+      "estimatedMin": 7
     },
     {
-      "id": "s3_nach_dem_weg",
-      "title": "Kein Glück? Nach dem Weg fragen",
-      "file": "s3_nach_dem_weg.json",
-      "version": 1,
-      "estimatedMin": 8
+      "id": "s3_weg",
+      "title": "Nach dem Weg fragen",
+      "file": "s3_weg.json",
+      "version": 2,
+      "estimatedMin": 7
     },
     {
-      "id": "s4_events_zeiten",
-      "title": "Events, Jahreszeiten, Zusammenfassung",
-      "file": "s4_events_zeiten.json",
-      "version": 1,
+      "id": "s4_events",
+      "title": "Events und Jahreszeiten",
+      "file": "s4_events.json",
+      "version": 2,
       "estimatedMin": 8
     }
   ],

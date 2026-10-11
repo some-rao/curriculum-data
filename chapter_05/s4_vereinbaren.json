@@ -21,28 +21,65 @@
       "variant": "GRAMMAR",
       "id": "s4p2",
       "headline": "Modalverben: können, müssen, wollen",
-      "bodyGerman": "müssen\nich muss · du musst · er/es/sie muss · wir müssen · ihr müsst · sie/Sie müssen\n\nkönnen\nich kann · du kannst · er/es/sie kann · wir können · ihr könnt · sie/Sie können\n\nwollen\nich will · du willst · er/es/sie will · wir wollen · ihr wollt · sie/Sie wollen",
-      "bodyEnglish": "A modal verb changes the main verb. »können« means can, »müssen« means must, »wollen« means want. The modal verb changes with the subject. The main verb stays in the infinitive at the end of the sentence.",
+      "bodyGerman": "Wir können nicht ins Kino gehen.",
+      "bodyEnglish": "A modal verb changes the main verb in a sentence.\nThis page shows the idea — the forms and the word order follow after it.",
       "vocabHighlight": [
-        { "german": "ich muss · du musst · er muss", "english": "I must · you must · he must" },
-        { "german": "ich kann · du kannst · er kann", "english": "I can · you can · he can" },
-        { "german": "ich will · du willst · er will", "english": "I want · you want · he wants" }
+        { "german": "können", "english": "can" },
+        { "german": "müssen", "english": "must / have to" },
+        { "german": "wollen", "english": "to want" }
       ]
     },
     {
       "type": "GRAMMAR",
       "variant": "RULE",
       "id": "s4g1",
-      "ruleHeadline": "Modalverb an Position 2 · Infinitiv am Satzende",
-      "explanationEnglish": "The conjugated modal verb sits in position 2. The main verb goes to the end as an infinitive. The rest of the sentence sits between both verbs.",
-      "englishBridge": "In English the helper verb stays next to the main verb. German splits them apart.",
+      "ruleHeadline": "Die Satzklammer: Modalverb an Position 2, Infinitiv am Ende",
+      "explanationEnglish": "The conjugated modal verb sits in position 2.\nThe main verb goes to the end as an infinitive.\nEverything else sits between both verbs: Wir können nicht ins Kino gehen.\nIn a yes/no question the modal verb comes first: Wollen wir gehen?\nTrap: never keep the two verbs together like in English.",
+      "englishBridge": "In English the helper verb stays next to the main verb — German splits them apart.",
       "targetSentenceGerman": "Wir können leider nicht ins Kino gehen.",
       "targetSentenceEnglish": "Unfortunately we cannot go to the cinema.",
+      "examples": [
+        { "german": "Wir können nicht ins Kino gehen.", "english": "We cannot go to the cinema." },
+        { "german": "Ich muss jeden Tag arbeiten.", "english": "I must work every day." },
+        { "german": "Die Kinder müssen Hausaufgaben machen.", "english": "The children must do homework." },
+        { "german": "Wir wollen meinen Bruder besuchen.", "english": "We want to visit my brother." },
+        { "german": "Wollen wir zum Yoga gehen?", "english": "Do we want to go to yoga?" }
+      ],
       "builder": {
         "fixedPrefix": "Wir",
         "solutionWords": ["können", "leider", "nicht", "ins", "Kino", "gehen"],
         "wordPool": ["können", "leider", "nicht", "ins", "Kino", "gehen", "kann", "Geht", "wir"]
       }
+    },
+    {
+      "type": "GRAMMAR",
+      "variant": "RULE",
+      "id": "s4g2",
+      "ruleHeadline": "können, müssen, wollen: ich muss, du musst, er muss",
+      "explanationEnglish": "All three modal verbs change with the person.\nich and er/es/sie take the short form: ich muss, er muss.\ndu takes -st: du musst, du kannst, du willst.\nwir, sie and Sie take -en: wir müssen, wir können, wir wollen.\nTwo verbs change the vowel for ich and er: können → ich kann, wollen → ich will.\nTrap: English »I must« stays the same — German changes it every time.",
+      "englishBridge": "English keeps one word for all persons — German changes the verb every time.",
+      "targetSentenceGerman": "Ich muss arbeiten. Wir müssen arbeiten.",
+      "targetSentenceEnglish": "I must work. We must work.",
+      "examples": [
+        { "german": "ich muss", "english": "I must" },
+        { "german": "du musst", "english": "you must (informal)" },
+        { "german": "er/es/sie muss", "english": "he/it/she must" },
+        { "german": "wir müssen", "english": "we must" },
+        { "german": "ihr müsst", "english": "you all must" },
+        { "german": "sie/Sie müssen", "english": "they must / you must (formal)" },
+        { "german": "ich kann", "english": "I can" },
+        { "german": "du kannst", "english": "you can (informal)" },
+        { "german": "er/es/sie kann", "english": "he/it/she can" },
+        { "german": "wir können", "english": "we can" },
+        { "german": "ihr könnt", "english": "you all can" },
+        { "german": "sie/Sie können", "english": "they can / you can (formal)" },
+        { "german": "ich will", "english": "I want" },
+        { "german": "du willst", "english": "you want (informal)" },
+        { "german": "er/es/sie will", "english": "he/it/she wants" },
+        { "german": "wir wollen", "english": "we want" },
+        { "german": "ihr wollt", "english": "you all want" },
+        { "german": "sie/Sie wollen", "english": "they want / you want (formal)" }
+      ]
     },
     {
       "type": "PATTERN",
@@ -91,7 +128,8 @@
       "variant": "USAGE",
       "id": "s4_n1",
       "title": "Höflich fragen",
-      "bodyEnglish": "Three levels of politeness for an appointment. Unfriendly: »Ich will einen Termin!« Polite: »Kann ich bitte einen Termin haben?« Very polite: »Ich hätte gern einen Termin.«"
+      "bodyEnglish": "Three levels of politeness for an appointment.\nUnfriendly: »Ich will einen Termin!«\nPolite: »Kann ich bitte einen Termin haben?«\nVery polite: »Ich hätte gern einen Termin.«",
+      "bodyGerman": "Ich hätte gern einen Termin.\nKann ich bitte einen Termin haben?"
     },
     {
       "type": "LESSON_PAGE",
@@ -122,7 +160,8 @@
       "variant": "CULTURE",
       "id": "s4_n2",
       "title": "Pünktlichkeit",
-      "bodyEnglish": "Being on time matters in Germany. At the doctor or at work, being late is a problem. With friends, ten minutes are usually fine. Always say sorry first."
+      "bodyEnglish": "Being on time matters in Germany.\nAt the doctor or at work, being late is a problem.\nWith friends, ten minutes are usually fine.\nAlways say sorry first.",
+      "bodyGerman": "Es tut mir leid, ich bin zu spät.\nEntschuldigung, bitte."
     },
     {
       "type": "EXAMPLES",
@@ -144,7 +183,8 @@
       "variant": "TIP",
       "id": "s4_n3",
       "title": "Lernvideo: Die Netzwerk-WG",
-      "bodyEnglish": "A WG is a shared flat. Watch the scenes about Max, Anna, Bea and Luca. Listen for »können«, »müssen« and »wollen«. Then tell the story in the right order."
+      "bodyEnglish": "A WG is a shared flat.\nWatch the scenes about Max, Anna, Bea and Luca.\nListen for »können«, »müssen« and »wollen«.\nThen tell the story in the right order.",
+      "bodyGerman": "Wir können nicht ins Kino gehen.\nDie Kinder müssen Hausaufgaben machen."
     },
     {
       "type": "VOCAB",
@@ -241,19 +281,6 @@
         "exampleGerman": "Es tut mir leid, ich bin zu spät. — Kein Problem.",
         "exampleEnglish": "I am sorry, I am late. — No problem."
       }
-    },
-    {
-      "type": "SUMMARY",
-      "variant": "RECAP",
-      "id": "s4_sum",
-      "title": "Was du jetzt kannst",
-      "bullets": [
-        "Modalverben: Wir können nicht ins Kino gehen.",
-        "Satzklammer: Modalverb an Position 2, Infinitiv am Ende.",
-        "Verabreden: Was machst du morgen? — Morgen muss ich arbeiten.",
-        "Termin: Ich hätte gern einen Termin. Geht es am Mittwoch um 11:30 Uhr?",
-        "Entschuldigen: Es tut mir leid, ich bin zu spät. — Kein Problem."
-      ]
     }
   ]
 }

@@ -8,7 +8,7 @@
       "variant": "READING",
       "id": "s3p1",
       "headline": "Der Kalender der Familie Dobart",
-      "bodyGerman": "Hannes ist von Sonntag bis Dienstag in Hamburg.\nMara arbeitet von neun bis siebzehn Uhr.\nFlorian hat am Samstag ein Spiel.\nLena hat am Montag Geigenuntererricht.\nMara trifft am Freitag Annalisa.",
+      "bodyGerman": "Hannes ist von Sonntag bis Dienstag in Hamburg.\nMara arbeitet von neun bis siebzehn Uhr.\nFlorian hat am Samstag ein Spiel.\nLena hat am Montag Geigenunterricht.\nMara trifft am Freitag Annalisa.",
       "bodyEnglish": "Hannes is in Hamburg from Sunday to Tuesday.\nMara works from 9:00 to 17:00.\nFlorian has a game on Saturday.\nLena has violin lessons on Monday.\nMara meets Annalisa on Friday.",
       "vocabHighlight": [
         { "german": "von … bis", "english": "from … to" },
@@ -21,10 +21,19 @@
       "variant": "RULE",
       "id": "s3g1",
       "ruleHeadline": "am + Tag · um + Uhrzeit · von … bis + Zeitraum",
-      "explanationEnglish": "»am« is for days: am Montag. »um« is for clock times: um drei Uhr. »von … bis« is for a period: von 9 bis 17 Uhr.",
-      "englishBridge": "In English you say on, at and from … to. German uses a different word for each time idea.",
+      "explanationEnglish": "German uses three prepositions for time ideas.\n»am« marks a day: am Montag, am Samstag, am Wochenende.\n»am« is short for »an + dem«, so it never changes.\n»um« marks a clock time: um drei Uhr, um zehn nach neun.\n»von … bis« marks a period: von neun bis siebzehn Uhr.\nTrap: English says »on Monday« — German needs only »am«, never »an Montag«.",
+      "englishBridge": "In English you say on, at and from … to — German uses one word per time idea.",
       "targetSentenceGerman": "Mara arbeitet von neun bis siebzehn Uhr.",
       "targetSentenceEnglish": "Mara works from 9:00 to 17:00.",
+      "examples": [
+        { "german": "der Montag → am Montag", "english": "Monday → on Monday" },
+        { "german": "das Wochenende → am Wochenende", "english": "the weekend → at the weekend" },
+        { "german": "um drei Uhr", "english": "at three o'clock" },
+        { "german": "um zehn nach neun", "english": "at ten past nine" },
+        { "german": "von neun bis siebzehn Uhr", "english": "from nine to seventeen o'clock" },
+        { "german": "von Sonntag bis Dienstag", "english": "from Sunday to Tuesday" },
+        { "german": "Florian hat am Samstag ein Spiel.", "english": "Florian has a game on Saturday." }
+      ],
       "builder": {
         "fixedPrefix": "Mara",
         "solutionWords": ["arbeitet", "von", "9", "bis", "17", "Uhr"],
@@ -36,16 +45,35 @@
       "variant": "VOCAB",
       "id": "s3p2",
       "headline": "Die Familie",
-      "bodyEnglish": "These words name the people in a family. Learn each noun with its article: der, die or das.",
+      "bodyEnglish": "These words name the people in a family.\nLearn each noun with its article: der, die or das.",
       "vocabHighlight": [
+        { "german": "die Familie", "english": "the family" },
         { "german": "der Vater", "english": "the father" },
         { "german": "die Mutter", "english": "the mother" },
-        { "german": "die Eltern", "english": "the parents" },
+        { "german": "das Kind", "english": "the child" },
         { "german": "der Sohn", "english": "the son" },
         { "german": "die Tochter", "english": "the daughter" },
         { "german": "der Bruder", "english": "the brother" },
-        { "german": "die Schwester", "english": "the sister" },
-        { "german": "die Oma", "english": "the grandma" }
+        { "german": "die Schwester", "english": "the sister" }
+      ]
+    },
+    {
+      "type": "GRAMMAR",
+      "variant": "RULE",
+      "id": "s3g2",
+      "ruleHeadline": "Familienwörter: der, die, das — und der Plural",
+      "explanationEnglish": "Every German noun has an article: der, die or das.\nLearn each family word together with its article.\nAll nouns start with a big letter: der Vater, die Mutter.\nMany family plurals add -er and an umlaut: die Väter, die Brüder.\nOther plurals add -n or -er without umlaut: die Schwestern, die Kinder.\nTrap: English has one word for »the« — German has three articles.",
+      "englishBridge": "English uses one word for »the« — German must choose der, die or das.",
+      "targetSentenceGerman": "Mein Vater heißt Hannes.",
+      "targetSentenceEnglish": "My father is called Hannes.",
+      "examples": [
+        { "german": "der Vater → die Väter", "english": "the father → the fathers (masculine)" },
+        { "german": "die Mutter → die Mütter", "english": "the mother → the mothers (feminine)" },
+        { "german": "das Kind → die Kinder", "english": "the child → the children (neuter)" },
+        { "german": "der Sohn → die Söhne", "english": "the son → the sons" },
+        { "german": "die Tochter → die Töchter", "english": "the daughter → the daughters" },
+        { "german": "der Bruder → die Brüder", "english": "the brother → the brothers" },
+        { "german": "die Schwester → die Schwestern", "english": "the sister → the sisters" }
       ]
     },
     {
@@ -53,13 +81,27 @@
       "variant": "GRAMMAR",
       "id": "s3p3",
       "headline": "Possessivartikel: mein, meine",
-      "bodyGerman": "der Vater → mein Vater · meinen Vater\ndas Kind → mein Kind\ndie Mutter → meine Mutter\ndie Kinder → meine Kinder",
-      "bodyEnglish": "A possessive article shows who owns something. It works like an article. »der Vater« becomes »mein Vater« in nominative and »meinen Vater« in accusative. »die Mutter« and »die Kinder« become »meine«.",
-      "vocabHighlight": [
-        { "german": "mein / meine", "english": "my" },
-        { "german": "dein / deine", "english": "your (informal)" },
-        { "german": "sein / seine", "english": "his" },
-        { "german": "unser / unsere", "english": "our" }
+      "bodyGerman": "Mein Vater heißt Hannes. Meine Mutter ist Ärztin.",
+      "bodyEnglish": "A possessive article shows who owns something.\nIt works exactly like an article: der Vater → mein Vater."
+    },
+    {
+      "type": "GRAMMAR",
+      "variant": "RULE",
+      "id": "s3g3",
+      "ruleHeadline": "mein, dein, sein, ihr — der Possessivartikel",
+      "explanationEnglish": "A possessive article replaces the article and shows the owner.\nThe owners: ich → mein, du → dein, er/es → sein, sie → ihr, wir → unser.\nIt changes like an article: der Vater → mein Vater, die Mutter → meine Mutter.\nAfter »besuchen« the noun is accusative, so masculine adds -en: meinen Bruder.\nTrap: English »my« never changes — German »mein« becomes »meine« or »meinen«.",
+      "englishBridge": "English says my, your, his only once — German changes the word like an article.",
+      "targetSentenceGerman": "Ich besuche meinen Bruder.",
+      "targetSentenceEnglish": "I visit my brother.",
+      "examples": [
+        { "german": "ich → mein Vater", "english": "I → my father (der, nominative)" },
+        { "german": "die Mutter → meine Mutter", "english": "the mother → my mother (die)" },
+        { "german": "das Kind → mein Kind", "english": "the child → my child (das)" },
+        { "german": "die Kinder → meine Kinder", "english": "the children → my children (plural)" },
+        { "german": "du → dein Bruder", "english": "you (informal) → your brother" },
+        { "german": "er → sein Sohn", "english": "he → his son" },
+        { "german": "sie → ihre Schwester", "english": "she → her sister" },
+        { "german": "Ich besuche meinen Bruder.", "english": "I visit my brother." }
       ]
     },
     {
@@ -159,19 +201,6 @@
         "exampleGerman": "Ich besuche meinen Bruder.",
         "exampleEnglish": "I visit my brother."
       }
-    },
-    {
-      "type": "SUMMARY",
-      "variant": "RECAP",
-      "id": "s3_sum",
-      "title": "Was du jetzt kannst",
-      "bullets": [
-        "Zeitangaben: am Montag · um drei Uhr · von 9 bis 17 Uhr.",
-        "Familie: der Vater · die Mutter · die Kinder.",
-        "Possessivartikel: mein Vater · meine Mutter · mein Kind.",
-        "Akkusativ: der Bruder → meinen Bruder.",
-        "Aussprache: das -r am Wortende ist weich, wie das a in about."
-      ]
     }
   ]
 }

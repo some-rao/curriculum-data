@@ -8,8 +8,7 @@
       "variant": "VOCAB",
       "id": "s3p1",
       "headline": "Berufe",
-      "bodyGerman": "der Taxifahrer · die Studentin · die Ärztin\nder Kellner · der Ingenieur",
-      "bodyEnglish": "A Beruf is a job. Most jobs end in -er for men and -in for women. Always learn a job with its article.",
+      "bodyEnglish": "A Beruf is a job, usually -er for men and -in for women.\nAlways learn it with its article.",
       "vocabHighlight": [
         { "german": "der Taxifahrer", "english": "taxi driver" },
         { "german": "die Studentin", "english": "female student" },
@@ -31,18 +30,25 @@
       "variant": "GRAMMAR",
       "id": "s3p3",
       "headline": "Nomen mit Artikel",
-      "bodyGerman": "der Stift · das Buch · die Tablette · die Bücher",
-      "bodyEnglish": "Every German noun has an article. der is masculine, das is neuter, die is feminine. Every plural noun also takes die. Learn a noun with article and plural: der Arzt, die Ärzte."
+      "bodyEnglish": "Every German noun has an article.\nder is masculine, das is neuter and die is feminine."
     },
     {
       "type": "GRAMMAR",
       "variant": "RULE",
       "id": "s3g1",
       "ruleHeadline": "bestimmter Artikel: der · das · die",
-      "explanationEnglish": "The article shows the gender. maskulin = der, neutrum = das, feminin = die. All plurals take die: die Bücher, die Ärzte, die Stunden.",
-      "englishBridge": "English has one word 'the'. German has three: der, das, die — and a fourth form for all plurals.",
+      "explanationEnglish": "Every German noun has a gender and an article.\nmasculine = der, feminine = die, neuter = das.\nLearn the article with the noun: der Arzt, die Stunde, das Buch.\nAll plurals take die: die Ärzte, die Stunden, die Bücher.\nTrap: English has one word the. German changes it with the gender.",
+      "englishBridge": "English says the book, the day, the week — always the. German: das Buch, der Tag, die Woche.",
       "targetSentenceGerman": "Das Buch ist neu. Die Bücher sind neu.",
       "targetSentenceEnglish": "The book is new. The books are new.",
+      "examples": [
+        { "german": "der Arzt", "english": "the doctor (m.)" },
+        { "german": "die Ärztin", "english": "the female doctor (f.)" },
+        { "german": "das Buch", "english": "the book (n.)" },
+        { "german": "die Stunde", "english": "the hour (f.)" },
+        { "german": "die Bücher", "english": "the books — every plural takes die" },
+        { "german": "die Ärzte", "english": "the doctors — every plural takes die" }
+      ],
       "builder": {
         "fixedPrefix": "Der",
         "solutionWords": ["Arzt", "arbeitet"],
@@ -54,8 +60,25 @@
       "variant": "GRAMMAR",
       "id": "s3p4",
       "headline": "Plural: die Endungen",
-      "bodyGerman": "der Kilometer → die Kilometer\ndie Stunde → die Stunden\nder Tag → die Tage\nder Arzt → die Ärzte\ndas Buch → die Bücher\ndas Auto → die Autos\ndas Restaurant → die Restaurants",
-      "bodyEnglish": "German has no single plural rule. Common endings are -e, -er, -en, -s or no ending. Some plurals also add an umlaut: der Arzt → die Ärzte."
+      "bodyEnglish": "German has no single plural rule.\nThe common endings are -e, -er, -en, -s or no ending. Some plurals also add an umlaut."
+    },
+    {
+      "type": "GRAMMAR",
+      "variant": "RULE",
+      "id": "s3g2",
+      "ruleHeadline": "Plural: -e · -er · -en · -s · ohne Endung",
+      "explanationEnglish": "The plural tells you how many. The article of every plural is die.\nGerman uses five endings: -e, -er, -en, -s and no ending.\nSome plurals also change a vowel: der Arzt → die Ärzte.\nWords from other languages often take -s: die Autos, die Restaurants.\nTrap: ✗ die Arzte → ✓ die Ärzte. The umlaut is part of the word.",
+      "englishBridge": "English adds one ending: book → books. German has five endings and sometimes an extra umlaut.",
+      "targetSentenceGerman": "Ich habe zwei Tage frei.",
+      "targetSentenceEnglish": "I have two days off.",
+      "examples": [
+        { "german": "der Tag → die Tage", "english": "the day → the days (-e)" },
+        { "german": "die Stunde → die Stunden", "english": "the hour → the hours (-en)" },
+        { "german": "das Buch → die Bücher", "english": "the book → the books (-er + umlaut)" },
+        { "german": "der Arzt → die Ärzte", "english": "the doctor → the doctors (-e + umlaut)" },
+        { "german": "das Auto → die Autos", "english": "the car → the cars (-s)" },
+        { "german": "der Kilometer → die Kilometer", "english": "the kilometre → the kilometres (no ending)" }
+      ]
     },
     {
       "type": "PATTERN",
@@ -70,26 +93,81 @@
       ]
     },
     {
+      "type": "GRAMMAR",
+      "variant": "RULE",
+      "id": "s3g3",
+      "ruleHeadline": "du oder Sie? Zwei Wörter für you",
+      "explanationEnglish": "German has two words for you: du and Sie.\nUse du with friends, family, children and classmates.\nUse Sie with strangers, customers, the teacher and the doctor.\nThe verb shows the choice: du kochst, Sie kochen.\nTrap: ✗ Sie kocht. → ✓ Sie kochen. Sie takes -en, like they.",
+      "englishBridge": "English has one you for every person. German marks how far the two people are apart.",
+      "targetSentenceGerman": "Du kochst gern. Sie kochen gern.",
+      "targetSentenceEnglish": "You like to cook (informal). You like to cook (formal).",
+      "examples": [
+        { "german": "du bist", "english": "you are (informal)" },
+        { "german": "Sie sind", "english": "you are (formal)" },
+        { "german": "du kochst", "english": "you cook (informal)" },
+        { "german": "Sie kochen", "english": "you cook (formal)" },
+        { "german": "du arbeitest", "english": "you work (informal)" },
+        { "german": "Sie arbeiten", "english": "you work (formal)" }
+      ]
+    },
+    {
       "type": "LESSON_PAGE",
       "variant": "GRAMMAR",
       "id": "s3p5",
       "headline": "sein und haben",
-      "bodyGerman": "ich bin · du bist · er/sie ist · wir sind · ihr seid · sie/Sie sind\n\nich habe · du hast · er/sie hat · wir haben · ihr habt · sie/Sie haben",
-      "bodyEnglish": "sein means 'to be', haben means 'to have'. Both are irregular. Learn all six forms by heart. You need them for job, age and free time."
+      "bodyEnglish": "sein means be, haben means have. Both are irregular.\nYou need them for job, age and free time."
+    },
+    {
+      "type": "GRAMMAR",
+      "variant": "RULE",
+      "id": "s3g4",
+      "ruleHeadline": "sein: ich bin · du bist · er ist",
+      "explanationEnglish": "sein means be. You need it for job, age and origin.\nsein does not follow the endings -e, -st, -t. Learn it as one block.\nich bin, du bist, er/sie/es ist, wir sind, ihr seid, sie/Sie sind.\nEnglish keeps am, is, are. German changes the whole word.\nTrap: ✗ Ich bin 22 Jahre. → ✓ Ich bin 22 Jahre alt.",
+      "englishBridge": "English has three forms: am, is, are. German has six, and none of them looks like sein.",
+      "targetSentenceGerman": "Ich bin Studentin. Ich bin 22 Jahre alt.",
+      "targetSentenceEnglish": "I am a student. I am 22 years old.",
+      "examples": [
+        { "german": "ich bin", "english": "I am" },
+        { "german": "du bist", "english": "you are (informal)" },
+        { "german": "er/sie/es ist", "english": "he/she/it is" },
+        { "german": "wir sind", "english": "we are" },
+        { "german": "ihr seid", "english": "you all are" },
+        { "german": "sie/Sie sind", "english": "they are / you are (formal)" }
+      ]
+    },
+    {
+      "type": "GRAMMAR",
+      "variant": "RULE",
+      "id": "s3g5",
+      "ruleHeadline": "haben: ich habe · du hast · er hat",
+      "explanationEnglish": "haben means have. You need it for free time, age and things.\nhaben is regular except in the singular: du hast, er/sie hat.\nFrom wir on the full infinitive returns: wir haben, ihr habt, sie/Sie haben.\nUse haben with free time: Ich habe am Montag frei.\nTrap: ✗ Du habe frei. → ✓ Du hast frei.",
+      "englishBridge": "English keeps keep and adds -s for he: he keeps. German changes the vowel: haben → hast → hat.",
+      "targetSentenceGerman": "Am Freitag habe ich frei.",
+      "targetSentenceEnglish": "I am off on Friday.",
+      "examples": [
+        { "german": "ich habe", "english": "I have" },
+        { "german": "du hast", "english": "you have (informal)" },
+        { "german": "er/sie hat", "english": "he/she has" },
+        { "german": "wir haben", "english": "we have" },
+        { "german": "ihr habt", "english": "you all have" },
+        { "german": "sie/Sie haben", "english": "they have / you have (formal)" }
+      ]
     },
     {
       "type": "NOTE",
       "variant": "TIP",
       "id": "s3_n1",
       "title": "Zahlen ab 20",
-      "bodyEnglish": "German numbers build backwards. 45 = fünfundvierzig means 'five-and-forty'. The units come first. 30 = dreißig, 100 = (ein)hundert, 1.000 = (ein)tausend."
+      "bodyEnglish": "German numbers build backwards.\n45 = fünfundvierzig means five-and-forty. The units come first.\n30 = dreißig · 100 = (ein)hundert · 1.000 = (ein)tausend.",
+      "bodyGerman": "45 = fünfundvierzig\n30 = dreißig\n100 = (ein)hundert"
     },
     {
       "type": "NOTE",
       "variant": "MISTAKE",
       "id": "s3_n2",
       "title": "»Ich bin 22 Jahre«",
-      "bodyEnglish": "With age the word 'alt' is not optional. ✗ Ich bin 22 Jahre. → ✓ Ich bin 22 Jahre alt."
+      "bodyEnglish": "With age the word »alt« is not optional.\n✗ Ich bin 22 Jahre. → ✓ Ich bin 22 Jahre alt.",
+      "bodyGerman": "Ich bin 22 Jahre alt."
     },
     {
       "type": "VOCAB",
@@ -153,18 +231,6 @@
       "promptEnglish": "Build: »Ich bin Kellner und ich arbeite am Abend.«",
       "solutionWords": ["Ich", "bin", "Kellner", "und", "ich", "arbeite", "am", "Abend"],
       "wordPool": ["Ich", "bin", "Kellner", "und", "ich", "arbeite", "am", "Abend", "Ärztin", "hast"]
-    },
-    {
-      "type": "SUMMARY",
-      "variant": "RECAP",
-      "id": "s3_sum",
-      "title": "Was du jetzt kannst",
-      "bullets": [
-        "Berufe mit Artikel lernen: der Taxifahrer · die Ärztin · der Kellner.",
-        "bestimmter Artikel: der (maskulin) · das (neutrum) · die (feminin) · Plural: die.",
-        "Plural-Endungen: -e · -er · -en · -s · ohne Endung, manchmal mit Umlaut.",
-        "Fragen über die Arbeit: Was sind Sie von Beruf? — Ich bin … Wann haben Sie frei? — Ich habe am … frei."
-      ]
     }
   ]
 }

@@ -12,7 +12,7 @@
       "bodyEnglish": "Mario and Elena plan a barbecue. They telephone and make a shopping list.",
       "vocabHighlight": [
         { "german": "den Einkaufszettel schreiben", "english": "to write the shopping list" },
-        { "german": "die Getränke", "english": "the drinks" },
+        { "german": "das Getränk", "english": "drinks" },
         { "german": "brauchen", "english": "to need" }
       ],
       "turns": [
@@ -29,30 +29,41 @@
       "variant": "TIP",
       "id": "s2_n1",
       "title": "Der Einkaufszettel",
-      "bodyEnglish": "Write a shopping list before you buy. Put every word with its article: die Eier, den Käse, das Öl."
+      "bodyEnglish": "Write a shopping list before you shop.\nPut every food word with its article.\nExample: die Eier (the eggs), den Käse (the cheese), das Öl (the oil).",
+      "bodyGerman": "die Eier\nden Käse\ndas Öl"
     },
     {
       "type": "LESSON_PAGE",
       "variant": "GRAMMAR",
       "id": "s2p2",
       "headline": "Nominativ und Akkusativ",
-      "bodyGerman": "Der Käse ist gut. — Ich kaufe den Käse.\nDas Brot ist gut. — Ich kaufe das Brot.\nDie Gurke ist gut. — Ich kaufe die Gurke.\nDie Tomaten sind gut. — Ich kaufe die Tomaten.",
-      "bodyEnglish": "The article of the object changes after kaufen, brauchen and haben. Only masculine changes: der becomes den."
+      "bodyEnglish": "The article changes after kaufen, brauchen and haben.\nOnly the masculine article changes: der becomes den.",
+      "bodyGerman": "Der Käse ist gut. — Ich kaufe den Käse.\nDas Brot ist gut. — Ich kaufe das Brot.",
+      "vocabHighlight": [
+        { "german": "kaufen", "english": "to buy" },
+        { "german": "brauchen", "english": "to need" },
+        { "german": "der Käse", "english": "cheese" },
+        { "german": "das Brot", "english": "bread" }
+      ]
     },
     {
       "type": "GRAMMAR",
       "variant": "RULE",
       "id": "s2g1",
-      "ruleHeadline": "Akkusativ: der → den",
-      "explanationEnglish": "The object of kaufen, brauchen and haben is in the accusative. Only masculine changes: der → den.",
-      "englishBridge": "English never changes the object: I buy the cheese. German changes it: Ich kaufe den Käse.",
+      "ruleHeadline": "Akkusativ: der → den, ein → einen",
+      "explanationEnglish": "The object of kaufen, brauchen, essen and haben is in the accusative.\nOnly the masculine article changes: der → den, ein → einen, kein → keinen.\nFeminine, neuter and plural stay the same: die Gurke, das Brot, die Tomaten.\nSay the new article with the noun: den Käse, not der Käse.\nTrap: English never changes the object. German changes it after the verb.",
+      "englishBridge": "English keeps the object: I buy the cheese. German changes it: Ich kaufe den Käse.",
       "targetSentenceGerman": "Ich kaufe den Käse und das Brot.",
       "targetSentenceEnglish": "I buy the cheese and the bread.",
-      "builder": {
-        "fixedPrefix": "Ich",
-        "solutionWords": ["kaufe", "den", "Käse"],
-        "wordPool": ["kaufe", "kaufst", "den", "der", "Käse", "Brot"]
-      }
+      "examples": [
+        { "german": "Ich kaufe den Käse.", "english": "I buy the cheese. (der Käse → den Käse)" },
+        { "german": "Ich kaufe einen Salat.", "english": "I buy a salad. (ein Salat → einen Salat)" },
+        { "german": "Ich kaufe die Gurke.", "english": "I buy the cucumber. (die → die)" },
+        { "german": "Ich kaufe das Brot.", "english": "I buy the bread. (das → das)" },
+        { "german": "Ich kaufe die Tomaten.", "english": "I buy the tomatoes. (die → die)" },
+        { "german": "Wir brauchen eine Gurke.", "english": "We need a cucumber. (eine → eine)" },
+        { "german": "Wir haben keinen Käse.", "english": "We have no cheese. (kein → keinen)" }
+      ]
     },
     {
       "type": "EXAMPLES",
@@ -129,18 +140,6 @@
         "exampleGerman": "Ich kaufe den Käse im Supermarkt.",
         "exampleEnglish": "I buy the cheese in the supermarket."
       }
-    },
-    {
-      "type": "SUMMARY",
-      "variant": "RECAP",
-      "id": "s2_sum",
-      "title": "Was du jetzt kannst",
-      "bullets": [
-        "Einkauf planen: Was brauchen wir? — Wir brauchen Tomaten, Eier, Öl und eine Gurke.",
-        "Akkusativ: der → den · ein → einen · kein → keinen.",
-        "Neutrum, Feminin und Plural bleiben: das Brot, die Gurke, die Tomaten.",
-        "Umlaute: Apfel — Äpfel · Brot — Brötchen · Markt — Märkte."
-      ]
     }
   ]
 }

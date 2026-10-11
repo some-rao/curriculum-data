@@ -11,12 +11,19 @@
       "gender": "NEUTER",
       "plural": "Butterbrote",
       "ipa": "/ˈbutɐbʁɔt/",
-      "meaningsEnglish": ["bread and butter", "slice of bread"],
-      "domainTags": ["Food"],
+      "meaningsEnglish": [
+        "bread and butter",
+        "slice of bread"
+      ],
+      "domainTags": [
+        "Food"
+      ],
       "definitionGerman": "Brot mit Butter darauf.",
       "exampleGerman": "Das Butterbrot heißt auf Russisch buterbrod.",
       "exampleEnglish": "In Russian, bread and butter is buterbrod.",
-      "sectionIds": ["s1_hallo"]
+      "sectionIds": [
+        "s1_hallo"
+      ]
     },
     {
       "id": "w_flasche",
@@ -27,12 +34,18 @@
       "gender": "FEMININE",
       "plural": "Flaschen",
       "ipa": "/ˈflaʃə/",
-      "meaningsEnglish": ["bottle"],
-      "domainTags": ["Food"],
+      "meaningsEnglish": [
+        "bottle"
+      ],
+      "domainTags": [
+        "Food"
+      ],
       "definitionGerman": "Ein Gefäß für Getränke.",
       "exampleGerman": "Die Flasche heißt auf Serbisch flaša.",
       "exampleEnglish": "In Serbian, bottle is flaša.",
-      "sectionIds": ["s1_hallo"]
+      "sectionIds": [
+        "s1_hallo"
+      ]
     },
     {
       "id": "w_koffer",
@@ -43,12 +56,18 @@
       "gender": "MASCULINE",
       "plural": "Koffer",
       "ipa": "/ˈkɔfɐ/",
-      "meaningsEnglish": ["suitcase"],
-      "domainTags": ["Travel"],
+      "meaningsEnglish": [
+        "suitcase"
+      ],
+      "domainTags": [
+        "Travel"
+      ],
       "definitionGerman": "Eine Tasche für eine Reise.",
       "exampleGerman": "Der Koffer ist von Alexander.",
       "exampleEnglish": "The suitcase is Alexander's.",
-      "sectionIds": ["s1_hallo"]
+      "sectionIds": [
+        "s1_hallo"
+      ]
     },
     {
       "id": "w_handtuch",
@@ -59,12 +78,18 @@
       "gender": "NEUTER",
       "plural": "Handtücher",
       "ipa": "/ˈhantˌtuːx/",
-      "meaningsEnglish": ["towel"],
-      "domainTags": ["Travel"],
+      "meaningsEnglish": [
+        "towel"
+      ],
+      "domainTags": [
+        "Travel"
+      ],
       "definitionGerman": "Ein Tuch zum Abtrocknen.",
       "exampleGerman": "Das ist das Handtuch.",
       "exampleEnglish": "That is the towel.",
-      "sectionIds": ["s1_hallo"]
+      "sectionIds": [
+        "s1_hallo"
+      ]
     },
     {
       "id": "w_kindergarten",
@@ -75,12 +100,19 @@
       "gender": "MASCULINE",
       "plural": "Kindergärten",
       "ipa": "/ˈkɪndɐˌɡaːtən/",
-      "meaningsEnglish": ["kindergarten", "nursery school"],
-      "domainTags": ["Places"],
+      "meaningsEnglish": [
+        "kindergarten",
+        "nursery school"
+      ],
+      "domainTags": [
+        "Places"
+      ],
       "definitionGerman": "Eine Schule für kleine Kinder.",
       "exampleGerman": "Der Kindergarten heißt auf Englisch kindergarten.",
       "exampleEnglish": "In English, kindergarten is kindergarten.",
-      "sectionIds": ["s1_hallo"]
+      "sectionIds": [
+        "s1_hallo"
+      ]
     },
     {
       "id": "w_autobahn",
@@ -91,12 +123,19 @@
       "gender": "FEMININE",
       "plural": "Autobahnen",
       "ipa": "/ˈaʊtoˌbaːn/",
-      "meaningsEnglish": ["motorway", "freeway"],
-      "domainTags": ["Places"],
+      "meaningsEnglish": [
+        "motorway",
+        "freeway"
+      ],
+      "domainTags": [
+        "Places"
+      ],
       "definitionGerman": "Eine schnelle Straße für Autos.",
       "exampleGerman": "Die Autobahn heißt auf Türkisch otoban.",
       "exampleEnglish": "In Turkish, motorway is otoban.",
-      "sectionIds": ["s1_hallo"]
+      "sectionIds": [
+        "s1_hallo"
+      ]
     },
     {
       "id": "w_wuerstchen",
@@ -107,12 +146,18 @@
       "gender": "NEUTER",
       "plural": "Würstchen",
       "ipa": "/ˈvʏʁstçən/",
-      "meaningsEnglish": ["small sausage"],
-      "domainTags": ["Food"],
+      "meaningsEnglish": [
+        "small sausage"
+      ],
+      "domainTags": [
+        "Food"
+      ],
       "definitionGerman": "Eine kleine Wurst.",
       "exampleGerman": "Das Würstchen heißt auf Italienisch wurstel.",
       "exampleEnglish": "In Italian, the small sausage is wurstel.",
-      "sectionIds": ["s1_hallo"]
+      "sectionIds": [
+        "s1_hallo"
+      ]
     },
     {
       "id": "w_heissen",
@@ -121,12 +166,21 @@
       "level": "A1",
       "regular": false,
       "ipa": "/ˈhaɪsən/",
-      "meaningsEnglish": ["to be called", "to be named"],
-      "domainTags": ["Identity", "Core Verb"],
+      "meaningsEnglish": [
+        "to be called",
+        "to be named"
+      ],
+      "domainTags": [
+        "Identity",
+        "Core Verb"
+      ],
       "definitionGerman": "Einen Namen haben.",
       "exampleGerman": "Ich heiße Niklas.",
       "exampleEnglish": "My name is Niklas.",
-      "sectionIds": ["s1_hallo", "s2_guten_tag"]
+      "sectionIds": [
+        "s1_hallo",
+        "s2_guten_tag"
+      ]
     },
     {
       "id": "w_sein",
@@ -135,12 +189,20 @@
       "level": "A1",
       "regular": false,
       "ipa": "/zaɪn/",
-      "meaningsEnglish": ["to be"],
-      "domainTags": ["Identity", "Core Verb"],
+      "meaningsEnglish": [
+        "to be"
+      ],
+      "domainTags": [
+        "Identity",
+        "Core Verb"
+      ],
       "definitionGerman": "So sein wie jemand oder etwas.",
       "exampleGerman": "Ich bin Julia.",
       "exampleEnglish": "I am Julia.",
-      "sectionIds": ["s1_hallo", "s2_guten_tag"]
+      "sectionIds": [
+        "s1_hallo",
+        "s2_guten_tag"
+      ]
     },
     {
       "id": "w_wie_gehts",
@@ -148,12 +210,18 @@
       "partOfSpeech": "PHRASE",
       "level": "A1",
       "ipa": "/ˈviː ɡeːts/",
-      "meaningsEnglish": ["how are you"],
-      "domainTags": ["Greetings"],
+      "meaningsEnglish": [
+        "how are you"
+      ],
+      "domainTags": [
+        "Greetings"
+      ],
       "definitionGerman": "Freundliche Frage nach dem Befinden.",
       "exampleGerman": "Hallo Niklas! Wie geht's?",
       "exampleEnglish": "Hello Niklas! How are you?",
-      "sectionIds": ["s1_hallo"]
+      "sectionIds": [
+        "s1_hallo"
+      ]
     },
     {
       "id": "w_tschuess",
@@ -161,12 +229,19 @@
       "partOfSpeech": "PHRASE",
       "level": "A1",
       "ipa": "/tʃyːs/",
-      "meaningsEnglish": ["bye", "goodbye"],
-      "domainTags": ["Greetings"],
+      "meaningsEnglish": [
+        "bye",
+        "goodbye"
+      ],
+      "domainTags": [
+        "Greetings"
+      ],
       "definitionGerman": "Umgangssprachlicher Abschied.",
       "exampleGerman": "Tschüs Julia! Bis bald!",
       "exampleEnglish": "Bye Julia! See you soon!",
-      "sectionIds": ["s1_hallo"]
+      "sectionIds": [
+        "s1_hallo"
+      ]
     },
     {
       "id": "w_gut",
@@ -174,12 +249,19 @@
       "partOfSpeech": "ADJECTIVE",
       "level": "A1",
       "ipa": "/ɡuːt/",
-      "meaningsEnglish": ["good"],
-      "domainTags": ["Core Adjective"],
+      "meaningsEnglish": [
+        "good"
+      ],
+      "domainTags": [
+        "Core Adjective"
+      ],
       "definitionGerman": "Alles ist in Ordnung.",
       "exampleGerman": "Danke, sehr gut!",
       "exampleEnglish": "Thanks, very good!",
-      "sectionIds": ["s1_hallo", "s2_guten_tag"]
+      "sectionIds": [
+        "s1_hallo",
+        "s2_guten_tag"
+      ]
     },
     {
       "id": "w_guten_tag",
@@ -187,12 +269,19 @@
       "partOfSpeech": "PHRASE",
       "level": "A1",
       "ipa": "/ˈɡuːtn̩ taːk/",
-      "meaningsEnglish": ["good day", "hello"],
-      "domainTags": ["Greetings"],
+      "meaningsEnglish": [
+        "good day",
+        "hello"
+      ],
+      "domainTags": [
+        "Greetings"
+      ],
       "definitionGerman": "Höfliche Begrüßung am Tag.",
       "exampleGerman": "Guten Tag, Frau Weber!",
       "exampleEnglish": "Good day, Ms Weber!",
-      "sectionIds": ["s2_guten_tag"]
+      "sectionIds": [
+        "s2_guten_tag"
+      ]
     },
     {
       "id": "w_auf_wiedersehen",
@@ -200,12 +289,18 @@
       "partOfSpeech": "PHRASE",
       "level": "A1",
       "ipa": "/aʊ̯f ˈviːdɐˌzeːən/",
-      "meaningsEnglish": ["goodbye"],
-      "domainTags": ["Greetings"],
+      "meaningsEnglish": [
+        "goodbye"
+      ],
+      "domainTags": [
+        "Greetings"
+      ],
       "definitionGerman": "Höflicher Abschied.",
       "exampleGerman": "Auf Wiedersehen, Herr Hansen!",
       "exampleEnglish": "Goodbye, Mr Hansen!",
-      "sectionIds": ["s2_guten_tag"]
+      "sectionIds": [
+        "s2_guten_tag"
+      ]
     },
     {
       "id": "w_name",
@@ -216,12 +311,18 @@
       "gender": "MASCULINE",
       "plural": "Namen",
       "ipa": "/ˈnaːmə/",
-      "meaningsEnglish": ["name"],
-      "domainTags": ["Identity"],
+      "meaningsEnglish": [
+        "name"
+      ],
+      "domainTags": [
+        "Identity"
+      ],
       "definitionGerman": "Das Wort, mit dem eine Person bezeichnet wird.",
       "exampleGerman": "Mein Name ist Nina Weber.",
       "exampleEnglish": "My name is Nina Weber.",
-      "sectionIds": ["s2_guten_tag"]
+      "sectionIds": [
+        "s2_guten_tag"
+      ]
     },
     {
       "id": "w_vorname",
@@ -232,12 +333,18 @@
       "gender": "MASCULINE",
       "plural": "Vornamen",
       "ipa": "/ˈfoːʁnaːmə/",
-      "meaningsEnglish": ["first name"],
-      "domainTags": ["Identity"],
+      "meaningsEnglish": [
+        "first name"
+      ],
+      "domainTags": [
+        "Identity"
+      ],
       "definitionGerman": "Der Name vor dem Nachnamen.",
       "exampleGerman": "Nina ist der Vorname.",
       "exampleEnglish": "Nina is the first name.",
-      "sectionIds": ["s2_guten_tag"]
+      "sectionIds": [
+        "s2_guten_tag"
+      ]
     },
     {
       "id": "w_nachname",
@@ -248,12 +355,19 @@
       "gender": "MASCULINE",
       "plural": "Nachnamen",
       "ipa": "/ˈnaxnaːmə/",
-      "meaningsEnglish": ["last name", "surname"],
-      "domainTags": ["Identity"],
+      "meaningsEnglish": [
+        "last name",
+        "surname"
+      ],
+      "domainTags": [
+        "Identity"
+      ],
       "definitionGerman": "Der Name der Familie.",
       "exampleGerman": "Weber ist der Nachname.",
       "exampleEnglish": "Weber is the last name.",
-      "sectionIds": ["s2_guten_tag"]
+      "sectionIds": [
+        "s2_guten_tag"
+      ]
     },
     {
       "id": "w_kommen",
@@ -262,12 +376,19 @@
       "level": "A1",
       "regular": true,
       "ipa": "/ˈkɔmən/",
-      "meaningsEnglish": ["to come"],
-      "domainTags": ["Movement", "Core Verb"],
+      "meaningsEnglish": [
+        "to come"
+      ],
+      "domainTags": [
+        "Movement",
+        "Core Verb"
+      ],
       "definitionGerman": "Zu einem Ort gehen.",
       "exampleGerman": "Ich komme aus Deutschland.",
       "exampleEnglish": "I come from Germany.",
-      "sectionIds": ["s3_woher_kommen"]
+      "sectionIds": [
+        "s3_woher_kommen"
+      ]
     },
     {
       "id": "w_wohnen",
@@ -276,12 +397,19 @@
       "level": "A1",
       "regular": true,
       "ipa": "/ˈvoːnən/",
-      "meaningsEnglish": ["to live"],
-      "domainTags": ["Home", "Core Verb"],
+      "meaningsEnglish": [
+        "to live"
+      ],
+      "domainTags": [
+        "Home",
+        "Core Verb"
+      ],
       "definitionGerman": "Dauerhaft an einem Ort sein.",
       "exampleGerman": "Ich wohne in Zürich.",
       "exampleEnglish": "I live in Zurich.",
-      "sectionIds": ["s3_woher_kommen"]
+      "sectionIds": [
+        "s3_woher_kommen"
+      ]
     },
     {
       "id": "w_sprechen",
@@ -290,12 +418,19 @@
       "level": "A1",
       "regular": false,
       "ipa": "/ˈʃpʁɛçən/",
-      "meaningsEnglish": ["to speak"],
-      "domainTags": ["Languages", "Core Verb"],
+      "meaningsEnglish": [
+        "to speak"
+      ],
+      "domainTags": [
+        "Languages",
+        "Core Verb"
+      ],
       "definitionGerman": "Mit Wörtern reden.",
       "exampleGerman": "Ich spreche Deutsch und Englisch.",
       "exampleEnglish": "I speak German and English.",
-      "sectionIds": ["s3_woher_kommen"]
+      "sectionIds": [
+        "s3_woher_kommen"
+      ]
     },
     {
       "id": "w_lernen",
@@ -304,12 +439,18 @@
       "level": "A1",
       "regular": true,
       "ipa": "/ˈlɛʁnən/",
-      "meaningsEnglish": ["to learn"],
-      "domainTags": ["Languages"],
+      "meaningsEnglish": [
+        "to learn"
+      ],
+      "domainTags": [
+        "Languages"
+      ],
       "definitionGerman": "Neues Wissen bekommen.",
       "exampleGerman": "Ich lerne Deutsch.",
       "exampleEnglish": "I learn German.",
-      "sectionIds": ["s3_woher_kommen"]
+      "sectionIds": [
+        "s3_woher_kommen"
+      ]
     },
     {
       "id": "w_sprache",
@@ -320,12 +461,18 @@
       "gender": "FEMININE",
       "plural": "Sprachen",
       "ipa": "/ˈʃpaːxə/",
-      "meaningsEnglish": ["language"],
-      "domainTags": ["Languages"],
+      "meaningsEnglish": [
+        "language"
+      ],
+      "domainTags": [
+        "Languages"
+      ],
       "definitionGerman": "Wörter und Regeln eines Landes.",
       "exampleGerman": "Welche Sprachen sprichst du?",
       "exampleEnglish": "Which languages do you speak?",
-      "sectionIds": ["s3_woher_kommen"]
+      "sectionIds": [
+        "s3_woher_kommen"
+      ]
     },
     {
       "id": "w_land",
@@ -336,12 +483,18 @@
       "gender": "NEUTER",
       "plural": "Länder",
       "ipa": "/lant/",
-      "meaningsEnglish": ["country"],
-      "domainTags": ["Places"],
+      "meaningsEnglish": [
+        "country"
+      ],
+      "domainTags": [
+        "Places"
+      ],
       "definitionGerman": "Ein Staat mit eigenen Grenzen.",
       "exampleGerman": "Spanien ist ein Land.",
       "exampleEnglish": "Spain is a country.",
-      "sectionIds": ["s3_woher_kommen"]
+      "sectionIds": [
+        "s3_woher_kommen"
+      ]
     },
     {
       "id": "w_stadt",
@@ -352,12 +505,19 @@
       "gender": "FEMININE",
       "plural": "Städte",
       "ipa": "/ʃtat/",
-      "meaningsEnglish": ["city", "town"],
-      "domainTags": ["Places"],
+      "meaningsEnglish": [
+        "city",
+        "town"
+      ],
+      "domainTags": [
+        "Places"
+      ],
       "definitionGerman": "Eine große Ansiedlung mit vielen Menschen.",
       "exampleGerman": "Berlin ist eine Stadt.",
       "exampleEnglish": "Berlin is a city.",
-      "sectionIds": ["s3_woher_kommen"]
+      "sectionIds": [
+        "s3_woher_kommen"
+      ]
     },
     {
       "id": "w_telefonnummer",
@@ -368,12 +528,18 @@
       "gender": "FEMININE",
       "plural": "Telefonnummern",
       "ipa": "/teleˈfɔnˌnʊmɐ/",
-      "meaningsEnglish": ["telephone number"],
-      "domainTags": ["Contact"],
+      "meaningsEnglish": [
+        "telephone number"
+      ],
+      "domainTags": [
+        "Contact"
+      ],
       "definitionGerman": "Die Zahlen für einen Anruf.",
       "exampleGerman": "Wie ist Ihre Telefonnummer?",
       "exampleEnglish": "What is your telephone number?",
-      "sectionIds": ["s4_zahlen_kontakt"]
+      "sectionIds": [
+        "s4_zahlen_kontakt"
+      ]
     },
     {
       "id": "w_email",
@@ -384,12 +550,18 @@
       "gender": "FEMININE",
       "plural": "E-Mail-Adressen",
       "ipa": "/ˈiːmeɪ̯l ʔadʁɛsə/",
-      "meaningsEnglish": ["e-mail address"],
-      "domainTags": ["Contact"],
+      "meaningsEnglish": [
+        "e-mail address"
+      ],
+      "domainTags": [
+        "Contact"
+      ],
       "definitionGerman": "Die Adresse für E-Mails.",
       "exampleGerman": "Wie ist deine E-Mail-Adresse?",
       "exampleEnglish": "What is your e-mail address?",
-      "sectionIds": ["s4_zahlen_kontakt"]
+      "sectionIds": [
+        "s4_zahlen_kontakt"
+      ]
     },
     {
       "id": "w_nummer",
@@ -400,12 +572,19 @@
       "gender": "FEMININE",
       "plural": "Nummern",
       "ipa": "/ˈnʊmɐ/",
-      "meaningsEnglish": ["number"],
-      "domainTags": ["Contact", "Numbers"],
+      "meaningsEnglish": [
+        "number"
+      ],
+      "domainTags": [
+        "Contact",
+        "Numbers"
+      ],
       "definitionGerman": "Eine Zahl für eine Person oder Sache.",
       "exampleGerman": "Und wie ist deine Nummer?",
       "exampleEnglish": "And what is your number?",
-      "sectionIds": ["s4_zahlen_kontakt"]
+      "sectionIds": [
+        "s4_zahlen_kontakt"
+      ]
     },
     {
       "id": "w_buchstabieren",
@@ -414,12 +593,40 @@
       "level": "A1",
       "regular": true,
       "ipa": "/bʊʃtaˈbiːʁən/",
-      "meaningsEnglish": ["to spell"],
-      "domainTags": ["Contact"],
+      "meaningsEnglish": [
+        "to spell"
+      ],
+      "domainTags": [
+        "Contact"
+      ],
       "definitionGerman": "Ein Wort Buchstabe für Buchstabe sagen.",
       "exampleGerman": "Kannst du das buchstabieren?",
       "exampleEnglish": "Can you spell that?",
-      "sectionIds": ["s4_zahlen_kontakt"]
+      "sectionIds": [
+        "s4_zahlen_kontakt"
+      ]
+    },
+    {
+      "id": "w_reisefuehrerin",
+      "word": "Reiseführerin",
+      "partOfSpeech": "NOUN",
+      "level": "A1",
+      "article": "die",
+      "gender": "FEMININE",
+      "plural": "Reiseführerinnen",
+      "ipa": "/ˈʁaɪ̯zəˌfyːʁəʁɪn/",
+      "meaningsEnglish": [
+        "tour guide (female)"
+      ],
+      "domainTags": [
+        "Travel"
+      ],
+      "definitionGerman": "Eine Frau, die Reisende durch eine Stadt führt und erklärt.",
+      "exampleGerman": "Die Reiseführerin zeigt uns die Kirche.",
+      "exampleEnglish": "The tour guide shows us the church.",
+      "sectionIds": [
+        "s3_woher_kommen"
+      ]
     }
   ]
 }

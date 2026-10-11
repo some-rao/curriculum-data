@@ -43,20 +43,19 @@
       "variant": "USAGE",
       "id": "s3_n1",
       "title": "Wo? Woher? Wer? Wie?",
-      "bodyEnglish": "Wo asks for a place. Woher for the origin. Wer for a person. Wie for a name or a way."
+      "bodyEnglish": "Wo asks for a place.\nWoher asks for the origin.\nWer asks for a person.\nWie asks for a name or a way.",
+      "bodyGerman": "Wo wohnen Sie?\nWoher kommen Sie?\nWer ist das?\nWie heißen Sie?"
     },
     {
       "type": "LESSON_PAGE",
       "variant": "GRAMMAR",
       "id": "s3p3",
-      "headline": "Verben und Personalpronomen",
-      "bodyGerman": "wohnen: ich wohne · du wohnst · er/sie wohnt · Sie wohnen\nkommen: ich komme · du kommst · er/sie kommt · Sie kommen\nsein: ich bin · du bist · er/sie ist · Sie sind",
-      "bodyEnglish": "The verb changes with the person: ich -e, du -st, er/sie -t, Sie -en. sein is special.",
+      "headline": "Fragen und Sätze",
+      "bodyEnglish": "Two sentence types build every answer in this lesson.\nOne sentence asks with a W-word. The other sentence states a fact.",
       "vocabHighlight": [
-        { "german": "ich wohne", "english": "I live" },
-        { "german": "du wohnst", "english": "you live (informal)" },
-        { "german": "er/sie wohnt", "english": "he/she lives" },
-        { "german": "Sie wohnen", "english": "you live (formal)" }
+        { "german": "kommen", "english": "to come" },
+        { "german": "wohnen", "english": "to live" },
+        { "german": "die Sprache", "english": "language" }
       ]
     },
     {
@@ -64,15 +63,41 @@
       "variant": "RULE",
       "id": "s3g1",
       "ruleHeadline": "W-Frage und Aussagesatz",
-      "explanationEnglish": "A W-question starts with the W-word, then the verb, then the person. A statement starts with the person.",
-      "englishBridge": "English does the same: Where do you live? — You live in Zurich. German needs no helping verb.",
-      "targetSentenceGerman": "Woher kommst du?",
-      "targetSentenceEnglish": "Where do you come from?",
+      "explanationEnglish": "A statement starts with the person. The conjugated verb comes second: Ich komme aus Deutschland.\nA W-question starts with the W-word. The verb comes directly after it: Woher kommst du?\nThe order is W-word + conjugated verb + person. German needs no helping verb.\nThe W-word decides the answer: Wo = place, Woher = origin, Wer = person, Wie = way.\nTrap: never put the person before the verb in a question: ✗ Woher du kommst. → ✓ Woher kommst du?",
+      "englishBridge": "English needs do or does: Where do you live? German has no helping verb: Wo wohnst du?",
+      "targetSentenceGerman": "Woher kommen Sie? — Ich komme aus Deutschland.",
+      "targetSentenceEnglish": "Where do you come from? — I come from Germany.",
+      "examples": [
+        { "german": "Woher kommst du?", "english": "W-question: where do you come from?" },
+        { "german": "Wo wohnen Sie?", "english": "W-question: where do you live?" },
+        { "german": "Wer ist das?", "english": "W-question: who is that?" },
+        { "german": "Ich komme aus Deutschland.", "english": "statement: person first" },
+        { "german": "Du wohnst in Zürich.", "english": "statement: person first" },
+        { "german": "Sie wohnen in Lugano.", "english": "statement: formal you first" }
+      ],
       "builder": {
         "fixedPrefix": "Woher",
         "solutionWords": ["kommst", "du"],
         "wordPool": ["kommst", "komm", "du", "wohne", "wohnt"]
       }
+    },
+    {
+      "type": "GRAMMAR",
+      "variant": "RULE",
+      "id": "s3g2",
+      "ruleHeadline": "aus + Land: mit oder ohne Artikel",
+      "explanationEnglish": "Origin uses aus: Ich komme aus Deutschland. aus never changes.\nMost countries take no article: aus Spanien, aus Brasilien, aus Deutschland.\nFeminine countries take der after aus: aus der Schweiz, aus der Türkei.\nPlural countries take den: aus den USA. The article belongs to the country noun.\nTrap: ✗ Ich komme von der Schweiz. → ✓ Ich komme aus der Schweiz.",
+      "englishBridge": "English says from for every country. German says aus — never von for origin.",
+      "targetSentenceGerman": "Ich komme aus der Schweiz. Ich komme aus Spanien.",
+      "targetSentenceEnglish": "I come from Switzerland. I come from Spain.",
+      "examples": [
+        { "german": "aus Deutschland", "english": "from Germany — no article" },
+        { "german": "aus Spanien", "english": "from Spain — no article" },
+        { "german": "aus Brasilien", "english": "from Brazil — no article" },
+        { "german": "aus der Schweiz", "english": "from Switzerland — die Schweiz becomes der" },
+        { "german": "aus der Türkei", "english": "from Turkey — die Türkei becomes der" },
+        { "german": "aus den USA", "english": "from the USA — plural takes den" }
+      ]
     },
     {
       "type": "PATTERN",
@@ -119,7 +144,8 @@
       "variant": "USAGE",
       "id": "s3_n2",
       "title": "aus + Land",
-      "bodyEnglish": "Use aus plus the country: aus Spanien. Some countries take an article: aus der Schweiz, aus den USA."
+      "bodyEnglish": "Use aus plus the country: aus Spanien.\nSome countries keep an article: aus der Schweiz, aus den USA.",
+      "bodyGerman": "aus Deutschland\naus der Schweiz\naus den USA"
     },
     {
       "type": "VOCAB",
@@ -196,19 +222,6 @@
       "promptEnglish": "Write: I come from Spain and I live in Berlin.",
       "solutionWords": ["Ich", "komme", "aus", "Spanien", "und", "ich", "wohne", "in", "Berlin"],
       "wordPool": ["Ich", "komme", "aus", "Spanien", "und", "ich", "wohne", "in", "Berlin", "Du", "kommst", "Frankfurt"]
-    },
-    {
-      "type": "SUMMARY",
-      "variant": "RECAP",
-      "id": "s3_sum",
-      "title": "Was du jetzt kannst",
-      "bullets": [
-        "Fragen: Wo wohnen Sie? · Woher kommen Sie? · Welche Sprachen sprechen Sie?",
-        "Antworten: Ich wohne in Frankfurt. · Ich komme aus Deutschland.",
-        "W-Frage: W-Wort + Verb + Person. Aussagesatz: Person + Verb + Rest.",
-        "Endungen: ich -e · du -st · er/sie -t · Sie -en.",
-        "aus + Land · in + Stadt: aus Spanien · in Berlin."
-      ]
     }
   ]
 }

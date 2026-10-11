@@ -8,23 +8,38 @@
       "variant": "GRAMMAR",
       "id": "s4p1",
       "headline": "Strategie: Artikel lernen",
-      "bodyGerman": "das Krankenhaus, -(e)s, Pl. die Krankenhäuser\ndas Seminar, Pl: die Seminare\nder Kilometer\nder Tag, -e, m\ndie Woche, -n, f",
-      "bodyEnglish": "A dictionary entry shows the article, the plural and the gender. m means masculine, f means feminine, n means neuter. Learn the noun with article and plural together."
+      "bodyEnglish": "A dictionary entry shows the article, the gender and the plural.\nm means masculine, f means feminine and n means neuter."
+    },
+    {
+      "type": "GRAMMAR",
+      "variant": "RULE",
+      "id": "s4g1",
+      "ruleHeadline": "Nomen lernen: Artikel · Genus · Plural",
+      "explanationEnglish": "Learn every noun as one block: article, singular, plural.\nThe dictionary gives the block: das Krankenhaus, -es, die Krankenhäuser.\nEvery German noun starts with a capital letter: der Tag, die Woche.\nm means masculine, f means feminine and n means neuter.\nTrap: the article belongs to the word. ✗ Tag. → ✓ der Tag.",
+      "englishBridge": "English nouns never change. German nouns carry article, gender, capital letter and plural inside the entry.",
+      "targetSentenceGerman": "Der Computer ist neu. Das Buch ist gut.",
+      "targetSentenceEnglish": "The computer is new. The book is good.",
+      "examples": [
+        { "german": "der Tag, -e", "english": "m. — plural: die Tage" },
+        { "german": "die Woche, -n", "english": "f. — plural: die Wochen" },
+        { "german": "das Seminar", "english": "n. — plural: die Seminare" },
+        { "german": "das Krankenhaus, -es", "english": "n. — plural: die Krankenhäuser" }
+      ]
     },
     {
       "type": "NOTE",
       "variant": "TIP",
       "id": "s4_n1",
       "title": "Das Artikelbild",
-      "bodyEnglish": "Draw one picture with many nouns. Write each noun in the colour of its article: der = blue, das = green, die = red. The picture fixes the article in your memory."
+      "bodyEnglish": "Draw one picture with many nouns.\nWrite each noun in the colour of its article.\nder = blue, das = green, die = red.\nThe colour fixes the article in your memory.",
+      "bodyGerman": "der = blau\ndas = grün\ndie = rot"
     },
     {
       "type": "LESSON_PAGE",
       "variant": "VOCAB",
       "id": "s4p2",
       "headline": "Persönliche Angaben",
-      "bodyGerman": "der Vorname · der Familienname · das Geburtsdatum\nder Geburtsort · die Adresse · die Telefonnummer",
-      "bodyEnglish": "A form asks for your personal data. Vorname is your first name. Familienname is your family name. Geburtsdatum is your date of birth.",
+      "bodyEnglish": "A form asks for your personal data.\nVorname is your first name and Familienname is your family name.",
       "vocabHighlight": [
         { "german": "der Vorname", "english": "first name" },
         { "german": "der Familienname", "english": "family name" },
@@ -125,18 +140,6 @@
       "promptEnglish": "Build: »Tennis ist am Samstag.«",
       "solutionWords": ["Tennis", "ist", "am", "Samstag"],
       "wordPool": ["Tennis", "ist", "am", "Samstag", "Yoga", "sind", "Freitag"]
-    },
-    {
-      "type": "SUMMARY",
-      "variant": "RECAP",
-      "id": "s4_sum",
-      "title": "Was du jetzt kannst",
-      "bullets": [
-        "Nomen immer mit Artikel und Plural lernen: der Arzt, die Ärzte.",
-        "Artikel mit Farben: der = blau · das = grün · die = rot.",
-        "Formular: Vorname · Familienname · Geburtsdatum · Adresse · Telefonnummer.",
-        "Kurs-Tag: Fußball ist am Mittwoch von 20 bis 21:30 Uhr."
-      ]
     }
   ]
 }

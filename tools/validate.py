@@ -153,6 +153,24 @@ def validate_blocks(path, blocks, where, vocab_ids=None):
         elif btype == "GRAMMAR" and b.get("builder"):
             check_word_pool(path, b["builder"], f"{label} builder")
 
+        # House-style warnings — see AI_AUTHORING_SPEC §6 "block house style".
+        if btype == "SUMMARY":
+            warn(path, f"{where_b} ({label}): SUMMARY is retired — delete this block "
+                       f"(the app renders its own completion card)")
+        elif btype == "GRAMMAR" and not b.get("examples") and not b.get("builder"):
+            warn(path, f"{where_b} ({label}): GRAMMAR with neither 'examples' nor 'builder' "
+                       f"does not teach the forms — add a paradigm table")
+        elif btype == "NOTE":
+            body = b.get("bodyEnglish", "") or ""
+            if "\n" not in body and len(body) > 160:
+                warn(path, f"{where_b} ({label}): NOTE bodyEnglish is one long line — split "
+                           f"it into 2-4 short newline-separated lines (one bullet each)")
+        elif btype == "LESSON_PAGE" and str(b.get("variant", "")).upper() == "VOCAB" \
+                and not b.get("vocabHighlight"):
+            warn(path, f"{where_b} ({label}): LESSON_PAGE VOCAB needs 'vocabHighlight' — a "
+                       f"German-only text wall is rejected; list the words as german/english "
+                       f"pairs")
+
 
 def validate_exercise(path, b, where_b, label):
     variant = b.get("variant", "MULTIPLE_CHOICE")
