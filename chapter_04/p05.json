@@ -1,0 +1,159 @@
+{
+  "schemaVersion": 2,
+  "id": "p05",
+  "title": "Die Grillparty — Gespräche beim Essen",
+  "version": 1,
+  "estimatedMin": 9,
+  "blocks": [
+    {
+      "type": "LESSON_PAGE",
+      "variant": "DIALOGUE",
+      "id": "p05_d1",
+      "headline": "Die Grillparty — Schmeckt's?",
+      "paragraphs": [
+        {
+          "lang": "en",
+          "text": "The shopping is done, the fire is lit, and the language turns friendly. Three photographs show three moments at the table: the first bite, the second helping offered, the refusal offered politely. Each one is only two or three lines long — read them aloud before you listen, and the audio will feel slow.\n"
+        },
+        {
+          "lang": "en",
+          "text": "Look at how a no is built here. Nobody simply says {{de:nein}} and stops; the refusal comes with thanks and a reason: {{de:Nein, danke. Ich bin satt}} or {{de:Nein, danke. Ich esse keine Gurken}}. The reason is the manners. Keep the pattern whole and you can decline food without disappointing the cook.\n"
+        },
+        {
+          "lang": "de",
+          "text": "Guten Appetit! — Danke, gleichfalls! · Schmeckt's? — Mmh, ja, das Fleisch schmeckt sehr gut!\n"
+        }
+      ],
+      "vocabHighlight": [
+        {
+          "german": "Guten Appetit!",
+          "english": "Enjoy your meal!"
+        },
+        {
+          "german": "Schmeckt's?",
+          "english": "Does it taste good?"
+        },
+        {
+          "german": "Nein, danke, ich bin satt.",
+          "english": "No thanks, I'm full."
+        }
+      ],
+      "turns": [
+        {
+          "speaker": "Gastgeberin",
+          "german": "Guten Appetit!",
+          "english": "Enjoy your meal!"
+        },
+        {
+          "speaker": "Gast",
+          "german": "Danke, gleichfalls!",
+          "english": "Thanks, same to you!"
+        },
+        {
+          "speaker": "Gastgeberin",
+          "german": "Schmeckt's?",
+          "english": "How does it taste?"
+        },
+        {
+          "speaker": "Gast",
+          "german": "Mmh, ja, das Fleisch schmeckt sehr gut!",
+          "english": "Mmh, yes, the meat tastes really good!"
+        },
+        {
+          "speaker": "Gastgeber",
+          "german": "Möchtet ihr noch ein Würstchen?",
+          "english": "Would you like another sausage?"
+        },
+        {
+          "speaker": "Gast",
+          "german": "Ja, gerne, die Würstchen sind wirklich lecker.",
+          "english": "Yes, gladly — the sausages are really tasty."
+        },
+        {
+          "speaker": "Gastgeber",
+          "german": "Und du, Lukas?",
+          "english": "And you, Lukas?"
+        },
+        {
+          "speaker": "Lukas",
+          "german": "Nein, danke, ich bin satt.",
+          "english": "No thanks, I'm full."
+        },
+        {
+          "speaker": "Gastgeberin",
+          "german": "Möchtest du Salat?",
+          "english": "Would you like some salad?"
+        },
+        {
+          "speaker": "Gast",
+          "german": "Nein, danke. Ich esse keine Gurken.",
+          "english": "No thanks. I don't eat cucumber."
+        }
+      ]
+    },
+    {
+      "type": "GRAMMAR",
+      "variant": "RULE",
+      "id": "p05_g1",
+      "ruleHeadline": "möchten",
+      "paragraphs": [
+        {
+          "lang": "en",
+          "text": "{{de:möchten}} is the polite way to say you want something. Where {{de:wollen}} states a decision, {{de:möchten}} asks — which is why every offer on this page is built with it. It behaves like a verb you already know: one ending for {{de:du}}, one for the third person, and nothing new for the rest.\n"
+        },
+        {
+          "lang": "de",
+          "text": "ich möchte · du möchtest · er/es/sie möchte · wir möchten · ihr möchtet · sie/Sie möchten\n"
+        },
+        {
+          "lang": "en",
+          "text": "Notice the endings {{de:-st}} on {{de:du}} and {{de:-t}} on {{de:ihr}} — the same two endings you met in the present tense of regular verbs. Only the singular forms carry an umlaut; the plural stays plain {{de:möchten}}.\n"
+        }
+      ],
+      "targetSentenceGerman": "Ich möchte ein Stück Emmentaler, bitte.",
+      "targetSentenceEnglish": "I would like a piece of Emmentaler, please.",
+      "examples": [
+        {
+          "german": "ich möchte einen Kaffee",
+          "english": "I would like a coffee"
+        },
+        {
+          "german": "du möchtest ein Würstchen",
+          "english": "you would like a sausage"
+        },
+        {
+          "german": "Möchtet ihr noch Salat?",
+          "english": "Would you like some more salad?"
+        },
+        {
+          "german": "Sie möchten zahlen?",
+          "english": "You would like to pay?"
+        }
+      ]
+    },
+    {
+      "type": "EXAMPLES",
+      "variant": "PHRASE_LIST",
+      "id": "p05_ex1",
+      "title": "Gut gesagt: Beim Essen",
+      "items": [
+        {
+          "german": "Guten Appetit!",
+          "english": "Enjoy your meal! (said before or when food arrives)"
+        },
+        {
+          "german": "Prost!",
+          "english": "Cheers! (glasses touch)"
+        },
+        {
+          "german": "Zum Wohl!",
+          "english": "To your health! (a slightly more formal cheers)"
+        },
+        {
+          "german": "Mahlzeit!",
+          "english": "Enjoy your meal — also a casual greeting around noon"
+        }
+      ]
+    }
+  ]
+}

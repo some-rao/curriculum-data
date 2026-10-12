@@ -1,0 +1,233 @@
+{
+  "id": "p07",
+  "title": "Ein Termin am Telefon",
+  "version": 1,
+  "estimatedMin": 9,
+  "blocks": [
+    {
+      "type": "LESSON_PAGE",
+      "variant": "DIALOGUE",
+      "id": "p07_d1",
+      "headline": "Termin beim Arzt",
+      "paragraphs": [
+        {
+          "lang": "en",
+          "text": "On the telephone you cannot point at a calendar or write anything down, so every appointment follows the same short choreography: greet, say what you want, hear an offer, refuse it if it does not fit, take the next one, give your name, close. Listen for that skeleton the first time through — the individual sentences are all ones you already know.\n"
+        },
+        {
+          "lang": "en",
+          "text": "Two phrases carry the whole exchange. Mara asks with {{de:Ich hätte gern einen Termin}}, the conditional {{de:hätte}} rather than {{de:will}}, and the receptionist offers a slot with {{de:Können Sie … kommen?}}. Everything else is names, days and hours.\n"
+        }
+      ],
+      "turns": [
+        {
+          "speaker": "Svetlana Keller, Praxis Dr. Steinig",
+          "german": "Guten Tag, Praxis Dr. Steinig, Svetlana Keller. Was kann ich für Sie tun?",
+          "english": "Good morning, Dr. Steinig's surgery, Svetlana Keller. What can I do for you?"
+        },
+        {
+          "speaker": "Mara Dobart",
+          "german": "Guten Tag! Mein Name ist Mara Dobart. Ich hätte gern einen Termin.",
+          "english": "Good morning! My name is Mara Dobart. I would like an appointment."
+        },
+        {
+          "speaker": "Svetlana Keller, Praxis Dr. Steinig",
+          "german": "Können Sie am Freitag um 10:45 Uhr kommen?",
+          "english": "Can you come on Friday at a quarter to eleven?"
+        },
+        {
+          "speaker": "Mara Dobart",
+          "german": "Nein, ich muss am Freitag arbeiten. Geht es auch am Montag?",
+          "english": "No, I have to work on Friday. Would Monday be possible?"
+        },
+        {
+          "speaker": "Svetlana Keller, Praxis Dr. Steinig",
+          "german": "Nein, leider nicht, am Montag ist nichts frei. Geht es am Mittwoch um 11:30 Uhr?",
+          "english": "I am afraid not, nothing is free on Monday. Would Wednesday at half past eleven work?"
+        },
+        {
+          "speaker": "Mara Dobart",
+          "german": "Ja, das geht. Vielen Dank.",
+          "english": "Yes, that works. Thank you very much."
+        },
+        {
+          "speaker": "Svetlana Keller, Praxis Dr. Steinig",
+          "german": "Also Mittwoch um 11:30 Uhr. Wie ist noch mal Ihr Name, bitte?",
+          "english": "So Wednesday at half past eleven. Could I have your name again, please?"
+        },
+        {
+          "speaker": "Mara Dobart",
+          "german": "Mara Dobart.",
+          "english": "Mara Dobart."
+        },
+        {
+          "speaker": "Svetlana Keller, Praxis Dr. Steinig",
+          "german": "Danke, Frau Dobart. Bis Mittwoch. Auf Wiederhören.",
+          "english": "Thank you, Ms Dobart. Until Wednesday. Goodbye on the phone."
+        },
+        {
+          "speaker": "Mara Dobart",
+          "german": "Danke. Auf Wiederhören.",
+          "english": "Thank you. Goodbye."
+        }
+      ]
+    },
+    {
+      "type": "EXAMPLES",
+      "variant": "PHRASE_LIST",
+      "id": "p07_ex1",
+      "title": "Gut gesagt — drei Stufen der Höflichkeit",
+      "items": [
+        {
+          "german": "Ich will einen Termin!",
+          "english": "I want an appointment! (rude — a demand)"
+        },
+        {
+          "german": "Kann ich bitte einen Termin haben?",
+          "english": "May I please have an appointment? (polite)"
+        },
+        {
+          "german": "Ich möchte bitte einen Termin.",
+          "english": "I would like an appointment, please. (polite)"
+        },
+        {
+          "german": "Ich hätte gern einen Termin.",
+          "english": "I would like an appointment. (very polite)"
+        },
+        {
+          "german": "Haben Sie heute / morgen / am Montag einen Termin frei?",
+          "english": "Do you have a free appointment today / tomorrow / on Monday?"
+        },
+        {
+          "german": "Nein, das geht leider nicht. Geht es am … um …?",
+          "english": "I am afraid that doesn't work. Would … at … work?"
+        },
+        {
+          "german": "Können Sie am … um … kommen?",
+          "english": "Can you come at … on …?"
+        },
+        {
+          "german": "Ja, das geht. Vielen Dank.",
+          "english": "Yes, that works. Thank you very much."
+        }
+      ]
+    },
+    {
+      "type": "VOCAB",
+      "variant": "CARD_SET",
+      "id": "p07_v1",
+      "title": "Am Telefon einen Termin machen",
+      "wordIds": [
+        "w_termin",
+        "w_vereinbaren",
+        "w_rufen",
+        "w_koennen",
+        "w_uhr",
+        "w_minute",
+        "w_wie_spaet"
+      ]
+    },
+    {
+      "type": "NOTE",
+      "variant": "TIP",
+      "id": "p07_n1",
+      "title": "Ein Telefongespräch vorbereiten",
+      "paragraphs": [
+        {
+          "lang": "en",
+          "text": "Before you dial, do what the book tells you to do and think for ten seconds: what do you actually need? An appointment, a time, a name. Write the words down on a piece of paper first — the day you want, the hour that suits you, and the two questions you will have to ask.\n"
+        },
+        {
+          "lang": "de",
+          "text": "Ich hätte gern einen Termin. · Haben Sie am Montag einen Termin frei? · Geht es am Mittwoch um 11:30 Uhr? · Wie ist Ihr Name, bitte?\n"
+        },
+        {
+          "lang": "en",
+          "text": "With that scrap of paper in your hand the conversation slows down to the speed you can follow, and you never have to search for the one word you need at the moment you need it. The sentences on the card above cover an entire appointment — {{de:Ich hätte gern einen Termin}}, {{de:Haben Sie am Montag einen Termin frei?}}, {{de:Geht es am Mittwoch um 11:30 Uhr?}}\n"
+        },
+        {
+          "lang": "en",
+          "text": "{{de:Auf Wiederhören}} is how a phone call closes in German, where a face-to-face goodbye would be {{de:Auf Wiedersehen}}. Both mean see you again — one is used with your ears.\n"
+        }
+      ]
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "MULTIPLE_CHOICE",
+      "id": "p07_q1",
+      "points": 2,
+      "topic": "Höflichkeit am Telefon",
+      "passage": "Sie brauchen einen Termin beim Friseur.",
+      "prompt": "Which opening gets you the appointment?",
+      "options": [
+        "Ich will einen Termin!",
+        "Kann ich bitte einen Termin haben?",
+        "Ich hätte gern einen Termin."
+      ],
+      "correctIndex": 2,
+      "explanationEnglish": "All three ask for the same thing, but only the conditional Ich hätte gern sounds like a request rather than an order. That is the form the receptionist answers with first.\n",
+      "concept": {
+        "title": "höflich fragen",
+        "rule": "In German the conditional hätte makes a request rather than a demand. Ich will states a fact about your will; Ich hätte gern leaves the other person room to say no, which is exactly why it is the standard opening on the phone.\n",
+        "exampleGerman": "Ich hätte gern einen Termin. — Natürlich, wann?",
+        "exampleEnglish": "I would like an appointment. — Of course, when?"
+      }
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "FILL_BLANK",
+      "id": "p07_q2",
+      "points": 3,
+      "topic": "Der Termin am Telefon",
+      "prompt": "Fill the gap with what you hear in the dialogue.",
+      "paragraphs": [
+        {
+          "lang": "en",
+          "text": "Rebuild the appointment. Each gap is one turn of the conversation, and the time in front of it tells you whether you are offering a slot or taking one.\n"
+        }
+      ],
+      "items": [
+        {
+          "sentence": "Ich hätte gern ___. Wie ist noch mal Ihr Name, bitte?",
+          "answers": [
+            "einen Termin"
+          ],
+          "hint": "der Termin"
+        },
+        {
+          "sentence": "Können Sie am Freitag um ___ Uhr kommen?",
+          "answers": [
+            "10:45",
+            "zehn Uhr fünfundvierzig",
+            "viertel vor elf"
+          ],
+          "hint": 645
+        },
+        {
+          "sentence": "Nein, ich muss am Freitag ___. Geht es auch am Montag?",
+          "answers": [
+            "arbeiten"
+          ],
+          "hint": "müssen + Infinitiv"
+        },
+        {
+          "sentence": "Geht es am Mittwoch um ___ Uhr?",
+          "answers": [
+            "11:30",
+            "elf Uhr dreißig"
+          ],
+          "hint": 690
+        },
+        {
+          "sentence": "Ja, das geht. ___. Auf Wiederhören.",
+          "answers": [
+            "Danke",
+            "Vielen Dank"
+          ],
+          "hint": "Verabschiedung"
+        }
+      ]
+    }
+  ],
+  "schemaVersion": 2
+}

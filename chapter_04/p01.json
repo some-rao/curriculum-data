@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "id": "p01",
+  "title": "Essen und Trinken — die ersten Bilder",
+  "version": 1,
+  "estimatedMin": 6,
+  "blocks": [
+    {
+      "type": "NOTE",
+      "variant": "TIP",
+      "id": "p01_n1",
+      "title": "Guten Appetit! — two tables, one lesson",
+      "paragraphs": [
+        {
+          "lang": "en",
+          "text": "The red band across the top of the page is the promise of the whole chapter: plan a shopping trip, talk at the shop counter, talk at the table, say what you like to eat, and learn a strategy for ordering words so they stick. Everything below it is the first step — the food itself.\n"
+        },
+        {
+          "lang": "en",
+          "text": "Two photographs divide the page into the two meals you already know. The first table is set for {{de:Frühstück}}, the second for {{de:Mittagessen}}. Learn the words inside the meal they belong to: a word that arrives with a picture of a breakfast table is far harder to lose than a word in an alphabetical list.\n"
+        },
+        {
+          "lang": "de",
+          "text": "Frühstück: die Banane · der Orangensaft · das Müsli · der Joghurt · der Tee · die Milch · der Käse · die Marmelade · das Ei · das Brötchen\n"
+        },
+        {
+          "lang": "en",
+          "text": "Notice that every noun is printed with its little helper word in front — {{de:die}}, {{de:der}} or {{de:das}}. Say it aloud that way from the start: the article is not decoration, it is half of the word, and later this lesson it will decide the shape of the whole sentence.\n"
+        },
+        {
+          "lang": "de",
+          "text": "Mittagessen: der Apfelsaft · die Kartoffeln · das Salz · der Pfeffer · das Gemüse · das Wasser · der Essig · das Öl · die Cola · das Fleisch\n"
+        },
+        {
+          "lang": "en",
+          "text": "In exercise 1b you are asked which words sound similar in your own language. Food is the friendliest area for this trick — the page itself gives one away: {{de:„Banane\" heißt auf Russisch „banan\"}}. Keep a corner of your notebook for these near-identical words; they cost you almost nothing to learn.\n"
+        }
+      ]
+    },
+    {
+      "type": "VOCAB",
+      "variant": "CARD_SET",
+      "id": "p01_v1",
+      "title": "Frühstück — was auf dem Tisch liegt",
+      "wordIds": [
+        "w_broetchen",
+        "w_kaese",
+        "w_ei",
+        "w_muesli",
+        "w_marmelade",
+        "w_orangensaft",
+        "w_banane",
+        "w_joghurt",
+        "w_tee",
+        "w_milch"
+      ]
+    },
+    {
+      "type": "VOCAB",
+      "variant": "CARD_SET",
+      "id": "p01_v2",
+      "title": "Mittagessen — was auf dem Tisch liegt",
+      "wordIds": [
+        "w_apfelsaft",
+        "w_kartoffel",
+        "w_salz",
+        "w_pfeffer",
+        "w_gemuese",
+        "w_wasser",
+        "w_essig",
+        "w_oel",
+        "w_cola",
+        "w_fleisch"
+      ]
+    },
+    {
+      "type": "EXAMPLES",
+      "variant": "PHRASE_LIST",
+      "id": "p01_ex1",
+      "title": "Vier Läden — Übung 2a, Hören Sie",
+      "items": [
+        {
+          "german": "die Bäckerei",
+          "english": "the bakery — for bread and rolls"
+        },
+        {
+          "german": "der Markt",
+          "english": "the market — for fruit and vegetables"
+        },
+        {
+          "german": "die Metzgerei",
+          "english": "the butcher's shop — for meat and sausage"
+        },
+        {
+          "german": "der Supermarkt",
+          "english": "the supermarket — for everything at once"
+        }
+      ]
+    }
+  ]
+}

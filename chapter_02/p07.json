@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 2,
+  "id": "p07",
+  "title": "Artikel lernen",
+  "version": 1,
+  "estimatedMin": 7,
+  "blocks": [
+    {
+      "type": "NOTE",
+      "variant": "TIP",
+      "id": "p07_n1",
+      "title": "Wo steht der Artikel?",
+      "paragraphs": [
+        {
+          "lang": "en",
+          "text": "A dictionary entry packs four facts into one line: the article, the plural, the part of speech, the meaning. Different books pack them differently, and exercise 10a sets three of the common shapes side by side so you can read all of them.\n"
+        },
+        {
+          "lang": "de",
+          "text": "Krankenhaus das; -(e)s, Pl: · Buch <…s, Bücher> SUBST nt · Kilometer der; – Maßeinheit für tausend Meter, km\n"
+        },
+        {
+          "lang": "en",
+          "text": "The article is not always printed as a whole word. In {{de:Tag, -e m}} the small {{de:m}} stands for masculine, and an entry line such as {{de:-(e)s}} is only showing you a grammar you have not met yet — the noun itself still belongs to {{de:das}}. Read the article first, then the plural, then the meaning, and the noun arrives as a complete unit instead of a bare word.\n"
+        },
+        {
+          "lang": "en",
+          "text": "One colour per article turns the whole habit into something your eye does before your brain does. The textbook suggests blue for {{de:der}}, green for {{de:das}} and red for {{de:die}}; keep those three colours and a page of new nouns becomes a pattern you can see.\n"
+        },
+        {
+          "lang": "de",
+          "text": "Merken Sie sich die Artikel mit Farben: der = blau, das = grün, die = rot."
+        },
+        {
+          "lang": "en",
+          "text": "The drawing under it collects thirteen nouns from one street — a university, a hospital, a restaurant, a taxi rank — and asks you to write each in with its article. Where you place a word is part of how you keep it.\n"
+        }
+      ]
+    },
+    {
+      "type": "VOCAB",
+      "variant": "CARD_SET",
+      "id": "p07_v1",
+      "title": "Die Wörter im Artikelbild",
+      "wordIds": [
+        "w_buch",
+        "w_studentin",
+        "w_universitaet",
+        "w_computer",
+        "w_restaurant",
+        "w_kellner",
+        "w_rechnung",
+        "w_arzt",
+        "w_patientin",
+        "w_krankenhaus",
+        "w_taxi",
+        "w_taxifahrer",
+        "w_schluessel"
+      ]
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "FILL_BLANK",
+      "id": "p07_q1",
+      "points": 4,
+      "topic": "Artikel",
+      "prompt": "Fill each gap with der, das or die.",
+      "items": [
+        {
+          "sentence": "___ Universität ist sehr groß.",
+          "answers": [
+            "Die"
+          ],
+          "hint": "feminin"
+        },
+        {
+          "sentence": "___ Krankenhaus hat 480 Zimmer.",
+          "answers": [
+            "Das"
+          ],
+          "hint": "neutrum"
+        },
+        {
+          "sentence": "___ Computer steht auf dem Tisch.",
+          "answers": [
+            "Der"
+          ],
+          "hint": "maskulin"
+        },
+        {
+          "sentence": "___ Rechnung kommt morgen.",
+          "answers": [
+            "Die"
+          ],
+          "hint": "feminin"
+        },
+        {
+          "sentence": "___ Taxi wartet vor dem Restaurant.",
+          "answers": [
+            "Das"
+          ],
+          "hint": "neutrum"
+        },
+        {
+          "sentence": "___ Patientin wartet auf den Arzt.",
+          "answers": [
+            "Die"
+          ],
+          "hint": "feminin"
+        }
+      ],
+      "concept": {
+        "title": "bestimmter Artikel",
+        "rule": "Every noun keeps one article for life: der marks a masculine noun, das a neuter noun, die a feminine noun — and every plural noun takes die, whatever it was in the singular.",
+        "exampleGerman": "der Computer · das Krankenhaus · die Universität",
+        "exampleEnglish": "the computer · the hospital · the university"
+      }
+    }
+  ]
+}

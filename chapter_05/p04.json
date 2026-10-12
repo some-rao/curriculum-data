@@ -1,0 +1,189 @@
+{
+  "id": "p04",
+  "title": "Familie und Termine",
+  "version": 1,
+  "estimatedMin": 8,
+  "blocks": [
+    {
+      "type": "NOTE",
+      "variant": "TIP",
+      "id": "p04_n1",
+      "title": "Der Kalender der Familie Dobart",
+      "paragraphs": [
+        {
+          "lang": "en",
+          "text": "Everything on this page hangs on one picture: the wall calendar of the Dobart family. Four people, one week, and a lot of handwriting. Hannes is away, Mara has shifts, Florian and Lena have lessons and rehearsals. Before you write a single German sentence, read that calendar the way you would read your own — who is where, and when.\n"
+        },
+        {
+          "lang": "en",
+          "text": "German answers two different questions about time, and the preposition tells you which one you are answering. {{de:Wann?}} asks for a single point: {{de:am Montag}}, {{de:um drei Uhr}}, {{de:um Viertel nach vier}}. {{de:Wie lange?}} asks for a stretch of time, and that is what {{de:von}} … {{de:bis}} is built for: {{de:von Sonntag bis Dienstag}}, {{de:von 9 bis 17 Uhr}}. Days take {{de:am}}, clock times take {{de:um}}. Get those two straight now and every timetable you ever read will be readable.\n"
+        },
+        {
+          "lang": "de",
+          "text": "Hannes ist von Sonntag bis Dienstag in Hamburg. Mara arbeitet am Freitag von 9 bis 17 Uhr. Lena hat am Montag um fünf Uhr Geigenunterricht.\n"
+        },
+        {
+          "lang": "en",
+          "text": "One habit worth copying from the last lesson: 17:00 on the calendar becomes {{de:um fünf Uhr}} when the family talks about it and stays {{de:siebzehn Uhr}} on a train schedule. The family's own speech uses the small numbers, so {{de:fünfzehn Uhr fünfzehn}} in an email and {{de:viertel nach drei}} at the kitchen table are both correct — they are simply two different rooms.\n"
+        }
+      ]
+    },
+    {
+      "type": "EXAMPLES",
+      "variant": "PHRASE_LIST",
+      "id": "p04_ex1",
+      "title": "Wann und wie lange",
+      "items": [
+        {
+          "german": "am Montag · am Vormittag · am Wochenende",
+          "english": "on Monday · in the morning · at the weekend"
+        },
+        {
+          "german": "um drei Uhr · um Viertel nach vier · um fünf Uhr",
+          "english": "at three · at a quarter past four · at five"
+        },
+        {
+          "german": "von Sonntag bis Dienstag",
+          "english": "from Sunday to Tuesday"
+        },
+        {
+          "german": "von 9 bis 17 Uhr",
+          "english": "from 9 a.m. to 5 p.m."
+        },
+        {
+          "german": "Hannes ist von Sonntag bis Dienstag in Hamburg.",
+          "english": "Hannes is in Hamburg from Sunday to Tuesday."
+        },
+        {
+          "german": "Mara arbeitet am Freitag von 9 bis 17 Uhr.",
+          "english": "Mara works from 9 to 5 on Friday."
+        },
+        {
+          "german": "Lena hat am Montag um fünf Uhr Geigenunterricht.",
+          "english": "Lena has a violin lesson at five on Monday."
+        },
+        {
+          "german": "Mara trifft am Dienstag um halb acht Annalisa.",
+          "english": "Mara is meeting Annalisa at half past seven on Tuesday."
+        }
+      ]
+    },
+    {
+      "type": "VOCAB",
+      "variant": "CARD_SET",
+      "id": "p04_v1",
+      "title": "Die Familie",
+      "wordIds": [
+        "w_familie",
+        "w_eltern",
+        "w_vater",
+        "w_mutter",
+        "w_kind",
+        "w_sohn",
+        "w_tochter",
+        "w_bruder",
+        "w_schwester",
+        "w_arbeiten",
+        "w_buero",
+        "w_termin"
+      ]
+    },
+    {
+      "type": "NOTE",
+      "variant": "TIP",
+      "id": "p04_n2",
+      "title": "Das r am Wortende",
+      "paragraphs": [
+        {
+          "lang": "en",
+          "text": "The pronunciation drill on this page asks you to sort ten words into two piles: where you hear a real r, and where you do not. Say {{de:Hören}}, {{de:Vater}}, {{de:Uhr}} and {{de:Computer}} out loud. At the end of a word, and inside the syllable ending -er, German lets the r soften towards the vowel you already know from the end of {{de:Kamera}} — the tongue never rolls up there.\n"
+        },
+        {
+          "lang": "de",
+          "text": "hören · Vater · Tochter · treffen · Schwester · krank · Uhr · Büro · Trompete · Computer\n"
+        },
+        {
+          "lang": "en",
+          "text": "A rolled r in {{de:Vater}} will still be understood, but it sounds like you are reading the word rather than saying it. Keep the strong r at the start of a word — {{de:Regen}}, {{de:Raum}}, {{de:rufen}} — and let the end of the word go soft. The same soft sound is what you hear in {{de:Siebzehn Uhr}} and in the last syllable of {{de:Mutter}}.\n"
+        }
+      ]
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "FILL_BLANK",
+      "id": "p04_q1",
+      "points": 3,
+      "topic": "Wann und wie lange",
+      "prompt": "Fill the gap with the right time expression from the calendar.",
+      "paragraphs": [
+        {
+          "lang": "en",
+          "text": "Go back to the Dobart calendar before you answer. If the gap names a day or an hour, the sentence is asking {{de:Wann?}}; if it names a stretch, it is asking {{de:Wie lange?}} and you need {{de:von … bis}}.\n"
+        }
+      ],
+      "items": [
+        {
+          "sentence": "Hannes ist ___ in Hamburg.",
+          "answers": [
+            "von Sonntag bis Dienstag"
+          ],
+          "hint": "Wie lange?"
+        },
+        {
+          "sentence": "Mara arbeitet am Freitag ___ .",
+          "answers": [
+            "von 9 bis 17 Uhr"
+          ],
+          "hint": "von ... bis"
+        },
+        {
+          "sentence": "Florian hat am Montag ___ .",
+          "answers": [
+            "kein Spiel"
+          ],
+          "hint": "am Montag"
+        },
+        {
+          "sentence": "Lena hat am Montag ___ Geigenunterricht.",
+          "answers": [
+            "um fünf Uhr",
+            "um siebzehn Uhr"
+          ],
+          "hint": "Wann?"
+        },
+        {
+          "sentence": "Mara trifft am Dienstag ___ Annalisa.",
+          "answers": [
+            "um halb acht",
+            "um 19:30 Uhr",
+            "um neunzehn Uhr dreißig"
+          ],
+          "hint": 1170
+        }
+      ]
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "MULTIPLE_CHOICE",
+      "id": "p04_q2",
+      "points": 2,
+      "topic": "Die Familie",
+      "passage": "Die Eltern sind Hannes und Mara. Die Kinder sind Florian und Lena.",
+      "prompt": "Who are the children in this family?",
+      "options": [
+        "Florian und Lena",
+        "Hannes und Mara",
+        "Lena und Annalisa"
+      ],
+      "correctIndex": 0,
+      "explanationEnglish": "Die Eltern are the parents, Hannes and Mara. Florian and Lena are die Kinder — the son and the daughter.\n",
+      "concept": {
+        "title": "die Eltern und die Kinder",
+        "rule": "Die Eltern means the parents together — father and mother as one pair. Die Kinder are the children of that pair. A single child is das Kind; the plural is die Kinder.\n",
+        "exampleGerman": "Die Eltern arbeiten, die Kinder gehen in die Schule.",
+        "exampleEnglish": "The parents work, the children go to school."
+      }
+    }
+  ],
+  "schemaVersion": 2
+}

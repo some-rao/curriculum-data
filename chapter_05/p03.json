@@ -1,0 +1,131 @@
+{
+  "id": "p03",
+  "title": "Wie spät ist es?",
+  "version": 1,
+  "estimatedMin": 9,
+  "blocks": [
+    {
+      "type": "GRAMMAR",
+      "variant": "RULE",
+      "id": "p03_g1",
+      "ruleHeadline": "Uhrzeit sagen — vor, nach, halb",
+      "paragraphs": [
+        {
+          "lang": "en",
+          "text": "Ask for the time with {{de:Wie spät ist es?}} or {{de:Wie viel Uhr ist es?}} — both are everyday, both are correct. The answer is built from three pieces: a number, a direction, and the word {{de:Uhr}} when you give an exact hour.\n"
+        },
+        {
+          "lang": "en",
+          "text": "The direction is where English and German part company. {{de:nach}} counts forward from the full hour, {{de:vor}} counts back to the next one, and {{de:halb}} does not mean half past — it names the hour you are heading towards. So {{de:halb acht}} is 7:30, half an hour before eight. Notice the phrase the book drills: {{de:fünf nach halb acht}} and {{de:fünf vor halb acht}} work the same way, stepping five minutes either side of that halfway point.\n"
+        },
+        {
+          "lang": "de",
+          "text": "zehn nach sieben · Viertel nach sieben · zwanzig nach sieben · fünf vor halb acht · halb acht · fünf nach halb acht · Viertel vor acht · kurz vor sieben\n"
+        },
+        {
+          "lang": "en",
+          "text": "Two registers sit side by side. Spoken German prefers the {{de:vor}}/{{de:nach}} system; timetables, appointments and official notices write the digital form. At 14:45 you say {{de:Es ist Viertel vor drei}} to a friend and {{de:Es ist vierzehn Uhr fünfundvierzig}} in an email. Learn both, and know which room you are in.\n"
+        }
+      ],
+      "targetSentenceGerman": "Es ist Viertel vor drei.",
+      "targetSentenceEnglish": "It is a quarter to three.",
+      "examples": [
+        {
+          "german": "Es ist sieben Uhr.",
+          "english": "It is seven o'clock."
+        },
+        {
+          "german": "Es ist zehn nach sieben.",
+          "english": "It is ten past seven."
+        },
+        {
+          "german": "Es ist Viertel nach sieben.",
+          "english": "It is a quarter past seven."
+        },
+        {
+          "german": "Es ist zwanzig nach sieben.",
+          "english": "It is twenty past seven."
+        },
+        {
+          "german": "Es ist halb acht.",
+          "english": "It is half past seven (half to eight)."
+        },
+        {
+          "german": "Es ist fünf vor halb acht.",
+          "english": "It is five to half past seven (7:25)."
+        },
+        {
+          "german": "Es ist Viertel vor acht.",
+          "english": "It is a quarter to eight."
+        },
+        {
+          "german": "Es ist vierzehn Uhr fünfundvierzig.",
+          "english": "It is fourteen forty-five."
+        }
+      ]
+    },
+    {
+      "type": "EXAMPLES",
+      "variant": "PHRASE_LIST",
+      "id": "p03_ex1",
+      "title": "Fragen und Antworten zur Uhrzeit",
+      "items": [
+        {
+          "german": "Wie spät ist es? / Wie viel Uhr ist es?",
+          "english": "What time is it?"
+        },
+        {
+          "german": "Um Viertel vor drei.",
+          "english": "At a quarter to three."
+        },
+        {
+          "german": "Um vierzehn Uhr fünfundvierzig.",
+          "english": "At fourteen forty-five."
+        },
+        {
+          "german": "Wann frühstückst du?",
+          "english": "When do you have breakfast?"
+        },
+        {
+          "german": "Um Viertel nach sieben.",
+          "english": "At a quarter past seven."
+        },
+        {
+          "german": "Wann fährst du ins Büro?",
+          "english": "When do you go to the office?"
+        }
+      ]
+    },
+    {
+      "type": "VOCAB",
+      "variant": "CARD_SET",
+      "id": "p03_v1",
+      "title": "Die Uhrzeit",
+      "wordIds": [
+        "w_uhr",
+        "w_wie_spaet",
+        "w_viertel",
+        "w_halb",
+        "w_minute",
+        "w_fruh"
+      ]
+    },
+    {
+      "type": "NOTE",
+      "variant": "MISTAKE",
+      "id": "p03_n1",
+      "title": "halb und half past",
+      "paragraphs": [
+        {
+          "lang": "en",
+          "text": "The mistake everyone makes at first is reading {{de:halb acht}} as 8:30. It is not. German {{de:halb}} points forward to the coming hour, so 7:30 is {{de:halb acht}} and 8:30 is {{de:halb neun}}. Say the hour out loud as you look at a clock and the pattern settles quickly.\n"
+        },
+        {
+          "lang": "en",
+          "text": "One more habit worth building now: when you note down an appointment, write the digital form next to the German one. Ten minutes of that and {{de:fünf vor halb acht}} stops being a puzzle and starts being 7:25.\n"
+        }
+      ]
+    }
+  ],
+  "schemaVersion": 2
+}

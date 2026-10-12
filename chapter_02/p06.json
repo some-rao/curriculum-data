@@ -1,0 +1,229 @@
+{
+  "schemaVersion": 2,
+  "id": "p06",
+  "title": "Plural, Berufe, sein und haben",
+  "version": 1,
+  "estimatedMin": 9,
+  "blocks": [
+    {
+      "type": "GRAMMAR",
+      "variant": "RULE",
+      "id": "p06_g1",
+      "ruleHeadline": "Nomen: Singular und Plural",
+      "paragraphs": [
+        {
+          "lang": "en",
+          "text": "The plural in German sits on the noun itself, not on a word in front of it, and it is allowed to reach into the word and change its vowels. That is the whole reason a noun is worth carrying as a pair rather than as a single form.\n"
+        },
+        {
+          "lang": "de",
+          "text": "der Arzt → die Ärzte · das Buch → die Bücher · die Stunde → die Stunden · der Kilometer → die Kilometer"
+        },
+        {
+          "lang": "en",
+          "text": "Five endings cover almost everything you will meet at this level: nothing at all ({{de:der Kilometer → die Kilometer}}), {{de:-(e)n}}, {{de:-e}} with a vowel change ({{de:Arzt → Ärzte}}), {{de:-er}} with a change ({{de:Buch → Bücher}}) and {{de:-s}} for words borrowed from other languages ({{de:das Auto → die Autos}}).\n"
+        },
+        {
+          "lang": "en",
+          "text": "The article tells you as much as the ending does, and it hands you the simplest rule on the page. Whatever a noun was in the singular, the plural stands in front of exactly one article — {{de:die}} — never {{de:der}} and never {{de:das}}.\n"
+        },
+        {
+          "lang": "de",
+          "text": "der Tag → die Tage · das Restaurant → die Restaurants · die Ärztin → die Ärztinnen"
+        }
+      ],
+      "examples": [
+        {
+          "german": "der Arzt → die Ärzte",
+          "english": "the doctor → the doctors"
+        },
+        {
+          "german": "die Stunde → die Stunden",
+          "english": "the hour → the hours"
+        },
+        {
+          "german": "das Buch → die Bücher",
+          "english": "the book → the books"
+        }
+      ]
+    },
+    {
+      "type": "VOCAB",
+      "variant": "CARD_SET",
+      "id": "p06_v1",
+      "title": "Noch mehr Berufe",
+      "wordIds": [
+        "w_ingenieur",
+        "w_lehrer",
+        "w_verkaeufer",
+        "w_architekt",
+        "w_friseur",
+        "w_krankenpfleger",
+        "w_studieren"
+      ]
+    },
+    {
+      "type": "NOTE",
+      "variant": "USAGE",
+      "id": "p06_n1",
+      "title": "Berufe für Frauen",
+      "paragraphs": [
+        {
+          "lang": "en",
+          "text": "Most job names in German come in two forms, and the second form does more than swap a word — it changes the article with it. The man is {{de:der Informatiker}}; add the ending that marks a woman and you get {{de:die Informatikerin}}.\n"
+        },
+        {
+          "lang": "de",
+          "text": "der Informatiker · die Informatikerin"
+        },
+        {
+          "lang": "en",
+          "text": "You have already met this pair working: {{de:der Arzt}} beside {{de:die Ärztin}}, {{de:der Taxifahrer}} beside a driver who would be {{de:die Taxifahrerin}}. Notice that the plural then stacks on top — {{de:die Ärztinnen}} — so the woman's form carries two marks instead of one.\n"
+        },
+        {
+          "lang": "en",
+          "text": "When you write a job on a form or say what you do, pick the pair deliberately. The noun tells your listener not only what the person does, but who the person is.\n"
+        }
+      ]
+    },
+    {
+      "type": "GRAMMAR",
+      "variant": "RULE",
+      "id": "p06_g2",
+      "ruleHeadline": "sein und haben",
+      "paragraphs": [
+        {
+          "lang": "en",
+          "text": "Two verbs appear in almost every sentence you have read so far, and both of them refuse to follow the -e, -st, -t pattern. They swap their stems instead, which means the forms have to be taken as whole blocks rather than assembled.\n"
+        },
+        {
+          "lang": "de",
+          "text": "ich bin · du bist · er/sie/es ist · wir sind · ihr seid · sie/Sie sind"
+        },
+        {
+          "lang": "de",
+          "text": "ich habe · du hast · er/sie/es hat · wir haben · ihr habt · sie/Sie haben"
+        },
+        {
+          "lang": "en",
+          "text": "You need them for exactly the two questions this page practises: what somebody does for a living is asked with {{de:sein}}, and free time is asked with {{de:haben}}.\n"
+        },
+        {
+          "lang": "de",
+          "text": "Was sind Sie von Beruf? — Wann haben Sie frei?"
+        },
+        {
+          "lang": "en",
+          "text": "Learn the four singular forms first and the plural rows come free, because {{de:wir}}, {{de:sie}} and {{de:Sie}} share one form in each verb. Only {{de:ihr}} stands apart.\n"
+        }
+      ],
+      "englishBridge": "English says I am, you are, he is — one word in three clothes — while German changes the word itself: bin, bist, ist.",
+      "examples": [
+        {
+          "german": "Ich bin Studentin.",
+          "english": "I am a student."
+        },
+        {
+          "german": "Du bist Ingenieur.",
+          "english": "You are an engineer."
+        },
+        {
+          "german": "Ich habe am Montag frei.",
+          "english": "I am free on Monday."
+        },
+        {
+          "german": "Habt ihr am Wochenende frei?",
+          "english": "Are you free at the weekend?"
+        }
+      ]
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "MATCH",
+      "id": "p06_q1",
+      "points": 4,
+      "topic": "Berufe",
+      "prompt": "Match each job to its meaning.",
+      "pairs": [
+        {
+          "german": "Ingenieur/in",
+          "english": "engineer"
+        },
+        {
+          "german": "Lehrer/in",
+          "english": "teacher"
+        },
+        {
+          "german": "Verkäufer/in",
+          "english": "salesperson"
+        },
+        {
+          "german": "Architekt/in",
+          "english": "architect"
+        },
+        {
+          "german": "Friseur/in",
+          "english": "hairdresser"
+        }
+      ]
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "FILL_BLANK",
+      "id": "p06_q2",
+      "points": 5,
+      "topic": "Plural",
+      "prompt": "Write the plural of the noun.",
+      "items": [
+        {
+          "sentence": "Singular: der Arzt — Plural: die ___",
+          "answers": [
+            "Ärzte"
+          ],
+          "hint": "the vowel changes too"
+        },
+        {
+          "sentence": "Singular: das Buch — Plural: die ___",
+          "answers": [
+            "Bücher"
+          ],
+          "hint": "u becomes ü"
+        },
+        {
+          "sentence": "Singular: die Stunde — Plural: die ___",
+          "answers": [
+            "Stunden"
+          ],
+          "hint": "a plain ending"
+        },
+        {
+          "sentence": "Singular: das Restaurant — Plural: die ___",
+          "answers": [
+            "Restaurants"
+          ],
+          "hint": "borrowed word"
+        },
+        {
+          "sentence": "Singular: der Kilometer — Plural: die ___",
+          "answers": [
+            "Kilometer"
+          ],
+          "hint": "nothing changes"
+        },
+        {
+          "sentence": "Singular: die Ärztin — Plural: die ___",
+          "answers": [
+            "Ärztinnen"
+          ],
+          "hint": "-innen"
+        }
+      ],
+      "concept": {
+        "title": "Nomen: Singular und Plural",
+        "rule": "A plural noun always takes die, and the ending lands on the noun itself: -n, -e, -er, -s or nothing at all, sometimes with a vowel change inside the word.",
+        "exampleGerman": "der Arzt → die Ärzte · das Auto → die Autos",
+        "exampleEnglish": "the doctor → the doctors · the car → the cars"
+      }
+    }
+  ]
+}

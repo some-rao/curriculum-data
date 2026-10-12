@@ -6,36 +6,78 @@
   "titleGerman": "Guten Appetit!",
   "titleEnglish": "Food, Shopping & Meals",
   "descriptionEnglish": "Food and meals, shops and shopping, talk at the table. Accusative, mögen and möchte, verb in position 2.",
+  "vocabFile": "vocab.json",
+  "examFile": "exam.json",
   "sections": [
     {
-      "id": "s1_lebensmittel",
-      "title": "Lebensmittel und Mahlzeiten",
-      "file": "s1_lebensmittel.json",
+      "id": "p01",
+      "title": "Essen und Trinken — die ersten Bilder",
+      "file": "p01.json",
+      "version": 1,
+      "estimatedMin": 6
+    },
+    {
+      "id": "p02",
+      "title": "Kaffee und Kuchen, Abendessen",
+      "file": "p02.json",
       "version": 1,
       "estimatedMin": 7
     },
     {
-      "id": "s2_einkauf_planen",
-      "title": "Einkauf planen: Kommt ihr?",
-      "file": "s2_einkauf_planen.json",
+      "id": "p03",
+      "title": "Kommt ihr? — Einkaufen planen",
+      "file": "p03.json",
       "version": 1,
       "estimatedMin": 8
     },
     {
-      "id": "s3_gespraeche",
-      "title": "Gespräche beim Einkaufen und beim Essen",
-      "file": "s3_gespraeche.json",
+      "id": "p04",
+      "title": "Einkaufen im Supermarkt — Gespräche führen",
+      "file": "p04.json",
       "version": 1,
       "estimatedMin": 8
     },
     {
-      "id": "s4_vorlieben",
-      "title": "Was essen Sie? Vorlieben",
-      "file": "s4_vorlieben.json",
+      "id": "p05",
+      "title": "Die Grillparty — Gespräche beim Essen",
+      "file": "p05.json",
+      "version": 1,
+      "estimatedMin": 9
+    },
+    {
+      "id": "p06",
+      "title": "Frühstück, Mittagessen, Abendessen — Was essen Sie?",
+      "file": "p06.json",
+      "version": 1,
+      "estimatedMin": 10
+    },
+    {
+      "id": "p07",
+      "title": "Wörter lernen — Mindmaps, Paare, Gruppen",
+      "file": "p07.json",
+      "version": 1,
+      "estimatedMin": 7
+    },
+    {
+      "id": "p08",
+      "title": "Berufe rund um Essen — Koch am Bodensee",
+      "file": "p08.json",
       "version": 1,
       "estimatedMin": 8
+    },
+    {
+      "id": "p09",
+      "title": "Die Netzwerk-WG — hören und sehen",
+      "file": "p09.json",
+      "version": 1,
+      "estimatedMin": 8
+    },
+    {
+      "id": "p10",
+      "title": "Kurz und klar: Was du kannst",
+      "file": "p10.json",
+      "version": 1,
+      "estimatedMin": 5
     }
-  ],
-  "vocabFile": "vocab.json",
-  "examFile": "exam.json"
+  ]
 }

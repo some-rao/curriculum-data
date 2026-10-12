@@ -1,0 +1,197 @@
+{
+  "id": "p09",
+  "title": "Netzwerk-WG",
+  "version": 1,
+  "estimatedMin": 7,
+  "blocks": [
+    {
+      "type": "LESSON_PAGE",
+      "variant": "READING",
+      "id": "p09_r1",
+      "headline": "Die Netzwerk-WG — Szenen 10, 11 und 12",
+      "paragraphs": [
+        {
+          "lang": "en",
+          "text": "Three short video scenes close the working part of this lesson, and everything you have learned turns up in them: days and hours, modal verbs, possessives, an arrangement that nearly goes wrong. Scene 10 is a morning, scene 11 is an evening, and scene 12 is dinner — a full day in a shared flat.\n"
+        },
+        {
+          "lang": "en",
+          "text": "For scene 10 the book asks you to put the sentences in order. Read them first as a story rather than as a task; the order of a German day follows the same logic as yours, and the time words are what tell you where you are in it.\n"
+        },
+        {
+          "lang": "de",
+          "text": "Max schläft noch. · Anna klopft bei Max. Sie wollen joggen. · Anna trinkt Kaffee. · Max hat heute frei. Er will in den Supermarkt gehen. · Es ist kein Brot da. · Max will am Abend kochen. · Anna und Max gehen joggen.\n"
+        },
+        {
+          "lang": "en",
+          "text": "Scene 11 runs on the clock instead. Four names are in play — Anna, Bea, Luca and Max — and only one blank is filled in for you: at 19:30 it is {{de:Luca}} who comes home. The rest you work out from the scene itself, so keep your eye on the hours in the corner of the screen; they are the only thing telling you who is missing. Two messages are written on the wall as you watch: {{de:Ich komme erst um 20:00 Uhr}} and {{de:Komme gleich}}.\n"
+        },
+        {
+          "lang": "de",
+          "text": "Um 19:30 Uhr kommt Luca nach Hause. · Ich komme erst um 20:00 Uhr. · Komme gleich.\n"
+        }
+      ]
+    },
+    {
+      "type": "EXAMPLES",
+      "variant": "PHRASE_LIST",
+      "id": "p09_ex1",
+      "title": "Was in der WG gesagt wird",
+      "items": [
+        {
+          "german": "Was macht er jetzt?",
+          "english": "What is he doing now?"
+        },
+        {
+          "german": "Bitte auch ein Stück für mich.",
+          "english": "A piece for me too, please."
+        },
+        {
+          "german": "Wie bitte? Er möchte auch Pizza?",
+          "english": "Sorry? He wants pizza too?"
+        },
+        {
+          "german": "Wir können warten.",
+          "english": "We can wait."
+        },
+        {
+          "german": "Ich habe auch Hunger.",
+          "english": "I am hungry too."
+        },
+        {
+          "german": "Ich habe viel Zeit.",
+          "english": "I have plenty of time."
+        },
+        {
+          "german": "Für dich gibt es nichts!",
+          "english": "There is nothing for you!"
+        },
+        {
+          "german": "Da musst du lange warten.",
+          "english": "You will be waiting a long time for that."
+        }
+      ]
+    },
+    {
+      "type": "NOTE",
+      "variant": "CULTURE",
+      "id": "p09_n1",
+      "title": "Was ist eine WG?",
+      "paragraphs": [
+        {
+          "lang": "en",
+          "text": "A {{de:Wohngemeinschaft}}, shortened to WG in every conversation you will ever have, is a flat shared by people who are not related to each other. They split the rent, share the kitchen and the shopping list, and each has their own {{de:Zimmer}}. For a student in a German city a WG is often the only affordable way to live, which is why the country is full of them and full of the small negotiations you are watching in these scenes.\n"
+        },
+        {
+          "lang": "de",
+          "text": "Wir wohnen in einer WG in Köln. Mein Zimmer ist klein, aber hell. Am Abend essen wir zusammen in der Küche.\n"
+        },
+        {
+          "lang": "en",
+          "text": "That is also why the scenes turn on bread and pizza rather than on anything grand. Who cooks, who shops, who waits — in a WG these are the daily questions, and they are settled with exactly the language you have just practised: {{de:Ich muss einkaufen}}, {{de:Wir können warten}}, {{de:Du musst lange warten}}.\n"
+        }
+      ]
+    },
+    {
+      "type": "VOCAB",
+      "variant": "CARD_SET",
+      "id": "p09_v1",
+      "title": "Wohnen und Familie",
+      "wordIds": [
+        "w_wohnen",
+        "w_zimmer",
+        "w_schwester"
+      ]
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "FILL_BLANK",
+      "id": "p09_q1",
+      "points": 2,
+      "topic": "Szenen 10–12",
+      "prompt": "Complete the line from the scene.",
+      "paragraphs": [
+        {
+          "lang": "en",
+          "text": "The thought bubbles in scene 12 are short because spoken German is short. Fill each gap with the one word that is missing and say the whole line out loud afterwards.\n"
+        }
+      ],
+      "items": [
+        {
+          "sentence": "Ich habe ___ Hunger.",
+          "answers": [
+            "auch"
+          ],
+          "hint": "too"
+        },
+        {
+          "sentence": "Wir können ___ .",
+          "answers": [
+            "warten"
+          ],
+          "hint": "warten"
+        },
+        {
+          "sentence": "Bitte auch ein ___ für mich.",
+          "answers": [
+            "Stück"
+          ],
+          "hint": "ein Stück Brot"
+        },
+        {
+          "sentence": "Da musst du lange ___ .",
+          "answers": [
+            "warten"
+          ],
+          "hint": "müssen + Infinitiv"
+        },
+        {
+          "sentence": "Für dich gibt es ___ !",
+          "answers": [
+            "nichts"
+          ],
+          "hint": "nothing"
+        },
+        {
+          "sentence": "Er ___ auch Pizza?",
+          "answers": [
+            "möchte"
+          ],
+          "hint": "möchten"
+        }
+      ]
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "REORDER",
+      "id": "p09_q2",
+      "points": 2,
+      "topic": "Wortstellung mit Modalverben",
+      "prompt": "Put the sentence in order.",
+      "paragraphs": [
+        {
+          "lang": "en",
+          "text": "The scene gives you the line already, in the wrong order on the cards. Remember the frame from the last page: the modal verb takes position two, and the infinitive goes to the very end.\n"
+        }
+      ],
+      "builder": {
+        "fixedPrefix": "Max",
+        "solutionWords": [
+          "will",
+          "am Abend",
+          "kochen"
+        ],
+        "wordPool": [
+          "will",
+          "am Abend",
+          "kochen",
+          "kann",
+          "morgen",
+          "Supermarkt",
+          "geht"
+        ]
+      }
+    }
+  ],
+  "schemaVersion": 2
+}

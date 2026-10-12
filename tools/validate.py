@@ -47,16 +47,24 @@ FAMILIES = {
 }
 
 # Fields every family must carry to render at all.
+#
+# A tuple means "any one of these satisfies the requirement". Prose is
+# expressed that way because `paragraphs` (a list of {lang, text}) replaced
+# the single-string `bodyEnglish` / `explanationEnglish` fields: the app's
+# proseOf() takes `paragraphs` when present and falls back to the legacy
+# strings otherwise, so either is valid but neither is mandatory. Only
+# `paragraphs` can carry per-language tags, which is what puts German and
+# English on separate cards, so new content should prefer it.
 REQUIRED_BY_FAMILY = {
-    "NOTE": ["title", "bodyEnglish"],
+    "NOTE": ["title", ("bodyEnglish", "paragraphs")],
     "LESSON_PAGE": ["headline"],
     "EXAMPLES": ["items"],
-    "GRAMMAR": ["ruleHeadline", "explanationEnglish"],
+    "GRAMMAR": ["ruleHeadline", ("explanationEnglish", "paragraphs")],
     "PATTERN": ["title", "formula"],
     "BREAKDOWN": ["sentenceGerman", "tokens"],
     "EXERCISE": ["prompt"],
     "WRITING": ["promptEnglish", "solutionWords", "wordPool"],
-    "SUMMARY": ["bullets"],
+    "SUMMARY": ["bullets", "paragraphs"],
 }
 
 
@@ -77,9 +85,19 @@ def load(path: Path):
 
 
 def require(obj, path, fields, where):
+    """Check the required fields of one block. A tuple in `fields` is a
+    choice — any one of those names satisfies it; a string is mandatory."""
     for f in fields:
-        if f not in obj or obj[f] in ("", None, []):
+        if isinstance(f, tuple):
+            if not any(_present(obj.get(name)) for name in f):
+                ors = " or ".join(f"'{n}'" for n in f)
+                err(path, f"{where}: missing required field {ors}")
+        elif not _present(obj.get(f)):
             err(path, f"{where}: missing required field '{f}'")
+
+
+def _present(v):
+    return v not in ("", None, []) and v != {}
 
 
 def check_schema_version(path, obj, what, exact=True):
@@ -138,7 +156,11 @@ def validate_blocks(path, blocks, where, vocab_ids=None):
                        f"{sorted(FAMILIES[btype])} — it will render with default styling")
 
         for f in REQUIRED_BY_FAMILY.get(btype, []):
-            if b.get(f) in (None, "", []):
+            if isinstance(f, tuple):
+                if not any(_present(b.get(name)) for name in f):
+                    ors = " or ".join(f"'{n}'" for n in f)
+                    err(path, f"{where_b} ({label}): {btype} requires {ors}")
+            elif not _present(b.get(f)):
                 err(path, f"{where_b} ({label}): {btype} requires '{f}'")
 
         # Per-family payload rules.
@@ -155,14 +177,17 @@ def validate_blocks(path, blocks, where, vocab_ids=None):
 
         # House-style warnings — see AI_AUTHORING_SPEC §6 "block house style".
         if btype == "SUMMARY":
-            warn(path, f"{where_b} ({label}): SUMMARY is retired — delete this block "
-                       f"(the app renders its own completion card)")
+            # A recap block, one per lesson. It is not retired: SummaryContent
+            # renders it as the closing page of a section.
+            if not b.get("bullets") and not b.get("paragraphs"):
+                warn(path, f"{where_b} ({label}): SUMMARY has neither 'bullets' nor "
+                           f"'paragraphs' — it would render as an empty card")
         elif btype == "GRAMMAR" and not b.get("examples") and not b.get("builder"):
             warn(path, f"{where_b} ({label}): GRAMMAR with neither 'examples' nor 'builder' "
                        f"does not teach the forms — add a paradigm table")
         elif btype == "NOTE":
             body = b.get("bodyEnglish", "") or ""
-            if "\n" not in body and len(body) > 160:
+            if "\n" not in body and len(body) > 160 and not b.get("paragraphs"):
                 warn(path, f"{where_b} ({label}): NOTE bodyEnglish is one long line — split "
                            f"it into 2-4 short newline-separated lines (one bullet each)")
         elif btype == "LESSON_PAGE" and str(b.get("variant", "")).upper() == "VOCAB" \

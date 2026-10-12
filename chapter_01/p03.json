@@ -1,0 +1,200 @@
+{
+  "schemaVersion": 2,
+  "id": "p03",
+  "title": "Hallo! Tschüs! — drei Situationen",
+  "version": 1,
+  "estimatedMin": 7,
+  "blocks": [
+    {
+      "type": "NOTE",
+      "variant": "USAGE",
+      "id": "p03_n1",
+      "title": "Drei kleine Szenen",
+      "paragraphs": [
+        {
+          "lang": "en",
+          "text": "This page puts the same social move in three sizes. In situation A two people who do not know each other yet stop, greet, ask how the other is and exchange names — that is the longest thing you will have to manage today. Situation B is the version you will use fifty times a week: a quick hello to someone you already know, one line each, and you both walk on. Situation C is only about leaving.\n"
+        },
+        {
+          "lang": "en",
+          "text": "Read them with the sound on if you can, then read them again without. Notice how short the turns are — nobody builds a long sentence to say {{de:Hallo}} or {{de:Tschüs!}}. The full sentences show up in exactly two places: asking how someone is, and asking what they are called, {{de:Entschuldigung, wie heißt du?}}\n"
+        },
+        {
+          "lang": "de",
+          "text": "Wer bist du? — Ich heiße Niklas. · Wie geht's dir? — Danke, gut. Und dir? — Auch gut, danke. · Tschüs Julia! Bis bald!\n"
+        },
+        {
+          "lang": "en",
+          "text": "Learn the reply as tightly as the question. Every question on this page arrives with its answer already attached, and having the answer ready is what keeps a first conversation from stalling after hello.\n"
+        }
+      ]
+    },
+    {
+      "type": "LESSON_PAGE",
+      "variant": "DIALOGUE",
+      "id": "p03_d1",
+      "headline": "Situation A — Hallo, ich bin Julia",
+      "paragraphs": [
+        {
+          "lang": "en",
+          "text": "Julia and Niklas meet outside, exchange greetings, ask about each other and give their names. Listen for the moment where Julia says who she is before she asks.\n"
+        }
+      ],
+      "vocabHighlight": [
+        {
+          "german": "Hallo, ich bin Julia.",
+          "english": "Hello, I'm Julia."
+        },
+        {
+          "german": "Entschuldigung, wie heißt du?",
+          "english": "Excuse me, what's your name?"
+        }
+      ],
+      "turns": [
+        {
+          "speaker": "Julia",
+          "german": "Hallo Nina!",
+          "english": "Hello Nina!"
+        },
+        {
+          "speaker": "Nina",
+          "german": "Hallo Julia! Wie geht's dir?",
+          "english": "Hello Julia! How are you?"
+        },
+        {
+          "speaker": "Julia",
+          "german": "Danke, gut. Und dir?",
+          "english": "Thanks, good. And you?"
+        },
+        {
+          "speaker": "Nina",
+          "german": "Auch gut, danke.",
+          "english": "Me too, thanks."
+        },
+        {
+          "speaker": "Julia",
+          "german": "Hallo, ich bin Julia. Und du? Wer bist du?",
+          "english": "Hello, I'm Julia. And you? Who are you?"
+        },
+        {
+          "speaker": "Niklas",
+          "german": "Ich heiße Niklas.",
+          "english": "My name's Niklas."
+        },
+        {
+          "speaker": "Julia",
+          "german": "Entschuldigung, wie heißt du?",
+          "english": "Sorry, what's your name?"
+        },
+        {
+          "speaker": "Niklas",
+          "german": "Niklas.",
+          "english": "Niklas."
+        }
+      ]
+    },
+    {
+      "type": "LESSON_PAGE",
+      "variant": "DIALOGUE",
+      "id": "p03_d2",
+      "headline": "Situationen B und C — Wie geht's? Tschüs!",
+      "paragraphs": [
+        {
+          "lang": "en",
+          "text": "The second meeting is between people who already know each other, so the question drops the word after it — {{de:Wie geht's?}} with no {{de:dir}}. The third scene is the shortest of the page: three words, and everybody leaves.\n"
+        }
+      ],
+      "vocabHighlight": [
+        {
+          "german": "Wie geht's?",
+          "english": "How are you?"
+        },
+        {
+          "german": "Tschüs Julia! Bis bald!",
+          "english": "Bye Julia! See you soon!"
+        }
+      ],
+      "turns": [
+        {
+          "speaker": "Nina",
+          "german": "Hallo Nina!",
+          "english": "Hello Nina!"
+        },
+        {
+          "speaker": "Niklas",
+          "german": "Hallo Niklas! Wie geht's?",
+          "english": "Hello Niklas! How are you?"
+        },
+        {
+          "speaker": "Nina",
+          "german": "Danke, sehr gut! Und dir?",
+          "english": "Thanks, very good! And you?"
+        },
+        {
+          "speaker": "Niklas",
+          "german": "Ganz gut, danke.",
+          "english": "Very well, thanks."
+        },
+        {
+          "speaker": "Julia",
+          "german": "Tschüs!",
+          "english": "Bye!"
+        },
+        {
+          "speaker": "Nina",
+          "german": "Tschüs Julia! Bis bald!",
+          "english": "Bye Julia! See you soon!"
+        },
+        {
+          "speaker": "Julia",
+          "german": "Ciao!",
+          "english": "Ciao!"
+        }
+      ]
+    },
+    {
+      "type": "EXAMPLES",
+      "variant": "PHRASE_LIST",
+      "id": "p03_ex1",
+      "title": "Die Sprechblase — was du in jeder Situation sagen kannst",
+      "items": [
+        {
+          "german": "Hallo!",
+          "english": "Hello!"
+        },
+        {
+          "german": "Wer bist du? / Wie heißt du?",
+          "english": "Who are you? / What's your name?"
+        },
+        {
+          "german": "Ich heiße … / Ich bin …",
+          "english": "My name is … / I'm …"
+        },
+        {
+          "german": "Wie geht's? / Wie geht's dir?",
+          "english": "How are you? / How are you doing?"
+        },
+        {
+          "german": "Danke, sehr gut!",
+          "english": "Thanks, very good!"
+        },
+        {
+          "german": "Und dir?",
+          "english": "And you?"
+        },
+        {
+          "german": "Danke, gut! / Auch gut, danke.",
+          "english": "Thanks, good! / Me too, thanks."
+        },
+        {
+          "german": "Ganz gut.",
+          "english": "Very well."
+        },
+        {
+          "german": "Tschüs! / Ciao!",
+          "english": "Bye! / Ciao!"
+        }
+      ]
+    }
+  ]
+}

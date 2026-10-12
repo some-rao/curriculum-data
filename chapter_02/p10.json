@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 2,
+  "id": "p10",
+  "title": "Kurz und klar: Redemittel und Grammatik",
+  "version": 1,
+  "estimatedMin": 5,
+  "blocks": [
+    {
+      "type": "SUMMARY",
+      "variant": "RECAP",
+      "id": "p10_sum",
+      "title": "Was du kannst",
+      "paragraphs": [
+        {
+          "lang": "en",
+          "text": "This page collects everything the chapter gave you, in two halves. The top block is the language you can now say — the questions and answers you need to open a conversation and to keep it going. The bottom block is the machinery underneath it, printed as tables so you can check yourself without rereading ten pages.\n"
+        },
+        {
+          "lang": "de",
+          "text": "Was machen Sie gern? · Gehen wir ins Kino? · Was sind Sie von Beruf? · Wann haben Sie frei?\n"
+        },
+        {
+          "lang": "en",
+          "text": "Four questions carry the whole chapter: what you like, when you meet, what you do, when you are free. If you can ask them, the first ten minutes of any conversation are yours.\n"
+        },
+        {
+          "lang": "de",
+          "text": "Ja, sehr gern. · Nein, nicht so gern. · Es geht so. · Nein, das geht leider nicht.\n"
+        },
+        {
+          "lang": "en",
+          "text": "Four answers that shade from enthusiasm to refusal, and they belong together — learn them as a set and you are never stuck for a reply. The same shape works for work: ask with {{de:sein}}, answer with a job, ask with {{de:haben}} and name the free day.\n"
+        },
+        {
+          "lang": "de",
+          "text": "Was sind Sie von Beruf? — Ich bin Studentin. Wann haben Sie frei? — Am Montag."
+        },
+        {
+          "lang": "de",
+          "text": "21 einundzwanzig · 45 fünfundvierzig · 100 (ein)hundert · 74.300 vierundsiebzigtausenddreihundert · 1.000.000 eine Million\n"
+        },
+        {
+          "lang": "de",
+          "text": "der Arzt → die Ärzte · das Buch → die Bücher · die Stunde → die Stunden · das Auto → die Autos\n"
+        },
+        {
+          "lang": "en",
+          "text": "The verb table, the yes/no question, the three articles and the plural endings are all collected below, exactly as the textbook prints them. Read them once more, then go back to whichever exercise still feels slow.\n"
+        },
+        {
+          "lang": "de",
+          "text": "ich koche · du kochst · er/sie/es kocht · wir kochen · ihr kocht · sie/Sie kochen"
+        },
+        {
+          "lang": "de",
+          "text": "ich bin · du bist · er/sie/es ist · wir sind · ihr seid · sie/Sie sind"
+        }
+      ],
+      "bullets": [
+        "You can ask what somebody likes to do and answer in three shades — keen, not really, so-so.",
+        "You can arrange a meeting and turn one down without sounding rude.",
+        "You can name all seven weekdays and put the right one after am.",
+        "You can say what you do and what somebody else does, with the right ending on the verb.",
+        "You can ask and answer two questions about work: what you do for a living, and when you are free.",
+        "You can count from 21 into the thousands and read a figure like 74.300 aloud.",
+        "You can put a noun under der, das or die and build its plural.",
+        "You can fill in a German registration form with your own details."
+      ]
+    }
+  ]
+}

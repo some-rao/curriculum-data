@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "id": "p02",
+  "title": "Hobbys — Was machen Sie gern?",
+  "version": 1,
+  "estimatedMin": 7,
+  "blocks": [
+    {
+      "type": "VOCAB",
+      "variant": "CARD_SET",
+      "id": "p02_v1",
+      "title": "Die letzten fünf Bilder",
+      "wordIds": [
+        "w_kochen",
+        "w_schwimmen",
+        "w_reisen",
+        "w_ins_kino_gehen",
+        "w_lesen"
+      ]
+    },
+    {
+      "type": "NOTE",
+      "variant": "USAGE",
+      "id": "p02_n1",
+      "title": "gern, nicht gern, es geht so",
+      "paragraphs": [
+        {
+          "lang": "en",
+          "text": "Exercise 2a hands you ten activities and three faces — a grin, a flat mouth, a frown. The word that carries the difference is {{de:gern}}, and it covers a whole range: enjoying something, putting up with it, quietly avoiding it.\n"
+        },
+        {
+          "lang": "de",
+          "text": "Ja, sehr gern. · Nein, nicht so gern. · Es geht so."
+        },
+        {
+          "lang": "en",
+          "text": "The question itself comes in two dressings, and choosing between them is a social decision rather than a grammatical one. Ask the wrong one and you sound either stiff or rude, so settle it before you practise the endings.\n"
+        },
+        {
+          "lang": "de",
+          "text": "Was machen Sie gern? · Was machst du gern?"
+        },
+        {
+          "lang": "en",
+          "text": "Say {{de:Sie}} to a stranger, a teacher or a new colleague; say {{de:du}} to the person sitting next to you in class. The verb endings you meet on the next page change with that choice, which is a good reason to make it early.\n"
+        },
+        {
+          "lang": "en",
+          "text": "Three answers are worth taking as a set, because between them they cover almost anything you will be asked. A flat yes closes the conversation; an answer with a hobby in it opens one.\n"
+        },
+        {
+          "lang": "de",
+          "text": "Ich reise gern. · Nein, nicht so gern. · Es geht so."
+        }
+      ]
+    },
+    {
+      "type": "EXAMPLES",
+      "variant": "PHRASE_LIST",
+      "id": "p02_ex1",
+      "title": "Fragen und Antworten: gern",
+      "items": [
+        {
+          "german": "Was machen Sie gern?",
+          "english": "What do you like to do?"
+        },
+        {
+          "german": "Was machst du gern?",
+          "english": "What do you like to do? (informal)"
+        },
+        {
+          "german": "Hörst du gern Musik?",
+          "english": "Do you like listening to music?"
+        },
+        {
+          "german": "Ja, sehr gern. Und du?",
+          "english": "Yes, very much. And you?"
+        },
+        {
+          "german": "Gehst du gern ins Kino?",
+          "english": "Do you like going to the cinema?"
+        },
+        {
+          "german": "Nein, nicht so gern.",
+          "english": "No, not so much."
+        },
+        {
+          "german": "Liest du gern?",
+          "english": "Do you like reading?"
+        },
+        {
+          "german": "Es geht so.",
+          "english": "It is so-so."
+        }
+      ]
+    }
+  ]
+}

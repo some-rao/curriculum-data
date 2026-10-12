@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "id": "p09",
+  "title": "Stadttrip in München",
+  "version": 1,
+  "estimatedMin": 7,
+  "blocks": [
+    {
+      "type": "LESSON_PAGE",
+      "variant": "READING",
+      "id": "p09_l1",
+      "headline": "Die Netzwerk-WG in München",
+      "paragraphs": [
+        {
+          "lang": "en",
+          "text": "Luca and Anna, the neighbours from the online flatshare, close the chapter with a city trip to Munich — and they explore it exactly the way this lesson taught you to: on foot and by bike, reading the plaques, collecting numbers.\n"
+        },
+        {
+          "lang": "en",
+          "text": "Almost every word you need is one you already have. {{de:links}} and {{de:geradeaus}} order the route, {{de:Entschuldigung}} opens the question, and every stop carries its article along: {{de:der Englische Garten}}, {{de:das Museum}}, {{de:die Kirche}}. The new material is mostly proper names — and a pile of numbers, which is its own reading skill.\n"
+        }
+      ]
+    },
+    {
+      "type": "EXAMPLES",
+      "variant": "EXAMPLE_BOX",
+      "id": "p09_ex1",
+      "title": "Zahlen, Zahlen, Zahlen",
+      "items": [
+        {
+          "german": "Seit 1792 gibt es den Englischen Garten. Der Park ist sehr groß: 375 Hektar. Jedes Jahr kommen über 3,5 Millionen Besucher. Der Chinesische Turm im Englischen Garten ist 25 m hoch.\n",
+          "english": "The English Garden has existed since 1792. The park is very large: 375 hectares. Every year more than 3.5 million visitors come. The Chinese Tower in the English Garden is 25 m tall.\n"
+        },
+        {
+          "german": "Das Müller'sche Volksbad ist direkt neben der Isar. Das Bad gibt es seit 1901.\n",
+          "english": "The Müller public baths are right next to the Isar. The baths have existed since 1901.\n"
+        },
+        {
+          "german": "Das Olympiastadion ist toll. Bauzeit: 1969 bis 1972. Kosten: 137 Millionen D-Mark.\n",
+          "english": "The Olympic Stadium is great. Construction: 1969 to 1972. Cost: 137 million deutschmarks.\n"
+        }
+      ]
+    },
+    {
+      "type": "NOTE",
+      "variant": "CULTURE",
+      "id": "p09_n1",
+      "title": "München mit Rad und zu Fuß",
+      "paragraphs": [
+        {
+          "lang": "en",
+          "text": "Munich rewards walkers and cyclists, and the video shows both. Luca and Anna cycle through the Englischer Garten, where the Chinese Tower stands, and later they cool off in the fast water of the {{de:Eisbach}} — a channel of the Isar that runs right past the gardens, popular with swimmers and surfers alike.\n"
+        },
+        {
+          "lang": "en",
+          "text": "Their last stop is a market, and to reach it they ask the way once more. The answer is built from exactly the pieces of the previous page — turn left before the Marienplatz, go through the Isartor, keep straight on — which is a fair test of how well those few direction words hold up in real speech.\n"
+        },
+        {
+          "lang": "de",
+          "text": "Entschuldigung, wo ist der Viktualienmarkt? — Gehen Sie vor dem Marienplatz nach links, durch das Isartor, immer geradeaus. Dann sehen Sie den Viktualienmarkt.\n"
+        }
+      ]
+    },
+    {
+      "type": "VOCAB",
+      "variant": "CARD_SET",
+      "id": "p09_v1",
+      "title": "Orte in München",
+      "wordIds": [
+        "w_park",
+        "w_museum",
+        "w_turm",
+        "w_kirche",
+        "w_fahrrad",
+        "w_entschuldigung",
+        "w_links",
+        "w_rechts",
+        "w_geradeaus"
+      ]
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "MULTIPLE_CHOICE",
+      "id": "p09_q1",
+      "points": 2,
+      "topic": "Zahlen verstehen",
+      "passage": "Der Chinesische Turm im Englischen Garten ist 25 m hoch. Der Park ist 375 Hektar groß.\n",
+      "prompt": "Wie hoch ist der Chinesische Turm?",
+      "options": [
+        "25 m.",
+        "375 m.",
+        "132 m."
+      ],
+      "correctIndex": 0,
+      "explanationEnglish": "25 metres is the tower; 375 describes the park in hectares, and 132 metres was the tower in Hamburg. Texts full of numbers punish fast reading — check what each number is actually measuring.\n"
+    }
+  ]
+}

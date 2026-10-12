@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "chapterId": "chapter_05",
   "words": [
     {
@@ -11,12 +11,40 @@
       "gender": "FEMININE",
       "plural": "Familien",
       "ipa": "/faˈmiːliə/",
-      "meaningsEnglish": ["family"],
-      "domainTags": ["People"],
+      "meaningsEnglish": [
+        "family"
+      ],
+      "domainTags": [
+        "People"
+      ],
       "definitionGerman": "Die Eltern und die Kinder und die Menschen, die zusammen gehören.",
       "exampleGerman": "Die Familie Dobart wohnt in Frankfurt.",
       "exampleEnglish": "The Dobart family lives in Frankfurt.",
-      "sectionIds": ["s3_familie"]
+      "sectionIds": [
+        "p04"
+      ]
+    },
+    {
+      "id": "w_eltern",
+      "word": "Eltern",
+      "partOfSpeech": "NOUN",
+      "level": "A1",
+      "article": "die",
+      "gender": "FEMININE",
+      "plural": "Eltern",
+      "ipa": "/ˈɛltɐn/",
+      "meaningsEnglish": [
+        "parents"
+      ],
+      "domainTags": [
+        "Family"
+      ],
+      "definitionGerman": "Vater und Mutter zusammen.",
+      "exampleGerman": "Die Eltern arbeiten beide von 9 bis 17 Uhr.",
+      "exampleEnglish": "Both parents work from 9 to 5.",
+      "sectionIds": [
+        "p04"
+      ]
     },
     {
       "id": "w_morgen",
@@ -27,12 +55,19 @@
       "gender": "MASCULINE",
       "plural": "Morgen",
       "ipa": "/ˈmɔʁɡn̩/",
-      "meaningsEnglish": ["morning"],
-      "domainTags": ["Time"],
+      "meaningsEnglish": [
+        "morning"
+      ],
+      "domainTags": [
+        "Time"
+      ],
       "definitionGerman": "Der Teil des Tages vor der Mittagszeit.",
       "exampleGerman": "Am Morgen duscht Kaan.",
       "exampleEnglish": "In the morning Kaan showers.",
-      "sectionIds": ["s1_alltag"]
+      "sectionIds": [
+        "p01",
+        "p02"
+      ]
     },
     {
       "id": "w_wochenende",
@@ -43,12 +78,18 @@
       "gender": "NEUTER",
       "plural": "Wochenenden",
       "ipa": "/ˈvoːxn̩ˌɛndə/",
-      "meaningsEnglish": ["weekend"],
-      "domainTags": ["Time"],
+      "meaningsEnglish": [
+        "weekend"
+      ],
+      "domainTags": [
+        "Time"
+      ],
       "definitionGerman": "Samstag und Sonntag.",
       "exampleGerman": "Am Wochenende schläft Kaan lange.",
       "exampleEnglish": "On the weekend Kaan sleeps long.",
-      "sectionIds": ["s1_alltag"]
+      "sectionIds": [
+        "p01"
+      ]
     },
     {
       "id": "w_kaffee",
@@ -59,12 +100,18 @@
       "gender": "MASCULINE",
       "plural": "Kaffees",
       "ipa": "/ˈkafeː/",
-      "meaningsEnglish": ["coffee"],
-      "domainTags": ["Food"],
+      "meaningsEnglish": [
+        "coffee"
+      ],
+      "domainTags": [
+        "Food"
+      ],
       "definitionGerman": "Ein heißes Getränk aus Kaffeebohnen.",
       "exampleGerman": "Morgens trinke ich einen Kaffee.",
       "exampleEnglish": "In the morning I drink a coffee.",
-      "sectionIds": ["s1_alltag"]
+      "sectionIds": [
+        "p01"
+      ]
     },
     {
       "id": "w_zeitung",
@@ -75,12 +122,18 @@
       "gender": "FEMININE",
       "plural": "Zeitungen",
       "ipa": "/ˈtsaɪ̯tʊŋ/",
-      "meaningsEnglish": ["newspaper"],
-      "domainTags": ["Daily Life"],
+      "meaningsEnglish": [
+        "newspaper"
+      ],
+      "domainTags": [
+        "Daily Life"
+      ],
       "definitionGerman": "Ein Heft mit Nachrichten. Man liest sie jeden Tag.",
       "exampleGerman": "Am Morgen lese ich die Zeitung.",
       "exampleEnglish": "In the morning I read the newspaper.",
-      "sectionIds": ["s1_alltag"]
+      "sectionIds": [
+        "p01"
+      ]
     },
     {
       "id": "w_buero",
@@ -91,12 +144,20 @@
       "gender": "NEUTER",
       "plural": "Büros",
       "ipa": "/byˈʁoː/",
-      "meaningsEnglish": ["office"],
-      "domainTags": ["Work", "Places"],
+      "meaningsEnglish": [
+        "office"
+      ],
+      "domainTags": [
+        "Work",
+        "Places"
+      ],
       "definitionGerman": "Der Raum, in dem man arbeitet.",
       "exampleGerman": "Ich gehe am Morgen ins Büro.",
       "exampleEnglish": "I go to the office in the morning.",
-      "sectionIds": ["s1_alltag", "s3_familie"]
+      "sectionIds": [
+        "p01",
+        "p04"
+      ]
     },
     {
       "id": "w_kino",
@@ -107,12 +168,21 @@
       "gender": "NEUTER",
       "plural": "Kinos",
       "ipa": "/ˈkiːno/",
-      "meaningsEnglish": ["cinema", "movie theater"],
-      "domainTags": ["Leisure", "Places"],
+      "meaningsEnglish": [
+        "cinema",
+        "movie theater"
+      ],
+      "domainTags": [
+        "Leisure",
+        "Places"
+      ],
       "definitionGerman": "Der Ort, an dem man Filme sieht.",
       "exampleGerman": "Wir können am Dienstag ins Kino gehen.",
       "exampleEnglish": "We can go to the cinema on Tuesday.",
-      "sectionIds": ["s1_alltag", "s4_vereinbaren"]
+      "sectionIds": [
+        "p01",
+        "p06"
+      ]
     },
     {
       "id": "w_supermarkt",
@@ -123,12 +193,19 @@
       "gender": "MASCULINE",
       "plural": "Supermärkte",
       "ipa": "/ˈsuːpɐmaʁkt̩/",
-      "meaningsEnglish": ["supermarket"],
-      "domainTags": ["Places", "Daily Life"],
+      "meaningsEnglish": [
+        "supermarket"
+      ],
+      "domainTags": [
+        "Places",
+        "Daily Life"
+      ],
       "definitionGerman": "Der Laden, in dem man Essen kauft.",
       "exampleGerman": "Am Samstag gehe ich in den Supermarkt.",
       "exampleEnglish": "On Saturday I go to the supermarket.",
-      "sectionIds": ["s1_alltag"]
+      "sectionIds": [
+        "p01"
+      ]
     },
     {
       "id": "w_uhr",
@@ -139,12 +216,20 @@
       "gender": "FEMININE",
       "plural": "Uhren",
       "ipa": "/uːɐ̯/",
-      "meaningsEnglish": ["clock", "o'clock"],
-      "domainTags": ["Time"],
+      "meaningsEnglish": [
+        "clock",
+        "o'clock"
+      ],
+      "domainTags": [
+        "Time"
+      ],
       "definitionGerman": "Ein Gerät, das die Zeit anzeigt.",
       "exampleGerman": "Es ist sieben Uhr.",
       "exampleEnglish": "It is seven o'clock.",
-      "sectionIds": ["s2_uhrzeit"]
+      "sectionIds": [
+        "p03",
+        "p07"
+      ]
     },
     {
       "id": "w_viertel",
@@ -155,12 +240,19 @@
       "gender": "NEUTER",
       "plural": "Viertel",
       "ipa": "/ˈfɪʁtl̩/",
-      "meaningsEnglish": ["quarter"],
-      "domainTags": ["Time", "Numbers"],
+      "meaningsEnglish": [
+        "quarter"
+      ],
+      "domainTags": [
+        "Time",
+        "Numbers"
+      ],
       "definitionGerman": "Ein viertel Teil von etwas. Bei der Uhrzeit: fünfzehn Minuten.",
       "exampleGerman": "Es ist Viertel vor drei.",
       "exampleEnglish": "It is a quarter to three.",
-      "sectionIds": ["s2_uhrzeit"]
+      "sectionIds": [
+        "p03"
+      ]
     },
     {
       "id": "w_wie_spaet",
@@ -168,12 +260,83 @@
       "partOfSpeech": "PHRASE",
       "level": "A1",
       "ipa": "/viː ʃpɛt ɪst ɛs/",
-      "meaningsEnglish": ["What time is it?"],
-      "domainTags": ["Time", "Questions"],
+      "meaningsEnglish": [
+        "What time is it?"
+      ],
+      "domainTags": [
+        "Time",
+        "Questions"
+      ],
       "definitionGerman": "Die Frage nach der Uhrzeit.",
       "exampleGerman": "Wie spät ist es? — Es ist halb acht.",
       "exampleEnglish": "What time is it? — It is half past seven.",
-      "sectionIds": ["s2_uhrzeit"]
+      "sectionIds": [
+        "p03",
+        "p07"
+      ]
+    },
+    {
+      "id": "w_halb",
+      "word": "halb",
+      "partOfSpeech": "ADJECTIVE",
+      "level": "A1",
+      "ipa": "/halp/",
+      "meaningsEnglish": [
+        "half"
+      ],
+      "domainTags": [
+        "Time",
+        "Numbers"
+      ],
+      "definitionGerman": "Nicht ganz. Bei der Uhrzeit: dreißig Minuten vor der genannten Stunde.",
+      "exampleGerman": "Es ist halb acht.",
+      "exampleEnglish": "It is half past seven — literally half to eight.",
+      "sectionIds": [
+        "p03"
+      ]
+    },
+    {
+      "id": "w_minute",
+      "word": "Minute",
+      "partOfSpeech": "NOUN",
+      "level": "A1",
+      "article": "die",
+      "gender": "FEMININE",
+      "plural": "Minuten",
+      "ipa": "/mɪˈnuːtə/",
+      "meaningsEnglish": [
+        "minute"
+      ],
+      "domainTags": [
+        "Time"
+      ],
+      "definitionGerman": "Sechzig Sekunden.",
+      "exampleGerman": "Der Kurs dauert vierzig Minuten.",
+      "exampleEnglish": "The lesson lasts forty minutes.",
+      "sectionIds": [
+        "p03",
+        "p07",
+        "p08"
+      ]
+    },
+    {
+      "id": "w_fruh",
+      "word": "früh",
+      "partOfSpeech": "ADJECTIVE",
+      "level": "A1",
+      "ipa": "/fʁyː/",
+      "meaningsEnglish": [
+        "early"
+      ],
+      "domainTags": [
+        "Time"
+      ],
+      "definitionGerman": "Vor der gewöhnlichen Zeit. Das Gegenteil von spät.",
+      "exampleGerman": "Ich stehe jeden Tag früh auf.",
+      "exampleEnglish": "I get up early every day.",
+      "sectionIds": [
+        "p03"
+      ]
     },
     {
       "id": "w_fruhstuecken",
@@ -182,12 +345,20 @@
       "level": "A1",
       "regular": true,
       "ipa": "/ˈfʁyːʃtʏkən/",
-      "meaningsEnglish": ["to have breakfast"],
-      "domainTags": ["Daily Life", "Food"],
+      "meaningsEnglish": [
+        "to have breakfast"
+      ],
+      "domainTags": [
+        "Daily Life",
+        "Food"
+      ],
       "definitionGerman": "Am Morgen essen und trinken.",
       "exampleGerman": "Dann frühstückt er und liest Nachrichten.",
       "exampleEnglish": "Then he has breakfast and reads the news.",
-      "sectionIds": ["s1_alltag"]
+      "sectionIds": [
+        "p01",
+        "p02"
+      ]
     },
     {
       "id": "w_duschen",
@@ -196,12 +367,19 @@
       "level": "A1",
       "regular": true,
       "ipa": "/ˈdʊʃən/",
-      "meaningsEnglish": ["to shower"],
-      "domainTags": ["Daily Life"],
+      "meaningsEnglish": [
+        "to shower"
+      ],
+      "domainTags": [
+        "Daily Life"
+      ],
       "definitionGerman": "Sich unter der Dusche mit Wasser waschen.",
       "exampleGerman": "Am Morgen duscht Kaan.",
       "exampleEnglish": "In the morning Kaan showers.",
-      "sectionIds": ["s1_alltag"]
+      "sectionIds": [
+        "p01",
+        "p02"
+      ]
     },
     {
       "id": "w_schlafen",
@@ -210,12 +388,19 @@
       "level": "A1",
       "regular": false,
       "ipa": "/ˈʃlaːfən/",
-      "meaningsEnglish": ["to sleep"],
-      "domainTags": ["Daily Life"],
+      "meaningsEnglish": [
+        "to sleep"
+      ],
+      "domainTags": [
+        "Daily Life"
+      ],
       "definitionGerman": "Mit geschlossenen Augen ruhen.",
       "exampleGerman": "Am Sonntag schläft Kaan lange.",
       "exampleEnglish": "On Sunday Kaan sleeps long.",
-      "sectionIds": ["s1_alltag"]
+      "sectionIds": [
+        "p01",
+        "p02"
+      ]
     },
     {
       "id": "w_besuchen",
@@ -224,12 +409,20 @@
       "level": "A1",
       "regular": true,
       "ipa": "/bəˈzuːkən/",
-      "meaningsEnglish": ["to visit"],
-      "domainTags": ["Daily Life", "People"],
+      "meaningsEnglish": [
+        "to visit"
+      ],
+      "domainTags": [
+        "Daily Life",
+        "People"
+      ],
       "definitionGerman": "Zu einer Person gehen und bei ihr sein.",
       "exampleGerman": "Am Abend besucht er seine Oma.",
       "exampleEnglish": "In the evening he visits his grandma.",
-      "sectionIds": ["s1_alltag", "s4_vereinbaren"]
+      "sectionIds": [
+        "p01",
+        "p06"
+      ]
     },
     {
       "id": "w_treffen",
@@ -238,12 +431,20 @@
       "level": "A1",
       "regular": false,
       "ipa": "/ˈtʁɛfən/",
-      "meaningsEnglish": ["to meet"],
-      "domainTags": ["Daily Life", "People"],
+      "meaningsEnglish": [
+        "to meet"
+      ],
+      "domainTags": [
+        "Daily Life",
+        "People"
+      ],
       "definitionGerman": "Sich mit einer Person an einem Ort sehen.",
       "exampleGerman": "Kaan trifft Marie.",
       "exampleEnglish": "Kaan meets Marie.",
-      "sectionIds": ["s1_alltag"]
+      "sectionIds": [
+        "p01",
+        "p06"
+      ]
     },
     {
       "id": "w_arbeiten",
@@ -252,12 +453,19 @@
       "level": "A1",
       "regular": true,
       "ipa": "/ˈaʁbaɪ̯tən/",
-      "meaningsEnglish": ["to work"],
-      "domainTags": ["Work"],
+      "meaningsEnglish": [
+        "to work"
+      ],
+      "domainTags": [
+        "Work"
+      ],
       "definitionGerman": "Eine Arbeit machen, zum Beispiel im Büro.",
       "exampleGerman": "Mara arbeitet von neun bis siebzehn Uhr.",
       "exampleEnglish": "Mara works from 9:00 to 17:00.",
-      "sectionIds": ["s3_familie", "s4_vereinbaren"]
+      "sectionIds": [
+        "p04",
+        "p06"
+      ]
     },
     {
       "id": "w_vater",
@@ -268,12 +476,20 @@
       "gender": "MASCULINE",
       "plural": "Väter",
       "ipa": "/ˈfaːtɐ/",
-      "meaningsEnglish": ["father", "dad"],
-      "domainTags": ["Family"],
+      "meaningsEnglish": [
+        "father",
+        "dad"
+      ],
+      "domainTags": [
+        "Family"
+      ],
       "definitionGerman": "Der Mann, der ein Kind hat.",
       "exampleGerman": "Mein Vater heißt Hannes.",
       "exampleEnglish": "My father is called Hannes.",
-      "sectionIds": ["s3_familie"]
+      "sectionIds": [
+        "p04",
+        "p05"
+      ]
     },
     {
       "id": "w_mutter",
@@ -284,12 +500,20 @@
       "gender": "FEMININE",
       "plural": "Mütter",
       "ipa": "/ˈmʊtɐ/",
-      "meaningsEnglish": ["mother", "mom"],
-      "domainTags": ["Family"],
+      "meaningsEnglish": [
+        "mother",
+        "mom"
+      ],
+      "domainTags": [
+        "Family"
+      ],
       "definitionGerman": "Die Frau, die ein Kind hat.",
       "exampleGerman": "Meine Mutter ist Ärztin.",
       "exampleEnglish": "My mother is a doctor.",
-      "sectionIds": ["s3_familie"]
+      "sectionIds": [
+        "p04",
+        "p05"
+      ]
     },
     {
       "id": "w_kind",
@@ -300,12 +524,19 @@
       "gender": "NEUTER",
       "plural": "Kinder",
       "ipa": "/kɪnt/",
-      "meaningsEnglish": ["child", "kid"],
-      "domainTags": ["Family"],
+      "meaningsEnglish": [
+        "child",
+        "kid"
+      ],
+      "domainTags": [
+        "Family"
+      ],
       "definitionGerman": "Ein Junge oder ein Mädchen.",
       "exampleGerman": "Ich habe zwei Kinder.",
       "exampleEnglish": "I have two children.",
-      "sectionIds": ["s3_familie"]
+      "sectionIds": [
+        "p04"
+      ]
     },
     {
       "id": "w_sohn",
@@ -316,12 +547,19 @@
       "gender": "MASCULINE",
       "plural": "Söhne",
       "ipa": "/zoːn/",
-      "meaningsEnglish": ["son"],
-      "domainTags": ["Family"],
+      "meaningsEnglish": [
+        "son"
+      ],
+      "domainTags": [
+        "Family"
+      ],
       "definitionGerman": "Das männliche Kind.",
       "exampleGerman": "Mein Sohn Florian ist zwölf.",
       "exampleEnglish": "My son Florian is twelve.",
-      "sectionIds": ["s3_familie"]
+      "sectionIds": [
+        "p04",
+        "p05"
+      ]
     },
     {
       "id": "w_tochter",
@@ -332,12 +570,19 @@
       "gender": "FEMININE",
       "plural": "Töchter",
       "ipa": "/ˈtɔxtɐ/",
-      "meaningsEnglish": ["daughter"],
-      "domainTags": ["Family"],
+      "meaningsEnglish": [
+        "daughter"
+      ],
+      "domainTags": [
+        "Family"
+      ],
       "definitionGerman": "Das weibliche Kind.",
       "exampleGerman": "Meine Tochter Lena ist vierzehn.",
       "exampleEnglish": "My daughter Lena is fourteen.",
-      "sectionIds": ["s3_familie"]
+      "sectionIds": [
+        "p04",
+        "p05"
+      ]
     },
     {
       "id": "w_bruder",
@@ -348,12 +593,18 @@
       "gender": "MASCULINE",
       "plural": "Brüder",
       "ipa": "/ˈbruːdɐ/",
-      "meaningsEnglish": ["brother"],
-      "domainTags": ["Family"],
+      "meaningsEnglish": [
+        "brother"
+      ],
+      "domainTags": [
+        "Family"
+      ],
       "definitionGerman": "Ein Mann mit denselben Eltern.",
       "exampleGerman": "Ich besuche meinen Bruder.",
       "exampleEnglish": "I visit my brother.",
-      "sectionIds": ["s3_familie"]
+      "sectionIds": [
+        "p04"
+      ]
     },
     {
       "id": "w_schwester",
@@ -364,12 +615,19 @@
       "gender": "FEMININE",
       "plural": "Schwestern",
       "ipa": "/ˈʃvɛstɐ/",
-      "meaningsEnglish": ["sister"],
-      "domainTags": ["Family"],
+      "meaningsEnglish": [
+        "sister"
+      ],
+      "domainTags": [
+        "Family"
+      ],
       "definitionGerman": "Eine Frau mit denselben Eltern.",
       "exampleGerman": "Meine Schwester wohnt in Kiel.",
       "exampleEnglish": "My sister lives in Kiel.",
-      "sectionIds": ["s3_familie"]
+      "sectionIds": [
+        "p04",
+        "p09"
+      ]
     },
     {
       "id": "w_termin",
@@ -380,12 +638,64 @@
       "gender": "MASCULINE",
       "plural": "Termine",
       "ipa": "/tɛʁˈmiːn/",
-      "meaningsEnglish": ["appointment"],
-      "domainTags": ["Daily Life", "Work"],
+      "meaningsEnglish": [
+        "appointment"
+      ],
+      "domainTags": [
+        "Daily Life",
+        "Work"
+      ],
       "definitionGerman": "Eine feste Zeit für ein Treffen.",
       "exampleGerman": "Ich hätte gern einen Termin.",
       "exampleEnglish": "I would like an appointment.",
-      "sectionIds": ["s4_vereinbaren"]
+      "sectionIds": [
+        "p04",
+        "p07",
+        "p08"
+      ]
+    },
+    {
+      "id": "w_vereinbaren",
+      "word": "vereinbaren",
+      "partOfSpeech": "VERB",
+      "level": "A1",
+      "regular": true,
+      "ipa": "/fɛɐ̯ˈbaʁən/",
+      "meaningsEnglish": [
+        "to arrange",
+        "to make (an appointment)"
+      ],
+      "domainTags": [
+        "Work",
+        "Daily Life"
+      ],
+      "definitionGerman": "Mit einer Person eine feste Zeit für ein Treffen festlegen.",
+      "exampleGerman": "Wann können wir einen Termin vereinbaren?",
+      "exampleEnglish": "When can we arrange an appointment?",
+      "sectionIds": [
+        "p07"
+      ]
+    },
+    {
+      "id": "w_rufen",
+      "word": "rufen",
+      "partOfSpeech": "VERB",
+      "level": "A1",
+      "regular": false,
+      "ipa": "/ˈʁuːfən/",
+      "meaningsEnglish": [
+        "to call"
+      ],
+      "domainTags": [
+        "Daily Life",
+        "Communication"
+      ],
+      "definitionGerman": "Mit der Stimme mit jemandem sprechen, wenn man nicht zusammen ist.",
+      "exampleGerman": "Ich rufe Sie morgen an.",
+      "exampleEnglish": "I will call you tomorrow.",
+      "sectionIds": [
+        "p07"
+      ]
     },
     {
       "id": "w_koennen",
@@ -394,12 +704,20 @@
       "level": "A1",
       "regular": false,
       "ipa": "/ˈkœːnən/",
-      "meaningsEnglish": ["can", "to be able to"],
-      "domainTags": ["Modal Verb"],
+      "meaningsEnglish": [
+        "can",
+        "to be able to"
+      ],
+      "domainTags": [
+        "Modal Verb"
+      ],
       "definitionGerman": "Etwas können heißt: es ist möglich.",
       "exampleGerman": "Wir können nicht ins Kino gehen.",
       "exampleEnglish": "We cannot go to the cinema.",
-      "sectionIds": ["s4_vereinbaren"]
+      "sectionIds": [
+        "p06",
+        "p07"
+      ]
     },
     {
       "id": "w_muessen",
@@ -408,12 +726,19 @@
       "level": "A1",
       "regular": false,
       "ipa": "/ˈmʏsən/",
-      "meaningsEnglish": ["must", "to have to"],
-      "domainTags": ["Modal Verb"],
+      "meaningsEnglish": [
+        "must",
+        "to have to"
+      ],
+      "domainTags": [
+        "Modal Verb"
+      ],
       "definitionGerman": "Etwas müssen heißt: man hat keine Wahl.",
       "exampleGerman": "Ich muss jeden Tag arbeiten.",
       "exampleEnglish": "I must work every day.",
-      "sectionIds": ["s4_vereinbaren"]
+      "sectionIds": [
+        "p06"
+      ]
     },
     {
       "id": "w_wollen",
@@ -422,12 +747,19 @@
       "level": "A1",
       "regular": false,
       "ipa": "/ˈvɔlən/",
-      "meaningsEnglish": ["to want", "to want to"],
-      "domainTags": ["Modal Verb"],
+      "meaningsEnglish": [
+        "to want",
+        "to want to"
+      ],
+      "domainTags": [
+        "Modal Verb"
+      ],
       "definitionGerman": "Wollen heißt: man möchte etwas.",
       "exampleGerman": "Die Kinder und ich wollen meinen Bruder besuchen.",
       "exampleEnglish": "The children and I want to visit my brother.",
-      "sectionIds": ["s4_vereinbaren"]
+      "sectionIds": [
+        "p06"
+      ]
     },
     {
       "id": "w_entschuldigen",
@@ -436,12 +768,238 @@
       "level": "A1",
       "regular": true,
       "ipa": "/ɛnˈtʃʊldɪɡən/",
-      "meaningsEnglish": ["to apologize", "to excuse"],
-      "domainTags": ["Phrases"],
+      "meaningsEnglish": [
+        "to apologize",
+        "to excuse"
+      ],
+      "domainTags": [
+        "Phrases"
+      ],
       "definitionGerman": "Um Verzeihung bitten.",
       "exampleGerman": "Bitte entschuldigen Sie die Verspätung.",
       "exampleEnglish": "Please excuse the delay.",
-      "sectionIds": ["s4_vereinbaren"]
+      "sectionIds": [
+        "p08"
+      ]
+    },
+    {
+      "id": "w_puenktlich",
+      "word": "pünktlich",
+      "partOfSpeech": "ADJECTIVE",
+      "level": "A1",
+      "ipa": "/ˈpʏŋktlɪç/",
+      "meaningsEnglish": [
+        "punctual",
+        "on time"
+      ],
+      "domainTags": [
+        "Daily Life"
+      ],
+      "definitionGerman": "Genau zur richtigen Zeit kommen oder sein — nicht zu spät.",
+      "exampleGerman": "Bitte kommen Sie pünktlich zum Termin.",
+      "exampleEnglish": "Please come to the appointment on time.",
+      "sectionIds": [
+        "p08"
+      ]
+    },
+    {
+      "id": "w_spaet",
+      "word": "spät",
+      "partOfSpeech": "ADJECTIVE",
+      "level": "A1",
+      "ipa": "/ʃpɛt/",
+      "meaningsEnglish": [
+        "late"
+      ],
+      "domainTags": [
+        "Time"
+      ],
+      "definitionGerman": "Nach der richtigen Zeit. Das Gegenteil von früh.",
+      "exampleGerman": "Der Bus ist heute zu spät.",
+      "exampleEnglish": "The bus is late today.",
+      "sectionIds": [
+        "p08"
+      ]
+    },
+    {
+      "id": "w_warten",
+      "word": "warten",
+      "partOfSpeech": "VERB",
+      "level": "A1",
+      "regular": true,
+      "ipa": "/ˈvaʁtən/",
+      "meaningsEnglish": [
+        "to wait"
+      ],
+      "domainTags": [
+        "Daily Life"
+      ],
+      "definitionGerman": "Nichts tun, bis eine Person oder eine Sache kommt.",
+      "exampleGerman": "Ich warte zehn Minuten auf den Bus.",
+      "exampleEnglish": "I wait ten minutes for the bus.",
+      "sectionIds": [
+        "p08"
+      ]
+    },
+    {
+      "id": "w_wohnen",
+      "word": "wohnen",
+      "partOfSpeech": "VERB",
+      "level": "A1",
+      "regular": true,
+      "ipa": "/ˈvoːnən/",
+      "meaningsEnglish": [
+        "to live",
+        "to reside"
+      ],
+      "domainTags": [
+        "Places",
+        "Daily Life"
+      ],
+      "definitionGerman": "Seinen Wohnsitz haben — zum Beispiel in einer Wohnung.",
+      "exampleGerman": "Wir wohnen in einer WG in Köln.",
+      "exampleEnglish": "We live in a shared flat in Cologne.",
+      "sectionIds": [
+        "p09"
+      ]
+    },
+    {
+      "id": "w_zimmer",
+      "word": "Zimmer",
+      "partOfSpeech": "NOUN",
+      "level": "A1",
+      "article": "das",
+      "gender": "NEUTER",
+      "plural": "Zimmer",
+      "ipa": "/ˈtsɪmɐ/",
+      "meaningsEnglish": [
+        "room"
+      ],
+      "domainTags": [
+        "Places"
+      ],
+      "definitionGerman": "Ein Raum in einer Wohnung oder in einem Haus.",
+      "exampleGerman": "Mein Zimmer ist klein, aber hell.",
+      "exampleEnglish": "My room is small, but bright.",
+      "sectionIds": [
+        "p09"
+      ]
+    },
+    {
+      "id": "w_mein",
+      "word": "mein",
+      "partOfSpeech": "OTHER",
+      "level": "A1",
+      "ipa": "/maɪ̯n/",
+      "meaningsEnglish": [
+        "my"
+      ],
+      "domainTags": [
+        "Possessive"
+      ],
+      "definitionGerman": "Possessivartikel für die Person ich.",
+      "exampleGerman": "Mein Vater heißt Hannes.",
+      "exampleEnglish": "My father is called Hannes.",
+      "sectionIds": [
+        "p05"
+      ]
+    },
+    {
+      "id": "w_dein",
+      "word": "dein",
+      "partOfSpeech": "OTHER",
+      "level": "A1",
+      "ipa": "/daɪ̯n/",
+      "meaningsEnglish": [
+        "your"
+      ],
+      "domainTags": [
+        "Possessive"
+      ],
+      "definitionGerman": "Possessivartikel für die Person du.",
+      "exampleGerman": "Deine Schwester wohnt in Kiel.",
+      "exampleEnglish": "Your sister lives in Kiel.",
+      "sectionIds": [
+        "p05"
+      ]
+    },
+    {
+      "id": "w_sein",
+      "word": "sein",
+      "partOfSpeech": "OTHER",
+      "level": "A1",
+      "ipa": "/zaɪ̯n/",
+      "meaningsEnglish": [
+        "his",
+        "its"
+      ],
+      "domainTags": [
+        "Possessive"
+      ],
+      "definitionGerman": "Possessivartikel für die Personen er und es.",
+      "exampleGerman": "Sein Sohn Florian ist zwölf.",
+      "exampleEnglish": "His son Florian is twelve.",
+      "sectionIds": [
+        "p05"
+      ]
+    },
+    {
+      "id": "w_ihr_possessiv",
+      "word": "ihr",
+      "partOfSpeech": "OTHER",
+      "level": "A1",
+      "ipa": "/iːɐ̯/",
+      "meaningsEnglish": [
+        "her",
+        "their"
+      ],
+      "domainTags": [
+        "Possessive"
+      ],
+      "definitionGerman": "Possessivartikel für die Personen sie und sie (Plural).",
+      "exampleGerman": "Ihre Mutter ist Ärztin.",
+      "exampleEnglish": "Her mother is a doctor.",
+      "sectionIds": [
+        "p05"
+      ]
+    },
+    {
+      "id": "w_unser",
+      "word": "unser",
+      "partOfSpeech": "OTHER",
+      "level": "A1",
+      "ipa": "/ˈʊnzɐ/",
+      "meaningsEnglish": [
+        "our"
+      ],
+      "domainTags": [
+        "Possessive"
+      ],
+      "definitionGerman": "Possessivartikel für die Person wir.",
+      "exampleGerman": "Unser Büro ist im Zentrum.",
+      "exampleEnglish": "Our office is in the city centre.",
+      "sectionIds": [
+        "p05"
+      ]
+    },
+    {
+      "id": "w_euer",
+      "word": "euer",
+      "partOfSpeech": "OTHER",
+      "level": "A1",
+      "ipa": "/ˈɔʏ̯ɐ/",
+      "meaningsEnglish": [
+        "your (plural)"
+      ],
+      "domainTags": [
+        "Possessive"
+      ],
+      "definitionGerman": "Possessivartikel für die Person ihr — mehrere Personen, die man anspricht.",
+      "exampleGerman": "Euer Hund Otto ist süß.",
+      "exampleEnglish": "Your dog Otto is sweet.",
+      "sectionIds": [
+        "p05"
+      ]
     }
   ]
 }

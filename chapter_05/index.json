@@ -5,35 +5,77 @@
   "level": "A1",
   "titleGerman": "Alltag und Familie",
   "titleEnglish": "Daily Life & Family",
-  "descriptionEnglish": "Telling the time, family and possessives, modal verbs, and fixing an appointment by phone.",
+  "descriptionEnglish": "Telling the time, family and possessives, modal verbs, and fixing an appointment by phone.\n",
   "sections": [
     {
-      "id": "s1_alltag",
-      "title": "Alltag: Kaans Tag",
-      "file": "s1_alltag.json",
+      "id": "p01",
+      "title": "Alltag und Familie: Kaans Tag",
+      "file": "p01.json",
       "version": 1,
       "estimatedMin": 7
     },
     {
-      "id": "s2_uhrzeit",
+      "id": "p02",
+      "title": "Erzähl von deinem Tag",
+      "file": "p02.json",
+      "version": 1,
+      "estimatedMin": 7
+    },
+    {
+      "id": "p03",
       "title": "Wie spät ist es?",
-      "file": "s2_uhrzeit.json",
+      "file": "p03.json",
       "version": 1,
-      "estimatedMin": 8
+      "estimatedMin": 9
     },
     {
-      "id": "s3_familie",
+      "id": "p04",
       "title": "Familie und Termine",
-      "file": "s3_familie.json",
+      "file": "p04.json",
       "version": 1,
       "estimatedMin": 8
     },
     {
-      "id": "s4_vereinbaren",
-      "title": "Verabredung & Termin",
-      "file": "s4_vereinbaren.json",
+      "id": "p05",
+      "title": "mein, dein, sein — Possessivartikel",
+      "file": "p05.json",
+      "version": 1,
+      "estimatedMin": 9
+    },
+    {
+      "id": "p06",
+      "title": "Die Verabredung",
+      "file": "p06.json",
       "version": 1,
       "estimatedMin": 8
+    },
+    {
+      "id": "p07",
+      "title": "Ein Termin am Telefon",
+      "file": "p07.json",
+      "version": 1,
+      "estimatedMin": 9
+    },
+    {
+      "id": "p08",
+      "title": "Pünktlichkeit",
+      "file": "p08.json",
+      "version": 1,
+      "estimatedMin": 6
+    },
+    {
+      "id": "p09",
+      "title": "Netzwerk-WG",
+      "file": "p09.json",
+      "version": 1,
+      "estimatedMin": 7
+    },
+    {
+      "id": "p10",
+      "title": "Redemittel und Grammatik",
+      "file": "p10.json",
+      "version": 1,
+      "estimatedMin": 10
     }
   ],
   "vocabFile": "vocab.json",

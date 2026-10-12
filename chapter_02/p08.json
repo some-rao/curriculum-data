@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "id": "p08",
+  "title": "Neu im Club",
+  "version": 1,
+  "estimatedMin": 8,
+  "blocks": [
+    {
+      "type": "NOTE",
+      "variant": "USAGE",
+      "id": "p08_n1",
+      "title": "Persönliche Angaben",
+      "paragraphs": [
+        {
+          "lang": "en",
+          "text": "A German form asks for the same handful of fields in the same order, and the first two catch English speakers out. Your {{de:Vorname}} is the name your family gave you; your {{de:Familienname}} is the name your family carries.\n"
+        },
+        {
+          "lang": "de",
+          "text": "Vorname: Jonathan · Familienname: Miller · Geburtsdatum: 01.04.1994 · Geburtsort: New York\n"
+        },
+        {
+          "lang": "en",
+          "text": "Dates run day, month, year with dots instead of slashes, so {{de:01.04.1994}} is the first of April and not the fourth of January. The same dot does duty in large numbers: where English writes 68,000 a German form writes {{de:68.000}}.\n"
+        },
+        {
+          "lang": "en",
+          "text": "One field on this form has no single answer. {{de:Geschlecht}} offers two boxes and a third that says you would rather not say, which is as much of an opinion as the club is asking for. Fill the rest in with your own details and you have practised six nouns, a date and an address in one pass.\n"
+        },
+        {
+          "lang": "de",
+          "text": "Nachname/Familienname · Vorname · Geburtsdatum · Geburtsort · Adresse · Telefonnummer"
+        }
+      ]
+    },
+    {
+      "type": "VOCAB",
+      "variant": "CARD_SET",
+      "id": "p08_v1",
+      "title": "Felder auf dem Formular",
+      "wordIds": [
+        "w_vorname",
+        "w_familienname",
+        "w_geburtsdatum",
+        "w_geburtsort",
+        "w_adresse",
+        "w_telefonnummer",
+        "w_kurs"
+      ]
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "REORDER",
+      "id": "p08_q1",
+      "points": 3,
+      "topic": "Das Formular",
+      "prompt": "Put the sentence in order.",
+      "builder": {
+        "fixedPrefix": "Mein",
+        "solutionWords": [
+          "Familienname",
+          "ist",
+          "Miller"
+        ],
+        "wordPool": [
+          "Familienname",
+          "Vorname",
+          "ist",
+          "Miller",
+          "Jonathan",
+          "New York",
+          "Geburtsdatum"
+        ]
+      }
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "MULTIPLE_CHOICE",
+      "id": "p08_q2",
+      "points": 2,
+      "topic": "Sportclub Fit",
+      "passage": "Yoga: Freitag 18–20 Uhr.",
+      "prompt": "Which day does the Yoga course run?",
+      "options": [
+        "Montag",
+        "Freitag",
+        "Samstag"
+      ],
+      "correctIndex": 1,
+      "explanationEnglish": "The timetable puts Yoga on Friday evening, so the answer is Freitag; Montag would be Monday and Samstag Saturday.",
+      "concept": {
+        "title": "Tage im Stundenplan",
+        "rule": "A timetable lists the weekday on its own, but when you say when something happens you put am in front of the day — am Montag, am Freitag, am Samstag.",
+        "exampleGerman": "Yoga: Freitag 18–20 Uhr. Wir joggen am Freitag.",
+        "exampleEnglish": "Yoga: Friday 6 to 8 pm. We jog on Friday."
+      }
+    }
+  ]
+}

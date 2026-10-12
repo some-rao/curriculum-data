@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "id": "p02",
+  "title": "Kaffee und Kuchen, Abendessen",
+  "version": 1,
+  "estimatedMin": 7,
+  "blocks": [
+    {
+      "type": "NOTE",
+      "variant": "TIP",
+      "id": "p02_n1",
+      "title": "Der Nachmittag und der Abend",
+      "paragraphs": [
+        {
+          "lang": "en",
+          "text": "The lesson keeps filling the day. Page 44 ended with lunch; the next photograph is a table with a cake on it, and the heading tells you when it happens: {{de:Kaffee und Kuchen}}. In German speaking countries this is a fixed appointment in the afternoon, not a stray snack — an invitation to it is an invitation to sit down for half an hour.\n"
+        },
+        {
+          "lang": "de",
+          "text": "Kaffee und Kuchen: der Kaffee · der Kuchen · die Sahne · die Schokolade · der Keks · der Zucker\n"
+        },
+        {
+          "lang": "en",
+          "text": "The second photograph is supper, and it is deliberately plain: bread, something on the bread, a bowl of soup, a salad. Learn these seven words as one scene rather than as seven items — {{de:Abendessen}} is the meal where most of them actually appear in life.\n"
+        },
+        {
+          "lang": "de",
+          "text": "Abendessen: die Butter · das Brot · die Tomate · die Gurke · der Salat · die Suppe · die Wurst · der Schinken\n"
+        },
+        {
+          "lang": "en",
+          "text": "Exercise 2b sends you back to the audio with a list of twelve checkboxes, and exercise 2c asks the question that turns vocabulary into a sentence: where do you buy it? The model is printed in the corner — {{de:Ich kaufe Brot in der Bäckerei}}. Four shops, four prepositions: {{de:in der Bäckerei}}, {{de:auf dem Markt}}, {{de:in der Metzgerei}}, {{de:im Supermarkt}}. The preposition comes from the place, not from the food, so it stays the same whatever you buy.\n"
+        }
+      ]
+    },
+    {
+      "type": "VOCAB",
+      "variant": "CARD_SET",
+      "id": "p02_v1",
+      "title": "Kaffee und Kuchen — süße Pausenwörter",
+      "wordIds": [
+        "w_kaffee",
+        "w_kuchen",
+        "w_sahne",
+        "w_schokolade",
+        "w_keks",
+        "w_zucker"
+      ]
+    },
+    {
+      "type": "VOCAB",
+      "variant": "CARD_SET",
+      "id": "p02_v2",
+      "title": "Abendessen — auf dem Tisch",
+      "wordIds": [
+        "w_butter",
+        "w_brot",
+        "w_tomate",
+        "w_gurke",
+        "w_salat",
+        "w_suppe",
+        "w_wurst",
+        "w_schinken"
+      ]
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "FILL_BLANK",
+      "id": "p02_q1",
+      "points": 3,
+      "topic": "Geschäfte: Wo kaufen Sie das?",
+      "prompt": "Fill the gap with the right shop. Use the model sentence.",
+      "items": [
+        {
+          "sentence": "Ich kaufe Brot in der ____.",
+          "answers": [
+            "Bäckerei"
+          ],
+          "hint": "der Laden für Brot und Brötchen"
+        },
+        {
+          "sentence": "Ich kaufe Fleisch in der ____.",
+          "answers": [
+            "Metzgerei"
+          ],
+          "hint": "der Laden für Fleisch und Wurst"
+        },
+        {
+          "sentence": "Ich kaufe Obst auf dem ____.",
+          "answers": [
+            "Markt"
+          ],
+          "hint": "der Platz für Gemüse und Obst"
+        }
+      ]
+    }
+  ]
+}

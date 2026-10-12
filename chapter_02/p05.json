@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 2,
+  "id": "p05",
+  "title": "Mein Beruf",
+  "version": 1,
+  "estimatedMin": 10,
+  "blocks": [
+    {
+      "type": "VOCAB",
+      "variant": "CARD_SET",
+      "id": "p05_v1",
+      "title": "Vier Menschen, vier Berufe",
+      "wordIds": [
+        "w_taxifahrer",
+        "w_studentin",
+        "w_aerztin",
+        "w_kellner",
+        "w_arzt"
+      ]
+    },
+    {
+      "type": "VOCAB",
+      "variant": "CARD_SET",
+      "id": "p05_v2",
+      "title": "Sachen mit Artikel",
+      "wordIds": [
+        "w_buch",
+        "w_geld",
+        "w_strasse",
+        "w_computer",
+        "w_schluessel",
+        "w_rechnung",
+        "w_taxi",
+        "w_restaurant"
+      ]
+    },
+    {
+      "type": "VOCAB",
+      "variant": "CARD_SET",
+      "id": "p05_v3",
+      "title": "Wörter aus den Texten",
+      "wordIds": [
+        "w_universitaet",
+        "w_krankenhaus",
+        "w_kurs",
+        "w_wochenende",
+        "w_zimmer",
+        "w_stunde",
+        "w_tag"
+      ]
+    },
+    {
+      "type": "NOTE",
+      "variant": "USAGE",
+      "id": "p05_n1",
+      "title": "der, das, die",
+      "paragraphs": [
+        {
+          "lang": "en",
+          "text": "Every German noun arrives with one of three articles, and the article belongs to the word rather than decorating it. On this page twelve nouns wait to be sorted into three columns, and the column is the article: {{de:der Stift}}, {{de:das Buch}}, {{de:die Tablette}}.\n"
+        },
+        {
+          "lang": "de",
+          "text": "maskulin der Stift · neutrum das Buch · feminin die Tablette · Plural die Bücher"
+        },
+        {
+          "lang": "en",
+          "text": "Sort them for real — three lists in your notebook, one column per article — and keep adding to them as new nouns turn up. Several exercises later you will be asked for an article out of thin air, and a written column is what makes that recall possible.\n"
+        },
+        {
+          "lang": "en",
+          "text": "The four short texts under it give you the same nouns doing a job: a student counts hours, a waiter counts days off, a driver counts kilometres and books, a hospital counts rooms. Read them once for the people and once for the figures.\n"
+        },
+        {
+          "lang": "de",
+          "text": "Ich bin 22 Jahre alt. Ich habe pro Woche 24 Stunden Seminare und Kurse, von Montag bis Freitag.\n"
+        }
+      ]
+    },
+    {
+      "type": "NOTE",
+      "variant": "TIP",
+      "id": "p05_n2",
+      "title": "Zahlen ab zwanzig",
+      "paragraphs": [
+        {
+          "lang": "en",
+          "text": "From 21 upward German assembles a number in the opposite direction from English: the units come first, then the joining word {{de:und}}, then the tens. So 22 is built as 2-and-20 and 45 as 5-and-40, and the last piece you say is the big one.\n"
+        },
+        {
+          "lang": "de",
+          "text": "21 einundzwanzig · 22 zweiundzwanzig · 45 fünfundvierzig · 30 dreißig · 100 (ein)hundert"
+        },
+        {
+          "lang": "en",
+          "text": "Two of the tens deserve a second look. {{de:dreißig}} keeps the old {{de:ß}} while {{de:vierzig}} and {{de:fünfzig}} drop it, and {{de:sechzig}} loses the n you hear in {{de:sechs}} — the written form and the spoken form are not quite the same word.\n"
+        },
+        {
+          "lang": "en",
+          "text": "Larger figures simply stack the groups from the biggest to the smallest, and a dot marks the thousands rather than a comma. Read {{de:74.300}} as seventy-four thousand three hundred and you have read a German bank statement.\n"
+        }
+      ]
+    },
+    {
+      "type": "EXAMPLES",
+      "variant": "PHRASE_LIST",
+      "id": "p05_ex1",
+      "title": "Die Zahlen aus den Texten",
+      "items": [
+        {
+          "german": "22 zweiundzwanzig",
+          "english": "twenty-two"
+        },
+        {
+          "german": "45 fünfundvierzig",
+          "english": "forty-five"
+        },
+        {
+          "german": "46 sechsundvierzig",
+          "english": "forty-six"
+        },
+        {
+          "german": "100 (ein)hundert",
+          "english": "one hundred"
+        },
+        {
+          "german": "480 vierhundertachtzig",
+          "english": "four hundred eighty"
+        },
+        {
+          "german": "1.250 eintausendzweihundertfünfzig",
+          "english": "one thousand two hundred fifty"
+        },
+        {
+          "german": "25.000 fünfundzwanzigtausend",
+          "english": "twenty-five thousand"
+        },
+        {
+          "german": "68.000 achtundsechzigtausend",
+          "english": "sixty-eight thousand"
+        },
+        {
+          "german": "74.300 vierundsiebzigtausenddreihundert",
+          "english": "seventy-four thousand three hundred"
+        }
+      ]
+    }
+  ]
+}

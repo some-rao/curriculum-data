@@ -6,36 +6,78 @@
   "titleGerman": "Guten Tag!",
   "titleEnglish": "Hello & Goodbye",
   "descriptionEnglish": "Greetings and farewells, introducing yourself and others, asking about wellbeing, countries and languages, numbers to 20, phone numbers and e-mail addresses.",
+  "vocabFile": "vocab.json",
+  "examFile": "exam.json",
   "sections": [
     {
-      "id": "s1_hallo",
-      "title": "Hallo! Tschüs!",
-      "file": "s1_hallo.json",
+      "id": "p01",
+      "title": "Guten Tag! — Deutsch international",
+      "file": "p01.json",
+      "version": 1,
+      "estimatedMin": 6
+    },
+    {
+      "id": "p02",
+      "title": "Bilder und Artikel — das, die, der",
+      "file": "p02.json",
+      "version": 1,
+      "estimatedMin": 6
+    },
+    {
+      "id": "p03",
+      "title": "Hallo! Tschüs! — drei Situationen",
+      "file": "p03.json",
       "version": 1,
       "estimatedMin": 7
     },
     {
-      "id": "s2_guten_tag",
-      "title": "Guten Tag! Auf Wiedersehen!",
-      "file": "s2_guten_tag.json",
+      "id": "p04",
+      "title": "Guten Tag! Auf Wiedersehen! — formell vorstellen",
+      "file": "p04.json",
       "version": 1,
-      "estimatedMin": 7
+      "estimatedMin": 9
     },
     {
-      "id": "s3_woher_kommen",
-      "title": "Woher kommen Sie?",
-      "file": "s3_woher_kommen.json",
+      "id": "p05",
+      "title": "Woher kommen Sie? — Selina Lang, Reiseführerin",
+      "file": "p05.json",
+      "version": 1,
+      "estimatedMin": 9
+    },
+    {
+      "id": "p06",
+      "title": "Zahlen und Buchstaben — von null bis zwanzig",
+      "file": "p06.json",
+      "version": 1,
+      "estimatedMin": 9
+    },
+    {
+      "id": "p07",
+      "title": "Länder und Sprachen — drei Porträts",
+      "file": "p07.json",
       "version": 1,
       "estimatedMin": 8
     },
     {
-      "id": "s4_zahlen_kontakt",
-      "title": "Zahlen und Buchstaben",
-      "file": "s4_zahlen_kontakt.json",
+      "id": "p08",
+      "title": "Länder und Sprachen — Boris, Saki, Kateb",
+      "file": "p08.json",
       "version": 1,
       "estimatedMin": 8
+    },
+    {
+      "id": "p09",
+      "title": "Die Netzwerk-WG — hören und sehen",
+      "file": "p09.json",
+      "version": 1,
+      "estimatedMin": 8
+    },
+    {
+      "id": "p10",
+      "title": "Kurz und klar — Redemittel und Grammatik",
+      "file": "p10.json",
+      "version": 1,
+      "estimatedMin": 5
     }
-  ],
-  "vocabFile": "vocab.json",
-  "examFile": "exam.json"
+  ]
 }

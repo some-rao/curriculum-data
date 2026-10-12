@@ -1,0 +1,121 @@
+{
+  "id": "p02",
+  "title": "Erzähl von deinem Tag",
+  "version": 1,
+  "estimatedMin": 7,
+  "blocks": [
+    {
+      "type": "NOTE",
+      "variant": "USAGE",
+      "id": "p02_n1",
+      "title": "Deinen Tag erzählen",
+      "paragraphs": [
+        {
+          "lang": "en",
+          "text": "Telling your day is a chain, not a list. One thing happens, then the next, and the listener follows the chain. German gives you two very cheap links for that chain. A time phrase opens the sentence: {{de:Morgens}} or {{de:Dann}} or {{de:Am Sonntag}} — and because that phrase is heavy, the verb jumps behind it.\n"
+        },
+        {
+          "lang": "de",
+          "text": "Morgens trinke ich einen Kaffee und esse Müsli mit Obst. Dann gehe ich ins Büro.\n"
+        },
+        {
+          "lang": "en",
+          "text": "In English the order feels natural anyway; in German you have to notice that {{de:Dann gehe ich ins Büro}} puts the verb second and the subject after it. Say the two sentences aloud before you build your own — the rhythm teaches the rule faster than the explanation does.\n"
+        },
+        {
+          "lang": "en",
+          "text": "Now swap in your own details. Your partner's only job is to guess whether the day you described is a weekday or a weekend. If you say {{de:Ich gehe ins Büro}}, they will answer {{de:Das ist nicht am Wochenende!}}\n"
+        }
+      ]
+    },
+    {
+      "type": "EXAMPLES",
+      "variant": "EXAMPLE_BOX",
+      "id": "p02_ex1",
+      "title": "Satzanfänge zum Nachsprechen",
+      "items": [
+        {
+          "german": "Am Sonntag schläft Kaan lange. Er ...",
+          "english": "On Sunday Kaan sleeps in. He ..."
+        },
+        {
+          "german": "Morgens trinke ich einen Kaffee und esse Müsli mit Obst.",
+          "english": "In the morning I drink a coffee and eat muesli with fruit."
+        },
+        {
+          "german": "Dann gehe ich ins Büro.",
+          "english": "Then I go to the office."
+        },
+        {
+          "german": "Mein Samstag ist super: Ich frühstücke und ...",
+          "english": "My Saturday is great: I have breakfast and ..."
+        },
+        {
+          "german": "Das ist nicht am Wochenende!",
+          "english": "That is not on the weekend!"
+        }
+      ]
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "FILL_BLANK",
+      "id": "p02_q1",
+      "points": 3,
+      "topic": "Zeitangaben",
+      "prompt": "Fill the gap with the missing word.",
+      "items": [
+        {
+          "sentence": "___ trinke ich einen Kaffee und esse Müsli mit Obst.",
+          "answers": [
+            "Morgens"
+          ],
+          "hint": "zur Zeit am Morgen"
+        },
+        {
+          "sentence": "___ gehe ich ins Büro.",
+          "answers": [
+            "Dann"
+          ],
+          "hint": "danach"
+        },
+        {
+          "sentence": "___ Sonntag schläft Kaan lange.",
+          "answers": [
+            "Am"
+          ],
+          "hint": "an dem Tag"
+        },
+        {
+          "sentence": "___ Samstag ist super: Ich frühstücke und ...",
+          "answers": [
+            "Mein"
+          ],
+          "hint": "Possessivartikel zu ich"
+        }
+      ]
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "MULTIPLE_CHOICE",
+      "id": "p02_q2",
+      "points": 2,
+      "topic": "Erzählen",
+      "passage": "Morgens trinke ich einen Kaffee. Dann gehe ich ins Büro.",
+      "prompt": "Which answer fits the story?",
+      "options": [
+        "Das ist nicht am Wochenende!",
+        "Es ist Viertel vor drei.",
+        "Wie spät ist es?"
+      ],
+      "correctIndex": 0,
+      "explanationEnglish": "Your partner is guessing whether this is a working day. Going to the office means it is not a weekend, so the guess {{de:Das ist nicht am Wochenende!}} is the only reply that continues the game — the other two ask about the time, which nobody mentioned.\n",
+      "concept": {
+        "title": "Wochentag oder Wochenende",
+        "rule": "A weekday routine uses places like the office; a weekend routine uses sleeping in, shopping and meeting friends. Your partner listens for those cues and guesses which one you described.\n",
+        "exampleGerman": "Am Wochenende schläft Kaan lange. — Das ist nicht am Wochenende!",
+        "exampleEnglish": "On the weekend Kaan sleeps in. — That is not on the weekend!"
+      }
+    }
+  ],
+  "schemaVersion": 2
+}

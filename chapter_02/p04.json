@@ -1,0 +1,142 @@
+{
+  "schemaVersion": 2,
+  "id": "p04",
+  "title": "Gehen wir ins Kino?",
+  "version": 1,
+  "estimatedMin": 9,
+  "blocks": [
+    {
+      "type": "NOTE",
+      "variant": "USAGE",
+      "id": "p04_n1",
+      "title": "Die Wochentage",
+      "paragraphs": [
+        {
+          "lang": "en",
+          "text": "All seven weekdays are masculine nouns, but in speech you almost never meet the article standing on its own, because a day does not stand alone. It hides inside a small word that means at, so you meet it fused into one piece.\n"
+        },
+        {
+          "lang": "de",
+          "text": "an dem Montag → am Montag · an dem Sonntag → am Sonntag"
+        },
+        {
+          "lang": "en",
+          "text": "That fusion explains why {{de:am}} is worth learning as one unit with the day behind it. Ask {{de:Wann?}} and every answer in this chapter arrives with {{de:am}} in front of it.\n"
+        },
+        {
+          "lang": "en",
+          "text": "The list also runs in a fixed order that never changes, and the last two days are the ones your week is built around — the work days finish on {{de:Freitag}} and the free days are {{de:Samstag}} and {{de:Sonntag}}.\n"
+        },
+        {
+          "lang": "de",
+          "text": "Montag · Dienstag · Mittwoch · Donnerstag · Freitag · Samstag · Sonntag"
+        }
+      ]
+    },
+    {
+      "type": "VOCAB",
+      "variant": "CARD_SET",
+      "id": "p04_v1",
+      "title": "Die Wochentage",
+      "wordIds": [
+        "w_montag",
+        "w_dienstag",
+        "w_mittwoch",
+        "w_donnerstag",
+        "w_freitag",
+        "w_samstag",
+        "w_sonntag"
+      ]
+    },
+    {
+      "type": "LESSON_PAGE",
+      "variant": "DIALOGUE",
+      "id": "p04_d1",
+      "headline": "Gehen wir ins Kino?",
+      "paragraphs": [
+        {
+          "lang": "en",
+          "text": "Two friends want to meet and the first suggestion does not fit. Read the exchange once for its shape: an offer, an acceptance, a day proposed, a polite refusal, another day, a yes.\n"
+        },
+        {
+          "lang": "en",
+          "text": "Notice how short every line is — three or four words, no full sentence needed. The day always sits behind {{de:am}}, which is why {{de:Wann?}} is the question that gets this conversation moving.\n"
+        },
+        {
+          "lang": "de",
+          "text": "Gehen wir ins Kino? — Ja, gern. Wann?"
+        }
+      ],
+      "vocabHighlight": [
+        {
+          "german": "Gehen wir ins Kino?",
+          "english": "Shall we go to the cinema?"
+        },
+        {
+          "german": "Nee, das geht leider nicht.",
+          "english": "No, unfortunately that does not work."
+        }
+      ],
+      "turns": [
+        {
+          "speaker": "Sophie",
+          "german": "Gehen wir ins Kino?",
+          "english": "Shall we go to the cinema?"
+        },
+        {
+          "speaker": "Betty",
+          "german": "Ja, gern. Wann?",
+          "english": "Yes, gladly. When?"
+        },
+        {
+          "speaker": "Sophie",
+          "german": "Am Samstag?",
+          "english": "On Saturday?"
+        },
+        {
+          "speaker": "Betty",
+          "german": "Nee, das geht leider nicht.",
+          "english": "No, unfortunately that does not work."
+        },
+        {
+          "speaker": "Sophie",
+          "german": "Am Mittwoch?",
+          "english": "On Wednesday?"
+        },
+        {
+          "speaker": "Betty",
+          "german": "Ja, super.",
+          "english": "Yes, great."
+        }
+      ]
+    },
+    {
+      "type": "NOTE",
+      "variant": "CULTURE",
+      "id": "p04_n2",
+      "title": "Nein sagen",
+      "paragraphs": [
+        {
+          "lang": "en",
+          "text": "German has one written word for no, but spoken German is kinder to the person being refused. In the north you will hear {{de:nee}}, in Bavaria and Austria {{de:na}}, and {{de:nö}} is common across the middle of the country. All three mean exactly the same thing.\n"
+        },
+        {
+          "lang": "de",
+          "text": "Nee, das geht leider nicht."
+        },
+        {
+          "lang": "en",
+          "text": "The word doing the real work is {{de:leider}} — unfortunately. It changes nothing about the answer, but it tells the other person you are sorry to say it, so a bare {{de:nein}} without it comes across harder than you meant.\n"
+        },
+        {
+          "lang": "en",
+          "text": "A refusal usually hands the conversation straight back with a second day attached, and that is what keeps an appointment alive instead of killing it.\n"
+        },
+        {
+          "lang": "de",
+          "text": "Am Samstag? — Nein. Am Mittwoch? — Ja, super."
+        }
+      ]
+    }
+  ]
+}

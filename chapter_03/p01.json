@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 2,
+  "id": "p01",
+  "title": "Willkommen in Hamburg",
+  "version": 1,
+  "estimatedMin": 6,
+  "blocks": [
+    {
+      "type": "NOTE",
+      "variant": "TIP",
+      "id": "p01_n1",
+      "title": "Eine Stadttour beginnt",
+      "paragraphs": [
+        {
+          "lang": "en",
+          "text": "This chapter drops you straight into Hamburg, Germany's big northern port on the river Elbe. There is no story to follow here — you read the city instead: short caption texts full of names and numbers, the kind printed under a photo in a travel guide.\n"
+        },
+        {
+          "lang": "en",
+          "text": "That format is also the first skill of this lesson. A German text about a place rarely hides its facts. If you recognise a handful of nouns and can pick the numbers out around them, you already understand more than you expect. The concert hall on the second photo is the {{de:Elbphilharmonie}} — a good first test: how much can you read before anyone translates anything?\n"
+        },
+        {
+          "lang": "de",
+          "text": "Willkommen in Hamburg! Hamburg ist groß. Der Hafen ist bekannt, die Elbphilharmonie ist neu, und jeden Tag fahren hier Hunderte von Zügen.\n"
+        }
+      ]
+    },
+    {
+      "type": "EXAMPLES",
+      "variant": "EXAMPLE_BOX",
+      "id": "p01_ex1",
+      "title": "Zwei Fotos, zwei Texte",
+      "items": [
+        {
+          "german": "Der Hauptbahnhof: In 8 Stunden nach Warschau, in 6 Stunden nach München, in 5 Stunden nach Kopenhagen, in 2 Stunden nach Berlin. Jeden Tag fahren hier 720 Züge.\n",
+          "english": "The main train station: 8 hours to Warsaw, 6 hours to Munich, 5 hours to Copenhagen, 2 hours to Berlin. Every day 720 trains go from here.\n"
+        },
+        {
+          "german": "Die Elbphilharmonie ist der Star in Hamburg. Bauzeit: 9 Jahre (2007 bis 2016). Kosten: 866 Millionen Euro. Im ersten Jahr (2017) 4,5 Millionen Besucher und 600 Konzerte.\n",
+          "english": "The Elbphilharmonie is Hamburg's star. Construction: 9 years (2007 to 2016). Cost: 866 million euro. In its first year (2017), 4.5 million visitors and 600 concerts.\n"
+        }
+      ]
+    },
+    {
+      "type": "VOCAB",
+      "variant": "CARD_SET",
+      "id": "p01_v1",
+      "title": "Orte und Zahlen",
+      "wordIds": [
+        "w_bahnhof",
+        "w_hafen",
+        "w_zug",
+        "w_kirche",
+        "w_rathaus",
+        "w_konzert",
+        "w_fahren"
+      ]
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "FILL_BLANK",
+      "id": "p01_q1",
+      "points": 3,
+      "topic": "Zahlen im Text",
+      "prompt": "What do the two captions say? Complete the facts.",
+      "items": [
+        {
+          "sentence": "Jeden Tag fahren hier ___ Züge.",
+          "answers": [
+            "720"
+          ]
+        },
+        {
+          "sentence": "Die Bauzeit der Elbphilharmonie: ___ Jahre.",
+          "answers": [
+            "9"
+          ]
+        },
+        {
+          "sentence": "Kosten: ___ Millionen Euro.",
+          "answers": [
+            "866"
+          ]
+        },
+        {
+          "sentence": "Im ersten Jahr: ___ Konzerte.",
+          "answers": [
+            "600"
+          ]
+        }
+      ]
+    }
+  ]
+}

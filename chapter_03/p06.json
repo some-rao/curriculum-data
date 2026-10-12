@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 2,
+  "id": "p06",
+  "title": "Links, rechts, geradeaus",
+  "version": 1,
+  "estimatedMin": 8,
+  "blocks": [
+    {
+      "type": "NOTE",
+      "variant": "TIP",
+      "id": "p06_n1",
+      "title": "Nach dem Weg fragen",
+      "paragraphs": [
+        {
+          "lang": "en",
+          "text": "Asking a stranger for directions is a small social ritual, and German performs it in a fixed order: soften, ask, thank. You open with {{de:Entschuldigung}} — it costs nothing and buys attention — then ask {{de:Wo ist bitte …?}} The bitte sits inside the question, not tacked onto the end, and that is where a learner from English most often puts it wrong.\n"
+        },
+        {
+          "lang": "en",
+          "text": "The answer you get back will be short and imperative, because a route is fastest to say as commands. Then you confirm what you heard — {{de:Also hier rechts und dann geradeaus?}} — which is polite and also saves you from walking the wrong way — and close with {{de:Vielen Dank}}. The reply to that is {{de:Bitte, gern}}.\n"
+        },
+        {
+          "lang": "de",
+          "text": "Entschuldigung, wo ist bitte der Bahnhof? — Das ist ganz einfach. Gehen Sie rechts und dann geradeaus. Da ist der Bahnhof.\n"
+        },
+        {
+          "lang": "de",
+          "text": "Also hier rechts und dann geradeaus? — Ja, genau. — Vielen Dank! — Bitte, gern.\n"
+        }
+      ]
+    },
+    {
+      "type": "GRAMMAR",
+      "variant": "RULE",
+      "id": "p06_g1",
+      "ruleHeadline": "Imperativ mit Sie",
+      "paragraphs": [
+        {
+          "lang": "en",
+          "text": "A German command puts the verb in first position — and for the polite Sie form that is nearly the whole rule. Take the verb as you find it, drop nothing, and place Sie straight after it. This is the form you use with strangers, which makes it exactly the form you need for asking and giving directions.\n"
+        },
+        {
+          "lang": "de",
+          "text": "gehen → Gehen Sie links! · fahren → Fahren Sie geradeaus!\n"
+        },
+        {
+          "lang": "en",
+          "text": "The verb moving to the front is what turns a statement into an order. Everything else — the direction, the destination — just follows along behind Sie.\n"
+        }
+      ],
+      "examples": [
+        {
+          "german": "Gehen Sie rechts!",
+          "english": "Go right!"
+        },
+        {
+          "german": "Gehen Sie links und dann geradeaus.",
+          "english": "Go left and then straight ahead."
+        },
+        {
+          "german": "Fahren Sie geradeaus!",
+          "english": "Go straight ahead!"
+        },
+        {
+          "german": "Wo ist der Park? — Gehen Sie rechts und dann geradeaus. Da ist der Park.",
+          "english": "Where is the park? — Go right and then straight ahead. There is the park."
+        }
+      ]
+    },
+    {
+      "type": "VOCAB",
+      "variant": "CARD_SET",
+      "id": "p06_v1",
+      "title": "Wegbeschreibung",
+      "wordIds": [
+        "w_links",
+        "w_rechts",
+        "w_geradeaus",
+        "w_gehen",
+        "w_fahren",
+        "w_entschuldigung",
+        "w_park",
+        "w_markt",
+        "w_ubahn"
+      ]
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "REORDER",
+      "id": "p06_q1",
+      "points": 3,
+      "topic": "Einen Weg beschreiben",
+      "prompt": "A visitor asks for the park. Put the answer in order.",
+      "builder": {
+        "fixedPrefix": "Gehen",
+        "solutionWords": [
+          "Sie",
+          "rechts",
+          "und",
+          "dann",
+          "geradeaus"
+        ],
+        "wordPool": [
+          "Sie",
+          "rechts",
+          "links",
+          "und",
+          "dann",
+          "geradeaus",
+          "Hotel",
+          "Bitte"
+        ]
+      }
+    }
+  ]
+}

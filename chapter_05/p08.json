@@ -1,0 +1,181 @@
+{
+  "id": "p08",
+  "title": "Pünktlichkeit",
+  "version": 1,
+  "estimatedMin": 6,
+  "blocks": [
+    {
+      "type": "NOTE",
+      "variant": "CULTURE",
+      "id": "p08_n1",
+      "title": "Wie spät ist zu spät?",
+      "paragraphs": [
+        {
+          "lang": "en",
+          "text": "The page puts four pictures in front of you and asks the same question four times: a patient with a doctor's appointment at 10:45, colleagues waiting in a bar at 20:00, a meeting in an office at 9:00, and two friends cooking for a third who is expected at 20:00. Mark on the timeline how many minutes each person may be late, then compare with a partner. You will disagree, and the disagreement is the point.\n"
+        },
+        {
+          "lang": "en",
+          "text": "In German, as anywhere, lateness is read as a signal rather than a number. Ten minutes at the surgery can mean the slot goes to somebody else, because {{de:Der Arzt hat um 10:45 Uhr einen Termin}} and the next patient is already in the waiting room. Ten minutes in a bar is a non-event. A meeting in der Firma sits somewhere in between, and arriving at a friend's dinner table with flowers in your hand and an apology on your lips is survivable exactly once.\n"
+        },
+        {
+          "lang": "de",
+          "text": "Herr Spiegel hat um 10:45 Uhr einen Termin beim Arzt. Pia ist noch nicht da — der Termin war um 20:00 Uhr. Frau Moser kommt zu spät zur Besprechung. Leo kommt zum Essen, Lena und Stefan warten.\n"
+        },
+        {
+          "lang": "en",
+          "text": "So before you learn the apology, learn the scale. The box on the page gives you the two conversions German uses when it counts lateness out loud: 60 seconds make a minute, and 30 minutes make {{de:eine halbe Stunde}}. Saying {{de:Ich bin eine halbe Stunde zu spät}} is a much bigger admission than {{de:Ich bin zehn Minuten zu spät}}, and both are things you will actually have to say.\n"
+        }
+      ]
+    },
+    {
+      "type": "EXAMPLES",
+      "variant": "PHRASE_LIST",
+      "id": "p08_ex1",
+      "title": "Entschuldigen und reagieren",
+      "items": [
+        {
+          "german": "Es tut mir leid, ich bin zu spät.",
+          "english": "I am sorry, I am late."
+        },
+        {
+          "german": "Entschuldigung, bitte.",
+          "english": "Excuse me, please."
+        },
+        {
+          "german": "Ich bitte um Entschuldigung.",
+          "english": "I apologize."
+        },
+        {
+          "german": "Bitte entschuldigen Sie die Verspätung.",
+          "english": "Please excuse the delay."
+        },
+        {
+          "german": "Das nächste Mal bitte pünktlich!",
+          "english": "Next time please be on time!"
+        },
+        {
+          "german": "Kein Problem.",
+          "english": "No problem."
+        },
+        {
+          "german": "Schon gut.",
+          "english": "Never mind. / It's all right."
+        },
+        {
+          "german": "Macht nichts.",
+          "english": "It doesn't matter."
+        }
+      ]
+    },
+    {
+      "type": "EXAMPLES",
+      "variant": "EXAMPLE_BOX",
+      "id": "p08_ex2",
+      "title": "Zeitangaben",
+      "items": [
+        {
+          "german": "60 Sekunden = 1 Minute",
+          "english": "60 seconds = 1 minute"
+        },
+        {
+          "german": "30 Minuten = eine halbe Stunde",
+          "english": "30 minutes = half an hour"
+        },
+        {
+          "german": "fünf Minuten zu spät",
+          "english": "five minutes late"
+        },
+        {
+          "german": "zehn Minuten warten",
+          "english": "to wait for ten minutes"
+        }
+      ]
+    },
+    {
+      "type": "VOCAB",
+      "variant": "CARD_SET",
+      "id": "p08_v1",
+      "title": "Pünktlichkeit",
+      "wordIds": [
+        "w_puenktlich",
+        "w_spaet",
+        "w_warten",
+        "w_entschuldigen",
+        "w_termin",
+        "w_minute"
+      ]
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "MULTIPLE_CHOICE",
+      "id": "p08_q1",
+      "points": 2,
+      "topic": "Sich entschuldigen",
+      "passage": "Frau Moser kommt zehn Minuten zu spät zur Besprechung in der Firma.",
+      "prompt": "What does Frau Moser say when she walks in?",
+      "options": [
+        "Das nächste Mal bitte pünktlich!",
+        "Es tut mir leid, ich bin zu spät.",
+        "Kein Problem."
+      ],
+      "correctIndex": 1,
+      "explanationEnglish": "The late person is the one who apologizes. The other two lines are replies — one from the person who was kept waiting, one accepting an apology.\n",
+      "concept": {
+        "title": "entschuldigen und antworten",
+        "rule": "The person who is late opens with an apology; the person who waited answers. German uses a soft third-person impersonal form — Es tut mir leid, literally it does me sorrow — rather than a direct I am sorry, and the answer is short: Kein Problem, Schon gut or Macht nichts.\n",
+        "exampleGerman": "Es tut mir leid, ich bin zu spät. — Macht nichts.",
+        "exampleEnglish": "I am sorry, I am late. — It doesn't matter."
+      }
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "MATCH",
+      "id": "p08_q2",
+      "points": 3,
+      "topic": "Redemittel Verspätung",
+      "prompt": "Match the German phrase to its meaning.",
+      "paragraphs": [
+        {
+          "lang": "en",
+          "text": "Fifteen seconds per pair is the right rhythm here. These eight phrases are what a waiting person and a late person say to each other, so they are worth knowing as a set rather than one by one.\n"
+        }
+      ],
+      "pairs": [
+        {
+          "german": "Es tut mir leid, ich bin zu spät.",
+          "english": "I am sorry, I am late."
+        },
+        {
+          "german": "Ich bitte um Entschuldigung.",
+          "english": "I apologize."
+        },
+        {
+          "german": "Bitte entschuldigen Sie die Verspätung.",
+          "english": "Please excuse the delay."
+        },
+        {
+          "german": "Das nächste Mal bitte pünktlich!",
+          "english": "Next time please be on time!"
+        },
+        {
+          "german": "Kein Problem.",
+          "english": "No problem."
+        },
+        {
+          "german": "Schon gut.",
+          "english": "It's all right."
+        },
+        {
+          "german": "Macht nichts.",
+          "english": "It doesn't matter."
+        },
+        {
+          "german": "Ich warte zehn Minuten auf dich.",
+          "english": "I am waiting ten minutes for you."
+        }
+      ]
+    }
+  ],
+  "schemaVersion": 2
+}

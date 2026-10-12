@@ -1,0 +1,162 @@
+{
+  "schemaVersion": 2,
+  "id": "p09",
+  "title": "Die Netzwerk-WG — hören und sehen",
+  "version": 1,
+  "estimatedMin": 8,
+  "blocks": [
+    {
+      "type": "NOTE",
+      "variant": "TIP",
+      "id": "p09_n1",
+      "title": "Drei Blicken durch den Film",
+      "paragraphs": [
+        {
+          "lang": "en",
+          "text": "Four short scenes, five flatmates, and no transcript — this page is the first time the book hands you spoken German without printing the answers next to it. Resist the urge to understand everything at once. On the first viewing you only need faces and names: who actually lives in this shared flat, and who is merely standing in the doorway.\n"
+        },
+        {
+          "lang": "en",
+          "text": "The second viewing is for facts, and the facts are always the ones this lesson has been drilling: where somebody comes from, where they live, which university they attend. Keep a pencil moving; a half-heard {{de:kommt aus Hannover}} is worth more when it lands on paper than when it floats past.\n"
+        },
+        {
+          "lang": "de",
+          "text": "Max, Bea und Luca wohnen in München. · Anna kommt aus Berlin. · Bea kommt aus Hannover. · Max ist nicht da, er ist an der Uni.\n"
+        },
+        {
+          "lang": "en",
+          "text": "The third viewing belongs to the speech bubbles. Numbers are what you are listening for here, and numbers punish a wandering mind — the only way to catch {{de:0154-76895321}} is to have decided before the scene starts that you are going to write it down.\n"
+        }
+      ]
+    },
+    {
+      "type": "LESSON_PAGE",
+      "variant": "DIALOGUE",
+      "id": "p09_d1",
+      "headline": "Was sagen die Personen?",
+      "paragraphs": [
+        {
+          "lang": "en",
+          "text": "Five lines from the film, printed below in the order the scenes show them. Read them once as a set: an introduction, a correction, a question about origin, a welcome and a request for a phone number — the whole lesson compressed into five sentences.\n"
+        },
+        {
+          "lang": "en",
+          "text": "Watch the pronouns while you read. {{de:du bist neu hier}} and {{de:Woher kommst du denn?}} are what flatmates say to each other, while the stranger being sent the wrong way gets the polite form: {{de:da sind Sie hier falsch}}.\n"
+        }
+      ],
+      "vocabHighlight": [
+        {
+          "german": "Ah, du bist neu hier. Ich bin Luca.",
+          "english": "Ah, you're new here. I'm Luca."
+        },
+        {
+          "german": "Und wie ist deine Nummer?",
+          "english": "And what's your number?"
+        }
+      ],
+      "turns": [
+        {
+          "speaker": "Szene 1",
+          "german": "Bea, das ist Anna.",
+          "english": "Bea, this is Anna."
+        },
+        {
+          "speaker": "Szene 2",
+          "german": "Nein, da sind Sie hier falsch.",
+          "english": "No, you've come to the wrong place."
+        },
+        {
+          "speaker": "Szene 3",
+          "german": "Woher kommst du denn?",
+          "english": "So where do you come from?"
+        },
+        {
+          "speaker": "Luca",
+          "german": "Ah, du bist neu hier. Ich bin Luca.",
+          "english": "Ah, you're new here. I'm Luca."
+        },
+        {
+          "speaker": "Szene 4",
+          "german": "Und wie ist deine Nummer?",
+          "english": "And what's your number?"
+        }
+      ]
+    },
+    {
+      "type": "EXAMPLES",
+      "variant": "EXAMPLE_BOX",
+      "id": "p09_ex1",
+      "title": "Die Nummern aus Szene 3",
+      "items": [
+        {
+          "german": "Und deine Nummer? — Und wie ist deine Nummer?",
+          "english": "And your number? — And what's your number?"
+        },
+        {
+          "german": "Mein Nachname ist König.",
+          "english": "My last name is König."
+        },
+        {
+          "german": "Die Nummer von Bea: 0154-76895321",
+          "english": "Bea's number: 0154-76895321"
+        },
+        {
+          "german": "Wie ist Ihre Handynummer?",
+          "english": "What is your mobile number?"
+        }
+      ]
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "MATCH",
+      "id": "p09_q1",
+      "points": 4,
+      "topic": "Szene 2",
+      "prompt": "Match each sentence from exercise 10 with its ending:",
+      "pairs": [
+        {
+          "german": "Max, Bea und Luca …",
+          "english": "wohnen in München."
+        },
+        {
+          "german": "Anna ist neu. Sie …",
+          "english": "kommt aus Berlin."
+        },
+        {
+          "german": "Bea …",
+          "english": "kommt aus Hannover."
+        },
+        {
+          "german": "Luca …",
+          "english": "kommt aus München."
+        },
+        {
+          "german": "Max ist nicht da, er …",
+          "english": "ist an der Uni."
+        }
+      ]
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "MULTIPLE_CHOICE",
+      "id": "p09_q2",
+      "points": 2,
+      "topic": "du oder Sie",
+      "passage": "Nein, da sind Sie hier falsch.",
+      "prompt": "Who says this line, and to whom?",
+      "options": [
+        "A flatmate to a flatmate, because they share the kitchen",
+        "A stranger to another stranger who has knocked on the wrong door",
+        "A teacher to a pupil in the first lesson"
+      ],
+      "correctIndex": 1,
+      "explanationEnglish": "The line uses the polite Sie, and it corrects somebody — a stranger who has arrived somewhere by mistake is being told so as politely as German knows how.",
+      "concept": {
+        "title": "Sie im Alltag",
+        "rule": "The polite form Sie appears whenever the speaker keeps a distance: correcting a stranger, sending somebody the wrong way, or talking to a person introduced as Herr or Frau. Flatmates and people of the same age use du.",
+        "exampleGerman": "Nein, da sind Sie hier falsch. — Ah, du bist neu hier.",
+        "exampleEnglish": "No, you've come to the wrong place. — Ah, you're new here."
+      }
+    }
+  ]
+}

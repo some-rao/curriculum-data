@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 2,
+  "id": "p01",
+  "title": "Freunde, Kollegen und ich",
+  "version": 1,
+  "estimatedMin": 6,
+  "blocks": [
+    {
+      "type": "NOTE",
+      "variant": "TIP",
+      "id": "p01_n1",
+      "title": "Kapitel 2 — Freunde, Kollegen und ich",
+      "paragraphs": [
+        {
+          "lang": "en",
+          "text": "Chapter 2 is about the people around you and about you. Over the next ten pages you will say what you like to do, fix a meeting with somebody, name the days of the week, talk about your job and your working hours, and read a figure like 68.000 out loud without stopping.\n"
+        },
+        {
+          "lang": "en",
+          "text": "Read the red band across the top of the page as a promise rather than a list. Seven skills are printed there, and by the last page you will have used every one of them.\n"
+        },
+        {
+          "lang": "de",
+          "text": "über Hobbys sprechen · sich verabreden · Wochentage benennen · über Arbeit, Berufe und Arbeitszeiten sprechen · Zahlen ab 20 nennen · ein Formular ausfüllen · Strategie: Artikel lernen\n"
+        },
+        {
+          "lang": "en",
+          "text": "The five photographs carry the first of those skills. Under each one sits a single verb in the infinitive — the -en form you will find in any dictionary — and the picture gives you the meaning before you look for a translation at all.\n"
+        },
+        {
+          "lang": "de",
+          "text": "Was machen die Leute gern? Hören Sie und notieren Sie."
+        },
+        {
+          "lang": "en",
+          "text": "Exercise 1 asks you to listen for three people — Emily, Boris and Eva — and write down what each of them likes to do. Emily's line is already filled in, so you know exactly what to listen for.\n"
+        }
+      ]
+    },
+    {
+      "type": "VOCAB",
+      "variant": "CARD_SET",
+      "id": "p01_v1",
+      "title": "Die ersten fünf Bilder",
+      "wordIds": [
+        "w_fotografieren",
+        "w_singen",
+        "w_tanzen",
+        "w_joggen",
+        "w_musik_hoeren"
+      ]
+    }
+  ]
+}

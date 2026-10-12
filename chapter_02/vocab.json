@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "chapterId": "chapter_02",
   "words": [
     {
@@ -9,12 +9,19 @@
       "level": "A1",
       "regular": true,
       "ipa": "/ˈkɔxn̩/",
-      "meaningsEnglish": ["to cook"],
-      "domainTags": ["Hobbies"],
+      "meaningsEnglish": [
+        "to cook"
+      ],
+      "domainTags": [
+        "Hobbies"
+      ],
       "definitionGerman": "Essen zubereiten.",
       "exampleGerman": "Ich koche gern.",
       "exampleEnglish": "I like to cook.",
-      "sectionIds": ["s1_hobbys"]
+      "sectionIds": [
+        "p02",
+        "p03"
+      ]
     },
     {
       "id": "w_schwimmen",
@@ -23,12 +30,20 @@
       "level": "A1",
       "regular": true,
       "ipa": "/ˈʃvɪmən/",
-      "meaningsEnglish": ["to swim"],
-      "domainTags": ["Hobbies", "Sport"],
+      "meaningsEnglish": [
+        "to swim"
+      ],
+      "domainTags": [
+        "Hobbies",
+        "Sport"
+      ],
       "definitionGerman": "Sich im Wasser fortbewegen.",
       "exampleGerman": "Wir schwimmen am Samstag.",
       "exampleEnglish": "We swim on Saturday.",
-      "sectionIds": ["s1_hobbys"]
+      "sectionIds": [
+        "p01",
+        "p02"
+      ]
     },
     {
       "id": "w_reisen",
@@ -37,12 +52,18 @@
       "level": "A1",
       "regular": true,
       "ipa": "/ˈʁaɪ̯zn̩/",
-      "meaningsEnglish": ["to travel"],
-      "domainTags": ["Hobbies"],
+      "meaningsEnglish": [
+        "to travel"
+      ],
+      "domainTags": [
+        "Hobbies"
+      ],
       "definitionGerman": "An andere Orte fahren.",
       "exampleGerman": "Sie reist gern.",
       "exampleEnglish": "She likes to travel.",
-      "sectionIds": ["s1_hobbys"]
+      "sectionIds": [
+        "p02"
+      ]
     },
     {
       "id": "w_lesen",
@@ -51,12 +72,20 @@
       "level": "A1",
       "regular": false,
       "ipa": "/ˈleːzn̩/",
-      "meaningsEnglish": ["to read"],
-      "domainTags": ["Hobbies"],
+      "meaningsEnglish": [
+        "to read"
+      ],
+      "domainTags": [
+        "Hobbies"
+      ],
       "definitionGerman": "Einen Text mit den Augen verstehen.",
       "exampleGerman": "Betty liest gern Bücher.",
       "exampleEnglish": "Betty likes to read books.",
-      "sectionIds": ["s1_hobbys", "s3_beruf"]
+      "sectionIds": [
+        "p02",
+        "p03",
+        "p05"
+      ]
     },
     {
       "id": "w_singen",
@@ -65,12 +94,19 @@
       "level": "A1",
       "regular": false,
       "ipa": "/ˈzɪŋən/",
-      "meaningsEnglish": ["to sing"],
-      "domainTags": ["Hobbies"],
+      "meaningsEnglish": [
+        "to sing"
+      ],
+      "domainTags": [
+        "Hobbies"
+      ],
       "definitionGerman": "Mit der Stimme Musik machen.",
       "exampleGerman": "Ben singt toll.",
       "exampleEnglish": "Ben sings really well.",
-      "sectionIds": ["s1_hobbys"]
+      "sectionIds": [
+        "p01",
+        "p03"
+      ]
     },
     {
       "id": "w_tanzen",
@@ -79,12 +115,19 @@
       "level": "A1",
       "regular": true,
       "ipa": "/ˈtantsn̩/",
-      "meaningsEnglish": ["to dance"],
-      "domainTags": ["Hobbies"],
+      "meaningsEnglish": [
+        "to dance"
+      ],
+      "domainTags": [
+        "Hobbies"
+      ],
       "definitionGerman": "Zur Musik Bewegungen machen.",
       "exampleGerman": "Ich tanze gern.",
       "exampleEnglish": "I like to dance.",
-      "sectionIds": ["s1_hobbys"]
+      "sectionIds": [
+        "p01",
+        "p02"
+      ]
     },
     {
       "id": "w_joggen",
@@ -93,12 +136,22 @@
       "level": "A1",
       "regular": true,
       "ipa": "/ˈjɔɡn̩/",
-      "meaningsEnglish": ["to jog"],
-      "domainTags": ["Hobbies", "Sport"],
+      "meaningsEnglish": [
+        "to jog"
+      ],
+      "domainTags": [
+        "Hobbies",
+        "Sport"
+      ],
       "definitionGerman": "Langsam rennen, um Sport zu machen.",
       "exampleGerman": "Wir joggen am Freitag.",
       "exampleEnglish": "We jog on Friday.",
-      "sectionIds": ["s1_hobbys", "s4_artikel_club"]
+      "sectionIds": [
+        "p01",
+        "p02",
+        "p03",
+        "p09"
+      ]
     },
     {
       "id": "w_fotografieren",
@@ -107,12 +160,19 @@
       "level": "A1",
       "regular": true,
       "ipa": "/fotɔɡʁaˈfiːʁən/",
-      "meaningsEnglish": ["to take photos"],
-      "domainTags": ["Hobbies"],
+      "meaningsEnglish": [
+        "to take photos"
+      ],
+      "domainTags": [
+        "Hobbies"
+      ],
       "definitionGerman": "Mit einer Kamera Bilder machen.",
       "exampleGerman": "Emily fotografiert gern.",
       "exampleEnglish": "Emily likes to take photos.",
-      "sectionIds": ["s1_hobbys"]
+      "sectionIds": [
+        "p01",
+        "p02"
+      ]
     },
     {
       "id": "w_spielen",
@@ -121,12 +181,20 @@
       "level": "A1",
       "regular": true,
       "ipa": "/ˈʃpiːlən/",
-      "meaningsEnglish": ["to play"],
-      "domainTags": ["Hobbies", "Sport"],
+      "meaningsEnglish": [
+        "to play"
+      ],
+      "domainTags": [
+        "Hobbies",
+        "Sport"
+      ],
       "definitionGerman": "Ein Spiel machen, zum Beispiel Fußball.",
       "exampleGerman": "Peter spielt gern Fußball.",
       "exampleEnglish": "Peter likes to play football.",
-      "sectionIds": ["s1_hobbys", "s4_artikel_club"]
+      "sectionIds": [
+        "p03",
+        "p09"
+      ]
     },
     {
       "id": "w_musik_hoeren",
@@ -134,12 +202,19 @@
       "partOfSpeech": "PHRASE",
       "level": "A1",
       "ipa": "/muˈziːk ˈhøːʁən/",
-      "meaningsEnglish": ["to listen to music"],
-      "domainTags": ["Hobbies"],
+      "meaningsEnglish": [
+        "to listen to music"
+      ],
+      "domainTags": [
+        "Hobbies"
+      ],
       "definitionGerman": "Musik mit den Ohren hören.",
       "exampleGerman": "Max hört gern Musik.",
       "exampleEnglish": "Max likes to listen to music.",
-      "sectionIds": ["s1_hobbys"]
+      "sectionIds": [
+        "p01",
+        "p02"
+      ]
     },
     {
       "id": "w_ins_kino_gehen",
@@ -147,12 +222,163 @@
       "partOfSpeech": "PHRASE",
       "level": "A1",
       "ipa": "/ɪns ˈkiːnoː ˈɡeːən/",
-      "meaningsEnglish": ["to go to the cinema"],
-      "domainTags": ["Hobbies"],
+      "meaningsEnglish": [
+        "to go to the cinema"
+      ],
+      "domainTags": [
+        "Hobbies"
+      ],
       "definitionGerman": "In das Kino gehen und einen Film sehen.",
       "exampleGerman": "Gehen wir ins Kino?",
       "exampleEnglish": "Shall we go to the cinema?",
-      "sectionIds": ["s1_hobbys", "s2_verabreden"]
+      "sectionIds": [
+        "p02",
+        "p04"
+      ]
+    },
+    {
+      "id": "w_gehen",
+      "word": "gehen",
+      "partOfSpeech": "VERB",
+      "level": "A1",
+      "regular": true,
+      "ipa": "/ˈɡeːən/",
+      "meaningsEnglish": [
+        "to go"
+      ],
+      "domainTags": [
+        "Core Verb"
+      ],
+      "definitionGerman": "Sich von einem Ort zum anderen bewegen.",
+      "exampleGerman": "Gehen wir zusammen?",
+      "exampleEnglish": "Shall we go together?",
+      "sectionIds": [
+        "p03",
+        "p04"
+      ]
+    },
+    {
+      "id": "w_sprechen",
+      "word": "sprechen",
+      "partOfSpeech": "VERB",
+      "level": "A1",
+      "regular": false,
+      "ipa": "/ˈʃpʁɛçn̩/",
+      "meaningsEnglish": [
+        "to speak"
+      ],
+      "domainTags": [
+        "Core Verb"
+      ],
+      "definitionGerman": "Worte mit dem Mund sagen.",
+      "exampleGerman": "Sprichst du Französisch?",
+      "exampleEnglish": "Do you speak French?",
+      "sectionIds": [
+        "p03"
+      ]
+    },
+    {
+      "id": "w_wohnen",
+      "word": "wohnen",
+      "partOfSpeech": "VERB",
+      "level": "A1",
+      "regular": true,
+      "ipa": "/ˈvoːnən/",
+      "meaningsEnglish": [
+        "to live",
+        "to reside"
+      ],
+      "domainTags": [
+        "Core Verb"
+      ],
+      "definitionGerman": "Ständig an einem Ort leben.",
+      "exampleGerman": "Ich wohne in Berlin.",
+      "exampleEnglish": "I live in Berlin.",
+      "sectionIds": [
+        "p03"
+      ]
+    },
+    {
+      "id": "w_heissen",
+      "word": "heißen",
+      "partOfSpeech": "VERB",
+      "level": "A1",
+      "regular": false,
+      "ipa": "/ˈhaɪ̯sn̩/",
+      "meaningsEnglish": [
+        "to be called"
+      ],
+      "domainTags": [
+        "Core Verb"
+      ],
+      "definitionGerman": "Den Namen haben.",
+      "exampleGerman": "Wie heißen Sie?",
+      "exampleEnglish": "What is your name?",
+      "sectionIds": [
+        "p03"
+      ]
+    },
+    {
+      "id": "w_kommen",
+      "word": "kommen",
+      "partOfSpeech": "VERB",
+      "level": "A1",
+      "regular": true,
+      "ipa": "/ˈkɔmən/",
+      "meaningsEnglish": [
+        "to come"
+      ],
+      "domainTags": [
+        "Core Verb"
+      ],
+      "definitionGerman": "An einen Ort gelangen.",
+      "exampleGerman": "Wann kommst du?",
+      "exampleEnglish": "When are you coming?",
+      "sectionIds": [
+        "p03"
+      ]
+    },
+    {
+      "id": "w_sein",
+      "word": "sein",
+      "partOfSpeech": "VERB",
+      "level": "A1",
+      "regular": false,
+      "ipa": "/zaɪ̯n/",
+      "meaningsEnglish": [
+        "to be"
+      ],
+      "domainTags": [
+        "Core Verb"
+      ],
+      "definitionGerman": "Vorhanden sein, einen Zustand haben.",
+      "exampleGerman": "Ich bin Studentin.",
+      "exampleEnglish": "I am a student.",
+      "sectionIds": [
+        "p06",
+        "p10"
+      ]
+    },
+    {
+      "id": "w_haben",
+      "word": "haben",
+      "partOfSpeech": "VERB",
+      "level": "A1",
+      "regular": false,
+      "ipa": "/ˈhaːbn̩/",
+      "meaningsEnglish": [
+        "to have"
+      ],
+      "domainTags": [
+        "Core Verb"
+      ],
+      "definitionGerman": "Etwas besitzen.",
+      "exampleGerman": "Ich habe am Montag frei.",
+      "exampleEnglish": "I am free on Monday.",
+      "sectionIds": [
+        "p06",
+        "p10"
+      ]
     },
     {
       "id": "w_montag",
@@ -163,12 +389,20 @@
       "gender": "MASCULINE",
       "plural": "Montage",
       "ipa": "/ˈmoːntaːk/",
-      "meaningsEnglish": ["Monday"],
-      "domainTags": ["Time"],
+      "meaningsEnglish": [
+        "Monday"
+      ],
+      "domainTags": [
+        "Time"
+      ],
       "definitionGerman": "Der erste Tag der Woche.",
       "exampleGerman": "Am Montag arbeite ich.",
       "exampleEnglish": "I work on Monday.",
-      "sectionIds": ["s2_verabreden", "s3_beruf"]
+      "sectionIds": [
+        "p04",
+        "p05",
+        "p08"
+      ]
     },
     {
       "id": "w_dienstag",
@@ -179,12 +413,20 @@
       "gender": "MASCULINE",
       "plural": "Dienstage",
       "ipa": "/ˈdiːnstaːk/",
-      "meaningsEnglish": ["Tuesday"],
-      "domainTags": ["Time"],
+      "meaningsEnglish": [
+        "Tuesday"
+      ],
+      "domainTags": [
+        "Time"
+      ],
       "definitionGerman": "Der zweite Tag der Woche.",
       "exampleGerman": "Am Dienstag habe ich frei.",
       "exampleEnglish": "I am free on Tuesday.",
-      "sectionIds": ["s2_verabreden"]
+      "sectionIds": [
+        "p04",
+        "p06",
+        "p08"
+      ]
     },
     {
       "id": "w_mittwoch",
@@ -195,12 +437,20 @@
       "gender": "MASCULINE",
       "plural": "Mittwoche",
       "ipa": "/ˈmɪtvɔx/",
-      "meaningsEnglish": ["Wednesday"],
-      "domainTags": ["Time"],
+      "meaningsEnglish": [
+        "Wednesday"
+      ],
+      "domainTags": [
+        "Time"
+      ],
       "definitionGerman": "Der dritte Tag der Woche.",
       "exampleGerman": "Gehen wir am Mittwoch ins Kino?",
       "exampleEnglish": "Shall we go to the cinema on Wednesday?",
-      "sectionIds": ["s2_verabreden", "s4_artikel_club"]
+      "sectionIds": [
+        "p04",
+        "p08",
+        "p09"
+      ]
     },
     {
       "id": "w_donnerstag",
@@ -211,12 +461,19 @@
       "gender": "MASCULINE",
       "plural": "Donnerstage",
       "ipa": "/ˈdɔnɐstaːk/",
-      "meaningsEnglish": ["Thursday"],
-      "domainTags": ["Time"],
+      "meaningsEnglish": [
+        "Thursday"
+      ],
+      "domainTags": [
+        "Time"
+      ],
       "definitionGerman": "Der vierte Tag der Woche.",
       "exampleGerman": "Am Donnerstag joggen wir.",
       "exampleEnglish": "We jog on Thursday.",
-      "sectionIds": ["s2_verabreden"]
+      "sectionIds": [
+        "p04",
+        "p08"
+      ]
     },
     {
       "id": "w_freitag",
@@ -227,12 +484,20 @@
       "gender": "MASCULINE",
       "plural": "Freitage",
       "ipa": "/ˈfʁaɪ̯taːk/",
-      "meaningsEnglish": ["Friday"],
-      "domainTags": ["Time"],
+      "meaningsEnglish": [
+        "Friday"
+      ],
+      "domainTags": [
+        "Time"
+      ],
       "definitionGerman": "Der fünfte Tag der Woche.",
       "exampleGerman": "Am Freitag habe ich frei.",
       "exampleEnglish": "I am free on Friday.",
-      "sectionIds": ["s2_verabreden", "s4_artikel_club"]
+      "sectionIds": [
+        "p04",
+        "p05",
+        "p09"
+      ]
     },
     {
       "id": "w_samstag",
@@ -243,12 +508,20 @@
       "gender": "MASCULINE",
       "plural": "Samstage",
       "ipa": "/ˈzamstaːk/",
-      "meaningsEnglish": ["Saturday"],
-      "domainTags": ["Time"],
+      "meaningsEnglish": [
+        "Saturday"
+      ],
+      "domainTags": [
+        "Time"
+      ],
       "definitionGerman": "Der sechste Tag der Woche.",
       "exampleGerman": "Tennis ist am Samstag.",
       "exampleEnglish": "Tennis is on Saturday.",
-      "sectionIds": ["s2_verabreden", "s4_artikel_club"]
+      "sectionIds": [
+        "p04",
+        "p05",
+        "p08"
+      ]
     },
     {
       "id": "w_sonntag",
@@ -259,12 +532,63 @@
       "gender": "MASCULINE",
       "plural": "Sonntage",
       "ipa": "/ˈzɔntaːk/",
-      "meaningsEnglish": ["Sunday"],
-      "domainTags": ["Time"],
+      "meaningsEnglish": [
+        "Sunday"
+      ],
+      "domainTags": [
+        "Time"
+      ],
       "definitionGerman": "Der letzte Tag der Woche.",
       "exampleGerman": "Am Sonntag haben wir frei.",
       "exampleEnglish": "We are free on Sunday.",
-      "sectionIds": ["s2_verabreden"]
+      "sectionIds": [
+        "p04"
+      ]
+    },
+    {
+      "id": "w_tag",
+      "word": "Tag",
+      "partOfSpeech": "NOUN",
+      "level": "A1",
+      "article": "der",
+      "gender": "MASCULINE",
+      "plural": "Tage",
+      "ipa": "/taːk/",
+      "meaningsEnglish": [
+        "day"
+      ],
+      "domainTags": [
+        "Time"
+      ],
+      "definitionGerman": "Ein Abschnitt von vierundzwanzig Stunden.",
+      "exampleGerman": "Ich habe zwei Tage frei.",
+      "exampleEnglish": "I have two days off.",
+      "sectionIds": [
+        "p05",
+        "p10"
+      ]
+    },
+    {
+      "id": "w_wochenende",
+      "word": "Wochenende",
+      "partOfSpeech": "NOUN",
+      "level": "A1",
+      "article": "das",
+      "gender": "NEUTER",
+      "plural": "Wochenenden",
+      "ipa": "/ˈvɔxn̩ˌɛndə/",
+      "meaningsEnglish": [
+        "weekend"
+      ],
+      "domainTags": [
+        "Time"
+      ],
+      "definitionGerman": "Samstag und Sonntag.",
+      "exampleGerman": "Am Wochenende arbeite ich nicht.",
+      "exampleEnglish": "I do not work at the weekend.",
+      "sectionIds": [
+        "p05"
+      ]
     },
     {
       "id": "w_arbeiten",
@@ -273,12 +597,42 @@
       "level": "A1",
       "regular": true,
       "ipa": "/ˈaʁbaɪ̯tn̩/",
-      "meaningsEnglish": ["to work"],
-      "domainTags": ["Work", "Core Verb"],
+      "meaningsEnglish": [
+        "to work"
+      ],
+      "domainTags": [
+        "Work",
+        "Core Verb"
+      ],
       "definitionGerman": "Eine Arbeit machen.",
       "exampleGerman": "Ich arbeite am Montag.",
       "exampleEnglish": "I work on Monday.",
-      "sectionIds": ["s3_beruf"]
+      "sectionIds": [
+        "p05",
+        "p06",
+        "p09"
+      ]
+    },
+    {
+      "id": "w_studieren",
+      "word": "studieren",
+      "partOfSpeech": "VERB",
+      "level": "A1",
+      "regular": true,
+      "ipa": "/ʃtuˈdiːʁən/",
+      "meaningsEnglish": [
+        "to study"
+      ],
+      "domainTags": [
+        "Work"
+      ],
+      "definitionGerman": "An einer Universität lernen.",
+      "exampleGerman": "Ich studiere in Berlin.",
+      "exampleEnglish": "I study in Berlin.",
+      "sectionIds": [
+        "p06",
+        "p09"
+      ]
     },
     {
       "id": "w_studentin",
@@ -289,12 +643,20 @@
       "gender": "FEMININE",
       "plural": "Studentinnen",
       "ipa": "/ʃtuˈdɛntɪn/",
-      "meaningsEnglish": ["female student"],
-      "domainTags": ["Work"],
+      "meaningsEnglish": [
+        "female student"
+      ],
+      "domainTags": [
+        "Work"
+      ],
       "definitionGerman": "Eine Frau, die an einer Universität lernt.",
       "exampleGerman": "Amina Mazin ist Studentin.",
       "exampleEnglish": "Amina Mazin is a student.",
-      "sectionIds": ["s3_beruf"]
+      "sectionIds": [
+        "p05",
+        "p06",
+        "p07"
+      ]
     },
     {
       "id": "w_aerztin",
@@ -305,12 +667,20 @@
       "gender": "FEMININE",
       "plural": "Ärztinnen",
       "ipa": "/ˈɛʁtsɪn/",
-      "meaningsEnglish": ["female doctor"],
-      "domainTags": ["Work"],
+      "meaningsEnglish": [
+        "female doctor"
+      ],
+      "domainTags": [
+        "Work"
+      ],
       "definitionGerman": "Eine Frau, die kranke Menschen behandelt.",
       "exampleGerman": "Magda Donat ist Ärztin.",
       "exampleEnglish": "Magda Donat is a doctor.",
-      "sectionIds": ["s3_beruf"]
+      "sectionIds": [
+        "p05",
+        "p06",
+        "p09"
+      ]
     },
     {
       "id": "w_kellner",
@@ -321,12 +691,19 @@
       "gender": "MASCULINE",
       "plural": "Kellner",
       "ipa": "/ˈkɛlnɐ/",
-      "meaningsEnglish": ["waiter"],
-      "domainTags": ["Work"],
+      "meaningsEnglish": [
+        "waiter"
+      ],
+      "domainTags": [
+        "Work"
+      ],
       "definitionGerman": "Ein Mann, der Gäste in einem Restaurant bedient.",
       "exampleGerman": "Leon Schöpe ist Kellner.",
       "exampleEnglish": "Leon Schöpe is a waiter.",
-      "sectionIds": ["s3_beruf"]
+      "sectionIds": [
+        "p05",
+        "p07"
+      ]
     },
     {
       "id": "w_taxifahrer",
@@ -337,12 +714,19 @@
       "gender": "MASCULINE",
       "plural": "Taxifahrer",
       "ipa": "/ˈtaksifaːʁɐ/",
-      "meaningsEnglish": ["taxi driver"],
-      "domainTags": ["Work"],
+      "meaningsEnglish": [
+        "taxi driver"
+      ],
+      "domainTags": [
+        "Work"
+      ],
       "definitionGerman": "Ein Mann, der ein Taxi fährt.",
       "exampleGerman": "Fabian Höflinger ist Taxifahrer.",
       "exampleEnglish": "Fabian Höflinger is a taxi driver.",
-      "sectionIds": ["s3_beruf"]
+      "sectionIds": [
+        "p05",
+        "p07"
+      ]
     },
     {
       "id": "w_arzt",
@@ -353,108 +737,44 @@
       "gender": "MASCULINE",
       "plural": "Ärzte",
       "ipa": "/aʁtslt/",
-      "meaningsEnglish": ["doctor"],
-      "domainTags": ["Work"],
+      "meaningsEnglish": [
+        "doctor"
+      ],
+      "domainTags": [
+        "Work"
+      ],
       "definitionGerman": "Ein Mensch, der kranke Menschen behandelt.",
       "exampleGerman": "Der Arzt arbeitet im Krankenhaus.",
       "exampleEnglish": "The doctor works in the hospital.",
-      "sectionIds": ["s3_beruf"]
+      "sectionIds": [
+        "p05",
+        "p06",
+        "p07"
+      ]
     },
     {
-      "id": "w_buch",
-      "word": "Buch",
-      "partOfSpeech": "NOUN",
-      "level": "A1",
-      "article": "das",
-      "gender": "NEUTER",
-      "plural": "Bücher",
-      "ipa": "/buːx/",
-      "meaningsEnglish": ["book"],
-      "domainTags": ["Things"],
-      "definitionGerman": "Gedruckte Seiten zum Lesen.",
-      "exampleGerman": "Ich lese ein Buch.",
-      "exampleEnglish": "I read a book.",
-      "sectionIds": ["s3_beruf", "s4_artikel_club"]
-    },
-    {
-      "id": "w_stunde",
-      "word": "Stunde",
-      "partOfSpeech": "NOUN",
-      "level": "A1",
-      "article": "die",
-      "gender": "FEMININE",
-      "plural": "Stunden",
-      "ipa": "/ˈʃʊndə/",
-      "meaningsEnglish": ["hour"],
-      "domainTags": ["Time"],
-      "definitionGerman": "Eine Zeit-Einheit mit 60 Minuten.",
-      "exampleGerman": "Ich arbeite 46 Stunden pro Woche.",
-      "exampleEnglish": "I work 46 hours per week.",
-      "sectionIds": ["s3_beruf"]
-    },
-    {
-      "id": "w_vorname",
-      "word": "Vorname",
+      "id": "w_krankenpfleger",
+      "word": "Krankenpfleger",
       "partOfSpeech": "NOUN",
       "level": "A1",
       "article": "der",
       "gender": "MASCULINE",
-      "plural": "Vornamen",
-      "ipa": "/ˈfoːʁnaːmə/",
-      "meaningsEnglish": ["first name"],
-      "domainTags": ["Identity", "Forms"],
-      "definitionGerman": "Der Name, den die Familie einer Person gibt.",
-      "exampleGerman": "Mein Vorname ist Jonathan.",
-      "exampleEnglish": "My first name is Jonathan.",
-      "sectionIds": ["s4_artikel_club"]
-    },
-    {
-      "id": "w_familienname",
-      "word": "Familienname",
-      "partOfSpeech": "NOUN",
-      "level": "A1",
-      "article": "der",
-      "gender": "MASCULINE",
-      "plural": "Familiennamen",
-      "ipa": "/faˈmiːliənˌnaːmə/",
-      "meaningsEnglish": ["family name"],
-      "domainTags": ["Identity", "Forms"],
-      "definitionGerman": "Der Name der Familie.",
-      "exampleGerman": "Mein Familienname ist Miller.",
-      "exampleEnglish": "My family name is Miller.",
-      "sectionIds": ["s4_artikel_club"]
-    },
-    {
-      "id": "w_geburtsdatum",
-      "word": "Geburtsdatum",
-      "partOfSpeech": "NOUN",
-      "level": "A1",
-      "article": "das",
-      "gender": "NEUTER",
-      "plural": "Geburtsdaten",
-      "ipa": "/ɡəˈbʊʁtstaːtʊm/",
-      "meaningsEnglish": ["date of birth"],
-      "domainTags": ["Identity", "Forms"],
-      "definitionGerman": "Der Tag, an dem eine Person geboren wird.",
-      "exampleGerman": "Mein Geburtsdatum ist 01.04.1994.",
-      "exampleEnglish": "My date of birth is 01.04.1994.",
-      "sectionIds": ["s4_artikel_club"]
-    },
-    {
-      "id": "w_adresse",
-      "word": "Adresse",
-      "partOfSpeech": "NOUN",
-      "level": "A1",
-      "article": "die",
-      "gender": "FEMININE",
-      "plural": "Adressen",
-      "ipa": "/aˈdʁɛsə/",
-      "meaningsEnglish": ["address"],
-      "domainTags": ["Identity", "Forms"],
-      "definitionGerman": "Straße und Ort, wo eine Person wohnt.",
-      "exampleGerman": "Meine Adresse ist Goethestraße 7.",
-      "exampleEnglish": "My address is Goethestraße 7.",
-      "sectionIds": ["s4_artikel_club"]
+      "plural": "Krankenpfleger",
+      "ipa": "/ˈkʁaŋkn̩ˌpflɛɡɐ/",
+      "meaningsEnglish": [
+        "nurse"
+      ],
+      "domainTags": [
+        "Work"
+      ],
+      "definitionGerman": "Ein Mensch, der kranke Menschen pflegt.",
+      "exampleGerman": "Hier arbeiten 920 Ärzte und Krankenpfleger.",
+      "exampleEnglish": "920 doctors and nurses work here.",
+      "sectionIds": [
+        "p05",
+        "p06",
+        "p09"
+      ]
     },
     {
       "id": "w_ingenieur",
@@ -465,12 +785,529 @@
       "gender": "MASCULINE",
       "plural": "Ingenieure",
       "ipa": "/ʔɪnɡeˈnjoːʁ/",
-      "meaningsEnglish": ["engineer"],
-      "domainTags": ["Work"],
+      "meaningsEnglish": [
+        "engineer"
+      ],
+      "domainTags": [
+        "Work"
+      ],
       "definitionGerman": "Ein Mann, der technische Dinge plant und baut.",
       "exampleGerman": "Mein Bruder ist Ingenieur.",
       "exampleEnglish": "My brother is an engineer.",
-      "sectionIds": ["s3_beruf"]
+      "sectionIds": [
+        "p06",
+        "p09"
+      ]
+    },
+    {
+      "id": "w_lehrer",
+      "word": "Lehrer",
+      "partOfSpeech": "NOUN",
+      "level": "A1",
+      "article": "der",
+      "gender": "MASCULINE",
+      "plural": "Lehrer",
+      "ipa": "/ˈleːʁɐ/",
+      "meaningsEnglish": [
+        "teacher"
+      ],
+      "domainTags": [
+        "Work"
+      ],
+      "definitionGerman": "Ein Mensch, der in einer Schule unterrichtet.",
+      "exampleGerman": "Der Lehrer erklärt die Grammatik.",
+      "exampleEnglish": "The teacher explains the grammar.",
+      "sectionIds": [
+        "p06"
+      ]
+    },
+    {
+      "id": "w_verkaeufer",
+      "word": "Verkäufer",
+      "partOfSpeech": "NOUN",
+      "level": "A1",
+      "article": "der",
+      "gender": "MASCULINE",
+      "plural": "Verkäufer",
+      "ipa": "/fɛɐ̯ˈkɔːfɐ/",
+      "meaningsEnglish": [
+        "salesperson",
+        "shop assistant"
+      ],
+      "domainTags": [
+        "Work"
+      ],
+      "definitionGerman": "Ein Mensch, der Waren verkauft.",
+      "exampleGerman": "Der Verkäufer arbeitet im Laden.",
+      "exampleEnglish": "The shop assistant works in the shop.",
+      "sectionIds": [
+        "p06"
+      ]
+    },
+    {
+      "id": "w_architekt",
+      "word": "Architekt",
+      "partOfSpeech": "NOUN",
+      "level": "A1",
+      "article": "der",
+      "gender": "MASCULINE",
+      "plural": "Architekten",
+      "ipa": "/aʁʃiˈtɛkt/",
+      "meaningsEnglish": [
+        "architect"
+      ],
+      "domainTags": [
+        "Work"
+      ],
+      "definitionGerman": "Ein Mensch, der Gebäude plant.",
+      "exampleGerman": "Der Architekt plant das Haus.",
+      "exampleEnglish": "The architect is designing the house.",
+      "sectionIds": [
+        "p06"
+      ]
+    },
+    {
+      "id": "w_friseur",
+      "word": "Friseur",
+      "partOfSpeech": "NOUN",
+      "level": "A1",
+      "article": "der",
+      "gender": "MASCULINE",
+      "plural": "Friseure",
+      "ipa": "/fʁiˈzøːʁ/",
+      "meaningsEnglish": [
+        "hairdresser"
+      ],
+      "domainTags": [
+        "Work"
+      ],
+      "definitionGerman": "Ein Mensch, der Haare schneidet.",
+      "exampleGerman": "Der Friseur schneidet die Haare.",
+      "exampleEnglish": "The hairdresser cuts hair.",
+      "sectionIds": [
+        "p06"
+      ]
+    },
+    {
+      "id": "w_praktikum",
+      "word": "Praktikum",
+      "partOfSpeech": "NOUN",
+      "level": "A1",
+      "article": "das",
+      "gender": "NEUTER",
+      "plural": "Praktika",
+      "ipa": "/pʁakˈtiːkʊm/",
+      "meaningsEnglish": [
+        "internship"
+      ],
+      "domainTags": [
+        "Work"
+      ],
+      "definitionGerman": "Eine Arbeitszeit zum Lernen, meistens für Studenten.",
+      "exampleGerman": "Sie macht ein Praktikum.",
+      "exampleEnglish": "She is doing an internship.",
+      "sectionIds": [
+        "p09"
+      ]
+    },
+    {
+      "id": "w_buch",
+      "word": "Buch",
+      "partOfSpeech": "NOUN",
+      "level": "A1",
+      "article": "das",
+      "gender": "NEUTER",
+      "plural": "Bücher",
+      "ipa": "/buːx/",
+      "meaningsEnglish": [
+        "book"
+      ],
+      "domainTags": [
+        "Things"
+      ],
+      "definitionGerman": "Gedruckte Seiten zum Lesen.",
+      "exampleGerman": "Ich lese ein Buch.",
+      "exampleEnglish": "I read a book.",
+      "sectionIds": [
+        "p05",
+        "p06",
+        "p07"
+      ]
+    },
+    {
+      "id": "w_stunde",
+      "word": "Stunde",
+      "partOfSpeech": "NOUN",
+      "level": "A1",
+      "article": "die",
+      "gender": "FEMININE",
+      "plural": "Stunden",
+      "ipa": "/ˈʃʊndə/",
+      "meaningsEnglish": [
+        "hour"
+      ],
+      "domainTags": [
+        "Time"
+      ],
+      "definitionGerman": "Eine Zeit-Einheit mit 60 Minuten.",
+      "exampleGerman": "Ich arbeite 46 Stunden pro Woche.",
+      "exampleEnglish": "I work 46 hours per week.",
+      "sectionIds": [
+        "p05",
+        "p06",
+        "p10"
+      ]
+    },
+    {
+      "id": "w_krankenhaus",
+      "word": "Krankenhaus",
+      "partOfSpeech": "NOUN",
+      "level": "A1",
+      "article": "das",
+      "gender": "NEUTER",
+      "plural": "Krankenhäuser",
+      "ipa": "/ˈkʁaŋkn̩haʊ̯s/",
+      "meaningsEnglish": [
+        "hospital"
+      ],
+      "domainTags": [
+        "Places",
+        "Work"
+      ],
+      "definitionGerman": "Ein Gebäude, in dem Kranke behandelt werden.",
+      "exampleGerman": "Das Krankenhaus hat 480 Zimmer.",
+      "exampleEnglish": "The hospital has 480 rooms.",
+      "sectionIds": [
+        "p05",
+        "p07"
+      ]
+    },
+    {
+      "id": "w_universitaet",
+      "word": "Universität",
+      "partOfSpeech": "NOUN",
+      "level": "A1",
+      "article": "die",
+      "gender": "FEMININE",
+      "plural": "Universitäten",
+      "ipa": "/univɛʁziˈtɛːt/",
+      "meaningsEnglish": [
+        "university"
+      ],
+      "domainTags": [
+        "Places",
+        "Work"
+      ],
+      "definitionGerman": "Die Hochschule, an der man studiert.",
+      "exampleGerman": "Die Universität ist sehr groß.",
+      "exampleEnglish": "The university is very big.",
+      "sectionIds": [
+        "p05",
+        "p07"
+      ]
+    },
+    {
+      "id": "w_restaurant",
+      "word": "Restaurant",
+      "partOfSpeech": "NOUN",
+      "level": "A1",
+      "article": "das",
+      "gender": "NEUTER",
+      "plural": "Restaurants",
+      "ipa": "/ʁɛstoˈʁɑ̃ː/",
+      "meaningsEnglish": [
+        "restaurant"
+      ],
+      "domainTags": [
+        "Places"
+      ],
+      "definitionGerman": "Ein Ort, an dem man essen geht.",
+      "exampleGerman": "Ich arbeite in zwei Restaurants.",
+      "exampleEnglish": "I work in two restaurants.",
+      "sectionIds": [
+        "p05",
+        "p06",
+        "p07"
+      ]
+    },
+    {
+      "id": "w_kurs",
+      "word": "Kurs",
+      "partOfSpeech": "NOUN",
+      "level": "A1",
+      "article": "der",
+      "gender": "MASCULINE",
+      "plural": "Kurse",
+      "ipa": "/kʊʁs/",
+      "meaningsEnglish": [
+        "course"
+      ],
+      "domainTags": [
+        "Work",
+        "Time"
+      ],
+      "definitionGerman": "Eine Gruppe, die regelmäßig zusammen lernt.",
+      "exampleGerman": "Der Kurs beginnt am Montag.",
+      "exampleEnglish": "The course starts on Monday.",
+      "sectionIds": [
+        "p05",
+        "p08"
+      ]
+    },
+    {
+      "id": "w_zimmer",
+      "word": "Zimmer",
+      "partOfSpeech": "NOUN",
+      "level": "A1",
+      "article": "das",
+      "gender": "NEUTER",
+      "plural": "Zimmer",
+      "ipa": "/ˈtsɪmɐ/",
+      "meaningsEnglish": [
+        "room"
+      ],
+      "domainTags": [
+        "Things",
+        "Places"
+      ],
+      "definitionGerman": "Ein Raum in einem Gebäude.",
+      "exampleGerman": "Das Krankenhaus hat 480 Zimmer.",
+      "exampleEnglish": "The hospital has 480 rooms.",
+      "sectionIds": [
+        "p05"
+      ]
+    },
+    {
+      "id": "w_rechnung",
+      "word": "Rechnung",
+      "partOfSpeech": "NOUN",
+      "level": "A1",
+      "article": "die",
+      "gender": "FEMININE",
+      "plural": "Rechnungen",
+      "ipa": "/ˈʁɛçnʊŋ/",
+      "meaningsEnglish": [
+        "bill",
+        "check"
+      ],
+      "domainTags": [
+        "Things"
+      ],
+      "definitionGerman": "Ein Blatt Papier mit dem Preis.",
+      "exampleGerman": "Die Rechnung, bitte.",
+      "exampleEnglish": "The bill, please.",
+      "sectionIds": [
+        "p05",
+        "p07"
+      ]
+    },
+    {
+      "id": "w_schluessel",
+      "word": "Schlüssel",
+      "partOfSpeech": "NOUN",
+      "level": "A1",
+      "article": "der",
+      "gender": "MASCULINE",
+      "plural": "Schlüssel",
+      "ipa": "/ˈʃlʏsl̩/",
+      "meaningsEnglish": [
+        "key"
+      ],
+      "domainTags": [
+        "Things"
+      ],
+      "definitionGerman": "Ein Metallstück, das ein Schloss öffnet.",
+      "exampleGerman": "Der Schlüssel liegt auf dem Tisch.",
+      "exampleEnglish": "The key is on the table.",
+      "sectionIds": [
+        "p05",
+        "p07"
+      ]
+    },
+    {
+      "id": "w_taxi",
+      "word": "Taxi",
+      "partOfSpeech": "NOUN",
+      "level": "A1",
+      "article": "das",
+      "gender": "NEUTER",
+      "plural": "Taxis",
+      "ipa": "/ˈtaksi/",
+      "meaningsEnglish": [
+        "taxi"
+      ],
+      "domainTags": [
+        "Things",
+        "Places"
+      ],
+      "definitionGerman": "Ein Auto mit Fahrer, das man bezahlt.",
+      "exampleGerman": "Das Taxi wartet vor dem Krankenhaus.",
+      "exampleEnglish": "The taxi is waiting in front of the hospital.",
+      "sectionIds": [
+        "p05",
+        "p07"
+      ]
+    },
+    {
+      "id": "w_computer",
+      "word": "Computer",
+      "partOfSpeech": "NOUN",
+      "level": "A1",
+      "article": "der",
+      "gender": "MASCULINE",
+      "plural": "Computer",
+      "ipa": "/kɔmˈpjuːtɐ/",
+      "meaningsEnglish": [
+        "computer"
+      ],
+      "domainTags": [
+        "Things"
+      ],
+      "definitionGerman": "Eine Maschine für Daten und Spiele.",
+      "exampleGerman": "Max spielt gern Computer.",
+      "exampleEnglish": "Max likes playing computer games.",
+      "sectionIds": [
+        "p05",
+        "p07",
+        "p09"
+      ]
+    },
+    {
+      "id": "w_geld",
+      "word": "Geld",
+      "partOfSpeech": "NOUN",
+      "level": "A1",
+      "article": "das",
+      "gender": "NEUTER",
+      "plural": "Gelder",
+      "ipa": "/ɡɛlt/",
+      "meaningsEnglish": [
+        "money"
+      ],
+      "domainTags": [
+        "Things"
+      ],
+      "definitionGerman": "Münzen und Scheine zum Bezahlen.",
+      "exampleGerman": "Ich bezahle mit Geld.",
+      "exampleEnglish": "I pay with cash.",
+      "sectionIds": [
+        "p05"
+      ]
+    },
+    {
+      "id": "w_strasse",
+      "word": "Straße",
+      "partOfSpeech": "NOUN",
+      "level": "A1",
+      "article": "die",
+      "gender": "FEMININE",
+      "plural": "Straßen",
+      "ipa": "/ˈʃtʁasə/",
+      "meaningsEnglish": [
+        "street"
+      ],
+      "domainTags": [
+        "Places",
+        "Identity"
+      ],
+      "definitionGerman": "Der Weg, auf dem Autos und Menschen gehen.",
+      "exampleGerman": "Ich wohne in der Goethestraße.",
+      "exampleEnglish": "I live on Goethe Street.",
+      "sectionIds": [
+        "p05"
+      ]
+    },
+    {
+      "id": "w_patientin",
+      "word": "Patientin",
+      "partOfSpeech": "NOUN",
+      "level": "A1",
+      "article": "die",
+      "gender": "FEMININE",
+      "plural": "Patientinnen",
+      "ipa": "/paˈtsiːntɪn/",
+      "meaningsEnglish": [
+        "female patient"
+      ],
+      "domainTags": [
+        "Work",
+        "Places"
+      ],
+      "definitionGerman": "Eine Frau, die behandelt wird.",
+      "exampleGerman": "Die Patientin wartet auf den Arzt.",
+      "exampleEnglish": "The female patient is waiting for the doctor.",
+      "sectionIds": [
+        "p07"
+      ]
+    },
+    {
+      "id": "w_vorname",
+      "word": "Vorname",
+      "partOfSpeech": "NOUN",
+      "level": "A1",
+      "article": "der",
+      "gender": "MASCULINE",
+      "plural": "Vornamen",
+      "ipa": "/ˈfoːʁnaːmə/",
+      "meaningsEnglish": [
+        "first name"
+      ],
+      "domainTags": [
+        "Identity",
+        "Forms"
+      ],
+      "definitionGerman": "Der Name, den die Familie einer Person gibt.",
+      "exampleGerman": "Mein Vorname ist Jonathan.",
+      "exampleEnglish": "My first name is Jonathan.",
+      "sectionIds": [
+        "p08"
+      ]
+    },
+    {
+      "id": "w_familienname",
+      "word": "Familienname",
+      "partOfSpeech": "NOUN",
+      "level": "A1",
+      "article": "der",
+      "gender": "MASCULINE",
+      "plural": "Familiennamen",
+      "ipa": "/faˈmiːliənˌnaːmə/",
+      "meaningsEnglish": [
+        "family name"
+      ],
+      "domainTags": [
+        "Identity",
+        "Forms"
+      ],
+      "definitionGerman": "Der Name der Familie.",
+      "exampleGerman": "Mein Familienname ist Miller.",
+      "exampleEnglish": "My family name is Miller.",
+      "sectionIds": [
+        "p08"
+      ]
+    },
+    {
+      "id": "w_geburtsdatum",
+      "word": "Geburtsdatum",
+      "partOfSpeech": "NOUN",
+      "level": "A1",
+      "article": "das",
+      "gender": "NEUTER",
+      "plural": "Geburtsdaten",
+      "ipa": "/ɡəˈbʊʁtstaːtʊm/",
+      "meaningsEnglish": [
+        "date of birth"
+      ],
+      "domainTags": [
+        "Identity",
+        "Forms"
+      ],
+      "definitionGerman": "Der Tag, an dem eine Person geboren wird.",
+      "exampleGerman": "Mein Geburtsdatum ist 01.04.1994.",
+      "exampleEnglish": "My date of birth is 01.04.1994.",
+      "sectionIds": [
+        "p08"
+      ]
     },
     {
       "id": "w_geburtsort",
@@ -481,12 +1318,43 @@
       "gender": "MASCULINE",
       "plural": "Geburtsorte",
       "ipa": "/ɡəˈbʊʁtɔʁt/",
-      "meaningsEnglish": ["birthplace", "place of birth"],
-      "domainTags": ["Identity", "Forms"],
+      "meaningsEnglish": [
+        "birthplace",
+        "place of birth"
+      ],
+      "domainTags": [
+        "Identity",
+        "Forms"
+      ],
       "definitionGerman": "Der Ort, an dem eine Person geboren wird.",
       "exampleGerman": "Mein Geburtsort ist Berlin.",
       "exampleEnglish": "My birthplace is Berlin.",
-      "sectionIds": ["s4_artikel_club"]
+      "sectionIds": [
+        "p08"
+      ]
+    },
+    {
+      "id": "w_adresse",
+      "word": "Adresse",
+      "partOfSpeech": "NOUN",
+      "level": "A1",
+      "article": "die",
+      "gender": "FEMININE",
+      "plural": "Adressen",
+      "ipa": "/aˈdʁɛsə/",
+      "meaningsEnglish": [
+        "address"
+      ],
+      "domainTags": [
+        "Identity",
+        "Forms"
+      ],
+      "definitionGerman": "Straße und Ort, wo eine Person wohnt.",
+      "exampleGerman": "Meine Adresse ist Goethestraße 7.",
+      "exampleEnglish": "My address is Goethestraße 7.",
+      "sectionIds": [
+        "p08"
+      ]
     },
     {
       "id": "w_telefonnummer",
@@ -497,12 +1365,20 @@
       "gender": "FEMININE",
       "plural": "Telefonnummern",
       "ipa": "/teleˈfɔnˌnʊmɐ/",
-      "meaningsEnglish": ["telephone number", "phone number"],
-      "domainTags": ["Identity", "Forms"],
+      "meaningsEnglish": [
+        "telephone number",
+        "phone number"
+      ],
+      "domainTags": [
+        "Identity",
+        "Forms"
+      ],
       "definitionGerman": "Die Zahlen für das Telefon.",
       "exampleGerman": "Meine Telefonnummer ist 0170 1234567.",
       "exampleEnglish": "My telephone number is 0170 1234567.",
-      "sectionIds": ["s4_artikel_club"]
+      "sectionIds": [
+        "p08"
+      ]
     }
   ]
 }

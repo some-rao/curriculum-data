@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 2,
+  "id": "p08",
+  "title": "Jahreszeiten und Monate",
+  "version": 1,
+  "estimatedMin": 9,
+  "blocks": [
+    {
+      "type": "NOTE",
+      "variant": "TIP",
+      "id": "p08_n1",
+      "title": "Vier Jahreszeiten",
+      "paragraphs": [
+        {
+          "lang": "en",
+          "text": "A German year is four masculine nouns: {{de:der Frühling}}, {{de:der Sommer}}, {{de:der Herbst}}, {{de:der Winter}}. Take them with the article from the start — the article is about to do real work, because you will meet these four again in every sentence about weather, holidays and hobbies.\n"
+        },
+        {
+          "lang": "de",
+          "text": "Im Frühling wird es warm. Im Sommer fahren wir Fahrrad. Im Herbst fallen die Blätter. Im Winter ist es kalt.\n"
+        },
+        {
+          "lang": "en",
+          "text": "Notice the small word in front of each season. It looks like in, but it is {{de:im}} — a fused form of in and dem, because every season is masculine. That same im returns on this page with the months, so learning it once covers both halves of the topic.\n"
+        }
+      ]
+    },
+    {
+      "type": "GRAMMAR",
+      "variant": "RULE",
+      "id": "p08_g1",
+      "ruleHeadline": "im + Monat und Jahreszeit",
+      "paragraphs": [
+        {
+          "lang": "en",
+          "text": "German does not print \"in October\" as two separate words. The preposition swallows the article and the two become {{de:im}}. Since all twelve months are masculine, you never have to choose a different ending for dates of the calendar — one form carries you through the year.\n"
+        },
+        {
+          "lang": "de",
+          "text": "Oktober ist der zehnte Monat. · Das Konzert ist im Oktober. · Im Juli ist es heiß.\n"
+        },
+        {
+          "lang": "en",
+          "text": "When the month is already part of a date — printed on a poster, written in a headline — the preposition disappears entirely: {{de:12. bis 18. Oktober}}. Im answers \"in which month?\", the bare month answers \"which date?\".\n"
+        }
+      ],
+      "examples": [
+        {
+          "german": "Das Theater-Festival ist im Oktober.",
+          "english": "The theatre festival is in October."
+        },
+        {
+          "german": "Im Sommer fahren wir Fahrrad.",
+          "english": "In summer we cycle."
+        },
+        {
+          "german": "Im Winter ist es kalt.",
+          "english": "In winter it is cold."
+        },
+        {
+          "german": "Das Konzert beginnt um 20:00 Uhr.",
+          "english": "The concert starts at 8 pm."
+        }
+      ]
+    },
+    {
+      "type": "VOCAB",
+      "variant": "CARD_SET",
+      "id": "p08_v1",
+      "title": "Die zwölf Monate",
+      "wordIds": [
+        "w_monat",
+        "w_januar",
+        "w_februar",
+        "w_maerz",
+        "w_april",
+        "w_mai",
+        "w_juni",
+        "w_juli",
+        "w_august",
+        "w_september",
+        "w_oktober",
+        "w_november",
+        "w_dezember"
+      ]
+    },
+    {
+      "type": "VOCAB",
+      "variant": "CARD_SET",
+      "id": "p08_v2",
+      "title": "Jahreszeiten und Aktivitäten",
+      "wordIds": [
+        "w_jahreszeit",
+        "w_fruhling",
+        "w_sommer",
+        "w_herbst",
+        "w_winter",
+        "w_schwimmen",
+        "w_reisen",
+        "w_gehen",
+        "w_fahren"
+      ]
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "FILL_BLANK",
+      "id": "p08_q1",
+      "points": 3,
+      "topic": "im?",
+      "prompt": "Seasons, months, and the little word that joins them.",
+      "items": [
+        {
+          "sentence": "Das Konzert ist ___ Oktober.",
+          "answers": [
+            "im"
+          ]
+        },
+        {
+          "sentence": "___ Sommer fahren wir Fahrrad.",
+          "answers": [
+            "Im"
+          ]
+        },
+        {
+          "sentence": "___ Winter ist es kalt.",
+          "answers": [
+            "Im"
+          ]
+        },
+        {
+          "sentence": "Weihnachten ist im ___.",
+          "answers": [
+            "Dezember"
+          ]
+        },
+        {
+          "sentence": "Oktober ist der ___ Monat.",
+          "answers": [
+            "zehnte",
+            "zehnter"
+          ]
+        }
+      ]
+    }
+  ]
+}

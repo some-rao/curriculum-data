@@ -6,36 +6,78 @@
   "titleGerman": "Freunde, Kollegen und ich",
   "titleEnglish": "Friends, Colleagues & I",
   "descriptionEnglish": "Hobbies, appointments, weekdays, jobs and work times. Present tense endings, yes/no questions, noun articles and plurals, numbers from 20.",
+  "vocabFile": "vocab.json",
+  "examFile": "exam.json",
   "sections": [
     {
-      "id": "s1_hobbys",
-      "title": "Meine Hobbys",
-      "file": "s1_hobbys.json",
+      "id": "p01",
+      "title": "Freunde, Kollegen und ich",
+      "file": "p01.json",
       "version": 1,
-      "estimatedMin": 8
+      "estimatedMin": 6
     },
     {
-      "id": "s2_verabreden",
-      "title": "Gehen wir ins Kino?",
-      "file": "s2_verabreden.json",
+      "id": "p02",
+      "title": "Hobbys — Was machen Sie gern?",
+      "file": "p02.json",
       "version": 1,
       "estimatedMin": 7
     },
     {
-      "id": "s3_beruf",
+      "id": "p03",
+      "title": "Meine Hobbys, meine Freunde",
+      "file": "p03.json",
+      "version": 1,
+      "estimatedMin": 9
+    },
+    {
+      "id": "p04",
+      "title": "Gehen wir ins Kino?",
+      "file": "p04.json",
+      "version": 1,
+      "estimatedMin": 9
+    },
+    {
+      "id": "p05",
       "title": "Mein Beruf",
-      "file": "s3_beruf.json",
+      "file": "p05.json",
+      "version": 1,
+      "estimatedMin": 10
+    },
+    {
+      "id": "p06",
+      "title": "Plural, Berufe, sein und haben",
+      "file": "p06.json",
+      "version": 1,
+      "estimatedMin": 9
+    },
+    {
+      "id": "p07",
+      "title": "Artikel lernen",
+      "file": "p07.json",
+      "version": 1,
+      "estimatedMin": 7
+    },
+    {
+      "id": "p08",
+      "title": "Neu im Club",
+      "file": "p08.json",
       "version": 1,
       "estimatedMin": 8
     },
     {
-      "id": "s4_artikel_club",
-      "title": "Artikel lernen & Neu im Club",
-      "file": "s4_artikel_club.json",
+      "id": "p09",
+      "title": "Die Netzwerk-WG",
+      "file": "p09.json",
       "version": 1,
       "estimatedMin": 8
+    },
+    {
+      "id": "p10",
+      "title": "Kurz und klar: Redemittel und Grammatik",
+      "file": "p10.json",
+      "version": 1,
+      "estimatedMin": 5
     }
-  ],
-  "vocabFile": "vocab.json",
-  "examFile": "exam.json"
+  ]
 }

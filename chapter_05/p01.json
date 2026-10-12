@@ -1,0 +1,129 @@
+{
+  "id": "p01",
+  "title": "Alltag und Familie: Kaans Tag",
+  "version": 1,
+  "estimatedMin": 7,
+  "blocks": [
+    {
+      "type": "NOTE",
+      "variant": "TIP",
+      "id": "p01_n1",
+      "title": "Worum es in Lektion 5 geht",
+      "paragraphs": [
+        {
+          "lang": "en",
+          "text": "This lesson is about the two things you talk about most in a new country: how your day runs, and who your family is. You will learn to understand and say the time, to make a time statement, to talk about your family, to make an arrangement, to arrange an appointment on the phone, and to excuse yourself when you are late.\n"
+        },
+        {
+          "lang": "en",
+          "text": "Meet Kaan. His day is the spine of the first pages. Read his sentences and notice how little grammar is doing the work — the words in the middle tell you when, and the verb tells you what happens. Look at the example in the speech bubble: {{de:Am Morgen duscht Kaan. Dann frühstückt er und liest …}}\n"
+        },
+        {
+          "lang": "de",
+          "text": "Am Morgen duscht Kaan. Dann frühstückt er und liest Nachrichten. Am Sonntag schläft er lange.\n"
+        },
+        {
+          "lang": "en",
+          "text": "First you will match Kaan's photos to sentences like {{de:Kaan geht in die Mensa}} and {{de:Er besucht seine Oma}}, then you will hear the same story and number the pictures. Listen for the time words first — they are your order of events.\n"
+        }
+      ]
+    },
+    {
+      "type": "EXAMPLES",
+      "variant": "PHRASE_LIST",
+      "id": "p01_ex1",
+      "title": "Kaans Tag — was macht er?",
+      "items": [
+        {
+          "german": "Kaan duscht.",
+          "english": "Kaan showers."
+        },
+        {
+          "german": "Dann frühstückt er und liest Nachrichten.",
+          "english": "Then he has breakfast and reads the news."
+        },
+        {
+          "german": "Er fährt in die Uni.",
+          "english": "He drives to the university."
+        },
+        {
+          "german": "Kaan geht in die Mensa.",
+          "english": "Kaan goes to the canteen."
+        },
+        {
+          "german": "Er lernt in der Bibliothek.",
+          "english": "He studies in the library."
+        },
+        {
+          "german": "Kaan trifft Marie.",
+          "english": "Kaan meets Marie."
+        },
+        {
+          "german": "Am Abend besucht er seine Oma.",
+          "english": "In the evening he visits his grandma."
+        }
+      ]
+    },
+    {
+      "type": "VOCAB",
+      "variant": "CARD_SET",
+      "id": "p01_v1",
+      "title": "Wochenablauf",
+      "wordIds": [
+        "w_morgen",
+        "w_wochenende",
+        "w_kaffee",
+        "w_zeitung",
+        "w_buero",
+        "w_supermarkt",
+        "w_kino",
+        "w_fruhstuecken",
+        "w_duschen",
+        "w_schlafen",
+        "w_besuchen",
+        "w_treffen"
+      ]
+    },
+    {
+      "type": "EXAMPLES",
+      "variant": "EXAMPLE_BOX",
+      "id": "p01_ex2",
+      "title": "Sonntag bei Kaan",
+      "items": [
+        {
+          "german": "lange schlafen",
+          "english": "sleep in"
+        },
+        {
+          "german": "Zeitung lesen",
+          "english": "read the newspaper"
+        },
+        {
+          "german": "mit der Familie zu Mittag essen",
+          "english": "have lunch with the family"
+        },
+        {
+          "german": "Oma besuchen",
+          "english": "visit grandma"
+        },
+        {
+          "german": "Freunde treffen",
+          "english": "meet friends"
+        },
+        {
+          "german": "ins Kino gehen",
+          "english": "go to the cinema"
+        },
+        {
+          "german": "in den Supermarkt gehen",
+          "english": "go to the supermarket"
+        },
+        {
+          "german": "Fußball spielen",
+          "english": "play football"
+        }
+      ]
+    }
+  ],
+  "schemaVersion": 2
+}

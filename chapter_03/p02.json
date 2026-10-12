@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 2,
+  "id": "p02",
+  "title": "Hafen, Michel, Rathaus",
+  "version": 1,
+  "estimatedMin": 6,
+  "blocks": [
+    {
+      "type": "NOTE",
+      "variant": "TIP",
+      "id": "p02_n1",
+      "title": "Zahlen und Maße lesen",
+      "paragraphs": [
+        {
+          "lang": "en",
+          "text": "The three captions on this page are fact files, and every one of them is built from the same small set of tools. Learn the tools once and you can read any of them: {{de:über}} introduces a minimum ({{de:über 120 Jahre alt}} — more than 120 years old), {{de:circa}} hedges a distance ({{de:circa 100 km}} — roughly 100 kilometres), and {{de:pro Jahr}} counts per year.\n"
+        },
+        {
+          "lang": "en",
+          "text": "Two more patterns carry most of the remaining sentences. {{de:Platz für 2.500 Menschen}} states capacity — how many people fit inside — and {{de:X Meter hoch}} gives height. Once you recognise those frames, the numbers do the talking and you barely need the grammar around them.\n"
+        },
+        {
+          "lang": "de",
+          "text": "Die Fototexte schreiben wie eine Infotafel: kurz und ohne volle Sätze. Platz für 2.500 Menschen. Der Turm ist 132 Meter hoch. Die Schiffe fahren in 175 Länder.\n"
+        }
+      ]
+    },
+    {
+      "type": "EXAMPLES",
+      "variant": "EXAMPLE_BOX",
+      "id": "p02_ex1",
+      "title": "Drei Orte am Wasser",
+      "items": [
+        {
+          "german": "Der Hafen: 12.000 Schiffe pro Jahr! Bis zum Meer sind es von Hamburg circa 100 km. Die Schiffe fahren auf dem Fluss Elbe. Die Schiffe fahren in 175 Länder.\n",
+          "english": "The harbour: 12,000 ships a year! From Hamburg to the sea is about 100 km. The ships sail on the river Elbe. The ships sail to 175 countries.\n"
+        },
+        {
+          "german": "Der Michel ist das Symbol von Hamburg. Hier ist Platz für 2.500 Menschen. Der Turm ist 132 m hoch. Da sieht man den Hafen.\n",
+          "english": "St Michael's is Hamburg's symbol. There is room here for 2,500 people. The tower is 132 m tall. From up there you can see the harbour.\n"
+        },
+        {
+          "german": "Das Rathaus: Es ist über 120 Jahre alt und 111 Meter breit. Der Turm in der Mitte ist 112 Meter hoch.\n",
+          "english": "The town hall: It is over 120 years old and 111 metres wide. The tower in the middle is 112 metres tall.\n"
+        }
+      ]
+    },
+    {
+      "type": "VOCAB",
+      "variant": "CARD_SET",
+      "id": "p02_v1",
+      "title": "Am Wasser und in der Stadt",
+      "wordIds": [
+        "w_hafen",
+        "w_fluss",
+        "w_rathaus",
+        "w_turm"
+      ]
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "FILL_BLANK",
+      "id": "p02_q1",
+      "points": 3,
+      "topic": "Zahlen im Text",
+      "prompt": "Complete the facts from the captions.",
+      "items": [
+        {
+          "sentence": "Der Hafen: ___ Schiffe pro Jahr!",
+          "answers": [
+            "12.000"
+          ]
+        },
+        {
+          "sentence": "Die Schiffe fahren in ___ Länder.",
+          "answers": [
+            "175"
+          ]
+        },
+        {
+          "sentence": "Der Michel: Platz für ___ Menschen.",
+          "answers": [
+            "2.500"
+          ]
+        },
+        {
+          "sentence": "Der Turm des Rathauses: ___ Meter hoch.",
+          "answers": [
+            "112"
+          ]
+        }
+      ]
+    }
+  ]
+}

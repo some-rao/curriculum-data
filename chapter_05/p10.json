@@ -1,0 +1,74 @@
+{
+  "id": "p10",
+  "title": "Redemittel und Grammatik",
+  "version": 1,
+  "estimatedMin": 10,
+  "blocks": [
+    {
+      "type": "SUMMARY",
+      "variant": "RECAP",
+      "id": "p10_sum",
+      "title": "Was du kannst",
+      "bullets": [
+        "You can ask what time it is and answer in the spoken clock and in the official one.",
+        "You can say when something happens and how long it lasts with am, um and von … bis.",
+        "You can introduce your family and say whose it is with mein, dein, sein, ihr, unser and euer.",
+        "You can make an appointment on the phone, offer an alternative and fix a time.",
+        "You can apologize for being late and accept somebody else's apology.",
+        "You can say what you must, can and want to do — and you know where the infinitive goes.",
+        "You can read a family calendar and put a video scene back in the right order."
+      ],
+      "paragraphs": [
+        {
+          "lang": "de",
+          "text": "die Uhrzeit nennen — Wie spät ist es? · Wie viel Uhr ist es? · Wann?\n"
+        },
+        {
+          "lang": "de",
+          "text": "Es ist Viertel vor drei. · Es ist halb zwei. · Um zehn nach neun. · Um kurz vor eins.\n"
+        },
+        {
+          "lang": "en",
+          "text": "Beside every one of those sits its official twin for timetables and emails. The pairings on this page are worth saying out loud once as a pair: the spoken clock counts towards the coming hour, the official clock names the hour and the minutes after it, and both describe exactly the same minute of your day.\n"
+        },
+        {
+          "lang": "de",
+          "text": "Es ist vierzehn Uhr fünfundvierzig. · Es ist dreizehn Uhr dreißig. · Um neun Uhr zehn. · Um zwölf Uhr achtundfünfzig.\n"
+        },
+        {
+          "lang": "de",
+          "text": "Zeitangaben: am Montag / am Vormittag · um Viertel vor drei · von Montag bis Samstag · von neun bis halb zwei\n"
+        },
+        {
+          "lang": "en",
+          "text": "{{de:am}} stands in front of a day or a part of the day, {{de:um}} in front of an hour, and {{de:von}} … {{de:bis}} carries you across a stretch of time. Three words, three jobs — if you pick the wrong one the sentence still makes sense, but it will not be the sentence you meant.\n"
+        },
+        {
+          "lang": "de",
+          "text": "einen Termin vereinbaren — Ich hätte gern einen Termin. · Haben Sie heute / morgen / am Montag einen Termin frei? · Können Sie am Mittwoch um 11:30 Uhr kommen? · Geht es am Mittwoch um 11:30 Uhr?\n"
+        },
+        {
+          "lang": "de",
+          "text": "Ja. Da geht es um 14:15 Uhr. · Nein, heute geht es leider nicht, aber am Mittwoch. · Ja, das geht. / Nein, das geht leider nicht.\n"
+        },
+        {
+          "lang": "en",
+          "text": "The same two moves appear in every one of these lines: ask for a slot, and answer with a short yes or a short no plus an alternative. German politeness on the phone is not made of long sentences — it is made of {{de:leider}} and a suggestion.\n"
+        },
+        {
+          "lang": "de",
+          "text": "sich entschuldigen — Entschuldigung, bitte. · Bitte entschuldigen Sie. · Ich bitte um Entschuldigung. · Es tut mir leid, ich bin zu spät.\n"
+        },
+        {
+          "lang": "de",
+          "text": "darauf reagieren — Schon gut. · Kein Problem. · Macht nichts. · Das nächste Mal bitte pünktlich!\n"
+        },
+        {
+          "lang": "en",
+          "text": "The grammar behind the page fits into four boxes. Possessives change with the owner and with the noun behind them, so {{de:mein}} becomes {{de:meinen}} before a masculine accusative and {{de:meine}} before a feminine or a plural. The three modal verbs conjugate in position two — {{de:muss}}, {{de:kann}}, {{de:will}} — and push the main verb to the end of the sentence in its infinitive. Everything else you need is a matter of practice rather than of rules.\n"
+        }
+      ]
+    }
+  ],
+  "schemaVersion": 2
+}

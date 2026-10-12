@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 2,
+  "id": "p04",
+  "title": "ein, eine — der, das, die",
+  "version": 1,
+  "estimatedMin": 8,
+  "blocks": [
+    {
+      "type": "GRAMMAR",
+      "variant": "RULE",
+      "id": "p04_g1",
+      "ruleHeadline": "unbestimmter und bestimmter Artikel",
+      "paragraphs": [
+        {
+          "lang": "en",
+          "text": "Every German noun has a gender, and the article in front of it tells your listener something about the thing itself, not just about the grammar. When you introduce a place for the first time, you are pointing at something your listener does not yet know — so German uses the indefinite article: ein, ein or eine.\n"
+        },
+        {
+          "lang": "de",
+          "text": "Das ist ein Hafen. · Das ist ein Hotel. · Das ist eine Straße. · Das sind Schiffe.\n"
+        },
+        {
+          "lang": "en",
+          "text": "The moment the thing is identified — named, pointed out, agreed on by both of you — the article changes. German switches to the definite set: der for masculine, das for neuter, die for feminine and also for the plural. The choice is not decoration; it is the difference between a thing you are introducing and a thing you both already see.\n"
+        },
+        {
+          "lang": "de",
+          "text": "Das ist der Hafen von Hamburg. · Das Hotel heißt »Alster«. · Die Straße heißt Müllerstraße. · Die Schiffe sind im Hafen.\n"
+        }
+      ],
+      "englishBridge": "The two sets mark the same difference English makes with a and the, but in German the article also carries the noun's gender, so ein, eine and the der/das/die trio belong together as one system.\n",
+      "targetSentenceGerman": "Das ist der Hafen von Hamburg.",
+      "targetSentenceEnglish": "That is the harbour of Hamburg.",
+      "examples": [
+        {
+          "german": "Das ist ein Hafen.",
+          "english": "That is a harbour."
+        },
+        {
+          "german": "Das ist ein Hotel.",
+          "english": "That is a hotel."
+        },
+        {
+          "german": "Das ist eine Straße.",
+          "english": "That is a street."
+        },
+        {
+          "german": "Das sind Schiffe.",
+          "english": "Those are ships."
+        },
+        {
+          "german": "Das ist der Hafen von Hamburg.",
+          "english": "That is the harbour of Hamburg."
+        },
+        {
+          "german": "Das Hotel heißt »Alster«.",
+          "english": "The hotel is called \"Alster\"."
+        },
+        {
+          "german": "Die Straße heißt Müllerstraße.",
+          "english": "The street is called Müllerstraße."
+        },
+        {
+          "german": "Die Schiffe sind im Hafen.",
+          "english": "The ships are in the harbour."
+        }
+      ]
+    },
+    {
+      "type": "NOTE",
+      "variant": "TIP",
+      "id": "p04_n1",
+      "title": "Vokale: lang oder kurz",
+      "paragraphs": [
+        {
+          "lang": "en",
+          "text": "Before you drill the articles, spend two minutes on the sounds of this page. German vowels are either long or short, and the length is part of the word: a stretched vowel in {{de:Hafen}}, a clipped one in {{de:Fluss}}. Listeners use that length to tell words apart, so it is worth hearing deliberately while you practise.\n"
+        },
+        {
+          "lang": "en",
+          "text": "One clue works in one direction, and there it is reliable. Before a double consonant — ff, nn, ss and friends — the vowel is always short: {{de:Schiff}}, {{de:Fluss}}. In words without one, the vowel usually stretches: {{de:Hafen}}, {{de:See}}, {{de:Turm}}. Say the pairs out loud once — the contrast is easier to hear than to explain.\n"
+        },
+        {
+          "lang": "de",
+          "text": "Kurz: Schiff · Bus · Fluss · Rathaus. Lang: Hafen · See · Turm · Zug.\n"
+        }
+      ]
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "FILL_BLANK",
+      "id": "p04_q1",
+      "points": 3,
+      "topic": "Artikel",
+      "prompt": "New thing or known thing? Fill in the article.",
+      "items": [
+        {
+          "sentence": "Das ist ___ Theater.",
+          "answers": [
+            "ein"
+          ]
+        },
+        {
+          "sentence": "»___ Theater heißt Thalia Theater.«",
+          "answers": [
+            "Das"
+          ]
+        },
+        {
+          "sentence": "Das ist ___ Brücke.",
+          "answers": [
+            "eine"
+          ]
+        },
+        {
+          "sentence": "»___ Brücke heißt Kohlbrandbrücke.«",
+          "answers": [
+            "Die"
+          ]
+        },
+        {
+          "sentence": "Das ist ___ Bahnhof.",
+          "answers": [
+            "ein"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,215 @@
+{
+  "id": "p05",
+  "title": "mein, dein, sein — Possessivartikel",
+  "version": 1,
+  "estimatedMin": 9,
+  "blocks": [
+    {
+      "type": "GRAMMAR",
+      "variant": "RULE",
+      "id": "p05_g1",
+      "ruleHeadline": "Possessivartikel — wem gehört es?",
+      "paragraphs": [
+        {
+          "lang": "en",
+          "text": "A possessive article answers one question: whose is it? The word you choose depends on the owner, never on the thing being owned. The owner is {{de:ich}}, you write {{de:mein}}; the owner is {{de:du}}, you write {{de:dein}}; the owner is {{de:er}}, you write {{de:sein}}. One owner, one possessive — that part is as simple as English.\n"
+        },
+        {
+          "lang": "en",
+          "text": "The second half of the job is the ending. The possessive has to agree with the noun standing behind it, the way {{de:der}}, {{de:die}} and {{de:das}} would. A masculine or neuter noun takes no ending, a feminine or plural noun takes {{de:-e}}. That is why the Dobart homepage can print {{de:Hannes und sein Motorrad}} — {{de:der Motorrad}}, so {{de:sein}} stays bare — but {{de:Lena und ihre Geige}}, because {{de:die Geige}} wants the {{de:-e}}.\n"
+        },
+        {
+          "lang": "de",
+          "text": "mein Vater · dein Kind · sein Sohn · ihre Tochter · unser Büro · euer Hund · ihre Kinder · Ihr Termin\n"
+        },
+        {
+          "lang": "en",
+          "text": "Two details deserve your attention. The plural of {{de:euer}} drops nothing in speech but writes {{de:eure}} as soon as the ending arrives: {{de:euer Hund}}, {{de:eure Kinder}}. And the polite {{de:Ihr}} is spelled with a capital letter, exactly like the pronoun {{de:Sie}} it belongs to — a small capital that marks the whole sentence as formal.\n"
+        }
+      ],
+      "targetSentenceGerman": "Unser Hund Otto liebt seinen Ball.",
+      "targetSentenceEnglish": "Our dog Otto loves his ball.",
+      "examples": [
+        {
+          "german": "mein Vater",
+          "english": "my father"
+        },
+        {
+          "german": "dein Kind",
+          "english": "your child (du)"
+        },
+        {
+          "german": "sein Sohn",
+          "english": "his son"
+        },
+        {
+          "german": "ihre Tochter",
+          "english": "her daughter"
+        },
+        {
+          "german": "unser Büro",
+          "english": "our office"
+        },
+        {
+          "german": "euer Hund",
+          "english": "your dog (you plural)"
+        },
+        {
+          "german": "eure Kinder",
+          "english": "your children (you plural)"
+        },
+        {
+          "german": "Ihre Mutter",
+          "english": "your mother (polite Sie)"
+        }
+      ]
+    },
+    {
+      "type": "EXAMPLES",
+      "variant": "PHRASE_LIST",
+      "id": "p05_ex1",
+      "title": "Die Familie auf www.dobart.de",
+      "items": [
+        {
+          "german": "Hannes und sein Motorrad.",
+          "english": "Hannes and his motorbike."
+        },
+        {
+          "german": "Mara und ihr Sport.",
+          "english": "Mara and her sport."
+        },
+        {
+          "german": "Der Computer ist mein Hobby.",
+          "english": "The computer is my hobby."
+        },
+        {
+          "german": "Lena und ihre Geige.",
+          "english": "Lena and her violin."
+        },
+        {
+          "german": "Unser Hund Otto liebt seinen Ball.",
+          "english": "Our dog Otto loves his ball."
+        },
+        {
+          "german": "Unsere Familie — alle zusammen.",
+          "english": "Our family — all of us together."
+        },
+        {
+          "german": "Ich habe zwei Mäuse, und mein Bruder hat einen Hamster.",
+          "english": "I have two mice, and my brother has a hamster."
+        },
+        {
+          "german": "Unsere Tochter Nadine spielt seit vier Wochen Saxofon.",
+          "english": "Our daughter Nadine has been playing the saxophone for four weeks."
+        }
+      ]
+    },
+    {
+      "type": "VOCAB",
+      "variant": "CARD_SET",
+      "id": "p05_v1",
+      "title": "Possessivartikel",
+      "wordIds": [
+        "w_mein",
+        "w_dein",
+        "w_sein",
+        "w_ihr_possessiv",
+        "w_unser",
+        "w_euer"
+      ]
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "FILL_BLANK",
+      "id": "p05_q1",
+      "points": 3,
+      "topic": "Possessivartikel",
+      "prompt": "Fill the gap with the right possessive article.",
+      "paragraphs": [
+        {
+          "lang": "en",
+          "text": "These are entries in the Dobart guestbook. Decide who is writing and who they are talking about: the writer gives you the person, the noun behind the gap gives you the ending.\n"
+        }
+      ],
+      "items": [
+        {
+          "sentence": "___ Hund Otto ist süß!",
+          "answers": [
+            "euer",
+            "Euer"
+          ],
+          "hint": "ihr (Plural)"
+        },
+        {
+          "sentence": "Ich habe zwei Mäuse und ___ Bruder hat einen Hamster.",
+          "answers": [
+            "mein",
+            "Mein"
+          ],
+          "hint": "ich"
+        },
+        {
+          "sentence": "Ich mag ___ Motorrad, echt cool!",
+          "answers": [
+            "dein",
+            "Dein"
+          ],
+          "hint": "du"
+        },
+        {
+          "sentence": "Auch ___ Familienfoto ist sehr schön.",
+          "answers": [
+            "euer",
+            "Euer"
+          ],
+          "hint": "ihr (Plural)"
+        },
+        {
+          "sentence": "Lena und ___ Geige! Wie lange spielt sie schon?",
+          "answers": [
+            "ihre"
+          ],
+          "hint": "sie (feminin)"
+        },
+        {
+          "sentence": "___ Tochter Nadine spielt jetzt Saxofon.",
+          "answers": [
+            "Unsere",
+            "unsere"
+          ],
+          "hint": "wir"
+        }
+      ]
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "REORDER",
+      "id": "p05_q2",
+      "points": 2,
+      "topic": "Possessivartikel",
+      "prompt": "Put the sentence in order.",
+      "paragraphs": [
+        {
+          "lang": "en",
+          "text": "Draw a pronoun card and a noun card, as exercise 10c says, and build the sentence that belongs together. The owner decides which possessive you need; the article on the noun card decides whether an ending goes on the end.\n"
+        }
+      ],
+      "builder": {
+        "fixedPrefix": "Das ist",
+        "solutionWords": [
+          "sein",
+          "Fahrrad"
+        ],
+        "wordPool": [
+          "sein",
+          "Fahrrad",
+          "dein",
+          "eure",
+          "Hund",
+          "Kinder"
+        ]
+      }
+    }
+  ],
+  "schemaVersion": 2
+}

@@ -1,0 +1,157 @@
+{
+  "schemaVersion": 2,
+  "id": "p08",
+  "title": "Länder und Sprachen — Boris, Saki, Kateb",
+  "version": 1,
+  "estimatedMin": 8,
+  "blocks": [
+    {
+      "type": "LESSON_PAGE",
+      "variant": "READING",
+      "id": "p08_r1",
+      "headline": "Drei Porträts, sechs Länder",
+      "paragraphs": [
+        {
+          "lang": "en",
+          "text": "The table you started on the last page gets its last three rows here. Same four facts, same four verbs — the only new material is geography, and half of the countries below are ones whose names arrive with an article attached. Read once for the table, then read the box in the corner twice.\n"
+        },
+        {
+          "lang": "de",
+          "text": "Boris Walder kommt aus Österreich. Er wohnt in Salzburg. Er spricht Deutsch und Englisch. Er lernt Arabisch.\n"
+        },
+        {
+          "lang": "de",
+          "text": "Saki Tanaka wohnt in Berlin. Sie kommt aus Japan, aus Tokio. Sie spricht Japanisch und Deutsch. Sie lernt Englisch.\n"
+        },
+        {
+          "lang": "de",
+          "text": "Kateb Brahim kommt aus Algerien. Er spricht Arabisch, Französisch und lernt Deutsch. Er wohnt in Paris.\n"
+        },
+        {
+          "lang": "en",
+          "text": "Saki's line hides a useful distinction in four words: {{de:aus Japan}} is the country, {{de:aus Tokio}} the city, and German lets you stack them without a joining word. Kateb's sentence does the same job with the verbs — two things he speaks, one thing he is still learning.\n"
+        }
+      ]
+    },
+    {
+      "type": "NOTE",
+      "variant": "MISTAKE",
+      "id": "p08_n1",
+      "title": "aus dem Land oder aus der Schweiz?",
+      "paragraphs": [
+        {
+          "lang": "en",
+          "text": "Most country names in German sit happily after {{de:aus}} with nothing in front of them — {{de:aus Spanien}}, {{de:aus Mexiko}}, {{de:aus Japan}}. A second group carries a gender of its own, and a noun with a gender wants an article even after a preposition, so the article changes shape: feminine {{de:die}} turns into {{de:der}}, and the plural turns into {{de:den}}.\n"
+        },
+        {
+          "lang": "de",
+          "text": "aus Spanien · aus Mexiko · aus Japan · aus Brasilien — aber: aus der Schweiz · aus der Türkei · aus der Ukraine · aus den USA\n"
+        },
+        {
+          "lang": "en",
+          "text": "The pattern in the corner of the page is not decoration: the countries that need an article are exactly the ones you will hear wrong if you only listen for the country name. Say the four exceptions aloud once, in one breath, and they will come back to you when somebody asks {{de:Woher kommst du?}}\n"
+        }
+      ]
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "MATCH",
+      "id": "p08_q1",
+      "points": 4,
+      "topic": "Land und Sprache",
+      "prompt": "Match each country from exercise 8b with its language:",
+      "pairs": [
+        {
+          "german": "Deutschland",
+          "english": "Deutsch"
+        },
+        {
+          "german": "Brasilien",
+          "english": "Portugiesisch"
+        },
+        {
+          "german": "Polen",
+          "english": "Polnisch"
+        },
+        {
+          "german": "die Türkei",
+          "english": "Türkisch"
+        },
+        {
+          "german": "Algerien",
+          "english": "Arabisch"
+        },
+        {
+          "german": "Japan",
+          "english": "Japanisch"
+        },
+        {
+          "german": "Russland",
+          "english": "Russisch"
+        }
+      ]
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "FILL_BLANK",
+      "id": "p08_q2",
+      "points": 3,
+      "topic": "aus + Land",
+      "prompt": "Fill in the country — with an article if it needs one:",
+      "items": [
+        {
+          "sentence": "Ich komme aus ___.",
+          "answers": [
+            "Spanien"
+          ],
+          "hint": "no article here"
+        },
+        {
+          "sentence": "Sie kommt aus ___ Schweiz.",
+          "answers": [
+            "der"
+          ],
+          "hint": "feminine country"
+        },
+        {
+          "sentence": "Er kommt aus ___ USA.",
+          "answers": [
+            "den"
+          ],
+          "hint": "plural country"
+        },
+        {
+          "sentence": "Wir kommen aus ___ Türkei.",
+          "answers": [
+            "der"
+          ],
+          "hint": "feminine country"
+        }
+      ]
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "REORDER",
+      "id": "p08_q3",
+      "points": 3,
+      "topic": "Wer sind Sie?",
+      "prompt": "Put the short text from exercise 8e in order:",
+      "builder": {
+        "fixedPrefix": "Ich",
+        "solutionWords": [
+          "komme",
+          "aus",
+          "Deutschland"
+        ],
+        "wordPool": [
+          "komme",
+          "aus",
+          "Deutschland",
+          "wohne",
+          "Sprachen",
+          "Berlin"
+        ]
+      }
+    }
+  ]
+}

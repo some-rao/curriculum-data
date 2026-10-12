@@ -5,37 +5,79 @@
   "level": "A1",
   "titleGerman": "In Hamburg",
   "titleEnglish": "In Hamburg",
-  "descriptionEnglish": "Places and buildings in Hamburg, the articles der/das/die and ein/eine, saying no with kein, asking for directions, events, months and seasons.",
+  "descriptionEnglish": "Places and buildings in Hamburg, the articles der/das/die and ein/eine, saying no with kein, asking for directions, events, months and seasons.\n",
+  "vocabFile": "vocab.json",
+  "examFile": "exam.json",
   "sections": [
     {
-      "id": "s1_gebaeude",
-      "title": "Plätze und Gebäude",
-      "file": "s1_gebaeude.json",
-      "version": 2,
-      "estimatedMin": 7
+      "id": "p01",
+      "title": "Willkommen in Hamburg",
+      "file": "p01.json",
+      "version": 1,
+      "estimatedMin": 6
     },
     {
-      "id": "s2_verkehr",
-      "title": "Verkehrsmittel: Kein Glück?",
-      "file": "s2_verkehr.json",
-      "version": 2,
-      "estimatedMin": 7
+      "id": "p02",
+      "title": "Hafen, Michel, Rathaus",
+      "file": "p02.json",
+      "version": 1,
+      "estimatedMin": 6
     },
     {
-      "id": "s3_weg",
-      "title": "Nach dem Weg fragen",
-      "file": "s3_weg.json",
-      "version": 2,
-      "estimatedMin": 7
-    },
-    {
-      "id": "s4_events",
-      "title": "Events und Jahreszeiten",
-      "file": "s4_events.json",
-      "version": 2,
+      "id": "p03",
+      "title": "Die Taxifahrt",
+      "file": "p03.json",
+      "version": 1,
       "estimatedMin": 8
+    },
+    {
+      "id": "p04",
+      "title": "ein, eine — der, das, die",
+      "file": "p04.json",
+      "version": 1,
+      "estimatedMin": 8
+    },
+    {
+      "id": "p05",
+      "title": "Kein Glück?!",
+      "file": "p05.json",
+      "version": 1,
+      "estimatedMin": 8
+    },
+    {
+      "id": "p06",
+      "title": "Links, rechts, geradeaus",
+      "file": "p06.json",
+      "version": 1,
+      "estimatedMin": 8
+    },
+    {
+      "id": "p07",
+      "title": "Events in Hamburg",
+      "file": "p07.json",
+      "version": 1,
+      "estimatedMin": 7
+    },
+    {
+      "id": "p08",
+      "title": "Jahreszeiten und Monate",
+      "file": "p08.json",
+      "version": 1,
+      "estimatedMin": 9
+    },
+    {
+      "id": "p09",
+      "title": "Stadttrip in München",
+      "file": "p09.json",
+      "version": 1,
+      "estimatedMin": 7
+    },
+    {
+      "id": "p10",
+      "title": "Was du kannst",
+      "file": "p10.json",
+      "version": 1,
+      "estimatedMin": 5
     }
-  ],
-  "vocabFile": "vocab.json",
-  "examFile": "exam.json"
+  ]
 }

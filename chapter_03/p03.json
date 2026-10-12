@@ -1,0 +1,140 @@
+{
+  "schemaVersion": 2,
+  "id": "p03",
+  "title": "Die Taxifahrt",
+  "version": 1,
+  "estimatedMin": 8,
+  "blocks": [
+    {
+      "type": "LESSON_PAGE",
+      "variant": "DIALOGUE",
+      "id": "p03_d1",
+      "title": "Die Taxifahrt",
+      "headline": "Die Taxifahrt",
+      "paragraphs": [
+        {
+          "lang": "en",
+          "text": "A taxi has just pulled up at the Hauptbahnhof, and the passenger is going to the hotel \"Michel\". The driver is from the north, so he opens with {{de:Moin}} — and then he does what taxi drivers everywhere do: he talks about the city while he drives.\n"
+        },
+        {
+          "lang": "en",
+          "text": "Read it once for the story, then once more with the map on the textbook page in mind. Every place the driver names is a noun with its article attached — {{de:der Bahnhof}}, {{de:die Kunsthalle}}, {{de:das Rathaus}} — because in German a place name on its own always arrives wearing its article.\n"
+        },
+        {
+          "lang": "de",
+          "text": "Der Taxifahrer redet gern. Er zeigt die Orte: der Bahnhof, die Kunsthalle, die Alster, das Rathaus, die Michaeliskirche. Am Ende ist das Hotel schon da.\n"
+        }
+      ],
+      "turns": [
+        {
+          "speaker": "Gast",
+          "german": "Guten Tag. Zum Hotel »Michel« bitte.",
+          "english": "Good day. To the hotel \"Michel\", please."
+        },
+        {
+          "speaker": "Taxifahrer",
+          "german": "Moin. Hotel »Michel«, okay. Kennen Sie Hamburg?",
+          "english": "Moin. Hotel \"Michel\", okay. Do you know Hamburg?"
+        },
+        {
+          "speaker": "Gast",
+          "german": "Nein.",
+          "english": "No."
+        },
+        {
+          "speaker": "Taxifahrer",
+          "german": "Na, das ist der Bahnhof.",
+          "english": "Well then, that's the main train station."
+        },
+        {
+          "speaker": "Gast",
+          "german": "Ah ja.",
+          "english": "Ah yes."
+        },
+        {
+          "speaker": "Taxifahrer",
+          "german": "Und das hier rechts ist die Kunsthalle. Das ist ein Museum.",
+          "english": "And here on the right is the art gallery. That's a museum."
+        },
+        {
+          "speaker": "Gast",
+          "german": "Interessant. Und wie heißt der See?",
+          "english": "Interesting. And what is the lake called?"
+        },
+        {
+          "speaker": "Taxifahrer",
+          "german": "See? Das ist kein See, das ist ein Fluss. Der Fluss heißt Alster.",
+          "english": "Lake? That's not a lake, that's a river. The river is called the Alster."
+        },
+        {
+          "speaker": "Gast",
+          "german": "Ach so. Und was ist das? Ist das eine Kirche?",
+          "english": "I see. And what is that? Is that a church?"
+        },
+        {
+          "speaker": "Taxifahrer",
+          "german": "Nein, das ist das Rathaus.",
+          "english": "No, that's the town hall."
+        },
+        {
+          "speaker": "Gast",
+          "german": "Ah ja.",
+          "english": "Ah yes."
+        },
+        {
+          "speaker": "Taxifahrer",
+          "german": "Hier ist eine Kirche. Das ist die Michaeliskirche. Wir sagen »der Michel«.",
+          "english": "Here is a church. That's St Michael's. We call it \"der Michel\"."
+        },
+        {
+          "speaker": "Gast",
+          "german": "Ah, sehr schön.",
+          "english": "Ah, very nice."
+        },
+        {
+          "speaker": "Taxifahrer",
+          "german": "Und da ist auch schon das Hotel.",
+          "english": "And there's the hotel already."
+        }
+      ]
+    },
+    {
+      "type": "NOTE",
+      "variant": "CULTURE",
+      "id": "p03_n1",
+      "title": "Moin, Grüß Gott, Grüezi",
+      "paragraphs": [
+        {
+          "lang": "en",
+          "text": "Grüßen means to greet, and the three German-speaking countries each greet differently in everyday life. In the north of Germany you hear {{de:Moin!}} all day long — it works for good morning and good evening alike, which is presumably why the taxi driver uses it. Austria answers with {{de:Grüß Gott!}}, Switzerland with {{de:Grüezi!}}.\n"
+        },
+        {
+          "lang": "en",
+          "text": "{{de:Guten Tag}} stays safe everywhere, so it is the form to reach for when you are travelling. The regional ones are worth recognising even if you never say them yourself — and saying {{de:Moin}} in Hamburg will earn you a small nod.\n"
+        },
+        {
+          "lang": "de",
+          "text": "Moin! · Grüß Gott! · Grüezi! · Guten Tag!\n"
+        }
+      ]
+    },
+    {
+      "type": "VOCAB",
+      "variant": "CARD_SET",
+      "id": "p03_v1",
+      "title": "Im Taxi",
+      "wordIds": [
+        "w_hotel",
+        "w_see",
+        "w_fluss",
+        "w_kirche",
+        "w_museum",
+        "w_kunsthalle",
+        "w_bahnhof",
+        "w_moin",
+        "w_gruess_gott",
+        "w_grueezi"
+      ]
+    }
+  ]
+}

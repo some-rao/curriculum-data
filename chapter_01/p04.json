@@ -1,0 +1,209 @@
+{
+  "schemaVersion": 2,
+  "id": "p04",
+  "title": "Guten Tag! Auf Wiedersehen! — formell vorstellen",
+  "version": 1,
+  "estimatedMin": 9,
+  "blocks": [
+    {
+      "type": "LESSON_PAGE",
+      "variant": "DIALOGUE",
+      "id": "p04_d1",
+      "headline": "Guten Tag. Wie heißen Sie?",
+      "paragraphs": [
+        {
+          "lang": "en",
+          "text": "Yesterday's scene was two strangers of the same age outside a building. This one is an office: three people, two of them strangers, all of them keeping the distance that German marks with {{de:Sie}}. Watch how much more formula the conversation carries — full greetings, full sentences, and a name given twice in two different ways.\n"
+        },
+        {
+          "lang": "en",
+          "text": "Frau Weber opens with the time of day rather than with {{de:Hallo}}, introduces herself with {{de:Mein Name ist …}}, and Herr Hansen answers with the verb from the title of this page: {{de:Ich heiße Oliver Hansen}}. The same page, the same verb, two registers — that difference is the whole lesson.\n"
+        }
+      ],
+      "vocabHighlight": [
+        {
+          "german": "Guten Morgen. Mein Name ist Nina Weber.",
+          "english": "Good morning. My name is Nina Weber."
+        },
+        {
+          "german": "Wie geht es Ihnen?",
+          "english": "How are you? (formal)"
+        },
+        {
+          "german": "Entschuldigung, wie heißen Sie?",
+          "english": "Excuse me, what is your name? (formal)"
+        }
+      ],
+      "turns": [
+        {
+          "speaker": "Nina Weber",
+          "german": "Guten Morgen. Mein Name ist Nina Weber.",
+          "english": "Good morning. My name is Nina Weber."
+        },
+        {
+          "speaker": "Oliver Hansen",
+          "german": "Guten Morgen, Frau Weber! Ich heiße Oliver Hansen.",
+          "english": "Good morning, Ms Weber! My name is Oliver Hansen."
+        },
+        {
+          "speaker": "Nina Weber",
+          "german": "Guten Tag, Frau Kowalski.",
+          "english": "Good day, Ms Kowalski."
+        },
+        {
+          "speaker": "Frau Kowalski",
+          "german": "Guten Tag, Frau Weber. Wie geht es Ihnen?",
+          "english": "Good day, Ms Weber. How are you?"
+        },
+        {
+          "speaker": "Nina Weber",
+          "german": "Danke, gut. Und Ihnen?",
+          "english": "Thank you, fine. And you?"
+        },
+        {
+          "speaker": "Frau Kowalski",
+          "german": "Auch gut, danke.",
+          "english": "Fine too, thank you."
+        },
+        {
+          "speaker": "Oliver Hansen",
+          "german": "Hallo Frau Weber.",
+          "english": "Hello Ms Weber."
+        },
+        {
+          "speaker": "Nina Weber",
+          "german": "Hallo Herr Hansen. Das ist Frau Kowalski.",
+          "english": "Hello Mr Hansen. This is Ms Kowalski."
+        },
+        {
+          "speaker": "Oliver Hansen",
+          "german": "Guten Tag, Frau Kowalski. Mein Name ist Oliver Hansen.",
+          "english": "Good day, Ms Kowalski. My name is Oliver Hansen."
+        },
+        {
+          "speaker": "Frau Kowalski",
+          "german": "Guten Tag! Entschuldigung, wie heißen Sie?",
+          "english": "Good day! Excuse me, what is your name?"
+        },
+        {
+          "speaker": "Oliver Hansen",
+          "german": "Oliver Hansen.",
+          "english": "Oliver Hansen."
+        }
+      ]
+    },
+    {
+      "type": "EXAMPLES",
+      "variant": "PHRASE_LIST",
+      "id": "p04_ex1",
+      "title": "Grüße für die Tageszeit und den Abschied",
+      "items": [
+        {
+          "german": "Guten Morgen!",
+          "english": "Good morning!"
+        },
+        {
+          "german": "Guten Tag!",
+          "english": "Good day! — hello, any time before evening"
+        },
+        {
+          "german": "Guten Abend!",
+          "english": "Good evening!"
+        },
+        {
+          "german": "Gute Nacht!",
+          "english": "Good night! — said when somebody goes to bed"
+        },
+        {
+          "german": "Auf Wiedersehen, Herr Hansen.",
+          "english": "Goodbye, Mr Hansen."
+        },
+        {
+          "german": "Auf Wiedersehen, Frau Kowalski.",
+          "english": "Goodbye, Ms Kowalski."
+        },
+        {
+          "german": "Auf Wiedersehen!",
+          "english": "Goodbye!"
+        }
+      ]
+    },
+    {
+      "type": "NOTE",
+      "variant": "USAGE",
+      "id": "p04_n1",
+      "title": "du und Sie",
+      "paragraphs": [
+        {
+          "lang": "en",
+          "text": "Every German speaker decides this in the first two seconds of a conversation, and so do you. {{de:du}} is the close form: you use it with people your own age, with children, with anyone you have just called by their first name. {{de:Sie}} keeps the distance: your boss, a stranger at work, the woman you address as {{de:Frau Weber}} before you know her first name.\n"
+        },
+        {
+          "lang": "en",
+          "text": "The clue is in the box at the bottom of the page. With {{de:du}} you give a first name — {{de:Ich heiße Nina}}. With {{de:Sie}} you give the whole name — {{de:Mein Name ist Nina Weber}} — and the question changes too: {{de:Wie heißt du?}} against {{de:Wie heißen Sie?}}. When in doubt at the very first meeting, take {{de:Sie}}; being politely too far away is a small mistake, and the other person will simply say {{de:du kannst mich duzen}} and pull you closer.\n"
+        },
+        {
+          "lang": "de",
+          "text": "informell: du + Vorname — Wie heißt du? Wer bist du? · formell: Sie + Vorname + Nachname — Wie heißen Sie? Wie ist Ihr Name?\n"
+        },
+        {
+          "lang": "en",
+          "text": "The question of wellbeing splits the same way. Friends say {{de:Wie geht's dir?}}; in the office you have heard {{de:Wie geht es Ihnen?}} — the same question, standing further back.\n"
+        }
+      ]
+    },
+    {
+      "type": "GRAMMAR",
+      "variant": "RULE",
+      "id": "p04_g1",
+      "ruleHeadline": "Verben und Personalpronomen",
+      "paragraphs": [
+        {
+          "lang": "en",
+          "text": "Two verbs carry this whole page, and each one changes its ending to match the person in front of it. The pronoun is the signal: {{de:ich}} takes {{de:-e}} or {{de:bin}}, {{de:du}} takes {{de:-st}} or {{de:bist}}, {{de:Sie}} takes {{de:-en}} or {{de:sind}}. You already heard all six forms in the dialogue above — the table is only putting the pattern on paper.\n"
+        },
+        {
+          "lang": "de",
+          "text": "ich heiße · du heißt · Sie heißen"
+        },
+        {
+          "lang": "de",
+          "text": "ich bin · du bist · Sie sind"
+        },
+        {
+          "lang": "en",
+          "text": "Notice that {{de:heißen}} loses its double-s before the {{de:-t}} of {{de:du heißt}}, while {{de:Sie heißen}} happily keeps it. The stem decides, so learn the three forms as a block rather than one at a time.\n"
+        }
+      ],
+      "englishBridge": "English asks the same three questions without touching the verb at all — only the pronoun changes.",
+      "targetSentenceGerman": "Wie heißen Sie? — Ich heiße Oliver Hansen.",
+      "targetSentenceEnglish": "What is your name? — My name is Oliver Hansen.",
+      "examples": [
+        {
+          "german": "ich heiße",
+          "english": "I am called"
+        },
+        {
+          "german": "du heißt",
+          "english": "you are called (informal)"
+        },
+        {
+          "german": "Sie heißen",
+          "english": "you are called (formal)"
+        },
+        {
+          "german": "ich bin Nina.",
+          "english": "I am Nina."
+        },
+        {
+          "german": "du bist Niklas.",
+          "english": "you are Niklas."
+        },
+        {
+          "german": "Sie sind Frau Weber.",
+          "english": "you are Ms Weber."
+        }
+      ]
+    }
+  ]
+}

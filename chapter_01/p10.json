@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 2,
+  "id": "p10",
+  "title": "Kurz und klar — Redemittel und Grammatik",
+  "version": 1,
+  "estimatedMin": 5,
+  "blocks": [
+    {
+      "type": "SUMMARY",
+      "variant": "RECAP",
+      "id": "p10_sum",
+      "title": "Was du kannst",
+      "bullets": [
+        "You can greet and take your leave at any time of day, from Hallo to Auf Wiedersehen.",
+        "You can introduce yourself and ask for somebody else's name in the informal and the polite form.",
+        "You can ask and answer where a person comes from, where they live and which languages they speak.",
+        "You can ask about wellbeing and reply to it in four different degrees of good.",
+        "You can count from null to zwanzig, dictate a phone number and read an e-mail address aloud.",
+        "You can buy yourself time with Wie bitte? when a sentence gets past you."
+      ],
+      "paragraphs": [
+        {
+          "lang": "de",
+          "text": "grüßen: Hallo Nina! · Guten Tag! · Guten Morgen! · Guten Abend! · verabschieden: Tschüs! · Ciao! · Auf Wiedersehen! · Gute Nacht!\n"
+        },
+        {
+          "lang": "de",
+          "text": "sich vorstellen: Wer bist du? — Ich bin Julia. · Wie heißt du? — Ich heiße Niklas. · Wie ist Ihr Name? — Mein Name ist Nina Weber. · Das ist Herr/Frau …\n"
+        },
+        {
+          "lang": "en",
+          "text": "Those two blocks are the whole conversation in miniature: a greeting, a name in both registers, a farewell. Everything else in the lesson is a way of keeping the same conversation going for another thirty seconds.\n"
+        },
+        {
+          "lang": "de",
+          "text": "über sich sprechen: Wo wohnen Sie? — Ich wohne in Frankfurt. · Woher kommen Sie? — Ich komme aus Spanien. · Welche Sprachen sprechen Sie? — Ich spreche Deutsch und Russisch. · Wie ist Ihre/deine Telefonnummer? — 0650 – 32 … · Wie ist Ihre/deine E-Mail-Adresse? — alexis_barbos@quinnet.com\n"
+        },
+        {
+          "lang": "de",
+          "text": "nach dem Befinden fragen: Wie geht es Ihnen? / Wie geht's dir? / Wie geht's? — Danke, sehr gut. · Danke, gut. · Ganz gut. · Und Ihnen? / Und dir?\n"
+        },
+        {
+          "lang": "en",
+          "text": "Three questions, one scale of answers — from {{de:sehr gut}} down to plain {{de:gut}}, with {{de:Ganz gut}} in between. The last line of every answer is the question thrown back, and that is what turns a reply into a dialogue.\n"
+        }
+      ]
+    },
+    {
+      "type": "GRAMMAR",
+      "variant": "RULE",
+      "id": "p10_g1",
+      "ruleHeadline": "Die ganze Grammatik der Lektion auf einer Seite",
+      "paragraphs": [
+        {
+          "lang": "en",
+          "text": "The left table builds questions, the right one builds statements, and both run on the same rule you met on page four: a question fills position one with the question word, a statement fills position one with the subject, and the verb is second either way.\n"
+        },
+        {
+          "lang": "de",
+          "text": "Wer bist du? · Wie heißt du? · Woher kommt Frau Tanaka? · Wo wohnen Sie? · Welche Sprachen sprechen Sie?\n"
+        },
+        {
+          "lang": "de",
+          "text": "Ich bin Julia. · Ich heiße Niklas. · Sie kommt aus Japan. · Ich wohne in Zürich. · Ich spreche Deutsch.\n"
+        },
+        {
+          "lang": "en",
+          "text": "Below them sit the four verbs this lesson could not do without, in every form you have heard: {{de:sein}} with its four unrelated spellings, and {{de:heißen}}, {{de:kommen}}, {{de:wohnen}} with the endings -e, -st, -t, -en that a pronoun always brings with it.\n"
+        },
+        {
+          "lang": "en",
+          "text": "The last box on the page explains why the pronouns matter even when nobody is speaking: in a text, {{de:Sie}} and {{de:Er}} point back at the name before them, so {{de:Das ist Frau Lang. Sie kommt aus Deutschland.}} keeps one person in focus without repeating her name in every sentence.\n"
+        }
+      ],
+      "examples": [
+        {
+          "german": "ich bin · ich heiße · ich komme · ich wohne",
+          "english": "I am · I am called · I come · I live"
+        },
+        {
+          "german": "du bist · du heißt · du kommst · du wohnst",
+          "english": "you are (informal) · you are called · you come · you live"
+        },
+        {
+          "german": "er/sie ist · er/sie heißt · er/sie kommt · er/sie wohnt",
+          "english": "he/she is · is called · comes · lives"
+        },
+        {
+          "german": "Sie sind · Sie heißen · Sie kommen · Sie wohnen",
+          "english": "you are (formal) · you are called · you come · you live"
+        }
+      ]
+    }
+  ]
+}

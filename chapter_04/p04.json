@@ -1,0 +1,160 @@
+{
+  "schemaVersion": 2,
+  "id": "p04",
+  "title": "Einkaufen im Supermarkt — Gespräche führen",
+  "version": 1,
+  "estimatedMin": 8,
+  "blocks": [
+    {
+      "type": "LESSON_PAGE",
+      "variant": "DIALOGUE",
+      "id": "p04_d1",
+      "headline": "Einkaufen im Supermarkt",
+      "paragraphs": [
+        {
+          "lang": "en",
+          "text": "Five short conversations run down this page, and every one of them happens in a place you can point at: a trolley, a fish counter, a cheese counter, an aisle, a checkout. Listen once for the picture that fits, then read — the second reading is where the sentences start to stick.\n"
+        },
+        {
+          "lang": "en",
+          "text": "The counter conversation is the longest and the most useful. Watch how many turns it takes before anybody says what they want: first who is next, then the offer, then the request, and only afterwards the extra item. {{de:Was möchten Sie?}} opens the transaction; {{de:Sonst noch etwas?}} invites the second sale. Learn the pair together and you can shop anywhere.\n"
+        },
+        {
+          "lang": "de",
+          "text": "Sonst noch etwas? — Ja, ich nehme noch 150 Gramm Schinken. — Ist das alles? — Ja, danke.\n"
+        }
+      ],
+      "vocabHighlight": [
+        {
+          "german": "Wer kommt dran?",
+          "english": "Who is next?"
+        },
+        {
+          "german": "Was möchten Sie?",
+          "english": "What would you like?"
+        },
+        {
+          "german": "Entschuldigung, wo finde ich Reis?",
+          "english": "Excuse me, where can I find rice?"
+        },
+        {
+          "german": "Brauchen Sie den Kassenzettel?",
+          "english": "Do you need the receipt?"
+        }
+      ],
+      "turns": [
+        {
+          "speaker": "Verkäuferin",
+          "german": "Wer kommt dran?",
+          "english": "Who's next?"
+        },
+        {
+          "speaker": "Kunde",
+          "german": "Ich, bitte.",
+          "english": "Me, please."
+        },
+        {
+          "speaker": "Verkäuferin",
+          "german": "Was möchten Sie?",
+          "english": "What would you like?"
+        },
+        {
+          "speaker": "Kunde",
+          "german": "Ich möchte ein Stück Emmentaler, bitte.",
+          "english": "I'd like a piece of Emmentaler, please."
+        },
+        {
+          "speaker": "Verkäuferin",
+          "german": "Sonst noch etwas?",
+          "english": "Anything else?"
+        },
+        {
+          "speaker": "Kunde",
+          "german": "Ich nehme noch 150 Gramm Schinken.",
+          "english": "I'll take another 150 grams of ham."
+        },
+        {
+          "speaker": "Verkäuferin",
+          "german": "Ist das alles?",
+          "english": "Is that everything?"
+        },
+        {
+          "speaker": "Kunde",
+          "german": "Ja, danke.",
+          "english": "Yes, thank you."
+        }
+      ]
+    },
+    {
+      "type": "NOTE",
+      "variant": "USAGE",
+      "id": "p04_n1",
+      "title": "Preise sprechen",
+      "paragraphs": [
+        {
+          "lang": "en",
+          "text": "German keeps small change and big money in two different words. Anything under a euro is counted in {{de:Cent}}; from one euro up you say the euro first and the loose change after it. The cashier's voice goes down at the end, so the number lands as a statement, not a question.\n"
+        },
+        {
+          "lang": "de",
+          "text": "0,99 Euro → neunundneunzig Cent · 1,09 Euro → ein Euro neun · 2,20 Euro → zwei Euro zwanzig\n"
+        },
+        {
+          "lang": "en",
+          "text": "You do not read the digits. A price tag written {{de:1,09 Euro}} comes out of your mouth as {{de:ein Euro neun}} — no zero, no comma, and {{de:neun}} where an English speaker expects ninety. The same habit shows up one line earlier in the page: the customer asks what something {{de:kostet}}, hears {{de:99 Cent}}, and only then asks about the second juice.\n"
+        }
+      ]
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "MULTIPLE_CHOICE",
+      "id": "p04_q1",
+      "points": 2,
+      "topic": "Preise sprechen",
+      "passage": "Der Orangensaft kostet 1,09 Euro.",
+      "prompt": "How does the cashier say this price out loud?",
+      "options": [
+        "ein Euro neun",
+        "ein Euro neunzig",
+        "neun Euro eins"
+      ],
+      "correctIndex": 0,
+      "concept": {
+        "title": "Preise sprechen",
+        "rule": "Below one euro you say only the cents. From one euro upward you say the euro word first, then the loose change as a plain number; the leading zero and the comma are never spoken.",
+        "exampleGerman": "1,09 Euro → ein Euro neun · 0,99 Euro → neunundneunzig Cent",
+        "exampleEnglish": "1.09 euros → one euro nine · 0.99 euros → ninety-nine cents"
+      }
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "MATCH",
+      "id": "p04_q2",
+      "points": 3,
+      "topic": "Sätze aus den Dialogen",
+      "prompt": "Match each shop sentence to its meaning:",
+      "pairs": [
+        {
+          "german": "Was möchten Sie?",
+          "english": "What would you like?"
+        },
+        {
+          "german": "Ich nehme noch 150 Gramm Schinken.",
+          "english": "I'll take another 150 grams of ham."
+        },
+        {
+          "german": "Wo finde ich Reis?",
+          "english": "Where can I find rice?"
+        },
+        {
+          "german": "Brauchen Sie den Kassenzettel?",
+          "english": "Do you need the receipt?"
+        },
+        {
+          "german": "Können Sie wechseln, bitte?",
+          "english": "Can you make change, please?"
+        }
+      ]
+    }
+  ]
+}

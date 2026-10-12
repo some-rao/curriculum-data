@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 2,
+  "id": "p09",
+  "title": "Die Netzwerk-WG",
+  "version": 1,
+  "estimatedMin": 8,
+  "blocks": [
+    {
+      "type": "LESSON_PAGE",
+      "variant": "ROLEPLAY",
+      "id": "p09_d1",
+      "headline": "Gehen wir zusammen?",
+      "paragraphs": [
+        {
+          "lang": "en",
+          "text": "Scene 4 of the video puts two flatmates in the same room. Anna and Max find out how much they have in common before they agree to go out together, and the dialogue below is the one you act out afterwards — read it once, then swap sides with a partner.\n"
+        },
+        {
+          "lang": "en",
+          "text": "Six questions appear in ten lines, and they are not all built the same way. Two put the verb right at the front: {{de:Spielst du gern Fußball?}} and {{de:Gehen wir zusammen?}}. The one that opens with a question word holds the verb in second place instead: {{de:Was machst du gern?}}. The two shortest of all drop the verb entirely — {{de:Wann?}}, {{de:Am Mittwoch?}} — and still work.\n"
+        },
+        {
+          "lang": "de",
+          "text": "Was machst du gern? — Ich mache gern Sport."
+        },
+        {
+          "lang": "en",
+          "text": "Every answer is short, because speech does not need a full sentence to say yes. Look at what a refusal does instead of ending the exchange: it hands the decision straight back with another day attached.\n"
+        },
+        {
+          "lang": "de",
+          "text": "Ja, gern. · Nein, das geht leider nicht. · Ja, am Freitag ist gut."
+        },
+        {
+          "lang": "en",
+          "text": "Scene 5 switches the subject from hobbies to work, and the six statements under it are worth saying aloud for the endings on {{de:arbeitet}}, {{de:studiert}} and {{de:joggt}}. Max, by the way, is not hiding his preference.\n"
+        },
+        {
+          "lang": "de",
+          "text": "Max spielt gern Computer."
+        }
+      ],
+      "vocabHighlight": [
+        {
+          "german": "Gehen wir zusammen?",
+          "english": "Shall we go together?"
+        },
+        {
+          "german": "Ja, am Freitag ist gut.",
+          "english": "Yes, Friday works."
+        }
+      ],
+      "turns": [
+        {
+          "speaker": "A",
+          "german": "Was machst du gern?",
+          "english": "What do you like to do?"
+        },
+        {
+          "speaker": "B",
+          "german": "Ich mache gern Sport.",
+          "english": "I like doing sport."
+        },
+        {
+          "speaker": "A",
+          "german": "Spielst du gern Fußball?",
+          "english": "Do you like playing football?"
+        },
+        {
+          "speaker": "B",
+          "german": "Nein. Ich spiele gern Tennis und ich jogge.",
+          "english": "No. I like playing tennis and I jog."
+        },
+        {
+          "speaker": "A",
+          "german": "Joggen ist super. Gehen wir zusammen?",
+          "english": "Jogging is great. Shall we go together?"
+        },
+        {
+          "speaker": "B",
+          "german": "Ja, gern. Wann?",
+          "english": "Yes, gladly. When?"
+        },
+        {
+          "speaker": "A",
+          "german": "Am Mittwoch?",
+          "english": "On Wednesday?"
+        },
+        {
+          "speaker": "B",
+          "german": "Nein, das geht leider nicht.",
+          "english": "No, unfortunately that does not work."
+        },
+        {
+          "speaker": "A",
+          "german": "Und am Freitag?",
+          "english": "And on Friday?"
+        },
+        {
+          "speaker": "B",
+          "german": "Ja, am Freitag ist gut.",
+          "english": "Yes, Friday is good."
+        }
+      ]
+    },
+    {
+      "type": "VOCAB",
+      "variant": "CARD_SET",
+      "id": "p09_v1",
+      "title": "Arbeit in Szene 5",
+      "wordIds": [
+        "w_arbeiten",
+        "w_studieren",
+        "w_praktikum",
+        "w_krankenpfleger",
+        "w_computer"
+      ]
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "MULTIPLE_CHOICE",
+      "id": "p09_q1",
+      "points": 2,
+      "topic": "Szene 4",
+      "passage": "Ich spiele gern Tennis und ich jogge.",
+      "prompt": "What does the second speaker like doing?",
+      "options": [
+        "Tennis und joggen",
+        "Fußball und schwimmen",
+        "Lesen und kochen"
+      ],
+      "correctIndex": 0,
+      "explanationEnglish": "Football is turned down first, and the speaker names tennis and jogging as the two things actually wanted.",
+      "concept": {
+        "title": "nachfragen und antworten",
+        "rule": "A question about likes takes gern in the answer as well as in the question, and the verb in the answer keeps the same ending as its pronoun.",
+        "exampleGerman": "Spielst du gern Fußball? — Ich spiele gern Tennis.",
+        "exampleEnglish": "Do you like playing football? — I like playing tennis."
+      }
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "MULTIPLE_CHOICE",
+      "id": "p09_q2",
+      "points": 2,
+      "topic": "Eine Verabredung",
+      "passage": "Nein, das geht leider nicht. — Und am Freitag?",
+      "prompt": "When do the two agree to go jogging together?",
+      "options": [
+        "Am Mittwoch",
+        "Am Freitag",
+        "Am Sonntag"
+      ],
+      "correctIndex": 1,
+      "explanationEnglish": "Wednesday is refused politely, so the only day left standing is Friday — the last line accepts it outright."
+    }
+  ]
+}

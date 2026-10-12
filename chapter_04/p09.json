@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 2,
+  "id": "p09",
+  "title": "Die Netzwerk-WG — hören und sehen",
+  "version": 1,
+  "estimatedMin": 8,
+  "blocks": [
+    {
+      "type": "NOTE",
+      "variant": "TIP",
+      "id": "p09_n1",
+      "title": "Szene 8 und 9: eine WG backt Kuchen",
+      "paragraphs": [
+        {
+          "lang": "en",
+          "text": "The last new material of the chapter arrives as video. Bea has an idea for the afternoon, Anna and Luca go shopping for it, and the whole flat ends up in the kitchen. Watch scene 8 once without the worksheet: you only need one sentence to finish — what the four of them are going to do together that afternoon.\n"
+        },
+        {
+          "lang": "en",
+          "text": "Scene 9 is the part worth a second viewing, because two errands run in parallel: Max looks for flour and sugar in the flat, and when the eggs run out he goes to a neighbour, Frau Müller. Only afterwards do Anna and Luca arrive — with a cake of their own. The joke in the last sentence works because of that timing, so number the photographs before you read the six lines underneath them.\n"
+        },
+        {
+          "lang": "de",
+          "text": "Max findet Mehl und Zucker. · Max braucht Eier. Er geht zu Frau Müller. · Bea und Max machen einen Apfelkuchen. · Max bringt Frau Müller ein Stück Kuchen.\n"
+        },
+        {
+          "lang": "en",
+          "text": "For 13c, list what you would need for your own favourite cake. Use the shopping lists above as your bank — the words repeat, and writing your own recipe is the cheapest repetition this lesson offers.\n"
+        }
+      ]
+    },
+    {
+      "type": "VOCAB",
+      "variant": "CARD_SET",
+      "id": "p09_v1",
+      "title": "Der Einkaufszettel für den Kuchen",
+      "wordIds": [
+        "w_kaffee",
+        "w_milch",
+        "w_ei",
+        "w_zucker",
+        "w_butter",
+        "w_sahne",
+        "w_apfel",
+        "w_mehl",
+        "w_muesli",
+        "w_orangensaft"
+      ]
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "FILL_BLANK",
+      "id": "p09_q1",
+      "points": 4,
+      "topic": "Der WG-Nachmittag",
+      "prompt": "Complete the sentences from the story in the right order.",
+      "items": [
+        {
+          "sentence": "Max findet Mehl und ___.",
+          "answers": [
+            "Zucker"
+          ],
+          "hint": "what you stir into the dough"
+        },
+        {
+          "sentence": "Max braucht ___. Er geht zu Frau Müller.",
+          "answers": [
+            "Eier"
+          ],
+          "hint": "das, plural — needed for the cake"
+        },
+        {
+          "sentence": "Bea und Max machen einen ___kuchen.",
+          "answers": [
+            "Apfel"
+          ],
+          "hint": "the fruit from the orchard"
+        },
+        {
+          "sentence": "Alle trinken Kaffee und essen ___.",
+          "answers": [
+            "Kuchen"
+          ],
+          "hint": "der — what they all end up eating"
+        },
+        {
+          "sentence": "Anna und Luca kommen mit ___ nach Hause.",
+          "answers": [
+            "Kuchen"
+          ],
+          "hint": "they brought one too — that is the joke"
+        }
+      ]
+    }
+  ]
+}

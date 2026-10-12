@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 2,
+  "id": "p01",
+  "title": "Guten Tag! — Deutsch international",
+  "version": 1,
+  "estimatedMin": 6,
+  "blocks": [
+    {
+      "type": "NOTE",
+      "variant": "TIP",
+      "id": "p01_n1",
+      "title": "Was diese Lektion von dir will",
+      "paragraphs": [
+        {
+          "lang": "en",
+          "text": "Lektion 1 gives you your first ten minutes in German: how to say hello, how to say who you are, and how to ask somebody how they are without freezing on the reply. Everything else in this lesson — the numbers, the addresses, the countries — exists so that you can finish a short conversation instead of only starting one.\n"
+        },
+        {
+          "lang": "de",
+          "text": "grüßen und verabschieden · sich und andere vorstellen · nach dem Befinden fragen und darauf reagieren · über sich und andere sprechen · Zahlen bis 20 nennen · Telefonnummer und E-Mail-Adresse nennen\n"
+        },
+        {
+          "lang": "en",
+          "text": "Read that list once now and once more when you reach the last page. By then every line of it will be something you can actually say, and you will notice how much German you are already holding.\n"
+        },
+        {
+          "lang": "en",
+          "text": "The picture task on this page is a warm-up, not a test. Nine photographs, nine words that travelled into German from other languages — or out of German into them. Look at number 1, {{de:Butterbrot}}, and its Russian twin; you already know the thing, so you only have to borrow the word.\n"
+        }
+      ]
+    },
+    {
+      "type": "VOCAB",
+      "variant": "CARD_SET",
+      "id": "p01_v1",
+      "title": "Deutsch international",
+      "wordIds": [
+        "w_butterbrot",
+        "w_flasche",
+        "w_koffer",
+        "w_handtuch",
+        "w_kindergarten",
+        "w_autobahn",
+        "w_wuerstchen"
+      ]
+    },
+    {
+      "type": "EXAMPLES",
+      "variant": "EXAMPLE_BOX",
+      "id": "p01_ex1",
+      "title": "Neun Wörter, neun Sprachen",
+      "items": [
+        {
+          "german": "das Butterbrot (Russisch: бутерброд)",
+          "english": "bread and butter — a slice of bread with something on it"
+        },
+        {
+          "german": "die Flasche (Serbisch: flaša)",
+          "english": "bottle"
+        },
+        {
+          "german": "der Koffer (Bulgarisch: куфар)",
+          "english": "suitcase"
+        },
+        {
+          "german": "das Handtuch (Indonesisch: handuk)",
+          "english": "towel"
+        },
+        {
+          "german": "der Kindergarten (Englisch: kindergarten)",
+          "english": "kindergarten — the word Germany exported"
+        },
+        {
+          "german": "die Autobahn (Türkisch: otoban)",
+          "english": "motorway, freeway"
+        },
+        {
+          "german": "das Würstchen (Italienisch: wurstel)",
+          "english": "small sausage"
+        },
+        {
+          "german": "der Kranke (Japanisch: クランケ)",
+          "english": "patient — from the same root as krank, ill"
+        }
+      ]
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "MATCH",
+      "id": "p01_q1",
+      "points": 3,
+      "topic": "Deutsch international",
+      "prompt": "Match each German word to its meaning:",
+      "pairs": [
+        {
+          "german": "das Butterbrot",
+          "english": "bread and butter"
+        },
+        {
+          "german": "die Flasche",
+          "english": "bottle"
+        },
+        {
+          "german": "der Koffer",
+          "english": "suitcase"
+        },
+        {
+          "german": "das Handtuch",
+          "english": "towel"
+        },
+        {
+          "german": "der Kindergarten",
+          "english": "nursery school"
+        },
+        {
+          "german": "die Autobahn",
+          "english": "motorway"
+        },
+        {
+          "german": "das Würstchen",
+          "english": "small sausage"
+        }
+      ]
+    }
+  ]
+}

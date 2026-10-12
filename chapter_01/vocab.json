@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "chapterId": "chapter_01",
   "words": [
     {
@@ -22,7 +22,8 @@
       "exampleGerman": "Das Butterbrot heißt auf Russisch buterbrod.",
       "exampleEnglish": "In Russian, bread and butter is buterbrod.",
       "sectionIds": [
-        "s1_hallo"
+        "p01",
+        "p02"
       ]
     },
     {
@@ -44,7 +45,8 @@
       "exampleGerman": "Die Flasche heißt auf Serbisch flaša.",
       "exampleEnglish": "In Serbian, bottle is flaša.",
       "sectionIds": [
-        "s1_hallo"
+        "p01",
+        "p02"
       ]
     },
     {
@@ -66,7 +68,8 @@
       "exampleGerman": "Der Koffer ist von Alexander.",
       "exampleEnglish": "The suitcase is Alexander's.",
       "sectionIds": [
-        "s1_hallo"
+        "p01",
+        "p02"
       ]
     },
     {
@@ -88,7 +91,8 @@
       "exampleGerman": "Das ist das Handtuch.",
       "exampleEnglish": "That is the towel.",
       "sectionIds": [
-        "s1_hallo"
+        "p01",
+        "p02"
       ]
     },
     {
@@ -111,7 +115,8 @@
       "exampleGerman": "Der Kindergarten heißt auf Englisch kindergarten.",
       "exampleEnglish": "In English, kindergarten is kindergarten.",
       "sectionIds": [
-        "s1_hallo"
+        "p01",
+        "p02"
       ]
     },
     {
@@ -134,7 +139,8 @@
       "exampleGerman": "Die Autobahn heißt auf Türkisch otoban.",
       "exampleEnglish": "In Turkish, motorway is otoban.",
       "sectionIds": [
-        "s1_hallo"
+        "p01",
+        "p02"
       ]
     },
     {
@@ -156,7 +162,8 @@
       "exampleGerman": "Das Würstchen heißt auf Italienisch wurstel.",
       "exampleEnglish": "In Italian, the small sausage is wurstel.",
       "sectionIds": [
-        "s1_hallo"
+        "p01",
+        "p02"
       ]
     },
     {
@@ -178,8 +185,8 @@
       "exampleGerman": "Ich heiße Niklas.",
       "exampleEnglish": "My name is Niklas.",
       "sectionIds": [
-        "s1_hallo",
-        "s2_guten_tag"
+        "p03",
+        "p04"
       ]
     },
     {
@@ -200,8 +207,7 @@
       "exampleGerman": "Ich bin Julia.",
       "exampleEnglish": "I am Julia.",
       "sectionIds": [
-        "s1_hallo",
-        "s2_guten_tag"
+        "p04"
       ]
     },
     {
@@ -220,7 +226,7 @@
       "exampleGerman": "Hallo Niklas! Wie geht's?",
       "exampleEnglish": "Hello Niklas! How are you?",
       "sectionIds": [
-        "s1_hallo"
+        "p03"
       ]
     },
     {
@@ -240,7 +246,7 @@
       "exampleGerman": "Tschüs Julia! Bis bald!",
       "exampleEnglish": "Bye Julia! See you soon!",
       "sectionIds": [
-        "s1_hallo"
+        "p03"
       ]
     },
     {
@@ -259,8 +265,7 @@
       "exampleGerman": "Danke, sehr gut!",
       "exampleEnglish": "Thanks, very good!",
       "sectionIds": [
-        "s1_hallo",
-        "s2_guten_tag"
+        "p03"
       ]
     },
     {
@@ -280,7 +285,8 @@
       "exampleGerman": "Guten Tag, Frau Weber!",
       "exampleEnglish": "Good day, Ms Weber!",
       "sectionIds": [
-        "s2_guten_tag"
+        "p01",
+        "p04"
       ]
     },
     {
@@ -299,7 +305,7 @@
       "exampleGerman": "Auf Wiedersehen, Herr Hansen!",
       "exampleEnglish": "Goodbye, Mr Hansen!",
       "sectionIds": [
-        "s2_guten_tag"
+        "p04"
       ]
     },
     {
@@ -321,7 +327,7 @@
       "exampleGerman": "Mein Name ist Nina Weber.",
       "exampleEnglish": "My name is Nina Weber.",
       "sectionIds": [
-        "s2_guten_tag"
+        "p04"
       ]
     },
     {
@@ -343,7 +349,7 @@
       "exampleGerman": "Nina ist der Vorname.",
       "exampleEnglish": "Nina is the first name.",
       "sectionIds": [
-        "s2_guten_tag"
+        "p04"
       ]
     },
     {
@@ -366,7 +372,8 @@
       "exampleGerman": "Weber ist der Nachname.",
       "exampleEnglish": "Weber is the last name.",
       "sectionIds": [
-        "s2_guten_tag"
+        "p04",
+        "p09"
       ]
     },
     {
@@ -387,7 +394,7 @@
       "exampleGerman": "Ich komme aus Deutschland.",
       "exampleEnglish": "I come from Germany.",
       "sectionIds": [
-        "s3_woher_kommen"
+        "p05"
       ]
     },
     {
@@ -408,7 +415,7 @@
       "exampleGerman": "Ich wohne in Zürich.",
       "exampleEnglish": "I live in Zurich.",
       "sectionIds": [
-        "s3_woher_kommen"
+        "p05"
       ]
     },
     {
@@ -429,7 +436,8 @@
       "exampleGerman": "Ich spreche Deutsch und Englisch.",
       "exampleEnglish": "I speak German and English.",
       "sectionIds": [
-        "s3_woher_kommen"
+        "p05",
+        "p07"
       ]
     },
     {
@@ -449,7 +457,8 @@
       "exampleGerman": "Ich lerne Deutsch.",
       "exampleEnglish": "I learn German.",
       "sectionIds": [
-        "s3_woher_kommen"
+        "p07",
+        "p08"
       ]
     },
     {
@@ -471,7 +480,9 @@
       "exampleGerman": "Welche Sprachen sprichst du?",
       "exampleEnglish": "Which languages do you speak?",
       "sectionIds": [
-        "s3_woher_kommen"
+        "p05",
+        "p07",
+        "p08"
       ]
     },
     {
@@ -493,7 +504,8 @@
       "exampleGerman": "Spanien ist ein Land.",
       "exampleEnglish": "Spain is a country.",
       "sectionIds": [
-        "s3_woher_kommen"
+        "p07",
+        "p08"
       ]
     },
     {
@@ -516,7 +528,7 @@
       "exampleGerman": "Berlin ist eine Stadt.",
       "exampleEnglish": "Berlin is a city.",
       "sectionIds": [
-        "s3_woher_kommen"
+        "p08"
       ]
     },
     {
@@ -538,7 +550,7 @@
       "exampleGerman": "Wie ist Ihre Telefonnummer?",
       "exampleEnglish": "What is your telephone number?",
       "sectionIds": [
-        "s4_zahlen_kontakt"
+        "p06"
       ]
     },
     {
@@ -560,7 +572,7 @@
       "exampleGerman": "Wie ist deine E-Mail-Adresse?",
       "exampleEnglish": "What is your e-mail address?",
       "sectionIds": [
-        "s4_zahlen_kontakt"
+        "p06"
       ]
     },
     {
@@ -583,7 +595,8 @@
       "exampleGerman": "Und wie ist deine Nummer?",
       "exampleEnglish": "And what is your number?",
       "sectionIds": [
-        "s4_zahlen_kontakt"
+        "p06",
+        "p09"
       ]
     },
     {
@@ -603,7 +616,7 @@
       "exampleGerman": "Kannst du das buchstabieren?",
       "exampleEnglish": "Can you spell that?",
       "sectionIds": [
-        "s4_zahlen_kontakt"
+        "p06"
       ]
     },
     {
@@ -625,7 +638,7 @@
       "exampleGerman": "Die Reiseführerin zeigt uns die Kirche.",
       "exampleEnglish": "The tour guide shows us the church.",
       "sectionIds": [
-        "s3_woher_kommen"
+        "p05"
       ]
     }
   ]

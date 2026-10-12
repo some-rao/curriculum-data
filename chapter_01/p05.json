@@ -1,0 +1,214 @@
+{
+  "schemaVersion": 2,
+  "id": "p05",
+  "title": "Woher kommen Sie? — Selina Lang, Reiseführerin",
+  "version": 1,
+  "estimatedMin": 9,
+  "blocks": [
+    {
+      "type": "LESSON_PAGE",
+      "variant": "READING",
+      "id": "p05_r1",
+      "headline": "Selina Lang — Reiseführerin",
+      "paragraphs": [
+        {
+          "lang": "en",
+          "text": "This is the first text in the book that is not a conversation: a small business card. Read it the way you would read a card handed to you in a hotel lobby — not word by word, but for the three facts you need. The heading tells you what she does in three languages at once, the green line gives her name, and the three words underneath are the languages she works in.\n"
+        },
+        {
+          "lang": "en",
+          "text": "Then answer the three questions in exercise 4a. Each answer is one short sentence with the verb at the front of it — that word order is the point of the grammar box beside it, so read the answers aloud once before you look at the rule.\n"
+        },
+        {
+          "lang": "de",
+          "text": "Woher kommen Sie, Frau Lang? — Ich komme aus Deutschland. · Welche Sprachen sprechen Sie? — Ich spreche Spanisch, Englisch und Deutsch. · Wo wohnen Sie? — Ich wohne in Frankfurt.\n"
+        }
+      ],
+      "vocabHighlight": [
+        {
+          "german": "Reiseführerin — guia de turismo — tourist guide",
+          "english": "tour guide (female)"
+        },
+        {
+          "german": "Deutsch · Spanisch · Englisch",
+          "english": "German · Spanish · English"
+        },
+        {
+          "german": "Ludwigstraße 39 – 60327 Frankfurt",
+          "english": "39 Ludwig Street, 60327 Frankfurt"
+        }
+      ]
+    },
+    {
+      "type": "GRAMMAR",
+      "variant": "RULE",
+      "id": "p05_g1",
+      "ruleHeadline": "W-Frage und Aussagesatz",
+      "paragraphs": [
+        {
+          "lang": "en",
+          "text": "A German statement puts the verb in position two, and a German question simply fills position one with the word you are asking about. Nothing else moves. If you want to know the name, the word {{de:Wie}} steps forward and the verb follows it immediately: {{de:Wie heißt du?}}\n"
+        },
+        {
+          "lang": "de",
+          "text": "Wie heißt du? — Ich heiße Ian. · Wo wohnst du? — Ich wohne in Zürich. · Woher kommst du? — Ich komme aus Frankfurt.\n"
+        },
+        {
+          "lang": "en",
+          "text": "Three question words are enough for this page. {{de:Wie}} asks about a manner or a name, {{de:Wo}} asks where something is, and {{de:Woher}} asks where something comes from — note that {{de:Woher}} is one word, not two, so a question about origin costs you a single word before the verb.\n"
+        },
+        {
+          "lang": "en",
+          "text": "Read the right-hand column aloud too. Each answer starts with the subject, and the subject is what position the verb is counting from, so the pattern you practised on the last page returns unchanged: {{de:ich wohne}}, {{de:du wohnst}}, {{de:Sie wohnen}}.\n"
+        }
+      ],
+      "targetSentenceGerman": "Woher kommen Sie? — Ich komme aus Frankfurt.",
+      "targetSentenceEnglish": "Where do you come from? — I come from Frankfurt.",
+      "examples": [
+        {
+          "german": "Wie heißt du?",
+          "english": "What are you called?"
+        },
+        {
+          "german": "Ich heiße Ian.",
+          "english": "I'm called Ian."
+        },
+        {
+          "german": "Wo wohnst du?",
+          "english": "Where do you live?"
+        },
+        {
+          "german": "Ich wohne in Zürich.",
+          "english": "I live in Zurich."
+        },
+        {
+          "german": "Woher kommst du?",
+          "english": "Where do you come from?"
+        },
+        {
+          "german": "Ich komme aus Frankfurt.",
+          "english": "I come from Frankfurt."
+        }
+      ],
+      "builder": {
+        "fixedPrefix": "Woher",
+        "solutionWords": [
+          "kommen",
+          "Sie"
+        ],
+        "wordPool": [
+          "kommen",
+          "Sie",
+          "du",
+          "wohnen",
+          "Was",
+          "ich"
+        ]
+      }
+    },
+    {
+      "type": "GRAMMAR",
+      "variant": "RULE",
+      "id": "p05_g2",
+      "ruleHeadline": "wohnen, kommen und sein — die Endungen",
+      "paragraphs": [
+        {
+          "lang": "en",
+          "text": "Exercise 4c asks you to fill three verbs into four sentences, and the box beside it hands you the whole table. Read down the columns rather than across: the ending belongs to the pronoun, not to the verb, so {{de:wohne}}, {{de:komme}} and {{de:bin}} all belong to the same person.\n"
+        },
+        {
+          "lang": "de",
+          "text": "ich wohne · du wohnst · er/sie wohnt · Sie wohnen"
+        },
+        {
+          "lang": "de",
+          "text": "ich komme · du kommst · er/sie kommt · Sie kommen"
+        },
+        {
+          "lang": "en",
+          "text": "{{de:sein}} is the odd one out and worth its own look — {{de:bin}}, {{de:bist}}, {{de:ist}}, {{de:sind}} share no spelling at all, which is exactly why it is the first verb anybody memorises. The other two behave: {{de:-e}}, {{de:-st}}, {{de:-t}}, {{de:-en}}.\n"
+        }
+      ],
+      "targetSentenceGerman": "Das ist Frau Lang. Sie kommt aus Deutschland.",
+      "targetSentenceEnglish": "This is Ms Lang. She comes from Germany.",
+      "examples": [
+        {
+          "german": "ich wohne in Frankfurt.",
+          "english": "I live in Frankfurt."
+        },
+        {
+          "german": "du wohnst in Zürich.",
+          "english": "you live in Zurich."
+        },
+        {
+          "german": "Er wohnt in Zürich.",
+          "english": "He lives in Zurich."
+        },
+        {
+          "german": "Sie kommen aus Deutschland.",
+          "english": "You (formal) come from Germany."
+        }
+      ]
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "FILL_BLANK",
+      "id": "p05_q1",
+      "points": 3,
+      "topic": "Verben ergänzen",
+      "prompt": "Complete the sentences from exercise 4c with the right verb form.",
+      "items": [
+        {
+          "sentence": "Das ist Frau Lang. Sie ___ aus Deutschland.",
+          "answers": [
+            "kommt"
+          ],
+          "hint": "sie = she"
+        },
+        {
+          "sentence": "Sie ___ in Frankfurt.",
+          "answers": [
+            "wohnt"
+          ],
+          "hint": "sie = she"
+        },
+        {
+          "sentence": "Jan ___ aus Frankfurt.",
+          "answers": [
+            "kommt"
+          ],
+          "hint": "er = he"
+        },
+        {
+          "sentence": "Er ___ in Zürich.",
+          "answers": [
+            "wohnt"
+          ],
+          "hint": "er = he"
+        }
+      ]
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "MULTIPLE_CHOICE",
+      "id": "p05_q2",
+      "points": 2,
+      "topic": "W-Frage",
+      "passage": "Aus Frankfurt.",
+      "prompt": "Which question does this answer belong to?",
+      "options": [
+        "Wie wohnst du?",
+        "Woher kommst du?",
+        "Was heißt du?"
+      ],
+      "correctIndex": 1,
+      "explanationEnglish": "The answer names a place someone comes from, so the question word is Woher — it fills position one and the verb comes straight after it.",
+      "concept": {
+        "title": "W-Frage",
+        "rule": "A German question puts the question word in position one and the conjugated verb straight after it; the subject follows the verb. Woher asks about origin, Wo about location.",
+        "exampleGerman": "Woher kommst du? — Ich komme aus Frankfurt.",
+        "exampleEnglish": "Where do you come from? — I come from Frankfurt."
+      }
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "schemaVersion": 2,
+  "id": "p07",
+  "title": "Länder und Sprachen — drei Porträts",
+  "version": 1,
+  "estimatedMin": 8,
+  "blocks": [
+    {
+      "type": "LESSON_PAGE",
+      "variant": "READING",
+      "id": "p07_r1",
+      "headline": "Länder und Sprachen",
+      "paragraphs": [
+        {
+          "lang": "en",
+          "text": "Three people, three short texts, and one task: fill the table in 8a with where each person comes from, where they live, which languages they speak and which one they are learning. The texts are built from four verbs you already own — {{de:kommen}}, {{de:wohnen}}, {{de:sprechen}}, {{de:lernen}} — so read for the facts, not for the grammar.\n"
+        },
+        {
+          "lang": "de",
+          "text": "Olivia Miller kommt aus den USA. Sie wohnt in San Francisco. Sie spricht Englisch und Deutsch. Sie lernt Spanisch.\n"
+        },
+        {
+          "lang": "de",
+          "text": "Gabriel Santos kommt aus Brasilien. Er wohnt in Deutschland, in Köln. Er spricht Portugiesisch, Deutsch und Englisch.\n"
+        },
+        {
+          "lang": "de",
+          "text": "Alessia Conti spricht Italienisch, Französisch und Deutsch. Sie kommt aus der Schweiz und wohnt in Lugano.\n"
+        },
+        {
+          "lang": "en",
+          "text": "Notice the little words carrying the geography. After {{de:kommt}} you get {{de:aus}} with a country, after {{de:wohnt}} you get {{de:in}} with a city — one preposition for where you are from, another for where you are. Alessia shows the same pair inside one sentence: {{de:aus der Schweiz}}, {{de:in Lugano}}.\n"
+        },
+        {
+          "lang": "en",
+          "text": "Then there is a fifth column in the table, {{de:lernt}}, and Olivia is the only one of the three who fills it. Speaking languages and learning one are two different facts about a person, and German keeps them apart with two different verbs.\n"
+        }
+      ]
+    },
+    {
+      "type": "VOCAB",
+      "variant": "CARD_SET",
+      "id": "p07_v1",
+      "title": "Verben und Themen dieser Seite",
+      "wordIds": [
+        "w_sprechen",
+        "w_lernen",
+        "w_sprache",
+        "w_land"
+      ]
+    },
+    {
+      "type": "EXAMPLES",
+      "variant": "EXAMPLE_BOX",
+      "id": "p07_ex1",
+      "title": "Länder und Sprachen",
+      "items": [
+        {
+          "german": "aus den USA · aus Brasilien · aus der Schweiz",
+          "english": "from the USA · from Brazil · from Switzerland"
+        },
+        {
+          "german": "in Deutschland · in Köln · in San Francisco · in Lugano",
+          "english": "in Germany · in Cologne · in San Francisco · in Lugano"
+        },
+        {
+          "german": "Englisch · Deutsch · Spanisch · Portugiesisch · Italienisch · Französisch",
+          "english": "English · German · Spanish · Portuguese · Italian · French"
+        },
+        {
+          "german": "Ich komme aus der Schweiz und wohne in Lugano.",
+          "english": "I come from Switzerland and live in Lugano."
+        },
+        {
+          "german": "Sie lernt Spanisch.",
+          "english": "She is learning Spanish."
+        }
+      ]
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "FILL_BLANK",
+      "id": "p07_q1",
+      "points": 4,
+      "topic": "kommt aus, wohnt in, spricht, lernt",
+      "prompt": "Complete the table from exercise 8a with the right verb form:",
+      "items": [
+        {
+          "sentence": "Gabriel Santos ___ aus Brasilien.",
+          "answers": [
+            "kommt"
+          ],
+          "hint": "er = he"
+        },
+        {
+          "sentence": "Er ___ in Deutschland, in Köln.",
+          "answers": [
+            "wohnt"
+          ],
+          "hint": "er = he"
+        },
+        {
+          "sentence": "Er ___ Portugiesisch, Deutsch und Englisch.",
+          "answers": [
+            "spricht"
+          ],
+          "hint": "er = he"
+        },
+        {
+          "sentence": "Olivia ___ Spanisch.",
+          "answers": [
+            "lernt"
+          ],
+          "hint": "sie = she"
+        }
+      ]
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "MULTIPLE_CHOICE",
+      "id": "p07_q2",
+      "points": 2,
+      "topic": "aus und in",
+      "passage": "Alessia Conti kommt aus der Schweiz und wohnt in Lugano.",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "Alessia kommt in der Schweiz und wohnt aus Lugano.",
+        "Alessia kommt aus der Schweiz und wohnt in Lugano.",
+        "Alessia kommt von der Schweiz und wohnt auf Lugano."
+      ],
+      "correctIndex": 1,
+      "explanationEnglish": "A place you originate from goes with aus; a place you live in goes with in. The two prepositions swap roles depending on whether the sentence is about origin or residence.",
+      "concept": {
+        "title": "aus und in",
+        "rule": "Use aus before the country or city someone comes from, and in before the country or city someone lives. aus marks origin, in marks location.",
+        "exampleGerman": "Ich komme aus Deutschland und wohne in Köln.",
+        "exampleEnglish": "I come from Germany and live in Cologne."
+      }
+    }
+  ]
+}

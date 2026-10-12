@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "id": "p07",
+  "title": "Events in Hamburg",
+  "version": 1,
+  "estimatedMin": 7,
+  "blocks": [
+    {
+      "type": "NOTE",
+      "variant": "TIP",
+      "id": "p07_n1",
+      "title": "Wörter, die man schon kennt",
+      "paragraphs": [
+        {
+          "lang": "en",
+          "text": "Culture words travel well. {{de:Festival}}, {{de:Orchester}}, {{de:Konzert}} — a page about events in Hamburg looks far more intimidating than it reads, because most of the nouns arrived in English and French by the same route. Skimming for those loanwords will already tell you what each tip is about.\n"
+        },
+        {
+          "lang": "en",
+          "text": "Two habits still pay off. First, collect the article with every new word — {{de:der Chor}} sits next to {{de:das Orchester}}, and the English twin offers no clue which is which. Second, watch the familiar ones carefully: {{de:Publikum}} is the audience, the people sitting in the hall, which is a narrower meaning than its English lookalike.\n"
+        },
+        {
+          "lang": "de",
+          "text": "Das Theater · das Festival · das Orchester · der Chor · das Konzert · der Film · das Publikum\n"
+        }
+      ]
+    },
+    {
+      "type": "EXAMPLES",
+      "variant": "EXAMPLE_BOX",
+      "id": "p07_ex1",
+      "title": "Veranstaltungstipps",
+      "items": [
+        {
+          "german": "Hamburger Theater-Festival, 12. bis 18. Oktober: Theater aus Deutschland, Österreich und der Schweiz. Tickets gibt es im Thalia Theater, ab 12,50 Euro.\n",
+          "english": "Hamburg Theatre Festival, 12–18 October: theatres from Germany, Austria and Switzerland. Tickets at the Thalia Theatre, from €12.50.\n"
+        },
+        {
+          "german": "Orchester aus aller Welt zu Gast in Hamburg, 25. Oktober: Das Orchester des Champs-Élysées spielt das Requiem von Wolfgang Amadeus Mozart in der Elbphilharmonie. Es singen der Chor Collegium Vocale aus Gent. 20:00 Uhr, ab 29 Euro.\n",
+          "english": "Orchestras from around the world in Hamburg, 25 October: the Orchestre des Champs-Élysées plays Mozart's Requiem at the Elbphilharmonie. The Choir Collegium Vocale from Ghent sings. 8 pm, from €29.\n"
+        },
+        {
+          "german": "Kino für alle, Hamburg, 27. September bis 6. Oktober: 40.000 Filmfans sehen über 100 Filme, deutsche und internationale Produktionen. Regisseur Fatih Akin präsentiert dem Publikum seinen neuen Film.\n",
+          "english": "Cinema for all, Hamburg, 27 September – 6 October: 40,000 film fans see over 100 films, German and international productions. Director Fatih Akin presents his new film to the audience.\n"
+        }
+      ]
+    },
+    {
+      "type": "VOCAB",
+      "variant": "CARD_SET",
+      "id": "p07_v1",
+      "title": "Kultur und Events",
+      "wordIds": [
+        "w_theater",
+        "w_festival",
+        "w_orchester",
+        "w_konzert",
+        "w_film",
+        "w_chor",
+        "w_kino",
+        "w_publikum"
+      ]
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "MATCH",
+      "id": "p07_q1",
+      "points": 3,
+      "topic": "Internationale Wörter",
+      "prompt": "Some words you already know. Match the German to the English.",
+      "pairs": [
+        {
+          "german": "das Festival",
+          "english": "the festival"
+        },
+        {
+          "german": "das Orchester",
+          "english": "the orchestra"
+        },
+        {
+          "german": "der Chor",
+          "english": "the choir"
+        },
+        {
+          "german": "das Konzert",
+          "english": "the concert"
+        },
+        {
+          "german": "der Film",
+          "english": "the film"
+        },
+        {
+          "german": "das Publikum",
+          "english": "the audience"
+        }
+      ]
+    }
+  ]
+}

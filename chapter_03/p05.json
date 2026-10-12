@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 2,
+  "id": "p05",
+  "title": "Kein Glück?!",
+  "version": 1,
+  "estimatedMin": 8,
+  "blocks": [
+    {
+      "type": "LESSON_PAGE",
+      "variant": "READING",
+      "id": "p05_l1",
+      "headline": "Eine Bildgeschichte",
+      "paragraphs": [
+        {
+          "lang": "en",
+          "text": "A student is on her way to a lesson, and everything goes wrong. Five pictures, five captions — read the pictures first and the captions will mostly confirm what you already guessed.\n"
+        },
+        {
+          "lang": "en",
+          "text": "Three of the five captions hinge on one small word. {{de:kein Fahrrad}}, {{de:kein Bus}}, {{de:Keine Fahrkarte}} — when German denies that a thing is there, it does not reach for a separate \"not\". It changes the article, and the changed article already carries the meaning.\n"
+        }
+      ],
+      "turns": [
+        {
+          "speaker": "Bild A",
+          "german": "Oje, kein Fahrrad! Schnell, da ist ein Bus!",
+          "english": "Oh no, no bicycle! Quick, there's a bus!"
+        },
+        {
+          "speaker": "Bild B",
+          "german": "Ach nee, kein Bus. Also schnell! Wo ist die U-Bahn?",
+          "english": "Oh no, no bus. Hurry then! Where's the subway?"
+        },
+        {
+          "speaker": "Bild C",
+          "german": "Oh, nein! Keine Fahrkarte?!",
+          "english": "Oh no! No ticket?!"
+        },
+        {
+          "speaker": "Bild D",
+          "german": "Ich gehe zu Fuß. Jetzt aber schnell!",
+          "english": "I'll walk. Then let's be quick about it!"
+        },
+        {
+          "speaker": "Bild E",
+          "german": "Heute kein Test! So ein Glück!",
+          "english": "No test today! What a stroke of luck!"
+        }
+      ]
+    },
+    {
+      "type": "GRAMMAR",
+      "variant": "RULE",
+      "id": "p05_g1",
+      "ruleHeadline": "Negationsartikel kein",
+      "paragraphs": [
+        {
+          "lang": "en",
+          "text": "The negation article fills exactly the slot where ein or eine would stand. Ask yourself first which indefinite article the noun would take if the thing were there — then take its negated twin: kein for masculine and neuter, keine for feminine and for the plural.\n"
+        },
+        {
+          "lang": "de",
+          "text": "maskulin: kein Bus · neutrum: kein Fahrrad · feminin: keine U-Bahn · Plural: keine Autos\n"
+        },
+        {
+          "lang": "en",
+          "text": "The noun itself stays untouched; only the article picks up the -e ending for feminine and plural. And there is a second use you already heard in the taxi: kein also corrects a wrong guess, as in \"no, that is not a lake — that is a river\".\n"
+        }
+      ],
+      "examples": [
+        {
+          "german": "Ist das ein Bus? Nein, das ist kein Bus.",
+          "english": "Is that a bus? No, that is not a bus."
+        },
+        {
+          "german": "Ist das eine Kirche? Nein, das ist keine Kirche, das ist das Rathaus.",
+          "english": "Is that a church? No, that is not a church, that is the town hall."
+        },
+        {
+          "german": "Sind das Busse? Nein, das sind keine Busse.",
+          "english": "Are those buses? No, those are not buses."
+        }
+      ]
+    },
+    {
+      "type": "VOCAB",
+      "variant": "CARD_SET",
+      "id": "p05_v1",
+      "title": "Unterwegs — und ohne Glück",
+      "wordIds": [
+        "w_bus",
+        "w_fahrrad",
+        "w_ubahn",
+        "w_fahrkarte",
+        "w_auto",
+        "w_zu_fuss",
+        "w_glueck",
+        "w_schnell"
+      ]
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "MULTIPLE_CHOICE",
+      "id": "p05_q1",
+      "points": 2,
+      "topic": "kein oder keine?",
+      "passage": "Ist das eine U-Bahn?",
+      "prompt": "The picture shows a bus, not a subway. Which answer is correct?",
+      "options": [
+        "Nein, das ist kein U-Bahn.",
+        "Nein, das ist keine U-Bahn.",
+        "Nein, das ist nicht eine U-Bahn."
+      ],
+      "correctIndex": 1,
+      "explanationEnglish": "U-Bahn is feminine, so the negation carries the -e: keine U-Bahn. After kein the noun keeps its bare form — there is no second article in front of it.\n",
+      "concept": {
+        "title": "kein = nicht ein",
+        "rule": "kein replaces ein or eine when you deny that a thing is there. Feminine and plural nouns take keine; masculine and neuter take kein. The noun itself never changes.\n",
+        "exampleGerman": "Nein, das ist keine U-Bahn, das ist ein Bus.",
+        "exampleEnglish": "No, that is not a subway, that is a bus."
+      }
+    }
+  ]
+}

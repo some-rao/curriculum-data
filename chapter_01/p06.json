@@ -1,0 +1,265 @@
+{
+  "schemaVersion": 2,
+  "id": "p06",
+  "title": "Zahlen und Buchstaben — von null bis zwanzig",
+  "version": 1,
+  "estimatedMin": 9,
+  "blocks": [
+    {
+      "type": "NOTE",
+      "variant": "TIP",
+      "id": "p06_n1",
+      "title": "Zahlen lesen und sprechen",
+      "paragraphs": [
+        {
+          "lang": "en",
+          "text": "The box at the top right of this page shows a small trap that catches almost everyone at first: in {{de:vierzehn}} the stress sits on the second half, {{de:zehn}}, while in the answer to a maths problem the number sits where a German expects it. Say the pair aloud and your ear will separate them — {{de:vierZEHN}} against {{de:VIERzig}} — even though the spelling is only a couple of letters apart.\n"
+        },
+        {
+          "lang": "en",
+          "text": "Eleven and twelve refuse the pattern completely: {{de:elf}} and {{de:zwölf}} are their own words, with no {{de:zehn}} hiding inside them. From thirteen upward the pattern is honest — the unit comes first and {{de:zehn}} follows — until twenty, where {{de:zwanzig}} closes the set and the {{de:-zig}} you have just met returns whenever you go on to thirty.\n"
+        },
+        {
+          "lang": "de",
+          "text": "elf · zwölf · dreizehn · vierzehn · fünfzehn · sechzehn · siebzehn · achtzehn · neunzehn · zwanzig\n"
+        },
+        {
+          "lang": "en",
+          "text": "Two spellings in that line are worth a second glance: {{de:sechzehn}} drops the t of {{de:sechs}}, and {{de:siebzehn}} drops the en of {{de:sieben}}. Both changes exist to keep the word short enough to say quickly, and both are written for you on the number line above.\n"
+        }
+      ]
+    },
+    {
+      "type": "EXAMPLES",
+      "variant": "PHRASE_LIST",
+      "id": "p06_ex1",
+      "title": "Die Zahlen von null bis zwanzig",
+      "items": [
+        {
+          "german": "null",
+          "english": "0"
+        },
+        {
+          "german": "eins",
+          "english": "1"
+        },
+        {
+          "german": "zwei",
+          "english": "2"
+        },
+        {
+          "german": "drei",
+          "english": "3"
+        },
+        {
+          "german": "vier",
+          "english": "4"
+        },
+        {
+          "german": "fünf",
+          "english": "5"
+        },
+        {
+          "german": "sechs",
+          "english": "6"
+        },
+        {
+          "german": "sieben",
+          "english": "7"
+        },
+        {
+          "german": "acht",
+          "english": "8"
+        },
+        {
+          "german": "neun",
+          "english": "9"
+        },
+        {
+          "german": "zehn",
+          "english": "10"
+        },
+        {
+          "german": "elf",
+          "english": "11"
+        },
+        {
+          "german": "zwölf",
+          "english": "12"
+        },
+        {
+          "german": "dreizehn",
+          "english": "13"
+        },
+        {
+          "german": "vierzehn",
+          "english": "14"
+        },
+        {
+          "german": "fünfzehn",
+          "english": "15"
+        },
+        {
+          "german": "sechzehn",
+          "english": "16"
+        },
+        {
+          "german": "siebzehn",
+          "english": "17"
+        },
+        {
+          "german": "achtzehn",
+          "english": "18"
+        },
+        {
+          "german": "neunzehn",
+          "english": "19"
+        },
+        {
+          "german": "zwanzig",
+          "english": "20"
+        }
+      ]
+    },
+    {
+      "type": "EXAMPLES",
+      "variant": "PHRASE_LIST",
+      "id": "p06_ex2",
+      "title": "Das Alphabet — hören Sie zuerst und sprechen Sie laut mit",
+      "items": [
+        {
+          "german": "a b c d e f g",
+          "english": "a, be, tse, de, e, ef, ge"
+        },
+        {
+          "german": "h i j k l m n",
+          "english": "ha, i, jot, ka, el, em, en"
+        },
+        {
+          "german": "o p q r s t u",
+          "english": "o, pe, ku, er, es, te, u"
+        },
+        {
+          "german": "v w x y z",
+          "english": "fau, we, iks, üpsilon, tset"
+        },
+        {
+          "german": "ä ö ü",
+          "english": "ä, ö, ü — the three extra vowels at the end"
+        },
+        {
+          "german": "ß",
+          "english": "estset — the sharp s, written only after a long vowel"
+        }
+      ]
+    },
+    {
+      "type": "EXAMPLES",
+      "variant": "EXAMPLE_BOX",
+      "id": "p06_ex3",
+      "title": "E-Mail-Adresse sagen",
+      "items": [
+        {
+          "german": "Man schreibt: @",
+          "english": "Man sagt: ät"
+        },
+        {
+          "german": "Man schreibt: .",
+          "english": "Man sagt: Punkt"
+        },
+        {
+          "german": "Man schreibt: -",
+          "english": "Man sagt: minus"
+        },
+        {
+          "german": "Man schreibt: _",
+          "english": "Man sagt: Unterstrich"
+        },
+        {
+          "german": "alexis_barbos@quinnet.com",
+          "english": "alexis unterstrich barbos ät quinnet Punkt com"
+        }
+      ]
+    },
+    {
+      "type": "NOTE",
+      "variant": "TIP",
+      "id": "p06_n2",
+      "title": "Wie bitte?",
+      "paragraphs": [
+        {
+          "lang": "en",
+          "text": "On a telephone you will not catch every number, and a German speaker will not catch every word you say. This page hands you the four sentences that keep the conversation alive when that happens. They are more useful than any single word in the lesson, because they buy you time without ending the call.\n"
+        },
+        {
+          "lang": "de",
+          "text": "Wie bitte? · Entschuldigung, noch einmal bitte. · Das verstehe ich nicht. · Bitte ein bisschen langsamer.\n"
+        },
+        {
+          "lang": "en",
+          "text": "Say them without apology. Native speakers use exactly the same four lines with each other, and {{de:Wie bitte?}} in particular is a perfectly polite, perfectly normal reply to anything you did not hear.\n"
+        }
+      ]
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "FILL_BLANK",
+      "id": "p06_q1",
+      "points": 4,
+      "topic": "Zahlen",
+      "prompt": "Write the number as a German word:",
+      "items": [
+        {
+          "sentence": "Der Bus fährt um ___ Uhr ab. (17)",
+          "answers": [
+            "siebzehn"
+          ],
+          "hint": "sieben, with the en dropped"
+        },
+        {
+          "sentence": "Ich habe ___ Euro. (12)",
+          "answers": [
+            "zwölf"
+          ],
+          "hint": "not zwölfzehn"
+        },
+        {
+          "sentence": "Seite ___ bitte. (14)",
+          "answers": [
+            "vierzehn"
+          ],
+          "hint": "stress on -zehn"
+        },
+        {
+          "sentence": "Das ist die Nummer ___. (20)",
+          "answers": [
+            "zwanzig"
+          ],
+          "hint": "the -zig ending"
+        }
+      ]
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "MULTIPLE_CHOICE",
+      "id": "p06_q2",
+      "points": 2,
+      "topic": "E-Mail-Adresse",
+      "passage": "alexis_barbos@quinnet.com",
+      "prompt": "How do you say the @ sign aloud?",
+      "options": [
+        "affen",
+        "ät",
+        "und"
+      ],
+      "correctIndex": 1,
+      "explanationEnglish": "The symbol is called ät, so the address runs alexis unterstrich barbos ät quinnet Punkt com.",
+      "concept": {
+        "title": "Zeichen einer E-Mail-Adresse",
+        "rule": "Spoken German names each symbol instead of reading it: @ is ät, the full stop is Punkt, the hyphen is minus and the underscore is Unterstrich.",
+        "exampleGerman": "alexis_barbos@quinnet.com — alexis unterstrich barbos ät quinnet Punkt com",
+        "exampleEnglish": "alexis_barbos@quinnet.com read aloud, symbol by symbol."
+      }
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 2,
+  "id": "p10",
+  "title": "Kurz und klar: Was du kannst",
+  "version": 1,
+  "estimatedMin": 5,
+  "blocks": [
+    {
+      "type": "SUMMARY",
+      "variant": "RECAP",
+      "id": "p10_sum",
+      "title": "Was du kannst — Guten Appetit!",
+      "bullets": [
+        "You can name food, drinks, shops and the four moments of the eating day.",
+        "You can write a shopping list and invite people to a barbecue with {{de:Kommt ihr?}}",
+        "You can buy at a counter: ask a price, order with {{de:möchte}}, take one more item, decline with a reason.",
+        "You can read a price tag aloud — {{de:1,09 Euro}} becomes {{de:ein Euro neun}}.",
+        "You can put the thing you buy into the accusative: {{de:den Käse}}, {{de:das Brot}}, {{de:die Gurke}}, {{de:die Tomaten}}.",
+        "You can conjugate {{de:mögen}} and {{de:möchten}}, and say what you like with {{de:gern}}.",
+        "You can move a time word to the front and still keep the verb in position two.",
+        "You can read a longer text with the help of Wer?, Was?, Wann?, Wo? and Wie?",
+        "You can sort new words into a mindmap and into pairs, so they come back when you need them."
+      ],
+      "paragraphs": [
+        {
+          "lang": "de",
+          "text": "Guten Appetit! · Prost! · Mahlzeit! · Was kostet das? · Ich möchte …, bitte. · Sonst noch etwas? · Nein, danke. Ich bin satt. · Ich mag … / Ich esse gern … · Morgens isst Lina Müsli. · Wir grillen heute Abend bei uns. Kommt ihr?\n"
+        },
+        {
+          "lang": "en",
+          "text": "Ten sentences carry most of this lesson: a toast, a price, an order, a refusal, a preference, a statement with the verb in second place, and an invitation. Say them once without looking — if all ten come out, the rest of the chapter will follow.\n"
+        },
+        {
+          "lang": "en",
+          "text": "The habit worth keeping is the one from page 50: file each new word where it belongs, next to the word it keeps company with. Salt with pepper, bread with rolls, and a shopping list with the shop it was written for.\n"
+        }
+      ]
+    }
+  ]
+}

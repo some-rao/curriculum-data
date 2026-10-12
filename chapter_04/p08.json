@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 2,
+  "id": "p08",
+  "title": "Berufe rund um Essen — Koch am Bodensee",
+  "version": 1,
+  "estimatedMin": 8,
+  "blocks": [
+    {
+      "type": "LESSON_PAGE",
+      "variant": "READING",
+      "id": "p08_r1",
+      "headline": "Berufswahl leicht gemacht — Koch am Bodensee",
+      "paragraphs": [
+        {
+          "lang": "en",
+          "text": "The article on this page is written like the real thing: a week planned, a trip to the market, a kitchen, a quote from the person it is about. Read it once for the story of Max Schmidt, then read it again with the five questions in front of you — the second pass takes half the time.\n"
+        },
+        {
+          "lang": "de",
+          "text": "Max Schmidt und sein Chef planen zusammen das Essen für die Woche. Dann geht Max Schmidt auf den Markt. Er kauft Tomaten, Champignons und Salat. Kartoffeln und Zwiebeln braucht er auch. Dann kauft er noch frischen Fisch. Max Schmidt arbeitet seit zwei Jahren als Koch im Restaurant „Esszimmer\" in der Altstadt von Konstanz. Da gibt es jeden Tag ein anderes Fischgericht: Fische frisch aus dem Bodensee.\n"
+        },
+        {
+          "lang": "de",
+          "text": "Zurück im Restaurant wäscht, schält und schneidet er das Gemüse. Der Chef bereitet den Fisch zu. Paula, eine Kollegin, macht das Dessert. Max mag seine Arbeit. Er sagt: „Kochen ist mein Beruf, aber auch mein Hobby.\"\n"
+        },
+        {
+          "lang": "de",
+          "text": "„Ich arbeite gern in einem kleinen Team und die Kollegen sind sehr nett. Kochen ist auch sehr kreativ – das macht viel Spaß. Ich probiere gerne neue Gerichte. Oft haben wir viele Gäste. Das ist dann echt stressig! Und die Arbeitszeiten sind nicht toll. Ich arbeite normalerweise von 6 bis 15 Uhr oder von 13 bis 22 Uhr. Am Wochenende arbeite ich abends oft noch länger. Das ist natürlich nicht so schön. Ich habe nicht viel Freizeit und wenig Zeit für meine Freunde.“\n"
+        },
+        {
+          "lang": "en",
+          "text": "The highlight on the page marks the one sentence that answers three of the five questions at once: where he works, as what, and since when. Everything after it explains how he feels about it — and there the answer is genuinely mixed, which is what makes question 4 worth discussing in class.\n"
+        }
+      ],
+      "vocabHighlight": [
+        {
+          "german": "auf den Markt gehen",
+          "english": "to go to the market"
+        },
+        {
+          "german": "als Koch arbeiten",
+          "english": "to work as a cook"
+        },
+        {
+          "german": "das macht viel Spaß",
+          "english": "that's a lot of fun"
+        },
+        {
+          "german": "Die Arbeitszeiten sind nicht toll.",
+          "english": "The working hours are not great."
+        }
+      ]
+    },
+    {
+      "type": "NOTE",
+      "variant": "TIP",
+      "id": "p08_n1",
+      "title": "W-Fragen: Wer? Was? Wann? Wo? Wie?",
+      "paragraphs": [
+        {
+          "lang": "en",
+          "text": "When a text gets longer than a dialogue, the questions in the margin become your reading tool. Each one on this page points at a different kind of information, and the first word of the question tells you which: {{de:Wo}} wants a place, {{de:Wann}} wants a time, {{de:Was}} wants an action, {{de:Wie}} wants a manner or an opinion, {{de:Wer}} wants a person.\n"
+        },
+        {
+          "lang": "en",
+          "text": "Underline the sentence that answers the question before you write the answer in your own words. The page does exactly this: the highlighted line about Max's job answers question 1, and the hour figures near the end answer question 5. Five questions, five marks in the text — no guessing required.\n"
+        }
+      ]
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "MULTIPLE_CHOICE",
+      "id": "p08_q1",
+      "points": 2,
+      "topic": "Wo arbeitet Max Schmidt?",
+      "passage": "Max Schmidt arbeitet seit zwei Jahren als Koch im Restaurant „Esszimmer\" in der Altstadt von Konstanz.",
+      "prompt": "Which sentence answers the question correctly?",
+      "options": [
+        "In einem Restaurant in der Altstadt von Konstanz.",
+        "Am Fischmarkt am Bodensee.",
+        "In einer Bäckerei in Konstanz."
+      ],
+      "correctIndex": 0,
+      "concept": {
+        "title": "Wo? — nach dem Ort fragen",
+        "rule": "A Wo-question looks for a place. The sentence with arbeiten gives it directly after als: the job title, then the workplace with in and the article of the city or building.",
+        "exampleGerman": "Wo arbeitet Max Schmidt? — Er arbeitet als Koch im Restaurant „Esszimmer\".",
+        "exampleEnglish": "Where does Max Schmidt work? — He works as a cook at the Restaurant „Esszimmer\"."
+      }
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "MULTIPLE_CHOICE",
+      "id": "p08_q2",
+      "points": 2,
+      "topic": "Wie findet er seinen Beruf?",
+      "passage": "Max mag seine Arbeit. Er sagt: „Kochen ist mein Beruf, aber auch mein Hobby.\"",
+      "prompt": "How does Max find his job?",
+      "options": [
+        "Er mag die Arbeit und die Kollegen, aber die Arbeitszeiten gefallen ihm nicht.",
+        "Er findet den Beruf langweilig und will wechseln.",
+        "Er arbeitet nur am Wochenende und hat viel Freizeit."
+      ],
+      "correctIndex": 0,
+      "concept": {
+        "title": "Wie? — nach der Meinung fragen",
+        "rule": "A Wie-question about a job asks for the person's verdict, not for a place or a time. Max gives a mixed one: the work, the team and the creativity he likes; the long and irregular hours he does not.",
+        "exampleGerman": "„Kochen ist mein Beruf, aber auch mein Hobby.“ — Die Arbeitszeiten sind nicht toll.",
+        "exampleEnglish": "\"Cooking is my job, but also my hobby.\" — The working hours are not great."
+      }
+    }
+  ]
+}

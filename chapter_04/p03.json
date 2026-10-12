@@ -1,0 +1,160 @@
+{
+  "schemaVersion": 2,
+  "id": "p03",
+  "title": "Kommt ihr? — Einkaufen planen",
+  "version": 1,
+  "estimatedMin": 8,
+  "blocks": [
+    {
+      "type": "LESSON_PAGE",
+      "variant": "DIALOGUE",
+      "id": "p03_d1",
+      "headline": "Kommt ihr? — eine Grillparty planen",
+      "paragraphs": [
+        {
+          "lang": "en",
+          "text": "The message on this page arrives on a phone, and it carries the grammar of an invitation in four words: {{de:Wir grillen heute Abend bei uns. Kommt ihr?}} The verb {{de:kommen}} stands second, {{de:ihr}} says the invitation goes to people the sender says du to, and the question mark does the rest of the work.\n"
+        },
+        {
+          "lang": "en",
+          "text": "Read the three possible replies before you listen. Only one of them answers the question that was actually asked; the other two belong to different situations. Then follow Mario and Elena as they turn a yes into an Einkaufszettel — a shopping list. Notice how often they say what they already have before they say what is missing, because that is how a real list gets written.\n"
+        },
+        {
+          "lang": "de",
+          "text": "Was brauchen wir noch für den Salat? — Wir brauchen Tomaten, Eier, Öl und eine Gurke.\n"
+        }
+      ],
+      "vocabHighlight": [
+        {
+          "german": "Kommt ihr?",
+          "english": "Are you coming? (plural, informal)"
+        },
+        {
+          "german": "Was brauchen wir noch?",
+          "english": "What else do we need?"
+        },
+        {
+          "german": "Wir haben keinen Käse mehr.",
+          "english": "We have no more cheese."
+        }
+      ],
+      "turns": [
+        {
+          "speaker": "Einladung",
+          "german": "Wir grillen heute Abend bei uns. Kommt ihr?",
+          "english": "We're grilling at our place tonight. Are you coming?"
+        },
+        {
+          "speaker": "Mario",
+          "german": "Wir machen den Salat und kaufen die Getränke. Und Katrin und Lukas kaufen das Fleisch und die Würstchen.",
+          "english": "We're making the salad and buying the drinks. And Katrin and Lukas are buying the meat and the sausages."
+        },
+        {
+          "speaker": "Elena",
+          "german": "Okay. Was brauchen wir noch für den Salat? Haben wir alles?",
+          "english": "Okay. What else do we need for the salad? Do we have everything?"
+        },
+        {
+          "speaker": "Mario",
+          "german": "Moment … Salat haben wir. Ähm, wir brauchen Tomaten, Eier, Öl und eine Gurke. Ach, und Käse! Wir haben keinen Käse mehr. Hm … ah! Getränke, wir haben auch keine Getränke.",
+          "english": "One moment … we have salad. Um, we need tomatoes, eggs, oil and a cucumber. Oh, and cheese! We have no more cheese left. Hm … ah! Drinks — we don't have any drinks either."
+        },
+        {
+          "speaker": "Elena",
+          "german": "Gut. Ich gehe zum Markt und kaufe die Eier, die Tomaten und die Gurke. Und ein Brot kaufe ich auch. Der Käse ist da so teuer. Kaufst du den Käse im Supermarkt?",
+          "english": "Good. I'll go to the market and buy the eggs, the tomatoes and the cucumber. And I'll buy a bread too. Cheese is so expensive there. Will you buy the cheese at the supermarket?"
+        },
+        {
+          "speaker": "Mario",
+          "german": "Ja, stimmt. Ich gehe zum Supermarkt und kaufe Käse, Öl und die Getränke.",
+          "english": "Yes, true. I'll go to the supermarket and buy cheese, oil and the drinks."
+        }
+      ]
+    },
+    {
+      "type": "VOCAB",
+      "variant": "CARD_SET",
+      "id": "p03_v1",
+      "title": "Vom Einkaufsziel zum Einkaufszettel",
+      "wordIds": [
+        "w_brauchen",
+        "w_kaufen",
+        "w_getraenk",
+        "w_fleisch",
+        "w_salat",
+        "w_kaese",
+        "w_ei"
+      ]
+    },
+    {
+      "type": "GRAMMAR",
+      "variant": "RULE",
+      "id": "p03_g1",
+      "ruleHeadline": "Akkusativ — was ich kaufe",
+      "paragraphs": [
+        {
+          "lang": "en",
+          "text": "Every verb in the orange box on this page — {{de:brauchen}}, {{de:haben}}, {{de:machen}}, {{de:kochen}}, {{de:essen}}, {{de:kaufen}} — acts on something. The thing that receives the action is put into the accusative, and in German that changes the article rather than the word order.\n"
+        },
+        {
+          "lang": "de",
+          "text": "Der Käse ist gut. → Ich kaufe den Käse. · Das Brot ist gut. → Ich kaufe das Brot. · Die Gurke ist gut. → Ich kaufe die Gurke. · Die Tomaten sind gut. → Ich kaufe die Tomaten.\n"
+        },
+        {
+          "lang": "en",
+          "text": "Compare the two columns and you will see only one row that actually moves: masculine {{de:der}} becomes {{de:den}}. Feminine, neuter and plural articles stay as they are, so half the work is already done when you arrive. With {{de:ein}} the same shift happens — {{de:einen Käse}} — and with its negative {{de:kein}} becomes {{de:keinen}} for masculine nouns, {{de:keine}} for the rest.\n"
+        },
+        {
+          "lang": "de",
+          "text": "ich kaufe den Käse · ich habe keinen Käse · ich brauche eine Gurke · ich mache keinen Salat · ich koche keine Suppe · ich esse das Fleisch · ich kaufe die Getränke\n"
+        }
+      ],
+      "englishBridge": "English leaves the object exactly as it is; German marks the new role on the article instead.",
+      "targetSentenceGerman": "Ich kaufe den Käse im Supermarkt.",
+      "targetSentenceEnglish": "I buy the cheese at the supermarket.",
+      "examples": [
+        {
+          "german": "ich kaufe den Käse",
+          "english": "I buy the cheese (der Käse)"
+        },
+        {
+          "german": "ich kaufe das Brot",
+          "english": "I buy the bread (das Brot)"
+        },
+        {
+          "german": "ich kaufe eine Gurke",
+          "english": "I buy a cucumber (die Gurke)"
+        },
+        {
+          "german": "ich kaufe die Tomaten",
+          "english": "I buy the tomatoes (die Tomaten)"
+        },
+        {
+          "german": "wir haben keinen Käse mehr",
+          "english": "we have no more cheese (der Käse)"
+        }
+      ]
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "MULTIPLE_CHOICE",
+      "id": "p03_q1",
+      "points": 2,
+      "topic": "Die Einladung: Welche Antwort passt?",
+      "passage": "Wir grillen heute Abend bei uns. Kommt ihr?",
+      "prompt": "Which reply fits this invitation?",
+      "options": [
+        "Wo seid ihr? Wir warten schon – das Essen ist gleich fertig.",
+        "Gern. Wir kommen und kaufen Fleisch. Bis später!",
+        "Danke für die Einladung. Wir haben morgen keine Zeit. Aber vielleicht am Wochenende?"
+      ],
+      "correctIndex": 1,
+      "concept": {
+        "title": "Kommt ihr? — einladen",
+        "rule": "The message invites for this evening and asks a yes/no question with the informal plural pronoun ihr. The fitting reply accepts the invitation now and adds what the guest will bring.",
+        "exampleGerman": "Wir grillen heute Abend bei uns. Kommt ihr? — Gern. Wir kommen und kaufen Fleisch.",
+        "exampleEnglish": "We're grilling at our place tonight. Are you coming? — Gladly. We're coming and buying meat."
+      }
+    }
+  ]
+}

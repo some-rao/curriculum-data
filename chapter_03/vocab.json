@@ -11,12 +11,20 @@
       "gender": "MASCULINE",
       "plural": "Bahnhöfe",
       "ipa": "/ˈbaːnhoːf/",
-      "meaningsEnglish": ["train station"],
-      "domainTags": ["Places", "Transport"],
+      "meaningsEnglish": [
+        "train station"
+      ],
+      "domainTags": [
+        "Places",
+        "Transport"
+      ],
       "definitionGerman": "Der Ort für Züge.",
       "exampleGerman": "Der Bahnhof ist in der Stadt.",
       "exampleEnglish": "The train station is in the city.",
-      "sectionIds": ["s1_gebaeude"]
+      "sectionIds": [
+        "p01",
+        "p03"
+      ]
     },
     {
       "id": "w_hafen",
@@ -27,12 +35,21 @@
       "gender": "MASCULINE",
       "plural": "Häfen",
       "ipa": "/ˈhaːfn̩/",
-      "meaningsEnglish": ["harbour", "port"],
-      "domainTags": ["Places", "Transport"],
+      "meaningsEnglish": [
+        "harbour",
+        "port"
+      ],
+      "domainTags": [
+        "Places",
+        "Transport"
+      ],
       "definitionGerman": "Der Ort für Schiffe am Wasser.",
       "exampleGerman": "Die Schiffe fahren in 175 Länder.",
       "exampleEnglish": "The ships sail to 175 countries.",
-      "sectionIds": ["s1_gebaeude"]
+      "sectionIds": [
+        "p01",
+        "p02"
+      ]
     },
     {
       "id": "w_fluss",
@@ -43,12 +60,19 @@
       "gender": "MASCULINE",
       "plural": "Flüsse",
       "ipa": "/flʊs/",
-      "meaningsEnglish": ["river"],
-      "domainTags": ["Places"],
+      "meaningsEnglish": [
+        "river"
+      ],
+      "domainTags": [
+        "Places"
+      ],
       "definitionGerman": "Wasser, das fließt.",
       "exampleGerman": "Die Schiffe fahren auf dem Fluss Elbe.",
       "exampleEnglish": "The ships sail on the river Elbe.",
-      "sectionIds": ["s1_gebaeude"]
+      "sectionIds": [
+        "p02",
+        "p03"
+      ]
     },
     {
       "id": "w_rathaus",
@@ -59,12 +83,19 @@
       "gender": "NEUTER",
       "plural": "Rathäuser",
       "ipa": "/ˈʁaːthaʊ̯s/",
-      "meaningsEnglish": ["town hall"],
-      "domainTags": ["Places"],
+      "meaningsEnglish": [
+        "town hall"
+      ],
+      "domainTags": [
+        "Places"
+      ],
       "definitionGerman": "Das Haus der Stadt.",
       "exampleGerman": "Das Rathaus ist über 120 Jahre alt.",
       "exampleEnglish": "The town hall is over 120 years old.",
-      "sectionIds": ["s1_gebaeude", "s3_weg"]
+      "sectionIds": [
+        "p01",
+        "p02"
+      ]
     },
     {
       "id": "w_kirche",
@@ -75,12 +106,20 @@
       "gender": "FEMININE",
       "plural": "Kirchen",
       "ipa": "/ˈkɪʁçə/",
-      "meaningsEnglish": ["church"],
-      "domainTags": ["Places"],
+      "meaningsEnglish": [
+        "church"
+      ],
+      "domainTags": [
+        "Places"
+      ],
       "definitionGerman": "Ein Gebäude für Christen.",
       "exampleGerman": "Hier ist eine Kirche.",
       "exampleEnglish": "Here is a church.",
-      "sectionIds": ["s1_gebaeude", "s2_verkehr"]
+      "sectionIds": [
+        "p01",
+        "p03",
+        "p09"
+      ]
     },
     {
       "id": "w_hotel",
@@ -91,12 +130,20 @@
       "gender": "NEUTER",
       "plural": "Hotels",
       "ipa": "/hoˈtɛl/",
-      "meaningsEnglish": ["hotel"],
-      "domainTags": ["Travel", "Places"],
+      "meaningsEnglish": [
+        "hotel"
+      ],
+      "domainTags": [
+        "Travel",
+        "Places"
+      ],
       "definitionGerman": "Ein Haus für Gäste.",
       "exampleGerman": "Zum Hotel »Michel«, bitte.",
       "exampleEnglish": "To the hotel »Michel«, please.",
-      "sectionIds": ["s1_gebaeude"]
+      "sectionIds": [
+        "p03",
+        "p04"
+      ]
     },
     {
       "id": "w_see",
@@ -107,12 +154,224 @@
       "gender": "MASCULINE",
       "plural": "Seen",
       "ipa": "/zeː/",
-      "meaningsEnglish": ["lake"],
-      "domainTags": ["Places"],
+      "meaningsEnglish": [
+        "lake"
+      ],
+      "domainTags": [
+        "Places"
+      ],
       "definitionGerman": "Großes Wasser am Land.",
       "exampleGerman": "Das ist kein See, das ist ein Fluss.",
       "exampleEnglish": "That is not a lake, that is a river.",
-      "sectionIds": ["s1_gebaeude"]
+      "sectionIds": [
+        "p03"
+      ]
+    },
+    {
+      "id": "w_turm",
+      "word": "Turm",
+      "partOfSpeech": "NOUN",
+      "level": "A1",
+      "article": "der",
+      "gender": "MASCULINE",
+      "plural": "Türme",
+      "ipa": "/tʊʁm/",
+      "meaningsEnglish": [
+        "tower"
+      ],
+      "domainTags": [
+        "Places"
+      ],
+      "definitionGerman": "Hoch und schlank, oft auf einem Gebäude.",
+      "exampleGerman": "Der Turm ist 132 Meter hoch.",
+      "exampleEnglish": "The tower is 132 metres tall.",
+      "sectionIds": [
+        "p02",
+        "p09"
+      ]
+    },
+    {
+      "id": "w_museum",
+      "word": "Museum",
+      "partOfSpeech": "NOUN",
+      "level": "A1",
+      "article": "das",
+      "gender": "NEUTER",
+      "plural": "Museen",
+      "ipa": "/muˈzeːʊm/",
+      "meaningsEnglish": [
+        "museum"
+      ],
+      "domainTags": [
+        "Places",
+        "Culture"
+      ],
+      "definitionGerman": "Ein Haus für Kunst und Geschichte.",
+      "exampleGerman": "Das ist ein Museum.",
+      "exampleEnglish": "That is a museum.",
+      "sectionIds": [
+        "p03",
+        "p09"
+      ]
+    },
+    {
+      "id": "w_kunsthalle",
+      "word": "Kunsthalle",
+      "partOfSpeech": "NOUN",
+      "level": "A1",
+      "article": "die",
+      "gender": "FEMININE",
+      "plural": "Kunsthallen",
+      "ipa": "/ˈkʊnstˌhalə/",
+      "meaningsEnglish": [
+        "art gallery"
+      ],
+      "domainTags": [
+        "Places",
+        "Culture"
+      ],
+      "definitionGerman": "Ein Haus für Kunst, eine Art Museum.",
+      "exampleGerman": "Das hier rechts ist die Kunsthalle.",
+      "exampleEnglish": "The building here on the right is the art gallery.",
+      "sectionIds": [
+        "p03",
+        "p04"
+      ]
+    },
+    {
+      "id": "w_strasse",
+      "word": "Straße",
+      "partOfSpeech": "NOUN",
+      "level": "A1",
+      "article": "die",
+      "gender": "FEMININE",
+      "plural": "Straßen",
+      "ipa": "/ˈʃtʁaːsə/",
+      "meaningsEnglish": [
+        "street"
+      ],
+      "domainTags": [
+        "Places"
+      ],
+      "definitionGerman": "Der Weg durch die Stadt, mit Häusern daneben.",
+      "exampleGerman": "Die Straße heißt Müllerstraße.",
+      "exampleEnglish": "The street is called Müllerstraße.",
+      "sectionIds": [
+        "p04"
+      ]
+    },
+    {
+      "id": "w_bruecke",
+      "word": "Brücke",
+      "partOfSpeech": "NOUN",
+      "level": "A1",
+      "article": "die",
+      "gender": "FEMININE",
+      "plural": "Brücken",
+      "ipa": "/ˈbʁʏkə/",
+      "meaningsEnglish": [
+        "bridge"
+      ],
+      "domainTags": [
+        "Places"
+      ],
+      "definitionGerman": "Man geht oder fährt darüber, oft über Wasser.",
+      "exampleGerman": "Die Brücke heißt Kohlbrandbrücke.",
+      "exampleEnglish": "The bridge is called Kohlbrandbrücke.",
+      "sectionIds": [
+        "p04"
+      ]
+    },
+    {
+      "id": "w_haus",
+      "word": "Haus",
+      "partOfSpeech": "NOUN",
+      "level": "A1",
+      "article": "das",
+      "gender": "NEUTER",
+      "plural": "Häuser",
+      "ipa": "/haʊ̯s/",
+      "meaningsEnglish": [
+        "house",
+        "building"
+      ],
+      "domainTags": [
+        "Places"
+      ],
+      "definitionGerman": "Menschen wohnen oder arbeiten darin.",
+      "exampleGerman": "Die Häuser sind 400 Jahre alt.",
+      "exampleEnglish": "The houses are 400 years old.",
+      "sectionIds": [
+        "p04"
+      ]
+    },
+    {
+      "id": "w_cafe",
+      "word": "Café",
+      "partOfSpeech": "NOUN",
+      "level": "A1",
+      "article": "das",
+      "gender": "NEUTER",
+      "plural": "Cafés",
+      "ipa": "/kaˈfeː/",
+      "meaningsEnglish": [
+        "café",
+        "coffee shop"
+      ],
+      "domainTags": [
+        "Places"
+      ],
+      "definitionGerman": "Man trinkt dort Kaffee und isst Kuchen.",
+      "exampleGerman": "Das ist ein Café.",
+      "exampleEnglish": "That is a café.",
+      "sectionIds": [
+        "p04"
+      ]
+    },
+    {
+      "id": "w_park",
+      "word": "Park",
+      "partOfSpeech": "NOUN",
+      "level": "A1",
+      "article": "der",
+      "gender": "MASCULINE",
+      "plural": "Parks",
+      "ipa": "/paʁk/",
+      "meaningsEnglish": [
+        "park"
+      ],
+      "domainTags": [
+        "Places"
+      ],
+      "definitionGerman": "Grün in der Stadt, zum Spazieren und Spielen.",
+      "exampleGerman": "Entschuldigung, wo ist der Park?",
+      "exampleEnglish": "Excuse me, where is the park?",
+      "sectionIds": [
+        "p06",
+        "p09"
+      ]
+    },
+    {
+      "id": "w_markt",
+      "word": "Markt",
+      "partOfSpeech": "NOUN",
+      "level": "A1",
+      "article": "der",
+      "gender": "MASCULINE",
+      "plural": "Märkte",
+      "ipa": "/maʁkt/",
+      "meaningsEnglish": [
+        "market"
+      ],
+      "domainTags": [
+        "Places"
+      ],
+      "definitionGerman": "Man kauft dort frisches Essen.",
+      "exampleGerman": "Der Markt ist in der Stadt.",
+      "exampleEnglish": "The market is in the city.",
+      "sectionIds": [
+        "p06"
+      ]
     },
     {
       "id": "w_zug",
@@ -123,12 +382,18 @@
       "gender": "MASCULINE",
       "plural": "Züge",
       "ipa": "/tsuːk/",
-      "meaningsEnglish": ["train"],
-      "domainTags": ["Transport"],
+      "meaningsEnglish": [
+        "train"
+      ],
+      "domainTags": [
+        "Transport"
+      ],
       "definitionGerman": "Fährt auf der Schiene.",
       "exampleGerman": "Jeden Tag fahren hier 720 Züge.",
       "exampleEnglish": "Every day 720 trains go here.",
-      "sectionIds": ["s1_gebaeude"]
+      "sectionIds": [
+        "p01"
+      ]
     },
     {
       "id": "w_bus",
@@ -139,12 +404,18 @@
       "gender": "MASCULINE",
       "plural": "Busse",
       "ipa": "/bʊs/",
-      "meaningsEnglish": ["bus"],
-      "domainTags": ["Transport"],
+      "meaningsEnglish": [
+        "bus"
+      ],
+      "domainTags": [
+        "Transport"
+      ],
       "definitionGerman": "Fährt auf der Straße.",
       "exampleGerman": "Ach nee, kein Bus. Also schnell!",
       "exampleEnglish": "Oh no, no bus. Quick then!",
-      "sectionIds": ["s2_verkehr"]
+      "sectionIds": [
+        "p05"
+      ]
     },
     {
       "id": "w_fahrrad",
@@ -155,12 +426,20 @@
       "gender": "NEUTER",
       "plural": "Fahrräder",
       "ipa": "/ˈfaːʁaːt/",
-      "meaningsEnglish": ["bicycle", "bike"],
-      "domainTags": ["Transport"],
+      "meaningsEnglish": [
+        "bicycle",
+        "bike"
+      ],
+      "domainTags": [
+        "Transport"
+      ],
       "definitionGerman": "Zwei Räder, man tritt.",
       "exampleGerman": "Oje, kein Fahrrad!",
       "exampleEnglish": "Oh no, no bicycle!",
-      "sectionIds": ["s2_verkehr"]
+      "sectionIds": [
+        "p05",
+        "p09"
+      ]
     },
     {
       "id": "w_ubahn",
@@ -171,12 +450,20 @@
       "gender": "FEMININE",
       "plural": "U-Bahnen",
       "ipa": "/ˈuːbaːn/",
-      "meaningsEnglish": ["underground", "subway"],
-      "domainTags": ["Transport"],
+      "meaningsEnglish": [
+        "underground",
+        "subway"
+      ],
+      "domainTags": [
+        "Transport"
+      ],
       "definitionGerman": "Der Zug fährt unter der Stadt.",
       "exampleGerman": "Wo ist die U-Bahn?",
       "exampleEnglish": "Where is the subway?",
-      "sectionIds": ["s2_verkehr"]
+      "sectionIds": [
+        "p05",
+        "p06"
+      ]
     },
     {
       "id": "w_fahrkarte",
@@ -187,12 +474,18 @@
       "gender": "FEMININE",
       "plural": "Fahrkarten",
       "ipa": "/ˈfaːɐ̯kaʁtə/",
-      "meaningsEnglish": ["ticket"],
-      "domainTags": ["Transport"],
+      "meaningsEnglish": [
+        "ticket"
+      ],
+      "domainTags": [
+        "Transport"
+      ],
       "definitionGerman": "Das Papier für die Fahrt.",
       "exampleGerman": "Oh, nein! Keine Fahrkarte?!",
       "exampleEnglish": "Oh no! No ticket?!",
-      "sectionIds": ["s2_verkehr"]
+      "sectionIds": [
+        "p05"
+      ]
     },
     {
       "id": "w_auto",
@@ -203,12 +496,18 @@
       "gender": "NEUTER",
       "plural": "Autos",
       "ipa": "/ˈaʊ̯toː/",
-      "meaningsEnglish": ["car"],
-      "domainTags": ["Transport"],
+      "meaningsEnglish": [
+        "car"
+      ],
+      "domainTags": [
+        "Transport"
+      ],
       "definitionGerman": "Fährt auf der Straße.",
       "exampleGerman": "Ist das ein Auto? Nein, das ist ein Fahrrad.",
       "exampleEnglish": "Is that a car? No, that is a bicycle.",
-      "sectionIds": ["s2_verkehr"]
+      "sectionIds": [
+        "p05"
+      ]
     },
     {
       "id": "w_zu_fuss",
@@ -216,12 +515,20 @@
       "partOfSpeech": "PHRASE",
       "level": "A1",
       "ipa": "/tsuː fuːs ˈɡeːən/",
-      "meaningsEnglish": ["to go on foot", "to walk"],
-      "domainTags": ["Transport", "Verbs"],
+      "meaningsEnglish": [
+        "to go on foot",
+        "to walk"
+      ],
+      "domainTags": [
+        "Transport",
+        "Verbs"
+      ],
       "definitionGerman": "Man geht mit den Füßen.",
       "exampleGerman": "Ich gehe zu Fuß.",
       "exampleEnglish": "I go on foot.",
-      "sectionIds": ["s2_verkehr"]
+      "sectionIds": [
+        "p05"
+      ]
     },
     {
       "id": "w_schnell",
@@ -229,12 +536,19 @@
       "partOfSpeech": "ADJECTIVE",
       "level": "A1",
       "ipa": "/ʃnɛl/",
-      "meaningsEnglish": ["fast", "quick"],
-      "domainTags": ["Descriptions"],
+      "meaningsEnglish": [
+        "fast",
+        "quick"
+      ],
+      "domainTags": [
+        "Descriptions"
+      ],
       "definitionGerman": "In kurzer Zeit.",
       "exampleGerman": "Schnell, da ist ein Bus!",
       "exampleEnglish": "Quick, there is a bus!",
-      "sectionIds": ["s2_verkehr"]
+      "sectionIds": [
+        "p05"
+      ]
     },
     {
       "id": "w_glueck",
@@ -244,12 +558,18 @@
       "article": "das",
       "gender": "NEUTER",
       "ipa": "/ɡlʏk/",
-      "meaningsEnglish": ["luck"],
-      "domainTags": ["Feelings"],
+      "meaningsEnglish": [
+        "luck"
+      ],
+      "domainTags": [
+        "Feelings"
+      ],
       "definitionGerman": "Gute Dinge passieren.",
       "exampleGerman": "Heute kein Test! So ein Glück!",
       "exampleEnglish": "No test today! What luck!",
-      "sectionIds": ["s2_verkehr"]
+      "sectionIds": [
+        "p05"
+      ]
     },
     {
       "id": "w_links",
@@ -257,12 +577,19 @@
       "partOfSpeech": "OTHER",
       "level": "A1",
       "ipa": "/lɪŋks/",
-      "meaningsEnglish": ["left"],
-      "domainTags": ["Directions"],
+      "meaningsEnglish": [
+        "left"
+      ],
+      "domainTags": [
+        "Directions"
+      ],
       "definitionGerman": "Auf der linken Seite.",
       "exampleGerman": "Gehen Sie links!",
       "exampleEnglish": "Go left!",
-      "sectionIds": ["s3_weg"]
+      "sectionIds": [
+        "p06",
+        "p09"
+      ]
     },
     {
       "id": "w_rechts",
@@ -270,12 +597,19 @@
       "partOfSpeech": "OTHER",
       "level": "A1",
       "ipa": "/ʁɛçts/",
-      "meaningsEnglish": ["right"],
-      "domainTags": ["Directions"],
+      "meaningsEnglish": [
+        "right"
+      ],
+      "domainTags": [
+        "Directions"
+      ],
       "definitionGerman": "Auf der rechten Seite.",
       "exampleGerman": "Gehen Sie rechts und dann geradeaus.",
       "exampleEnglish": "Go right and then straight ahead.",
-      "sectionIds": ["s3_weg"]
+      "sectionIds": [
+        "p06",
+        "p09"
+      ]
     },
     {
       "id": "w_geradeaus",
@@ -283,12 +617,19 @@
       "partOfSpeech": "OTHER",
       "level": "A1",
       "ipa": "/ɡəˈʁaːdəaʊ̯s/",
-      "meaningsEnglish": ["straight ahead"],
-      "domainTags": ["Directions"],
+      "meaningsEnglish": [
+        "straight ahead"
+      ],
+      "domainTags": [
+        "Directions"
+      ],
       "definitionGerman": "Immer in die gleiche Richtung.",
       "exampleGerman": "Gehen Sie immer geradeaus.",
       "exampleEnglish": "Always go straight ahead.",
-      "sectionIds": ["s3_weg"]
+      "sectionIds": [
+        "p06",
+        "p09"
+      ]
     },
     {
       "id": "w_gehen",
@@ -297,12 +638,20 @@
       "level": "A1",
       "regular": false,
       "ipa": "/ˈɡeːən/",
-      "meaningsEnglish": ["to go", "to walk"],
-      "domainTags": ["Verbs"],
+      "meaningsEnglish": [
+        "to go",
+        "to walk"
+      ],
+      "domainTags": [
+        "Verbs"
+      ],
       "definitionGerman": "Man bewegt sich zu Fuß.",
       "exampleGerman": "Ich gehe zu Fuß.",
       "exampleEnglish": "I walk.",
-      "sectionIds": ["s2_verkehr", "s3_weg"]
+      "sectionIds": [
+        "p06",
+        "p08"
+      ]
     },
     {
       "id": "w_fahren",
@@ -311,12 +660,22 @@
       "level": "A1",
       "regular": false,
       "ipa": "/ˈfaːʁən/",
-      "meaningsEnglish": ["to travel", "to go by vehicle"],
-      "domainTags": ["Verbs", "Transport"],
+      "meaningsEnglish": [
+        "to travel",
+        "to go by vehicle"
+      ],
+      "domainTags": [
+        "Verbs",
+        "Transport"
+      ],
       "definitionGerman": "Mit Bus, Zug oder Auto fahren.",
       "exampleGerman": "Fahren Sie geradeaus!",
       "exampleEnglish": "Drive straight ahead!",
-      "sectionIds": ["s1_gebaeude", "s3_weg"]
+      "sectionIds": [
+        "p01",
+        "p06",
+        "p08"
+      ]
     },
     {
       "id": "w_entschuldigung",
@@ -324,12 +683,78 @@
       "partOfSpeech": "PHRASE",
       "level": "A1",
       "ipa": "/ɛntˈʃʊldɪɡʊŋ/",
-      "meaningsEnglish": ["excuse me", "sorry"],
-      "domainTags": ["Phrases"],
+      "meaningsEnglish": [
+        "excuse me",
+        "sorry"
+      ],
+      "domainTags": [
+        "Phrases"
+      ],
       "definitionGerman": "Man sagt es vor einer Frage.",
       "exampleGerman": "Entschuldigung, wo ist bitte der Bahnhof?",
       "exampleEnglish": "Excuse me, where is the train station please?",
-      "sectionIds": ["s3_weg"]
+      "sectionIds": [
+        "p06",
+        "p09"
+      ]
+    },
+    {
+      "id": "w_moin",
+      "word": "Moin",
+      "partOfSpeech": "PHRASE",
+      "level": "A1",
+      "ipa": "/moːɪn/",
+      "meaningsEnglish": [
+        "hello",
+        "hi (northern Germany)"
+      ],
+      "domainTags": [
+        "Phrases"
+      ],
+      "definitionGerman": "So grüßt man im Norden.",
+      "exampleGerman": "Moin. Hotel »Michel«, okay.",
+      "exampleEnglish": "Hello. Hotel \"Michel\", okay.",
+      "sectionIds": [
+        "p03"
+      ]
+    },
+    {
+      "id": "w_gruess_gott",
+      "word": "Grüß Gott",
+      "partOfSpeech": "PHRASE",
+      "level": "A1",
+      "ipa": "/ɡʁyːs ɡɔt/",
+      "meaningsEnglish": [
+        "hello (Austria)"
+      ],
+      "domainTags": [
+        "Phrases"
+      ],
+      "definitionGerman": "So grüßt man in Österreich.",
+      "exampleGerman": "Grüß Gott! Wie geht's?",
+      "exampleEnglish": "Hello! How are you?",
+      "sectionIds": [
+        "p03"
+      ]
+    },
+    {
+      "id": "w_grueezi",
+      "word": "Grüezi",
+      "partOfSpeech": "PHRASE",
+      "level": "A1",
+      "ipa": "/ˈɡʁyːtsi/",
+      "meaningsEnglish": [
+        "hello (Switzerland)"
+      ],
+      "domainTags": [
+        "Phrases"
+      ],
+      "definitionGerman": "So grüßt man in der Schweiz.",
+      "exampleGerman": "Grüezi! Aus der Schweiz?",
+      "exampleEnglish": "Hello! From Switzerland?",
+      "sectionIds": [
+        "p03"
+      ]
     },
     {
       "id": "w_theater",
@@ -340,12 +765,19 @@
       "gender": "NEUTER",
       "plural": "Theater",
       "ipa": "/ˈteːatɐ/",
-      "meaningsEnglish": ["theatre"],
-      "domainTags": ["Culture"],
+      "meaningsEnglish": [
+        "theatre"
+      ],
+      "domainTags": [
+        "Culture"
+      ],
       "definitionGerman": "Ein Haus für Schauspieler.",
       "exampleGerman": "Das Thalia Theater ist in Hamburg.",
       "exampleEnglish": "The Thalia Theatre is in Hamburg.",
-      "sectionIds": ["s4_events"]
+      "sectionIds": [
+        "p04",
+        "p07"
+      ]
     },
     {
       "id": "w_festival",
@@ -356,12 +788,18 @@
       "gender": "NEUTER",
       "plural": "Festivals",
       "ipa": "/fɛsˈtiːvəl/",
-      "meaningsEnglish": ["festival"],
-      "domainTags": ["Culture"],
+      "meaningsEnglish": [
+        "festival"
+      ],
+      "domainTags": [
+        "Culture"
+      ],
       "definitionGerman": "Tage mit vielen Veranstaltungen.",
       "exampleGerman": "Das Theater-Festival ist im Oktober.",
       "exampleEnglish": "The theatre festival is in October.",
-      "sectionIds": ["s4_events"]
+      "sectionIds": [
+        "p07"
+      ]
     },
     {
       "id": "w_orchester",
@@ -372,12 +810,18 @@
       "gender": "NEUTER",
       "plural": "Orchester",
       "ipa": "/ɔʁˈkɛstɐ/",
-      "meaningsEnglish": ["orchestra"],
-      "domainTags": ["Culture"],
+      "meaningsEnglish": [
+        "orchestra"
+      ],
+      "domainTags": [
+        "Culture"
+      ],
       "definitionGerman": "Viele Musiker spielen zusammen.",
       "exampleGerman": "Das Orchester spielt Musik von Mozart.",
       "exampleEnglish": "The orchestra plays music by Mozart.",
-      "sectionIds": ["s4_events"]
+      "sectionIds": [
+        "p07"
+      ]
     },
     {
       "id": "w_konzert",
@@ -388,12 +832,19 @@
       "gender": "NEUTER",
       "plural": "Konzerte",
       "ipa": "/kɔnˈtsɛʁt/",
-      "meaningsEnglish": ["concert"],
-      "domainTags": ["Culture"],
+      "meaningsEnglish": [
+        "concert"
+      ],
+      "domainTags": [
+        "Culture"
+      ],
       "definitionGerman": "Musik zum Zuhören.",
       "exampleGerman": "Das Konzert beginnt um 20:00 Uhr.",
       "exampleEnglish": "The concert starts at 8 pm.",
-      "sectionIds": ["s4_events"]
+      "sectionIds": [
+        "p01",
+        "p07"
+      ]
     },
     {
       "id": "w_film",
@@ -404,12 +855,19 @@
       "gender": "MASCULINE",
       "plural": "Filme",
       "ipa": "/fɪlm/",
-      "meaningsEnglish": ["film", "movie"],
-      "domainTags": ["Culture"],
+      "meaningsEnglish": [
+        "film",
+        "movie"
+      ],
+      "domainTags": [
+        "Culture"
+      ],
       "definitionGerman": "Bilder bewegen sich im Kino.",
       "exampleGerman": "Der Regisseur zeigt seinen neuen Film.",
       "exampleEnglish": "The director shows his new film.",
-      "sectionIds": ["s4_events"]
+      "sectionIds": [
+        "p07"
+      ]
     },
     {
       "id": "w_chor",
@@ -420,12 +878,63 @@
       "gender": "MASCULINE",
       "plural": "Chöre",
       "ipa": "/koːɐ̯/",
-      "meaningsEnglish": ["choir", "chorus"],
-      "domainTags": ["Culture"],
+      "meaningsEnglish": [
+        "choir",
+        "chorus"
+      ],
+      "domainTags": [
+        "Culture"
+      ],
       "definitionGerman": "Viele Menschen singen zusammen.",
       "exampleGerman": "Der Chor singt im Konzert.",
       "exampleEnglish": "The choir sings at the concert.",
-      "sectionIds": ["s4_events"]
+      "sectionIds": [
+        "p07"
+      ]
+    },
+    {
+      "id": "w_kino",
+      "word": "Kino",
+      "partOfSpeech": "NOUN",
+      "level": "A1",
+      "article": "das",
+      "gender": "NEUTER",
+      "plural": "Kinos",
+      "ipa": "/ˈkiːnoː/",
+      "meaningsEnglish": [
+        "cinema",
+        "movie theater"
+      ],
+      "domainTags": [
+        "Culture"
+      ],
+      "definitionGerman": "Dort sieht man Filme auf einer großen Leinwand.",
+      "exampleGerman": "Kino für alle in Hamburg!",
+      "exampleEnglish": "Cinema for everyone in Hamburg!",
+      "sectionIds": [
+        "p07"
+      ]
+    },
+    {
+      "id": "w_publikum",
+      "word": "Publikum",
+      "partOfSpeech": "NOUN",
+      "level": "A1",
+      "article": "das",
+      "gender": "NEUTER",
+      "ipa": "/puˈbliːkʊm/",
+      "meaningsEnglish": [
+        "audience"
+      ],
+      "domainTags": [
+        "Culture"
+      ],
+      "definitionGerman": "Die Menschen, die zuschauen oder zuhören.",
+      "exampleGerman": "Der Regisseur präsentiert dem Publikum seinen Film.",
+      "exampleEnglish": "The director presents his film to the audience.",
+      "sectionIds": [
+        "p07"
+      ]
     },
     {
       "id": "w_monat",
@@ -436,12 +945,282 @@
       "gender": "MASCULINE",
       "plural": "Monate",
       "ipa": "/ˈmoːnat/",
-      "meaningsEnglish": ["month"],
-      "domainTags": ["Time"],
+      "meaningsEnglish": [
+        "month"
+      ],
+      "domainTags": [
+        "Time"
+      ],
       "definitionGerman": "Ein Teil vom Jahr. Zwölf Monate gibt es.",
       "exampleGerman": "Oktober ist der zehnte Monat.",
       "exampleEnglish": "October is the tenth month.",
-      "sectionIds": ["s4_events"]
+      "sectionIds": [
+        "p08"
+      ]
+    },
+    {
+      "id": "w_januar",
+      "word": "Januar",
+      "partOfSpeech": "NOUN",
+      "level": "A1",
+      "article": "der",
+      "gender": "MASCULINE",
+      "plural": "Januare",
+      "ipa": "/ˈjanuaːɐ̯/",
+      "meaningsEnglish": [
+        "January"
+      ],
+      "domainTags": [
+        "Time"
+      ],
+      "definitionGerman": "Der erste Monat im Jahr.",
+      "exampleGerman": "Im Januar ist es kalt.",
+      "exampleEnglish": "In January it is cold.",
+      "sectionIds": [
+        "p08"
+      ]
+    },
+    {
+      "id": "w_februar",
+      "word": "Februar",
+      "partOfSpeech": "NOUN",
+      "level": "A1",
+      "article": "der",
+      "gender": "MASCULINE",
+      "plural": "Februare",
+      "ipa": "/ˈfɛbʁuaːɐ̯/",
+      "meaningsEnglish": [
+        "February"
+      ],
+      "domainTags": [
+        "Time"
+      ],
+      "definitionGerman": "Der zweite Monat im Jahr.",
+      "exampleGerman": "Der Karneval ist im Februar.",
+      "exampleEnglish": "Carnival is in February.",
+      "sectionIds": [
+        "p08"
+      ]
+    },
+    {
+      "id": "w_maerz",
+      "word": "März",
+      "partOfSpeech": "NOUN",
+      "level": "A1",
+      "article": "der",
+      "gender": "MASCULINE",
+      "plural": "Märze",
+      "ipa": "/mɛʁt͡s/",
+      "meaningsEnglish": [
+        "March"
+      ],
+      "domainTags": [
+        "Time"
+      ],
+      "definitionGerman": "Der dritte Monat im Jahr.",
+      "exampleGerman": "Der Frühling beginnt im März.",
+      "exampleEnglish": "Spring begins in March.",
+      "sectionIds": [
+        "p08"
+      ]
+    },
+    {
+      "id": "w_april",
+      "word": "April",
+      "partOfSpeech": "NOUN",
+      "level": "A1",
+      "article": "der",
+      "gender": "MASCULINE",
+      "plural": "Aprile",
+      "ipa": "/aˈpʁiːl/",
+      "meaningsEnglish": [
+        "April"
+      ],
+      "domainTags": [
+        "Time"
+      ],
+      "definitionGerman": "Der vierte Monat im Jahr.",
+      "exampleGerman": "Im April regnet es oft.",
+      "exampleEnglish": "In April it often rains.",
+      "sectionIds": [
+        "p08"
+      ]
+    },
+    {
+      "id": "w_mai",
+      "word": "Mai",
+      "partOfSpeech": "NOUN",
+      "level": "A1",
+      "article": "der",
+      "gender": "MASCULINE",
+      "plural": "Maie",
+      "ipa": "/maɪ̯/",
+      "meaningsEnglish": [
+        "May"
+      ],
+      "domainTags": [
+        "Time"
+      ],
+      "definitionGerman": "Der fünfte Monat im Jahr.",
+      "exampleGerman": "Im Mai sind die Bäume grün.",
+      "exampleEnglish": "In May the trees are green.",
+      "sectionIds": [
+        "p08"
+      ]
+    },
+    {
+      "id": "w_juni",
+      "word": "Juni",
+      "partOfSpeech": "NOUN",
+      "level": "A1",
+      "article": "der",
+      "gender": "MASCULINE",
+      "plural": "Junis",
+      "ipa": "/ˈjuːni/",
+      "meaningsEnglish": [
+        "June"
+      ],
+      "domainTags": [
+        "Time"
+      ],
+      "definitionGerman": "Der sechste Monat im Jahr.",
+      "exampleGerman": "Im Juni beginnt der Sommer.",
+      "exampleEnglish": "In June the summer begins.",
+      "sectionIds": [
+        "p08"
+      ]
+    },
+    {
+      "id": "w_juli",
+      "word": "Juli",
+      "partOfSpeech": "NOUN",
+      "level": "A1",
+      "article": "der",
+      "gender": "MASCULINE",
+      "plural": "Julis",
+      "ipa": "/ˈjuːli/",
+      "meaningsEnglish": [
+        "July"
+      ],
+      "domainTags": [
+        "Time"
+      ],
+      "definitionGerman": "Der siebente Monat im Jahr.",
+      "exampleGerman": "Im Juli ist es heiß.",
+      "exampleEnglish": "In July it is hot.",
+      "sectionIds": [
+        "p08"
+      ]
+    },
+    {
+      "id": "w_august",
+      "word": "August",
+      "partOfSpeech": "NOUN",
+      "level": "A1",
+      "article": "der",
+      "gender": "MASCULINE",
+      "plural": "Auguste",
+      "ipa": "/aʊ̯ˈɡʊst/",
+      "meaningsEnglish": [
+        "August"
+      ],
+      "domainTags": [
+        "Time"
+      ],
+      "definitionGerman": "Der achte Monat im Jahr.",
+      "exampleGerman": "Im August fahren viele Leute in den Urlaub.",
+      "exampleEnglish": "In August many people go on holiday.",
+      "sectionIds": [
+        "p08"
+      ]
+    },
+    {
+      "id": "w_september",
+      "word": "September",
+      "partOfSpeech": "NOUN",
+      "level": "A1",
+      "article": "der",
+      "gender": "MASCULINE",
+      "plural": "Septembere",
+      "ipa": "/zɛpˈtɛmbɐ/",
+      "meaningsEnglish": [
+        "September"
+      ],
+      "domainTags": [
+        "Time"
+      ],
+      "definitionGerman": "Der neunte Monat im Jahr.",
+      "exampleGerman": "Im September beginnt das Schuljahr.",
+      "exampleEnglish": "In September the school year begins.",
+      "sectionIds": [
+        "p08"
+      ]
+    },
+    {
+      "id": "w_oktober",
+      "word": "Oktober",
+      "partOfSpeech": "NOUN",
+      "level": "A1",
+      "article": "der",
+      "gender": "MASCULINE",
+      "plural": "Oktobere",
+      "ipa": "/ɔkˈtoːbɐ/",
+      "meaningsEnglish": [
+        "October"
+      ],
+      "domainTags": [
+        "Time"
+      ],
+      "definitionGerman": "Der zehnte Monat im Jahr.",
+      "exampleGerman": "Das Theater-Festival ist im Oktober.",
+      "exampleEnglish": "The theatre festival is in October.",
+      "sectionIds": [
+        "p08"
+      ]
+    },
+    {
+      "id": "w_november",
+      "word": "November",
+      "partOfSpeech": "NOUN",
+      "level": "A1",
+      "article": "der",
+      "gender": "MASCULINE",
+      "plural": "Novembere",
+      "ipa": "/noˈvɛmbɐ/",
+      "meaningsEnglish": [
+        "November"
+      ],
+      "domainTags": [
+        "Time"
+      ],
+      "definitionGerman": "Der elfte Monat im Jahr.",
+      "exampleGerman": "Im November ist es oft grau.",
+      "exampleEnglish": "In November it is often grey.",
+      "sectionIds": [
+        "p08"
+      ]
+    },
+    {
+      "id": "w_dezember",
+      "word": "Dezember",
+      "partOfSpeech": "NOUN",
+      "level": "A1",
+      "article": "der",
+      "gender": "MASCULINE",
+      "plural": "Dezembere",
+      "ipa": "/deˈtsɛmbɐ/",
+      "meaningsEnglish": [
+        "December"
+      ],
+      "domainTags": [
+        "Time"
+      ],
+      "definitionGerman": "Der zwölfte Monat im Jahr.",
+      "exampleGerman": "Weihnachten ist im Dezember.",
+      "exampleEnglish": "Christmas is in December.",
+      "sectionIds": [
+        "p08"
+      ]
     },
     {
       "id": "w_jahreszeit",
@@ -452,12 +1231,148 @@
       "gender": "FEMININE",
       "plural": "Jahreszeiten",
       "ipa": "/ˈjaːʁəsˌtsaɪ̯t/",
-      "meaningsEnglish": ["season"],
-      "domainTags": ["Time"],
+      "meaningsEnglish": [
+        "season"
+      ],
+      "domainTags": [
+        "Time"
+      ],
       "definitionGerman": "Das Jahr hat vier Jahreszeiten.",
       "exampleGerman": "Im Winter ist es kalt.",
       "exampleEnglish": "In winter it is cold.",
-      "sectionIds": ["s4_events"]
+      "sectionIds": [
+        "p08"
+      ]
+    },
+    {
+      "id": "w_fruhling",
+      "word": "Frühling",
+      "partOfSpeech": "NOUN",
+      "level": "A1",
+      "article": "der",
+      "gender": "MASCULINE",
+      "plural": "Frühlinge",
+      "ipa": "/ˈfʁyːlɪŋ/",
+      "meaningsEnglish": [
+        "spring"
+      ],
+      "domainTags": [
+        "Time"
+      ],
+      "definitionGerman": "Die Jahreszeit nach dem Winter.",
+      "exampleGerman": "Im Frühling wird es warm.",
+      "exampleEnglish": "In spring it gets warm.",
+      "sectionIds": [
+        "p08"
+      ]
+    },
+    {
+      "id": "w_sommer",
+      "word": "Sommer",
+      "partOfSpeech": "NOUN",
+      "level": "A1",
+      "article": "der",
+      "gender": "MASCULINE",
+      "plural": "Sommer",
+      "ipa": "/ˈzɔmɐ/",
+      "meaningsEnglish": [
+        "summer"
+      ],
+      "domainTags": [
+        "Time"
+      ],
+      "definitionGerman": "Die heißeste Jahreszeit.",
+      "exampleGerman": "Im Sommer fahren wir Fahrrad.",
+      "exampleEnglish": "In summer we cycle.",
+      "sectionIds": [
+        "p08"
+      ]
+    },
+    {
+      "id": "w_herbst",
+      "word": "Herbst",
+      "partOfSpeech": "NOUN",
+      "level": "A1",
+      "article": "der",
+      "gender": "MASCULINE",
+      "plural": "Herbste",
+      "ipa": "/hɛʁpst/",
+      "meaningsEnglish": [
+        "autumn",
+        "fall"
+      ],
+      "domainTags": [
+        "Time"
+      ],
+      "definitionGerman": "Die Jahreszeit nach dem Sommer.",
+      "exampleGerman": "Im Herbst fallen die Blätter.",
+      "exampleEnglish": "In autumn the leaves fall.",
+      "sectionIds": [
+        "p08"
+      ]
+    },
+    {
+      "id": "w_winter",
+      "word": "Winter",
+      "partOfSpeech": "NOUN",
+      "level": "A1",
+      "article": "der",
+      "gender": "MASCULINE",
+      "plural": "Winter",
+      "ipa": "/ˈvɪntɐ/",
+      "meaningsEnglish": [
+        "winter"
+      ],
+      "domainTags": [
+        "Time"
+      ],
+      "definitionGerman": "Die kälteste Jahreszeit.",
+      "exampleGerman": "Im Winter ist es kalt.",
+      "exampleEnglish": "In winter it is cold.",
+      "sectionIds": [
+        "p08"
+      ]
+    },
+    {
+      "id": "w_schwimmen",
+      "word": "schwimmen",
+      "partOfSpeech": "VERB",
+      "level": "A1",
+      "regular": true,
+      "ipa": "/ˈʃvɪmən/",
+      "meaningsEnglish": [
+        "to swim"
+      ],
+      "domainTags": [
+        "Verbs"
+      ],
+      "definitionGerman": "Man ist im Wasser.",
+      "exampleGerman": "Im Sommer schwimmen wir.",
+      "exampleEnglish": "In summer we swim.",
+      "sectionIds": [
+        "p08"
+      ]
+    },
+    {
+      "id": "w_reisen",
+      "word": "reisen",
+      "partOfSpeech": "VERB",
+      "level": "A1",
+      "regular": true,
+      "ipa": "/ˈʁaɪ̯zən/",
+      "meaningsEnglish": [
+        "to travel"
+      ],
+      "domainTags": [
+        "Verbs",
+        "Transport"
+      ],
+      "definitionGerman": "Man fährt in einen anderen Ort.",
+      "exampleGerman": "Im Sommer reisen wir.",
+      "exampleEnglish": "In summer we travel.",
+      "sectionIds": [
+        "p08"
+      ]
     }
   ]
 }

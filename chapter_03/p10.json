@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 2,
+  "id": "p10",
+  "title": "Was du kannst",
+  "version": 1,
+  "estimatedMin": 5,
+  "blocks": [
+    {
+      "type": "SUMMARY",
+      "variant": "RECAP",
+      "id": "p10_sum",
+      "title": "Was du kannst",
+      "bullets": [
+        "You can name places and buildings in Hamburg and Munich — and you know whether each one takes der, das or die.",
+        "You can introduce a new place with ein or eine and identify a known one with der, das or die.",
+        "You can deny that a thing is there with kein and keine.",
+        "You can ask for directions politely and describe a way with links, rechts and geradeaus.",
+        "You can give a polite order with the Sie-imperative: Gehen Sie …, Fahren Sie …",
+        "You can name the four seasons and the twelve months, and say when something happens with im.",
+        "You can read short German texts full of facts and numbers: über, circa, pro Jahr, Platz für, Meter hoch."
+      ],
+      "paragraphs": [
+        {
+          "lang": "de",
+          "text": "Was ist das? — Das ist der Hafen. · Ist das eine Kirche? — Nein, das ist das Rathaus.\n"
+        },
+        {
+          "lang": "de",
+          "text": "Ist das ein Bus? — Nein, das ist kein Bus, das ist eine U-Bahn.\n"
+        },
+        {
+          "lang": "de",
+          "text": "Entschuldigung, wo ist bitte der Bahnhof? — Gehen Sie rechts und dann geradeaus. Da ist der Bahnhof.\n"
+        },
+        {
+          "lang": "de",
+          "text": "Das Konzert ist im Oktober. Im Sommer fahren wir Fahrrad. Im Winter ist es kalt.\n"
+        },
+        {
+          "lang": "en",
+          "text": "These are the four conversations this lesson built: naming what you see, saying what is not there, finding your way, and talking about when things happen. Walk through them once more and the whole of Lektion 3 is yours.\n"
+        }
+      ]
+    }
+  ]
+}

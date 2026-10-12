@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 2,
+  "id": "p03",
+  "title": "Meine Hobbys, meine Freunde",
+  "version": 1,
+  "estimatedMin": 9,
+  "blocks": [
+    {
+      "type": "VOCAB",
+      "variant": "CARD_SET",
+      "id": "p03_v1",
+      "title": "Verben aus dem Feed",
+      "wordIds": [
+        "w_spielen",
+        "w_gehen",
+        "w_sprechen",
+        "w_wohnen",
+        "w_heissen",
+        "w_kommen"
+      ]
+    },
+    {
+      "type": "GRAMMAR",
+      "variant": "RULE",
+      "id": "p03_g1",
+      "ruleHeadline": "Verben und Personalpronomen",
+      "paragraphs": [
+        {
+          "lang": "en",
+          "text": "A German sentence puts its verb in position two, and the ending on that verb is what tells the listener who is acting. Take the pronoun and the ending together as one unit and the whole table comes down to three shapes: -e, -st and -t.\n"
+        },
+        {
+          "lang": "de",
+          "text": "ich koche · du kochst · er/sie/es kocht · wir kochen · ihr kocht · sie/Sie kochen"
+        },
+        {
+          "lang": "en",
+          "text": "Most verbs behave exactly like {{de:kochen}}: {{de:arbeiten}} gives {{de:arbeite, arbeitest, arbeitet}} and {{de:joggen}} gives {{de:jogge, joggst, joggt}}. Only the stem under the ending changes, so one pattern buys you a whole class of verbs.\n"
+        },
+        {
+          "lang": "en",
+          "text": "Two verbs in the box on the page bend instead. {{de:lesen}} shortens to {{de:lies}} and {{de:sprechen}} swaps its middle sound for a k, which is why {{de:du sprichst}} looks nothing like the infinitive. Say them aloud — the sound change is far easier to hear than to read.\n"
+        },
+        {
+          "lang": "de",
+          "text": "ich lese · du liest · er/sie/es liest — ich spreche · du sprichst · er/sie/es spricht"
+        }
+      ],
+      "englishBridge": "In English only he, she and it change the verb; German puts an ending on every form instead.",
+      "targetSentenceGerman": "Sie spielen super!",
+      "targetSentenceEnglish": "They play really well!",
+      "examples": [
+        {
+          "german": "ich koche gern.",
+          "english": "I like to cook."
+        },
+        {
+          "german": "Ben singt toll!",
+          "english": "Ben sings really well!"
+        },
+        {
+          "german": "Wir joggen am Freitag.",
+          "english": "We jog on Friday."
+        },
+        {
+          "german": "Liest du gern?",
+          "english": "Do you like reading?"
+        }
+      ]
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "FILL_BLANK",
+      "id": "p03_q1",
+      "points": 5,
+      "topic": "Präsens: Endungen",
+      "prompt": "Fill each gap with the right form of the verb in brackets.",
+      "items": [
+        {
+          "sentence": "___ du auch so gut?",
+          "answers": [
+            "Singst"
+          ],
+          "hint": "singen"
+        },
+        {
+          "sentence": "___ du Französisch?",
+          "answers": [
+            "Sprichst"
+          ],
+          "hint": "sprechen"
+        },
+        {
+          "sentence": "___ sie wirklich Fußball?",
+          "answers": [
+            "Spielt"
+          ],
+          "hint": "spielen"
+        },
+        {
+          "sentence": "___ wir am Wochenende Spaghetti?",
+          "answers": [
+            "Kochen"
+          ],
+          "hint": "kochen"
+        },
+        {
+          "sentence": "Ich ___ im Moment ein Buch.",
+          "answers": [
+            "lese"
+          ],
+          "hint": "lesen"
+        },
+        {
+          "sentence": "___ ihr morgen auch?",
+          "answers": [
+            "Joggt"
+          ],
+          "hint": "joggen"
+        }
+      ],
+      "concept": {
+        "title": "Verben und Personalpronomen",
+        "rule": "The present-tense ending is set by the pronoun: -e with ich, -st with du, -t with er/sie/es, and the bare infinitive with wir, sie and Sie.",
+        "exampleGerman": "du kochst · ihr kocht",
+        "exampleEnglish": "you cook (singular) · you cook (plural)"
+      }
+    }
+  ]
+}

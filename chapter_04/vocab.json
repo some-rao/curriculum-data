@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "chapterId": "chapter_04",
   "words": [
     {
@@ -11,12 +11,18 @@
       "gender": "NEUTER",
       "plural": "Brötchen",
       "ipa": "/ˈbʁœtçən/",
-      "meaningsEnglish": ["bread roll"],
-      "domainTags": ["Food"],
+      "meaningsEnglish": [
+        "bread roll"
+      ],
+      "domainTags": [
+        "Food"
+      ],
       "definitionGerman": "Kleines rundes Brot.",
       "exampleGerman": "Ich kaufe zwei Brötchen.",
       "exampleEnglish": "I buy two bread rolls.",
-      "sectionIds": ["s1_lebensmittel"]
+      "sectionIds": [
+        "p01"
+      ]
     },
     {
       "id": "w_brot",
@@ -27,12 +33,19 @@
       "gender": "NEUTER",
       "plural": "Brote",
       "ipa": "/bʁoːt/",
-      "meaningsEnglish": ["bread"],
-      "domainTags": ["Food"],
+      "meaningsEnglish": [
+        "bread"
+      ],
+      "domainTags": [
+        "Food"
+      ],
       "definitionGerman": "Nahrung aus Mehl, Wasser und Hefe.",
       "exampleGerman": "Das Brot ist frisch.",
       "exampleEnglish": "The bread is fresh.",
-      "sectionIds": ["s1_lebensmittel"]
+      "sectionIds": [
+        "p02",
+        "p06"
+      ]
     },
     {
       "id": "w_kaese",
@@ -42,12 +55,19 @@
       "article": "der",
       "gender": "MASCULINE",
       "ipa": "/ˈkɛːzə/",
-      "meaningsEnglish": ["cheese"],
-      "domainTags": ["Food"],
+      "meaningsEnglish": [
+        "cheese"
+      ],
+      "domainTags": [
+        "Food"
+      ],
       "definitionGerman": "Lebensmittel aus Milch.",
       "exampleGerman": "Ich kaufe den Käse.",
       "exampleEnglish": "I buy the cheese.",
-      "sectionIds": ["s1_lebensmittel", "s2_einkauf_planen"]
+      "sectionIds": [
+        "p01",
+        "p03"
+      ]
     },
     {
       "id": "w_ei",
@@ -58,12 +78,19 @@
       "gender": "NEUTER",
       "plural": "Eier",
       "ipa": "/aɪ̯/",
-      "meaningsEnglish": ["egg"],
-      "domainTags": ["Food"],
+      "meaningsEnglish": [
+        "egg"
+      ],
+      "domainTags": [
+        "Food"
+      ],
       "definitionGerman": "Hühnerei zum Essen.",
       "exampleGerman": "Wir brauchen zwei Eier.",
       "exampleEnglish": "We need two eggs.",
-      "sectionIds": ["s1_lebensmittel", "s2_einkauf_planen"]
+      "sectionIds": [
+        "p01",
+        "p03"
+      ]
     },
     {
       "id": "w_muesli",
@@ -73,12 +100,21 @@
       "article": "das",
       "gender": "NEUTER",
       "ipa": "/ˈmyːsli/",
-      "meaningsEnglish": ["muesli", "cereal"],
-      "domainTags": ["Food"],
+      "meaningsEnglish": [
+        "muesli",
+        "cereal"
+      ],
+      "domainTags": [
+        "Food"
+      ],
       "definitionGerman": "Getreide mit Milch.",
       "exampleGerman": "Lina isst Müsli mit Milch.",
       "exampleEnglish": "Lina eats muesli with milk.",
-      "sectionIds": ["s1_lebensmittel", "s4_vorlieben"]
+      "sectionIds": [
+        "p01",
+        "p06",
+        "p09"
+      ]
     },
     {
       "id": "w_marmelade",
@@ -89,12 +125,19 @@
       "gender": "FEMININE",
       "plural": "Marmeladen",
       "ipa": "/maʁmeˈlaːdə/",
-      "meaningsEnglish": ["jam"],
-      "domainTags": ["Food"],
+      "meaningsEnglish": [
+        "jam"
+      ],
+      "domainTags": [
+        "Food"
+      ],
       "definitionGerman": "Süßer Aufstrich aus Früchten.",
       "exampleGerman": "Brot mit Marmelade schmeckt gut.",
       "exampleEnglish": "Bread with jam tastes good.",
-      "sectionIds": ["s1_lebensmittel"]
+      "sectionIds": [
+        "p01",
+        "p06"
+      ]
     },
     {
       "id": "w_orangensaft",
@@ -105,12 +148,19 @@
       "gender": "MASCULINE",
       "plural": "Orangensäfte",
       "ipa": "/oˈʁaːŋənˌzaft/",
-      "meaningsEnglish": ["orange juice"],
-      "domainTags": ["Drinks"],
+      "meaningsEnglish": [
+        "orange juice"
+      ],
+      "domainTags": [
+        "Drinks"
+      ],
       "definitionGerman": "Getränk aus Orangen.",
       "exampleGerman": "Der Orangensaft kostet 1,09 Euro.",
       "exampleEnglish": "The orange juice costs 1.09 euros.",
-      "sectionIds": ["s1_lebensmittel"]
+      "sectionIds": [
+        "p01",
+        "p04"
+      ]
     },
     {
       "id": "w_kaffee",
@@ -121,12 +171,20 @@
       "gender": "MASCULINE",
       "plural": "Kaffees",
       "ipa": "/ˈkafeː/",
-      "meaningsEnglish": ["coffee"],
-      "domainTags": ["Drinks"],
+      "meaningsEnglish": [
+        "coffee"
+      ],
+      "domainTags": [
+        "Drinks"
+      ],
       "definitionGerman": "Heißes Getränk aus Bohnen.",
       "exampleGerman": "Ich trinke gern Kaffee.",
       "exampleEnglish": "I like to drink coffee.",
-      "sectionIds": ["s1_lebensmittel", "s4_vorlieben"]
+      "sectionIds": [
+        "p02",
+        "p07",
+        "p09"
+      ]
     },
     {
       "id": "w_kuchen",
@@ -136,304 +194,20 @@
       "article": "der",
       "gender": "MASCULINE",
       "ipa": "/ˈkʊxn̩/",
-      "meaningsEnglish": ["cake"],
-      "domainTags": ["Food"],
+      "meaningsEnglish": [
+        "cake"
+      ],
+      "domainTags": [
+        "Food"
+      ],
       "definitionGerman": "Süßes Gebäck.",
       "exampleGerman": "Der Kuchen ist lecker.",
       "exampleEnglish": "The cake is tasty.",
-      "sectionIds": ["s1_lebensmittel"]
-    },
-    {
-      "id": "w_baeckerei",
-      "word": "Bäckerei",
-      "partOfSpeech": "NOUN",
-      "level": "A1",
-      "article": "die",
-      "gender": "FEMININE",
-      "plural": "Bäckereien",
-      "ipa": "/ˈbɛkəʁaɪ̯/",
-      "meaningsEnglish": ["bakery"],
-      "domainTags": ["Shopping"],
-      "definitionGerman": "Laden für Brot und Brötchen.",
-      "exampleGerman": "Ich kaufe Brot in der Bäckerei.",
-      "exampleEnglish": "I buy bread in the bakery.",
-      "sectionIds": ["s1_lebensmittel"]
-    },
-    {
-      "id": "w_markt",
-      "word": "Markt",
-      "partOfSpeech": "NOUN",
-      "level": "A1",
-      "article": "der",
-      "gender": "MASCULINE",
-      "plural": "Märkte",
-      "ipa": "/maʁkt/",
-      "meaningsEnglish": ["market"],
-      "domainTags": ["Shopping"],
-      "definitionGerman": "Platz für den Verkauf von Obst und Gemüse.",
-      "exampleGerman": "Wir kaufen Gemüse auf dem Markt.",
-      "exampleEnglish": "We buy vegetables at the market.",
-      "sectionIds": ["s1_lebensmittel", "s2_einkauf_planen"]
-    },
-    {
-      "id": "w_metzgerei",
-      "word": "Metzgerei",
-      "partOfSpeech": "NOUN",
-      "level": "A1",
-      "article": "die",
-      "gender": "FEMININE",
-      "plural": "Metzgereien",
-      "ipa": "/mɛtsɡəˈʁaɪ̯/",
-      "meaningsEnglish": ["butcher's shop"],
-      "domainTags": ["Shopping"],
-      "definitionGerman": "Laden für Fleisch und Wurst.",
-      "exampleGerman": "Die Wurst kaufen wir in der Metzgerei.",
-      "exampleEnglish": "We buy the sausage at the butcher's.",
-      "sectionIds": ["s1_lebensmittel"]
-    },
-    {
-      "id": "w_supermarkt",
-      "word": "Supermarkt",
-      "partOfSpeech": "NOUN",
-      "level": "A1",
-      "article": "der",
-      "gender": "MASCULINE",
-      "plural": "Supermärkte",
-      "ipa": "/ˈsuːpɐˌmaʁkt/",
-      "meaningsEnglish": ["supermarket"],
-      "domainTags": ["Shopping"],
-      "definitionGerman": "Großer Laden für viele Waren.",
-      "exampleGerman": "Ich kaufe Käse im Supermarkt.",
-      "exampleEnglish": "I buy cheese in the supermarket.",
-      "sectionIds": ["s1_lebensmittel", "s2_einkauf_planen"]
-    },
-    {
-      "id": "w_kaufen",
-      "word": "kaufen",
-      "partOfSpeech": "VERB",
-      "level": "A1",
-      "regular": true,
-      "ipa": "/ˈkaʊ̯fn̩/",
-      "meaningsEnglish": ["to buy"],
-      "domainTags": ["Shopping", "Verbs"],
-      "definitionGerman": "Etwas mit Geld bekommen.",
-      "exampleGerman": "Ich kaufe die Getränke.",
-      "exampleEnglish": "I buy the drinks.",
-      "sectionIds": ["s1_lebensmittel", "s2_einkauf_planen"]
-    },
-    {
-      "id": "w_brauchen",
-      "word": "brauchen",
-      "partOfSpeech": "VERB",
-      "level": "A1",
-      "regular": true,
-      "ipa": "/ˈbʁaʊ̯xn̩/",
-      "meaningsEnglish": ["to need"],
-      "domainTags": ["Verbs"],
-      "definitionGerman": "Etwas nötig haben.",
-      "exampleGerman": "Wir brauchen Tomaten und Eier.",
-      "exampleEnglish": "We need tomatoes and eggs.",
-      "sectionIds": ["s2_einkauf_planen"]
-    },
-    {
-      "id": "w_fleisch",
-      "word": "Fleisch",
-      "partOfSpeech": "NOUN",
-      "level": "A1",
-      "article": "das",
-      "gender": "NEUTER",
-      "ipa": "/flaɪ̯ʃ/",
-      "meaningsEnglish": ["meat"],
-      "domainTags": ["Food"],
-      "definitionGerman": "Lebensmittel vom Tier.",
-      "exampleGerman": "Wir essen das Fleisch.",
-      "exampleEnglish": "We eat the meat.",
-      "sectionIds": ["s2_einkauf_planen"]
-    },
-    {
-      "id": "w_gemuese",
-      "word": "Gemüse",
-      "partOfSpeech": "NOUN",
-      "level": "A1",
-      "article": "das",
-      "gender": "NEUTER",
-      "ipa": "/ɡəˈmyːzə/",
-      "meaningsEnglish": ["vegetables"],
-      "domainTags": ["Food"],
-      "definitionGerman": "Pflanzen zum Essen.",
-      "exampleGerman": "Wir brauchen Gemüse für den Salat.",
-      "exampleEnglish": "We need vegetables for the salad.",
-      "sectionIds": ["s2_einkauf_planen", "s4_vorlieben"]
-    },
-    {
-      "id": "w_salat",
-      "word": "Salat",
-      "partOfSpeech": "NOUN",
-      "level": "A1",
-      "article": "der",
-      "gender": "MASCULINE",
-      "plural": "Salate",
-      "ipa": "/zaˈlaːt/",
-      "meaningsEnglish": ["salad"],
-      "domainTags": ["Food"],
-      "definitionGerman": "Blätter und Gemüse auf einem Teller.",
-      "exampleGerman": "Wir machen einen Salat.",
-      "exampleEnglish": "We make a salad.",
-      "sectionIds": ["s2_einkauf_planen"]
-    },
-    {
-      "id": "w_moechten",
-      "word": "möchten",
-      "partOfSpeech": "VERB",
-      "level": "A1",
-      "regular": false,
-      "ipa": "/ˈmœçtən/",
-      "meaningsEnglish": ["would like"],
-      "domainTags": ["Verbs"],
-      "definitionGerman": "Höflich sagen: Ich will etwas.",
-      "exampleGerman": "Ich möchte einen Kaffee, bitte.",
-      "exampleEnglish": "I would like a coffee, please.",
-      "sectionIds": ["s3_gespraeche"]
-    },
-    {
-      "id": "w_essen",
-      "word": "essen",
-      "partOfSpeech": "VERB",
-      "level": "A1",
-      "regular": false,
-      "ipa": "/ˈɛsn̩/",
-      "meaningsEnglish": ["to eat"],
-      "domainTags": ["Verbs"],
-      "definitionGerman": "Nahrung zu sich nehmen.",
-      "exampleGerman": "Wir essen zusammen.",
-      "exampleEnglish": "We eat together.",
-      "sectionIds": ["s3_gespraeche", "s4_vorlieben"]
-    },
-    {
-      "id": "w_nehmen",
-      "word": "nehmen",
-      "partOfSpeech": "VERB",
-      "level": "A1",
-      "regular": false,
-      "ipa": "/ˈneːmən/",
-      "meaningsEnglish": ["to take"],
-      "domainTags": ["Verbs"],
-      "definitionGerman": "Etwas in die Hand nehmen.",
-      "exampleGerman": "Ich nehme noch 150 Gramm Schinken.",
-      "exampleEnglish": "I take another 150 grams of ham.",
-      "sectionIds": ["s3_gespraeche"]
-    },
-    {
-      "id": "w_kosten",
-      "word": "kosten",
-      "partOfSpeech": "VERB",
-      "level": "A1",
-      "regular": true,
-      "ipa": "/ˈkɔstn̩/",
-      "meaningsEnglish": ["to cost"],
-      "domainTags": ["Shopping", "Verbs"],
-      "definitionGerman": "Einen Preis haben.",
-      "exampleGerman": "Was kostet der Apfelsaft?",
-      "exampleEnglish": "How much does the apple juice cost?",
-      "sectionIds": ["s3_gespraeche"]
-    },
-    {
-      "id": "w_satt",
-      "word": "satt",
-      "partOfSpeech": "ADJECTIVE",
-      "level": "A1",
-      "ipa": "/zat/",
-      "meaningsEnglish": ["full"],
-      "domainTags": ["Food"],
-      "definitionGerman": "Man hat keinen Hunger mehr.",
-      "exampleGerman": "Nein, danke. Ich bin satt.",
-      "exampleEnglish": "No, thank you. I am full.",
-      "sectionIds": ["s3_gespraeche"]
-    },
-    {
-      "id": "w_lecker",
-      "word": "lecker",
-      "partOfSpeech": "ADJECTIVE",
-      "level": "A1",
-      "ipa": "/ˈlɛkɐ/",
-      "meaningsEnglish": ["tasty", "delicious"],
-      "domainTags": ["Food"],
-      "definitionGerman": "Gut zum Essen.",
-      "exampleGerman": "Die Würstchen sind wirklich lecker.",
-      "exampleEnglish": "The sausages are really tasty.",
-      "sectionIds": ["s3_gespraeche"]
-    },
-    {
-      "id": "w_moegen",
-      "word": "mögen",
-      "partOfSpeech": "VERB",
-      "level": "A1",
-      "regular": false,
-      "ipa": "/ˈmøːɡən/",
-      "meaningsEnglish": ["to like"],
-      "domainTags": ["Verbs"],
-      "definitionGerman": "Etwas gern essen oder trinken.",
-      "exampleGerman": "Ich mag Obst und Gemüse.",
-      "exampleEnglish": "I like fruit and vegetables.",
-      "sectionIds": ["s4_vorlieben"]
-    },
-    {
-      "id": "w_trinken",
-      "word": "trinken",
-      "partOfSpeech": "VERB",
-      "level": "A1",
-      "regular": true,
-      "ipa": "/ˈtʁɪŋkn̩/",
-      "meaningsEnglish": ["to drink"],
-      "domainTags": ["Verbs"],
-      "definitionGerman": "Flüssigkeit zu sich nehmen.",
-      "exampleGerman": "Ich trinke gern Wasser.",
-      "exampleEnglish": "I like to drink water.",
-      "sectionIds": ["s4_vorlieben"]
-    },
-    {
-      "id": "w_fruhstuecken",
-      "word": "frühstücken",
-      "partOfSpeech": "VERB",
-      "level": "A1",
-      "regular": true,
-      "ipa": "/ˈfʁyːʃtʏkn̩/",
-      "meaningsEnglish": ["to have breakfast"],
-      "domainTags": ["Verbs", "Meals"],
-      "definitionGerman": "Morgens essen.",
-      "exampleGerman": "Wir frühstücken morgens zusammen.",
-      "exampleEnglish": "We have breakfast together in the morning.",
-      "sectionIds": ["s4_vorlieben"]
-    },
-    {
-      "id": "w_mittagessen",
-      "word": "Mittagessen",
-      "partOfSpeech": "NOUN",
-      "level": "A1",
-      "article": "das",
-      "gender": "NEUTER",
-      "ipa": "/ˈmɪtaːɡˌɛsn̩/",
-      "meaningsEnglish": ["lunch"],
-      "domainTags": ["Meals"],
-      "definitionGerman": "Essen am Mittag.",
-      "exampleGerman": "Das Mittagessen ist um zwölf Uhr.",
-      "exampleEnglish": "Lunch is at twelve o'clock.",
-      "sectionIds": ["s4_vorlieben"]
-    },
-    {
-      "id": "w_abendessen",
-      "word": "Abendessen",
-      "partOfSpeech": "NOUN",
-      "level": "A1",
-      "article": "das",
-      "gender": "NEUTER",
-      "ipa": "/ˈaːbəntˌɛsn̩/",
-      "meaningsEnglish": ["dinner"],
-      "domainTags": ["Meals"],
-      "definitionGerman": "Essen am Abend.",
-      "exampleGerman": "Zum Abendessen gibt es Suppe.",
-      "exampleEnglish": "For dinner there is soup.",
-      "sectionIds": ["s4_vorlieben"]
+      "sectionIds": [
+        "p02",
+        "p05",
+        "p09"
+      ]
     },
     {
       "id": "w_banane",
@@ -444,12 +218,18 @@
       "gender": "FEMININE",
       "plural": "Bananen",
       "ipa": "/baˈnaːnə/",
-      "meaningsEnglish": ["banana"],
-      "domainTags": ["Food"],
+      "meaningsEnglish": [
+        "banana"
+      ],
+      "domainTags": [
+        "Food"
+      ],
       "definitionGerman": "Frucht mit gelber Schale.",
       "exampleGerman": "Ich esse eine Banane.",
       "exampleEnglish": "I eat a banana.",
-      "sectionIds": ["s1_lebensmittel"]
+      "sectionIds": [
+        "p01"
+      ]
     },
     {
       "id": "w_joghurt",
@@ -460,12 +240,19 @@
       "gender": "MASCULINE",
       "plural": "Joghurts",
       "ipa": "/ˈjoːɡʊʁt/",
-      "meaningsEnglish": ["yoghurt", "yogurt"],
-      "domainTags": ["Food"],
+      "meaningsEnglish": [
+        "yoghurt",
+        "yogurt"
+      ],
+      "domainTags": [
+        "Food"
+      ],
       "definitionGerman": "Milchprodukt zum Frühstück.",
       "exampleGerman": "Ich esse Joghurt zum Frühstück.",
       "exampleEnglish": "I eat yoghurt for breakfast.",
-      "sectionIds": ["s1_lebensmittel"]
+      "sectionIds": [
+        "p01"
+      ]
     },
     {
       "id": "w_tee",
@@ -476,12 +263,18 @@
       "gender": "MASCULINE",
       "plural": "Tees",
       "ipa": "/teː/",
-      "meaningsEnglish": ["tea"],
-      "domainTags": ["Drinks"],
+      "meaningsEnglish": [
+        "tea"
+      ],
+      "domainTags": [
+        "Drinks"
+      ],
       "definitionGerman": "Heißes Getränk aus Pflanzen.",
       "exampleGerman": "Ich trinke gern Tee.",
       "exampleEnglish": "I like to drink tea.",
-      "sectionIds": ["s1_lebensmittel"]
+      "sectionIds": [
+        "p01"
+      ]
     },
     {
       "id": "w_milch",
@@ -491,12 +284,19 @@
       "article": "die",
       "gender": "FEMININE",
       "ipa": "/mɪlç/",
-      "meaningsEnglish": ["milk"],
-      "domainTags": ["Drinks"],
+      "meaningsEnglish": [
+        "milk"
+      ],
+      "domainTags": [
+        "Drinks"
+      ],
       "definitionGerman": "Weißes Getränk von Kühen.",
       "exampleGerman": "Die Milch ist kalt.",
       "exampleEnglish": "The milk is cold.",
-      "sectionIds": ["s1_lebensmittel"]
+      "sectionIds": [
+        "p01",
+        "p09"
+      ]
     },
     {
       "id": "w_apfelsaft",
@@ -507,58 +307,19 @@
       "gender": "MASCULINE",
       "plural": "Apfelsäfte",
       "ipa": "/ˈaːpl̩ˌzaft/",
-      "meaningsEnglish": ["apple juice"],
-      "domainTags": ["Drinks"],
+      "meaningsEnglish": [
+        "apple juice"
+      ],
+      "domainTags": [
+        "Drinks"
+      ],
       "definitionGerman": "Getränk aus Äpfeln.",
       "exampleGerman": "Der Apfelsaft kostet 1,50 Euro.",
       "exampleEnglish": "The apple juice costs 1.50 euros.",
-      "sectionIds": ["s1_lebensmittel"]
-    },
-    {
-      "id": "w_kartoffel",
-      "word": "Kartoffel",
-      "partOfSpeech": "NOUN",
-      "level": "A1",
-      "article": "die",
-      "gender": "FEMININE",
-      "plural": "Kartoffeln",
-      "ipa": "/kaʁˈtɔfn̩/",
-      "meaningsEnglish": ["potato", "potatoes"],
-      "domainTags": ["Food"],
-      "definitionGerman": "Gemüse aus der Erde.",
-      "exampleGerman": "Wir kaufen Kartoffeln.",
-      "exampleEnglish": "We buy potatoes.",
-      "sectionIds": ["s1_lebensmittel"]
-    },
-    {
-      "id": "w_salz",
-      "word": "Salz",
-      "partOfSpeech": "NOUN",
-      "level": "A1",
-      "article": "das",
-      "gender": "NEUTER",
-      "ipa": "/zalts/",
-      "meaningsEnglish": ["salt"],
-      "domainTags": ["Food"],
-      "definitionGerman": "Weiße Würze für Essen.",
-      "exampleGerman": "Das Salz steht auf dem Tisch.",
-      "exampleEnglish": "The salt is on the table.",
-      "sectionIds": ["s1_lebensmittel"]
-    },
-    {
-      "id": "w_pfeffer",
-      "word": "Pfeffer",
-      "partOfSpeech": "NOUN",
-      "level": "A1",
-      "article": "der",
-      "gender": "MASCULINE",
-      "ipa": "/ˈpɛfɐ/",
-      "meaningsEnglish": ["pepper"],
-      "domainTags": ["Food"],
-      "definitionGerman": "Würze für das Essen.",
-      "exampleGerman": "Der Pfeffer steht neben dem Salz.",
-      "exampleEnglish": "The pepper is next to the salt.",
-      "sectionIds": ["s1_lebensmittel"]
+      "sectionIds": [
+        "p01",
+        "p04"
+      ]
     },
     {
       "id": "w_wasser",
@@ -568,42 +329,19 @@
       "article": "das",
       "gender": "NEUTER",
       "ipa": "/ˈvasɐ/",
-      "meaningsEnglish": ["water"],
-      "domainTags": ["Drinks"],
+      "meaningsEnglish": [
+        "water"
+      ],
+      "domainTags": [
+        "Drinks"
+      ],
       "definitionGerman": "Klares Getränk ohne Zucker.",
       "exampleGerman": "Ich trinke ein Glas Wasser.",
       "exampleEnglish": "I drink a glass of water.",
-      "sectionIds": ["s1_lebensmittel"]
-    },
-    {
-      "id": "w_essig",
-      "word": "Essig",
-      "partOfSpeech": "NOUN",
-      "level": "A1",
-      "article": "der",
-      "gender": "MASCULINE",
-      "ipa": "/ˈɛsɪç/",
-      "meaningsEnglish": ["vinegar"],
-      "domainTags": ["Food"],
-      "definitionGerman": "Flüssige Würze für den Salat.",
-      "exampleGerman": "Wir kaufen Essig und Öl.",
-      "exampleEnglish": "We buy vinegar and oil.",
-      "sectionIds": ["s1_lebensmittel"]
-    },
-    {
-      "id": "w_oel",
-      "word": "Öl",
-      "partOfSpeech": "NOUN",
-      "level": "A1",
-      "article": "das",
-      "gender": "NEUTER",
-      "ipa": "/øːl/",
-      "meaningsEnglish": ["oil"],
-      "domainTags": ["Food"],
-      "definitionGerman": "Flüssigkeit zum Kochen und für Salat.",
-      "exampleGerman": "Wir brauchen Öl für den Salat.",
-      "exampleEnglish": "We need oil for the salad.",
-      "sectionIds": ["s1_lebensmittel"]
+      "sectionIds": [
+        "p01",
+        "p06"
+      ]
     },
     {
       "id": "w_cola",
@@ -614,121 +352,19 @@
       "gender": "FEMININE",
       "plural": "Colas",
       "ipa": "/ˈkoːla/",
-      "meaningsEnglish": ["cola"],
-      "domainTags": ["Drinks"],
+      "meaningsEnglish": [
+        "cola"
+      ],
+      "domainTags": [
+        "Drinks"
+      ],
       "definitionGerman": "Dunkles süßes Getränk.",
       "exampleGerman": "Ich trinke eine Cola.",
       "exampleEnglish": "I drink a cola.",
-      "sectionIds": ["s1_lebensmittel"]
-    },
-    {
-      "id": "w_sahne",
-      "word": "Sahne",
-      "partOfSpeech": "NOUN",
-      "level": "A1",
-      "article": "die",
-      "gender": "FEMININE",
-      "ipa": "/ˈzaːnə/",
-      "meaningsEnglish": ["cream"],
-      "domainTags": ["Food"],
-      "definitionGerman": "Fetter Teil der Milch.",
-      "exampleGerman": "Die Sahne ist auf dem Kuchen.",
-      "exampleEnglish": "The cream is on the cake.",
-      "sectionIds": ["s1_lebensmittel"]
-    },
-    {
-      "id": "w_schokolade",
-      "word": "Schokolade",
-      "partOfSpeech": "NOUN",
-      "level": "A1",
-      "article": "die",
-      "gender": "FEMININE",
-      "plural": "Schokoladen",
-      "ipa": "/ʃokoˈlaːdə/",
-      "meaningsEnglish": ["chocolate"],
-      "domainTags": ["Food"],
-      "definitionGerman": "Süßes Lebensmittel aus Kakaobohnen.",
-      "exampleGerman": "Die Schokolade ist sehr süß.",
-      "exampleEnglish": "The chocolate is very sweet.",
-      "sectionIds": ["s1_lebensmittel"]
-    },
-    {
-      "id": "w_keks",
-      "word": "Keks",
-      "partOfSpeech": "NOUN",
-      "level": "A1",
-      "article": "der",
-      "gender": "MASCULINE",
-      "plural": "Kekse",
-      "ipa": "/keːks/",
-      "meaningsEnglish": ["biscuit", "cookie"],
-      "domainTags": ["Food"],
-      "definitionGerman": "Kleines süßes Gebäck.",
-      "exampleGerman": "Ich esse einen Keks zum Kaffee.",
-      "exampleEnglish": "I eat a biscuit with my coffee.",
-      "sectionIds": ["s1_lebensmittel"]
-    },
-    {
-      "id": "w_zucker",
-      "word": "Zucker",
-      "partOfSpeech": "NOUN",
-      "level": "A1",
-      "article": "der",
-      "gender": "MASCULINE",
-      "ipa": "/ˈtsuːɡɐ/",
-      "meaningsEnglish": ["sugar"],
-      "domainTags": ["Food"],
-      "definitionGerman": "Süßes weißes Pulver.",
-      "exampleGerman": "Der Zucker ist süß.",
-      "exampleEnglish": "The sugar is sweet.",
-      "sectionIds": ["s1_lebensmittel"]
-    },
-    {
-      "id": "w_butter",
-      "word": "Butter",
-      "partOfSpeech": "NOUN",
-      "level": "A1",
-      "article": "die",
-      "gender": "FEMININE",
-      "ipa": "/ˈbutɐ/",
-      "meaningsEnglish": ["butter"],
-      "domainTags": ["Food"],
-      "definitionGerman": "Fett aus Milch für Brot.",
-      "exampleGerman": "Ich kaufe die Butter.",
-      "exampleEnglish": "I buy the butter.",
-      "sectionIds": ["s1_lebensmittel"]
-    },
-    {
-      "id": "w_tomate",
-      "word": "Tomate",
-      "partOfSpeech": "NOUN",
-      "level": "A1",
-      "article": "die",
-      "gender": "FEMININE",
-      "plural": "Tomaten",
-      "ipa": "/toˈmaːtə/",
-      "meaningsEnglish": ["tomato"],
-      "domainTags": ["Food"],
-      "definitionGerman": "Rote Frucht für Salat.",
-      "exampleGerman": "Wir kaufen drei Tomaten.",
-      "exampleEnglish": "We buy three tomatoes.",
-      "sectionIds": ["s1_lebensmittel"]
-    },
-    {
-      "id": "w_gurke",
-      "word": "Gurke",
-      "partOfSpeech": "NOUN",
-      "level": "A1",
-      "article": "die",
-      "gender": "FEMININE",
-      "plural": "Gurken",
-      "ipa": "/ˈɡʊʁkn̩/",
-      "meaningsEnglish": ["cucumber"],
-      "domainTags": ["Food"],
-      "definitionGerman": "Grünes Gemüse für den Salat.",
-      "exampleGerman": "Ich esse eine Gurke.",
-      "exampleEnglish": "I eat a cucumber.",
-      "sectionIds": ["s1_lebensmittel"]
+      "sectionIds": [
+        "p01",
+        "p09"
+      ]
     },
     {
       "id": "w_suppe",
@@ -739,12 +375,137 @@
       "gender": "FEMININE",
       "plural": "Suppen",
       "ipa": "/ˈzʊpə/",
-      "meaningsEnglish": ["soup"],
-      "domainTags": ["Food"],
+      "meaningsEnglish": [
+        "soup"
+      ],
+      "domainTags": [
+        "Food"
+      ],
       "definitionGerman": "Flüssiges Essen.",
       "exampleGerman": "Die Suppe ist noch heiß.",
       "exampleEnglish": "The soup is still hot.",
-      "sectionIds": ["s1_lebensmittel"]
+      "sectionIds": [
+        "p02",
+        "p06"
+      ]
+    },
+    {
+      "id": "w_salat",
+      "word": "Salat",
+      "partOfSpeech": "NOUN",
+      "level": "A1",
+      "article": "der",
+      "gender": "MASCULINE",
+      "plural": "Salate",
+      "ipa": "/zaˈlaːt/",
+      "meaningsEnglish": [
+        "salad"
+      ],
+      "domainTags": [
+        "Food"
+      ],
+      "definitionGerman": "Blätter und Gemüse auf einem Teller.",
+      "exampleGerman": "Wir machen einen Salat.",
+      "exampleEnglish": "We make a salad.",
+      "sectionIds": [
+        "p02",
+        "p03",
+        "p05"
+      ]
+    },
+    {
+      "id": "w_tomate",
+      "word": "Tomate",
+      "partOfSpeech": "NOUN",
+      "level": "A1",
+      "article": "die",
+      "gender": "FEMININE",
+      "plural": "Tomaten",
+      "ipa": "/toˈmaːtə/",
+      "meaningsEnglish": [
+        "tomato"
+      ],
+      "domainTags": [
+        "Food"
+      ],
+      "definitionGerman": "Rote Frucht für Salat.",
+      "exampleGerman": "Wir kaufen drei Tomaten.",
+      "exampleEnglish": "We buy three tomatoes.",
+      "sectionIds": [
+        "p02",
+        "p03",
+        "p08"
+      ]
+    },
+    {
+      "id": "w_gurke",
+      "word": "Gurke",
+      "partOfSpeech": "NOUN",
+      "level": "A1",
+      "article": "die",
+      "gender": "FEMININE",
+      "plural": "Gurken",
+      "ipa": "/ˈɡʊʁkn̩/",
+      "meaningsEnglish": [
+        "cucumber"
+      ],
+      "domainTags": [
+        "Food"
+      ],
+      "definitionGerman": "Grünes Gemüse für den Salat.",
+      "exampleGerman": "Ich esse eine Gurke.",
+      "exampleEnglish": "I eat a cucumber.",
+      "sectionIds": [
+        "p02",
+        "p03",
+        "p05"
+      ]
+    },
+    {
+      "id": "w_kartoffel",
+      "word": "Kartoffel",
+      "partOfSpeech": "NOUN",
+      "level": "A1",
+      "article": "die",
+      "gender": "FEMININE",
+      "plural": "Kartoffeln",
+      "ipa": "/kaʁˈtɔfn̩/",
+      "meaningsEnglish": [
+        "potato",
+        "potatoes"
+      ],
+      "domainTags": [
+        "Food"
+      ],
+      "definitionGerman": "Gemüse aus der Erde.",
+      "exampleGerman": "Wir kaufen Kartoffeln.",
+      "exampleEnglish": "We buy potatoes.",
+      "sectionIds": [
+        "p01",
+        "p06"
+      ]
+    },
+    {
+      "id": "w_fleisch",
+      "word": "Fleisch",
+      "partOfSpeech": "NOUN",
+      "level": "A1",
+      "article": "das",
+      "gender": "NEUTER",
+      "ipa": "/flaɪ̯ʃ/",
+      "meaningsEnglish": [
+        "meat"
+      ],
+      "domainTags": [
+        "Food"
+      ],
+      "definitionGerman": "Lebensmittel vom Tier.",
+      "exampleGerman": "Wir essen das Fleisch.",
+      "exampleEnglish": "We eat the meat.",
+      "sectionIds": [
+        "p01",
+        "p03"
+      ]
     },
     {
       "id": "w_wurst",
@@ -755,12 +516,19 @@
       "gender": "FEMININE",
       "plural": "Würste",
       "ipa": "/vʊʁst/",
-      "meaningsEnglish": ["sausage"],
-      "domainTags": ["Food"],
+      "meaningsEnglish": [
+        "sausage"
+      ],
+      "domainTags": [
+        "Food"
+      ],
       "definitionGerman": "Fleisch in einer Hülle.",
       "exampleGerman": "Wir kaufen eine Wurst.",
       "exampleEnglish": "We buy a sausage.",
-      "sectionIds": ["s1_lebensmittel"]
+      "sectionIds": [
+        "p02",
+        "p06"
+      ]
     },
     {
       "id": "w_schinken",
@@ -771,12 +539,407 @@
       "gender": "MASCULINE",
       "plural": "Schinken",
       "ipa": "/ˈʃɪŋkn̩/",
-      "meaningsEnglish": ["ham"],
-      "domainTags": ["Food"],
+      "meaningsEnglish": [
+        "ham"
+      ],
+      "domainTags": [
+        "Food"
+      ],
       "definitionGerman": "Dünnes Stück Fleisch.",
       "exampleGerman": "Ich esse Brot mit Schinken.",
       "exampleEnglish": "I eat bread with ham.",
-      "sectionIds": ["s1_lebensmittel"]
+      "sectionIds": [
+        "p02",
+        "p04",
+        "p06"
+      ]
+    },
+    {
+      "id": "w_gemuese",
+      "word": "Gemüse",
+      "partOfSpeech": "NOUN",
+      "level": "A1",
+      "article": "das",
+      "gender": "NEUTER",
+      "ipa": "/ɡəˈmyːzə/",
+      "meaningsEnglish": [
+        "vegetables"
+      ],
+      "domainTags": [
+        "Food"
+      ],
+      "definitionGerman": "Pflanzen zum Essen.",
+      "exampleGerman": "Wir brauchen Gemüse für den Salat.",
+      "exampleEnglish": "We need vegetables for the salad.",
+      "sectionIds": [
+        "p01",
+        "p03",
+        "p06"
+      ]
+    },
+    {
+      "id": "w_obst",
+      "word": "Obst",
+      "partOfSpeech": "NOUN",
+      "level": "A1",
+      "article": "das",
+      "gender": "NEUTER",
+      "ipa": "/oːpst/",
+      "meaningsEnglish": [
+        "fruit"
+      ],
+      "domainTags": [
+        "Food"
+      ],
+      "definitionGerman": "Süße Früchte zum Essen.",
+      "exampleGerman": "Ich mag Obst zum Frühstück.",
+      "exampleEnglish": "I like fruit for breakfast.",
+      "sectionIds": [
+        "p06",
+        "p07"
+      ]
+    },
+    {
+      "id": "w_schokolade",
+      "word": "Schokolade",
+      "partOfSpeech": "NOUN",
+      "level": "A1",
+      "article": "die",
+      "gender": "FEMININE",
+      "plural": "Schokoladen",
+      "ipa": "/ʃokoˈlaːdə/",
+      "meaningsEnglish": [
+        "chocolate"
+      ],
+      "domainTags": [
+        "Food"
+      ],
+      "definitionGerman": "Süßes Lebensmittel aus Kakaobohnen.",
+      "exampleGerman": "Die Schokolade ist sehr süß.",
+      "exampleEnglish": "The chocolate is very sweet.",
+      "sectionIds": [
+        "p02",
+        "p06"
+      ]
+    },
+    {
+      "id": "w_keks",
+      "word": "Keks",
+      "partOfSpeech": "NOUN",
+      "level": "A1",
+      "article": "der",
+      "gender": "MASCULINE",
+      "plural": "Kekse",
+      "ipa": "/keːks/",
+      "meaningsEnglish": [
+        "biscuit",
+        "cookie"
+      ],
+      "domainTags": [
+        "Food"
+      ],
+      "definitionGerman": "Kleines süßes Gebäck.",
+      "exampleGerman": "Ich esse einen Keks zum Kaffee.",
+      "exampleEnglish": "I eat a biscuit with my coffee.",
+      "sectionIds": [
+        "p02"
+      ]
+    },
+    {
+      "id": "w_sahne",
+      "word": "Sahne",
+      "partOfSpeech": "NOUN",
+      "level": "A1",
+      "article": "die",
+      "gender": "FEMININE",
+      "ipa": "/ˈzaːnə/",
+      "meaningsEnglish": [
+        "cream"
+      ],
+      "domainTags": [
+        "Food"
+      ],
+      "definitionGerman": "Fetter Teil der Milch.",
+      "exampleGerman": "Die Sahne ist auf dem Kuchen.",
+      "exampleEnglish": "The cream is on the cake.",
+      "sectionIds": [
+        "p02",
+        "p09"
+      ]
+    },
+    {
+      "id": "w_zucker",
+      "word": "Zucker",
+      "partOfSpeech": "NOUN",
+      "level": "A1",
+      "article": "der",
+      "gender": "MASCULINE",
+      "ipa": "/ˈtsuːɡɐ/",
+      "meaningsEnglish": [
+        "sugar"
+      ],
+      "domainTags": [
+        "Food"
+      ],
+      "definitionGerman": "Süßes weißes Pulver.",
+      "exampleGerman": "Der Zucker ist süß.",
+      "exampleEnglish": "The sugar is sweet.",
+      "sectionIds": [
+        "p02",
+        "p09"
+      ]
+    },
+    {
+      "id": "w_butter",
+      "word": "Butter",
+      "partOfSpeech": "NOUN",
+      "level": "A1",
+      "article": "die",
+      "gender": "FEMININE",
+      "ipa": "/ˈbutɐ/",
+      "meaningsEnglish": [
+        "butter"
+      ],
+      "domainTags": [
+        "Food"
+      ],
+      "definitionGerman": "Fett aus Milch für Brot.",
+      "exampleGerman": "Ich kaufe die Butter.",
+      "exampleEnglish": "I buy the butter.",
+      "sectionIds": [
+        "p02",
+        "p06",
+        "p09"
+      ]
+    },
+    {
+      "id": "w_salz",
+      "word": "Salz",
+      "partOfSpeech": "NOUN",
+      "level": "A1",
+      "article": "das",
+      "gender": "NEUTER",
+      "ipa": "/zalts/",
+      "meaningsEnglish": [
+        "salt"
+      ],
+      "domainTags": [
+        "Food"
+      ],
+      "definitionGerman": "Weiße Würze für Essen.",
+      "exampleGerman": "Das Salz steht auf dem Tisch.",
+      "exampleEnglish": "The salt is on the table.",
+      "sectionIds": [
+        "p01",
+        "p07"
+      ]
+    },
+    {
+      "id": "w_pfeffer",
+      "word": "Pfeffer",
+      "partOfSpeech": "NOUN",
+      "level": "A1",
+      "article": "der",
+      "gender": "MASCULINE",
+      "ipa": "/ˈpɛfɐ/",
+      "meaningsEnglish": [
+        "pepper"
+      ],
+      "domainTags": [
+        "Food"
+      ],
+      "definitionGerman": "Würze für das Essen.",
+      "exampleGerman": "Der Pfeffer steht neben dem Salz.",
+      "exampleEnglish": "The pepper is next to the salt.",
+      "sectionIds": [
+        "p01",
+        "p07"
+      ]
+    },
+    {
+      "id": "w_essig",
+      "word": "Essig",
+      "partOfSpeech": "NOUN",
+      "level": "A1",
+      "article": "der",
+      "gender": "MASCULINE",
+      "ipa": "/ˈɛsɪç/",
+      "meaningsEnglish": [
+        "vinegar"
+      ],
+      "domainTags": [
+        "Food"
+      ],
+      "definitionGerman": "Flüssige Würze für den Salat.",
+      "exampleGerman": "Wir kaufen Essig und Öl.",
+      "exampleEnglish": "We buy vinegar and oil.",
+      "sectionIds": [
+        "p01",
+        "p07"
+      ]
+    },
+    {
+      "id": "w_oel",
+      "word": "Öl",
+      "partOfSpeech": "NOUN",
+      "level": "A1",
+      "article": "das",
+      "gender": "NEUTER",
+      "ipa": "/øːl/",
+      "meaningsEnglish": [
+        "oil"
+      ],
+      "domainTags": [
+        "Food"
+      ],
+      "definitionGerman": "Flüssigkeit zum Kochen und für Salat.",
+      "exampleGerman": "Wir brauchen Öl für den Salat.",
+      "exampleEnglish": "We need oil for the salad.",
+      "sectionIds": [
+        "p01",
+        "p03"
+      ]
+    },
+    {
+      "id": "w_baeckerei",
+      "word": "Bäckerei",
+      "partOfSpeech": "NOUN",
+      "level": "A1",
+      "article": "die",
+      "gender": "FEMININE",
+      "plural": "Bäckereien",
+      "ipa": "/ˈbɛkəʁaɪ̯/",
+      "meaningsEnglish": [
+        "bakery"
+      ],
+      "domainTags": [
+        "Shopping"
+      ],
+      "definitionGerman": "Laden für Brot und Brötchen.",
+      "exampleGerman": "Ich kaufe Brot in der Bäckerei.",
+      "exampleEnglish": "I buy bread in the bakery.",
+      "sectionIds": [
+        "p01",
+        "p02",
+        "p07"
+      ]
+    },
+    {
+      "id": "w_markt",
+      "word": "Markt",
+      "partOfSpeech": "NOUN",
+      "level": "A1",
+      "article": "der",
+      "gender": "MASCULINE",
+      "plural": "Märkte",
+      "ipa": "/maʁkt/",
+      "meaningsEnglish": [
+        "market"
+      ],
+      "domainTags": [
+        "Shopping"
+      ],
+      "definitionGerman": "Platz für den Verkauf von Obst und Gemüse.",
+      "exampleGerman": "Wir kaufen Gemüse auf dem Markt.",
+      "exampleEnglish": "We buy vegetables at the market.",
+      "sectionIds": [
+        "p01",
+        "p03",
+        "p08"
+      ]
+    },
+    {
+      "id": "w_metzgerei",
+      "word": "Metzgerei",
+      "partOfSpeech": "NOUN",
+      "level": "A1",
+      "article": "die",
+      "gender": "FEMININE",
+      "plural": "Metzgereien",
+      "ipa": "/mɛtsɡəˈʁaɪ̯/",
+      "meaningsEnglish": [
+        "butcher's shop"
+      ],
+      "domainTags": [
+        "Shopping"
+      ],
+      "definitionGerman": "Laden für Fleisch und Wurst.",
+      "exampleGerman": "Die Wurst kaufen wir in der Metzgerei.",
+      "exampleEnglish": "We buy the sausage at the butcher's.",
+      "sectionIds": [
+        "p01",
+        "p02"
+      ]
+    },
+    {
+      "id": "w_supermarkt",
+      "word": "Supermarkt",
+      "partOfSpeech": "NOUN",
+      "level": "A1",
+      "article": "der",
+      "gender": "MASCULINE",
+      "plural": "Supermärkte",
+      "ipa": "/ˈsuːpɐˌmaʁkt/",
+      "meaningsEnglish": [
+        "supermarket"
+      ],
+      "domainTags": [
+        "Shopping"
+      ],
+      "definitionGerman": "Großer Laden für viele Waren.",
+      "exampleGerman": "Ich kaufe Käse im Supermarkt.",
+      "exampleEnglish": "I buy cheese in the supermarket.",
+      "sectionIds": [
+        "p01",
+        "p03",
+        "p04"
+      ]
+    },
+    {
+      "id": "w_kaufen",
+      "word": "kaufen",
+      "partOfSpeech": "VERB",
+      "level": "A1",
+      "regular": true,
+      "ipa": "/ˈkaʊ̯fn̩/",
+      "meaningsEnglish": [
+        "to buy"
+      ],
+      "domainTags": [
+        "Shopping",
+        "Verbs"
+      ],
+      "definitionGerman": "Etwas mit Geld bekommen.",
+      "exampleGerman": "Ich kaufe die Getränke.",
+      "exampleEnglish": "I buy the drinks.",
+      "sectionIds": [
+        "p02",
+        "p03",
+        "p08"
+      ]
+    },
+    {
+      "id": "w_brauchen",
+      "word": "brauchen",
+      "partOfSpeech": "VERB",
+      "level": "A1",
+      "regular": true,
+      "ipa": "/ˈbʁaʊ̯xn̩/",
+      "meaningsEnglish": [
+        "to need"
+      ],
+      "domainTags": [
+        "Verbs"
+      ],
+      "definitionGerman": "Etwas nötig haben.",
+      "exampleGerman": "Wir brauchen Tomaten und Eier.",
+      "exampleEnglish": "We need tomatoes and eggs.",
+      "sectionIds": [
+        "p03",
+        "p04",
+        "p08",
+        "p09"
+      ]
     },
     {
       "id": "w_getraenk",
@@ -787,27 +950,333 @@
       "gender": "NEUTER",
       "plural": "Getränke",
       "ipa": "/ˈɡɛtʁɛnkə/",
-      "meaningsEnglish": ["drink"],
-      "domainTags": ["Drinks"],
+      "meaningsEnglish": [
+        "drink"
+      ],
+      "domainTags": [
+        "Drinks"
+      ],
       "definitionGerman": "Alles zum Trinken.",
       "exampleGerman": "Wir kaufen die Getränke.",
       "exampleEnglish": "We buy the drinks.",
-      "sectionIds": ["s2_einkauf_planen"]
+      "sectionIds": [
+        "p03"
+      ]
     },
     {
-      "id": "w_obst",
-      "word": "Obst",
+      "id": "w_kosten",
+      "word": "kosten",
+      "partOfSpeech": "VERB",
+      "level": "A1",
+      "regular": true,
+      "ipa": "/ˈkɔstn̩/",
+      "meaningsEnglish": [
+        "to cost"
+      ],
+      "domainTags": [
+        "Shopping",
+        "Verbs"
+      ],
+      "definitionGerman": "Einen Preis haben.",
+      "exampleGerman": "Was kostet der Apfelsaft?",
+      "exampleEnglish": "How much does the apple juice cost?",
+      "sectionIds": [
+        "p04"
+      ]
+    },
+    {
+      "id": "w_moechten",
+      "word": "möchten",
+      "partOfSpeech": "VERB",
+      "level": "A1",
+      "regular": false,
+      "ipa": "/ˈmœçtən/",
+      "meaningsEnglish": [
+        "would like"
+      ],
+      "domainTags": [
+        "Verbs"
+      ],
+      "definitionGerman": "Höflich sagen: Ich will etwas.",
+      "exampleGerman": "Ich möchte einen Kaffee, bitte.",
+      "exampleEnglish": "I would like a coffee, please.",
+      "sectionIds": [
+        "p04",
+        "p05"
+      ]
+    },
+    {
+      "id": "w_nehmen",
+      "word": "nehmen",
+      "partOfSpeech": "VERB",
+      "level": "A1",
+      "regular": false,
+      "ipa": "/ˈneːmən/",
+      "meaningsEnglish": [
+        "to take"
+      ],
+      "domainTags": [
+        "Verbs"
+      ],
+      "definitionGerman": "Etwas in die Hand nehmen.",
+      "exampleGerman": "Ich nehme noch 150 Gramm Schinken.",
+      "exampleEnglish": "I take another 150 grams of ham.",
+      "sectionIds": [
+        "p04"
+      ]
+    },
+    {
+      "id": "w_essen",
+      "word": "essen",
+      "partOfSpeech": "VERB",
+      "level": "A1",
+      "regular": false,
+      "ipa": "/ˈɛsn̩/",
+      "meaningsEnglish": [
+        "to eat"
+      ],
+      "domainTags": [
+        "Verbs"
+      ],
+      "definitionGerman": "Nahrung zu sich nehmen.",
+      "exampleGerman": "Wir essen zusammen.",
+      "exampleEnglish": "We eat together.",
+      "sectionIds": [
+        "p05",
+        "p06",
+        "p07"
+      ]
+    },
+    {
+      "id": "w_satt",
+      "word": "satt",
+      "partOfSpeech": "ADJECTIVE",
+      "level": "A1",
+      "ipa": "/zat/",
+      "meaningsEnglish": [
+        "full"
+      ],
+      "domainTags": [
+        "Food"
+      ],
+      "definitionGerman": "Man hat keinen Hunger mehr.",
+      "exampleGerman": "Nein, danke. Ich bin satt.",
+      "exampleEnglish": "No, thank you. I am full.",
+      "sectionIds": [
+        "p05"
+      ]
+    },
+    {
+      "id": "w_lecker",
+      "word": "lecker",
+      "partOfSpeech": "ADJECTIVE",
+      "level": "A1",
+      "ipa": "/ˈlɛkɐ/",
+      "meaningsEnglish": [
+        "tasty",
+        "delicious"
+      ],
+      "domainTags": [
+        "Food"
+      ],
+      "definitionGerman": "Gut zum Essen.",
+      "exampleGerman": "Die Würstchen sind wirklich lecker.",
+      "exampleEnglish": "The sausages are really tasty.",
+      "sectionIds": [
+        "p05",
+        "p06"
+      ]
+    },
+    {
+      "id": "w_moegen",
+      "word": "mögen",
+      "partOfSpeech": "VERB",
+      "level": "A1",
+      "regular": false,
+      "ipa": "/ˈmøːɡən/",
+      "meaningsEnglish": [
+        "to like"
+      ],
+      "domainTags": [
+        "Verbs"
+      ],
+      "definitionGerman": "Etwas gern essen oder trinken.",
+      "exampleGerman": "Ich mag Obst und Gemüse.",
+      "exampleEnglish": "I like fruit and vegetables.",
+      "sectionIds": [
+        "p06"
+      ]
+    },
+    {
+      "id": "w_trinken",
+      "word": "trinken",
+      "partOfSpeech": "VERB",
+      "level": "A1",
+      "regular": true,
+      "ipa": "/ˈtʁɪŋkn̩/",
+      "meaningsEnglish": [
+        "to drink"
+      ],
+      "domainTags": [
+        "Verbs"
+      ],
+      "definitionGerman": "Flüssigkeit zu sich nehmen.",
+      "exampleGerman": "Ich trinke gern Wasser.",
+      "exampleEnglish": "I like to drink water.",
+      "sectionIds": [
+        "p05",
+        "p06"
+      ]
+    },
+    {
+      "id": "w_apfel",
+      "word": "Apfel",
+      "partOfSpeech": "NOUN",
+      "level": "A1",
+      "article": "der",
+      "gender": "MASCULINE",
+      "plural": "Äpfel",
+      "ipa": "/ˈapfl̩/",
+      "meaningsEnglish": [
+        "apple"
+      ],
+      "domainTags": [
+        "Food"
+      ],
+      "definitionGerman": "Frucht vom Baum, rot oder grün.",
+      "exampleGerman": "Wir kaufen Äpfel auf dem Markt.",
+      "exampleEnglish": "We buy apples at the market.",
+      "sectionIds": [
+        "p09"
+      ]
+    },
+    {
+      "id": "w_mehl",
+      "word": "Mehl",
       "partOfSpeech": "NOUN",
       "level": "A1",
       "article": "das",
       "gender": "NEUTER",
-      "ipa": "/oːpst/",
-      "meaningsEnglish": ["fruit"],
-      "domainTags": ["Food"],
-      "definitionGerman": "Süße Früchte zum Essen.",
-      "exampleGerman": "Ich mag Obst zum Frühstück.",
-      "exampleEnglish": "I like fruit for breakfast.",
-      "sectionIds": ["s4_vorlieben"]
+      "ipa": "/meːl/",
+      "meaningsEnglish": [
+        "flour"
+      ],
+      "domainTags": [
+        "Food"
+      ],
+      "definitionGerman": "Weißes Pulver aus Getreide zum Backen.",
+      "exampleGerman": "Max findet Mehl und Zucker.",
+      "exampleEnglish": "Max finds flour and sugar.",
+      "sectionIds": [
+        "p09"
+      ]
+    },
+    {
+      "id": "w_backen",
+      "word": "backen",
+      "partOfSpeech": "VERB",
+      "level": "A1",
+      "regular": false,
+      "ipa": "/ˈbakn̩/",
+      "meaningsEnglish": [
+        "to bake"
+      ],
+      "domainTags": [
+        "Verbs"
+      ],
+      "definitionGerman": "Kuchen oder Brot im Ofen machen.",
+      "exampleGerman": "Wir backen einen Apfelkuchen.",
+      "exampleEnglish": "We bake an apple cake.",
+      "sectionIds": [
+        "p09"
+      ]
+    },
+    {
+      "id": "w_fruehstueck",
+      "word": "Frühstück",
+      "partOfSpeech": "NOUN",
+      "level": "A1",
+      "article": "das",
+      "gender": "NEUTER",
+      "plural": "Frühstücke",
+      "ipa": "/ˈfʁyːʃtʏk/",
+      "meaningsEnglish": [
+        "breakfast"
+      ],
+      "domainTags": [
+        "Meals"
+      ],
+      "definitionGerman": "Das erste Essen am Morgen.",
+      "exampleGerman": "Zum Frühstück esse ich zwei Brötchen.",
+      "exampleEnglish": "I eat two bread rolls for breakfast.",
+      "sectionIds": [
+        "p07"
+      ]
+    },
+    {
+      "id": "w_fruhstuecken",
+      "word": "frühstücken",
+      "partOfSpeech": "VERB",
+      "level": "A1",
+      "regular": true,
+      "ipa": "/ˈfʁyːʃtʏkn̩/",
+      "meaningsEnglish": [
+        "to have breakfast"
+      ],
+      "domainTags": [
+        "Verbs",
+        "Meals"
+      ],
+      "definitionGerman": "Morgens essen.",
+      "exampleGerman": "Wir frühstücken morgens zusammen.",
+      "exampleEnglish": "We have breakfast together in the morning.",
+      "sectionIds": [
+        "p06"
+      ]
+    },
+    {
+      "id": "w_mittagessen",
+      "word": "Mittagessen",
+      "partOfSpeech": "NOUN",
+      "level": "A1",
+      "article": "das",
+      "gender": "NEUTER",
+      "ipa": "/ˈmɪtaːɡˌɛsn̩/",
+      "meaningsEnglish": [
+        "lunch"
+      ],
+      "domainTags": [
+        "Meals"
+      ],
+      "definitionGerman": "Essen am Mittag.",
+      "exampleGerman": "Das Mittagessen ist um zwölf Uhr.",
+      "exampleEnglish": "Lunch is at twelve o'clock.",
+      "sectionIds": [
+        "p01",
+        "p06"
+      ]
+    },
+    {
+      "id": "w_abendessen",
+      "word": "Abendessen",
+      "partOfSpeech": "NOUN",
+      "level": "A1",
+      "article": "das",
+      "gender": "NEUTER",
+      "ipa": "/ˈaːbəntˌɛsn̩/",
+      "meaningsEnglish": [
+        "dinner"
+      ],
+      "domainTags": [
+        "Meals"
+      ],
+      "definitionGerman": "Essen am Abend.",
+      "exampleGerman": "Zum Abendessen gibt es Suppe.",
+      "exampleEnglish": "For dinner there is soup.",
+      "sectionIds": [
+        "p02",
+        "p06"
+      ]
     }
   ]
 }

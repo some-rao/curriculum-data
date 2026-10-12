@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 2,
+  "id": "p07",
+  "title": "Wörter lernen — Mindmaps, Paare, Gruppen",
+  "version": 1,
+  "estimatedMin": 7,
+  "blocks": [
+    {
+      "type": "NOTE",
+      "variant": "TIP",
+      "id": "p07_n1",
+      "title": "Wörter ordnen und lernen",
+      "paragraphs": [
+        {
+          "lang": "en",
+          "text": "Half of this lesson is already in your notebook; this page is about getting it out again on demand. A word you met once in a list waits passively. A word you filed inside a map — with a place on the branch and a neighbour on the same twig — is a word you can walk to.\n"
+        },
+        {
+          "lang": "en",
+          "text": "The example map starts from one centre, {{de:Essen und Trinken}}, and splits it four ways, so each branch answers a different question about the same topic: what is on the plate, what is in the glass, where you buy it, and when you eat it.\n"
+        },
+        {
+          "lang": "de",
+          "text": "Essen und Trinken → Lebensmittel (das Brot) · Getränke (das Wasser) · Geschäfte (die Bäckerei) · Mahlzeiten (das Frühstück)\n"
+        },
+        {
+          "lang": "en",
+          "text": "The second method is pairs: words that keep each other company in real speech. Salt calls for pepper, vinegar for oil, bread for rolls. Say the pair, not the item — you then retrieve two words for the price of one, and the second word arrives before you have to search for it.\n"
+        },
+        {
+          "lang": "en",
+          "text": "The third is free association: put a word in the middle and write whatever it triggers, without judging the result. Groups will disagree about what belongs together, and that argument is itself useful — you remember the words you had to defend.\n"
+        }
+      ]
+    },
+    {
+      "type": "VOCAB",
+      "variant": "CARD_SET",
+      "id": "p07_v1",
+      "title": "Die vier Zweige der Mindmap",
+      "wordIds": [
+        "w_brot",
+        "w_wasser",
+        "w_baeckerei",
+        "w_fruehstueck"
+      ]
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "FILL_BLANK",
+      "id": "p07_q1",
+      "points": 4,
+      "topic": "Wörter in Paaren",
+      "prompt": "Complete each pair — which word keeps this one company?",
+      "items": [
+        {
+          "sentence": "das Brot und ___",
+          "answers": [
+            "die Brötchen"
+          ],
+          "hint": "two things from the bakery"
+        },
+        {
+          "sentence": "das Salz und ___",
+          "answers": [
+            "der Pfeffer"
+          ],
+          "hint": "both stand on the table"
+        },
+        {
+          "sentence": "der Essig und ___",
+          "answers": [
+            "das Öl"
+          ],
+          "hint": "both go into the dressing"
+        },
+        {
+          "sentence": "Obst und ___",
+          "answers": [
+            "Gemüse"
+          ],
+          "hint": "what you buy at the market"
+        },
+        {
+          "sentence": "der Kaffee und ___",
+          "answers": [
+            "der Kuchen"
+          ],
+          "hint": "the Sunday afternoon pair"
+        }
+      ]
+    }
+  ]
+}

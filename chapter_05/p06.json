@@ -1,0 +1,229 @@
+{
+  "id": "p06",
+  "title": "Die Verabredung",
+  "version": 1,
+  "estimatedMin": 8,
+  "blocks": [
+    {
+      "type": "GRAMMAR",
+      "variant": "RULE",
+      "id": "p06_g1",
+      "ruleHeadline": "Modalverben im Satz — können, müssen, wollen",
+      "paragraphs": [
+        {
+          "lang": "en",
+          "text": "Three verbs do most of the organising in German: {{de:können}} for what is possible, {{de:müssen}} for what is unavoidable, and {{de:wollen}} for what somebody has decided on. Each of them can take a whole sentence on its back, and that is why they are worth learning early — one word changes a flat statement into an offer, an obligation or a plan.\n"
+        },
+        {
+          "lang": "en",
+          "text": "Watch what happens to the rest of the sentence. The modal verb climbs into position two, and the main verb goes to the very end in its bare infinitive form. The two of them hold the sentence open like a pair of brackets: {{de:Wir können nicht ins Kino gehen}} — the {{de:können}} is where the conjugated verb belongs, the {{de:gehen}} waits at the door. Ask a question and the same frame opens up around the pronoun: {{de:Wollen wir zum Yoga gehen?}}\n"
+        },
+        {
+          "lang": "de",
+          "text": "ich muss · du musst · er/sie/es muss · wir müssen · ihr müsst · sie/Sie müssen\n"
+        },
+        {
+          "lang": "en",
+          "text": "Inside that frame only the modal itself changes shape. {{de:können}} gives {{de:kann}}, {{de:kannst}}, {{de:können}}, {{de:könnt}}; {{de:wollen}} gives {{de:will}}, {{de:willst}}, {{de:wollen}}, {{de:wollt}}. Note that ich and er/sie/es look identical for all three verbs, and that the singular forms lose the -en of the infinitive altogether: {{de:kann}}, not {{de:können}}.\n"
+        }
+      ],
+      "targetSentenceGerman": "Wir können leider nicht ins Kino gehen.",
+      "targetSentenceEnglish": "Unfortunately we cannot go to the cinema.",
+      "examples": [
+        {
+          "german": "Wir können nicht ins Kino gehen.",
+          "english": "We cannot go to the cinema."
+        },
+        {
+          "german": "Ich muss jeden Tag arbeiten.",
+          "english": "I have to work every day."
+        },
+        {
+          "german": "Die Kinder müssen Hausaufgaben machen.",
+          "english": "The children have to do their homework."
+        },
+        {
+          "german": "Am Sonntag wollen wir meinen Bruder besuchen.",
+          "english": "On Sunday we want to visit my brother."
+        },
+        {
+          "german": "Wollen wir nächste Woche am Mittwoch zum Yoga gehen?",
+          "english": "Shall we go to yoga next Wednesday?"
+        },
+        {
+          "german": "Oder musst du arbeiten?",
+          "english": "Or do you have to work?"
+        },
+        {
+          "german": "Wir können uns am Mittwoch treffen.",
+          "english": "We can meet on Wednesday."
+        }
+      ]
+    },
+    {
+      "type": "LESSON_PAGE",
+      "variant": "READING",
+      "id": "p06_r1",
+      "headline": "Stress! — Maras E-Mail",
+      "paragraphs": [
+        {
+          "lang": "en",
+          "text": "Mara is writing to her friend Johanna because a plan has fallen through. Read her mail once without stopping, then read it again with a pencil: underline the three modals {{de:können}}, {{de:müssen}} and {{de:wollen}}, and put a line under every other verb. The pattern on the page jumps out at you once the two groups are marked.\n"
+        },
+        {
+          "lang": "de",
+          "text": "Hallo Johanna, ich habe ein Problem: Wir können leider nicht ins Kino gehen. Stress, Stress, Stress: Hannes ist bis Dienstag in Hamburg und ich muss jeden Tag arbeiten, auch am Wochenende. Am Abend muss ich noch einkaufen und kochen. Und die Kinder müssen Hausaufgaben machen und viel für die Schule lernen. Zum Arzt muss ich auch noch gehen. Am Sonntagnachmittag wollen die Kinder und ich meinen Bruder besuchen. Wollen wir nächste Woche am Mittwoch zum Yoga gehen? Oder musst du arbeiten? Liebe Grüße, Mara\n"
+        },
+        {
+          "lang": "en",
+          "text": "Answer the question the book asks in your own words: what must Mara do, what can she not do, what does she want to do? A short report in German is enough — {{de:Mara und Johanna können nicht ins Kino gehen. Mara muss arbeiten.}}\n"
+        }
+      ]
+    },
+    {
+      "type": "LESSON_PAGE",
+      "variant": "DIALOGUE",
+      "id": "p06_d1",
+      "headline": "Die Verabredung",
+      "paragraphs": [
+        {
+          "lang": "en",
+          "text": "This is the shape of almost every invitation you will make in German. One person asks, the other turns the day down politely, a third day is tried, and a time is fixed. Notice how short the replies are — {{de:Das geht}} and {{de:Schade}} carry a whole conversation on their own.\n"
+        },
+        {
+          "lang": "de",
+          "text": "Ich muss … zum Arzt gehen · Sport machen · zum Sprachkurs gehen · lernen · meine Eltern besuchen\n"
+        },
+        {
+          "lang": "de",
+          "text": "Wir können … ins Café gehen · Yoga machen · tanzen gehen · Tennis spielen · Fahrrad fahren\n"
+        }
+      ],
+      "turns": [
+        {
+          "speaker": "Anna",
+          "german": "Was machst du morgen? Hast du Zeit?",
+          "english": "What are you doing tomorrow? Do you have time?"
+        },
+        {
+          "speaker": "Kaan",
+          "german": "Tut mir leid. Morgen muss ich arbeiten.",
+          "english": "I am sorry. Tomorrow I have to work."
+        },
+        {
+          "speaker": "Anna",
+          "german": "Schade. Und am Dienstag?",
+          "english": "Pity. And on Tuesday?"
+        },
+        {
+          "speaker": "Kaan",
+          "german": "Das geht.",
+          "english": "That works."
+        },
+        {
+          "speaker": "Anna",
+          "german": "Wir können ins Kino gehen.",
+          "english": "We can go to the cinema."
+        },
+        {
+          "speaker": "Kaan",
+          "german": "Gute Idee! Wann? Um halb acht?",
+          "english": "Good idea! When? At half past seven?"
+        },
+        {
+          "speaker": "Anna",
+          "german": "Halb acht ist super.",
+          "english": "Half past seven is great."
+        }
+      ]
+    },
+    {
+      "type": "VOCAB",
+      "variant": "CARD_SET",
+      "id": "p06_v1",
+      "title": "Sich verabreden",
+      "wordIds": [
+        "w_koennen",
+        "w_muessen",
+        "w_wollen",
+        "w_kino",
+        "w_treffen",
+        "w_besuchen",
+        "w_arbeiten"
+      ]
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "FILL_BLANK",
+      "id": "p06_q1",
+      "points": 3,
+      "topic": "Modalverben",
+      "prompt": "Fill the gap with the modal verb in the right form.",
+      "paragraphs": [
+        {
+          "lang": "en",
+          "text": "Johanna answers Mara. Read her mail and put each modal into the person you find in front of the gap: {{de:ich}} and {{de:er/sie/es}} take the short form, {{de:du}} adds -st, {{de:ihr}} adds -t, and everybody else keeps the full infinitive.\n"
+        }
+      ],
+      "items": [
+        {
+          "sentence": "Wir ___ uns gern am Mittwoch treffen.",
+          "answers": [
+            "können"
+          ],
+          "hint": "wir"
+        },
+        {
+          "sentence": "Ich ___ bis 16 Uhr arbeiten.",
+          "answers": [
+            "muss"
+          ],
+          "hint": "ich"
+        },
+        {
+          "sentence": "Aber dann ___ wir uns sehen.",
+          "answers": [
+            "können"
+          ],
+          "hint": "wir"
+        },
+        {
+          "sentence": "___ du zum Yoga gehen?",
+          "answers": [
+            "Willst",
+            "willst",
+            "Kannst",
+            "kannst"
+          ],
+          "hint": "du"
+        },
+        {
+          "sentence": "Oder ___ wir joggen?",
+          "answers": [
+            "wollen",
+            "können"
+          ],
+          "hint": "wir"
+        },
+        {
+          "sentence": "Am Freitag macht Albert eine Party. ___ ihr kommen?",
+          "answers": [
+            "könnt",
+            "Könnt",
+            "wollt",
+            "Wollt"
+          ],
+          "hint": "ihr"
+        },
+        {
+          "sentence": "Wir ___ ja morgen telefonieren, okay?",
+          "answers": [
+            "können"
+          ],
+          "hint": "wir"
+        }
+      ]
+    }
+  ],
+  "schemaVersion": 2
+}

@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 2,
+  "id": "p02",
+  "title": "Bilder und Artikel — das, die, der",
+  "version": 1,
+  "estimatedMin": 6,
+  "blocks": [
+    {
+      "type": "NOTE",
+      "variant": "USAGE",
+      "id": "p02_n1",
+      "title": "Nomen kommen mit einem Artikel",
+      "paragraphs": [
+        {
+          "lang": "en",
+          "text": "The nine captions on this page give you more than a word each. Every noun arrives wearing one of three little words — {{de:das}}, {{de:die}} or {{de:der}} — and that article is part of the noun, exactly as much as its spelling is. English papers over the same difference with a single the; German keeps three, and it asks you to pick the right one every single time.\n"
+        },
+        {
+          "lang": "en",
+          "text": "You cannot work the choice out from the meaning, so take it from the caption while the picture is in front of you: {{de:das Handtuch}}, {{de:die Flasche}}, {{de:der Koffer}}. Say the article aloud with the noun and the pair sticks together — and notice that German writes every noun with a capital letter, so the article is your earliest clue to where a word begins.\n"
+        },
+        {
+          "lang": "de",
+          "text": "das Handtuch · die Flasche · der Koffer · das Würstchen · der Kindergarten · das Butterbrot · der Kranke · die Autobahn · die Nudeln\n"
+        },
+        {
+          "lang": "en",
+          "text": "Nine captions are a small sample of a very large habit. From here on, every new noun in this book will be printed the same way, and the fastest speakers in your class will be the ones who started saying the three words together from day one.\n"
+        }
+      ]
+    },
+    {
+      "type": "VOCAB",
+      "variant": "CARD_SET",
+      "id": "p02_v1",
+      "title": "Die Bilder von Übung 1a",
+      "wordIds": [
+        "w_butterbrot",
+        "w_flasche",
+        "w_koffer",
+        "w_handtuch",
+        "w_kindergarten",
+        "w_autobahn",
+        "w_wuerstchen"
+      ]
+    },
+    {
+      "type": "EXAMPLES",
+      "variant": "PHRASE_LIST",
+      "id": "p02_ex1",
+      "title": "Sprechen — 1b und 1c",
+      "items": [
+        {
+          "german": "„Flasche\" heißt auf Spanisch …",
+          "english": "Bottle, in Spanish, is …"
+        },
+        {
+          "german": "Wie heißen die Wörter in Ihrer Sprache?",
+          "english": "What are these words called in your language?"
+        },
+        {
+          "german": "Kennen Sie andere deutsche Wörter?",
+          "english": "Do you know any other German words?"
+        },
+        {
+          "german": "Sammeln Sie die Wörter und machen Sie ein Kursplakat.",
+          "english": "Collect the words and make a poster for your class."
+        }
+      ]
+    },
+    {
+      "type": "EXERCISE",
+      "variant": "FILL_BLANK",
+      "id": "p02_q1",
+      "points": 3,
+      "topic": "der, die, das",
+      "prompt": "Fill in the article you saw in the caption:",
+      "items": [
+        {
+          "sentence": "___ Handtuch, bitte.",
+          "answers": [
+            "Das"
+          ],
+          "hint": "neuter — das"
+        },
+        {
+          "sentence": "___ Flasche steht auf dem Tisch.",
+          "answers": [
+            "Die"
+          ],
+          "hint": "feminine — die"
+        },
+        {
+          "sentence": "___ Koffer ist schwer.",
+          "answers": [
+            "Der"
+          ],
+          "hint": "masculine — der"
+        },
+        {
+          "sentence": "___ Autobahn ist schnell.",
+          "answers": [
+            "Die"
+          ],
+          "hint": "feminine — die"
+        }
+      ]
+    }
+  ]
+}

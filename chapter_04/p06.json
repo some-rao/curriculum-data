@@ -1,0 +1,151 @@
+{
+  "schemaVersion": 2,
+  "id": "p06",
+  "title": "Frühstück, Mittagessen, Abendessen — Was essen Sie?",
+  "version": 1,
+  "estimatedMin": 10,
+  "blocks": [
+    {
+      "type": "LESSON_PAGE",
+      "variant": "READING",
+      "id": "p06_r1",
+      "headline": "Was essen Sie? — eine Umfrage in drei Texten",
+      "paragraphs": [
+        {
+          "lang": "en",
+          "text": "Three households answer the same question — what do you eat? — and no two answers look alike. One family eats together three times a day, two men split their week from the rest of their weekend, and one student sleeps through breakfast. Read them for the differences first; the vocabulary you met on pages 44 and 45 does most of the work.\n"
+        },
+        {
+          "lang": "en",
+          "text": "The times of day carry the texts: {{de:morgens}}, {{de:vormittags}}, {{de:mittags}}, {{de:nachmittags}}, {{de:abends}}, {{de:am Wochenende}}. Notice how each one arrives at the front of its sentence or sits just after the verb — never buried in the middle of one. In exercise 9a you put every detail into a table, which is the fastest way to see whose day is whose.\n"
+        },
+        {
+          "lang": "de",
+          "text": "Wir frühstücken morgens zusammen. Mein Mann und ich essen Brot mit Käse oder Schinken. Lina isst Müsli mit Milch. Am Mittag ist Lina im Kindergarten und Nikolaj isst in der Arbeit nur ein Brötchen. Ich esse in der Kantine oft Nudeln oder eine Suppe. Nachmittags esse ich manchmal ein Stück Schokolade. Abends um sieben essen wir dann alle zusammen: Wir mögen gerne Fisch oder Fleisch mit Gemüse und Reis oder Kartoffeln. Und wir trinken gern Saft und Wasser.\n"
+        },
+        {
+          "lang": "de",
+          "text": "Von Montag bis Freitag frühstücke ich nur schnell und allein: Ich bin schon um halb sechs wach. Vormittags esse ich dann oft einen Joghurt. Aber am Wochenende essen wir zusammen. Zum Frühstück mag ich sehr gerne Obst: Äpfel, Birnen oder Bananen. Obst schmeckt gut und ist gesund. Lars mag Brötchen mit Marmelade. Mittags essen wir meistens nichts. Am Nachmittag mögen wir gern Kuchen und abends essen wir oft Brot, Salat oder eine Suppe.\n"
+        },
+        {
+          "lang": "de",
+          "text": "Zum Frühstück esse ich zwei Brötchen mit Butter, Käse und Wurst. Am Wochenende frühstücke ich am Morgen nicht – ich schlafe lang. Mittags kaufe ich einen Döner oder eine Pizza. Ich habe nur wenig Zeit und esse allein. Am Abend koche ich oft Fisch, manchmal mache ich auch Sushi. Ich mag asiatisches Essen, lecker!\n"
+        },
+        {
+          "lang": "en",
+          "text": "Emma buys rather than cooks at midday, and she eats standing up; Lars and Ben skip lunch entirely. When you write your own version in 9c, follow the shape of these three: name the time, then the meal, then what is on the plate.\n"
+        }
+      ],
+      "vocabHighlight": [
+        {
+          "german": "Von Montag bis Freitag",
+          "english": "from Monday to Friday"
+        },
+        {
+          "german": "Ich esse in der Kantine.",
+          "english": "I eat in the canteen."
+        },
+        {
+          "german": "Ich mag asiatisches Essen.",
+          "english": "I like Asian food."
+        }
+      ]
+    },
+    {
+      "type": "GRAMMAR",
+      "variant": "RULE",
+      "id": "p06_g1",
+      "ruleHeadline": "mögen",
+      "paragraphs": [
+        {
+          "lang": "en",
+          "text": "{{de:mögen}} states a general liking, and its singular forms shorten: {{de:ich mag}} and {{de:er/sie/es mag}} lose the -n that the infinitive ends with, exactly as {{de:essen}} became {{de:isst}}. The plural is regular again.\n"
+        },
+        {
+          "lang": "de",
+          "text": "ich mag · du magst · er/es/sie mag · wir mögen · ihr mögt · sie/Sie mögen\n"
+        },
+        {
+          "lang": "en",
+          "text": "The page hands you the swap directly: {{de:Ich esse gern Schokolade}} and {{de:Ich mag Schokolade}} mean the same thing. Use {{de:gern}} when you want to stress the doing, and {{de:mögen}} when you want to stress the thing itself.\n"
+        }
+      ],
+      "targetSentenceGerman": "Ich mag asiatisches Essen, lecker!",
+      "targetSentenceEnglish": "I like Asian food — tasty!",
+      "examples": [
+        {
+          "german": "Ich mag Obst zum Frühstück.",
+          "english": "I like fruit for breakfast."
+        },
+        {
+          "german": "Lars mag Brötchen mit Marmelade.",
+          "english": "Lars likes bread rolls with jam."
+        },
+        {
+          "german": "Wir mögen gerne Fisch oder Fleisch.",
+          "english": "We like fish or meat."
+        },
+        {
+          "german": "Am Nachmittag mögen wir gern Kuchen.",
+          "english": "In the afternoon we like cake."
+        }
+      ]
+    },
+    {
+      "type": "GRAMMAR",
+      "variant": "RULE",
+      "id": "p06_g2",
+      "ruleHeadline": "Positionen im Satz — das Verb auf Platz zwei",
+      "paragraphs": [
+        {
+          "lang": "en",
+          "text": "In a statement the verb holds position two, and position two is counted in chunks, not words. {{de:Lina}} is chunk one, {{de:isst}} is chunk two — so when the sentence opens with a time like {{de:morgens}}, the whole time phrase becomes chunk one and the verb follows it at once.\n"
+        },
+        {
+          "lang": "de",
+          "text": "Lina isst morgens Müsli. · Morgens isst Lina Müsli. · Abends essen wir zusammen. · Mittags kaufe ich einen Döner.\n"
+        },
+        {
+          "lang": "en",
+          "text": "The two German sentences above translate to the same English word order, which is why this rule hides in plain sight. Test it by moving {{de:morgens}} to the front: the subject slides behind the verb instead of staying put, and nothing else changes.\n"
+        }
+      ],
+      "targetSentenceGerman": "Morgens isst Lina Müsli.",
+      "targetSentenceEnglish": "In the morning Lina eats muesli.",
+      "examples": [
+        {
+          "german": "Lina isst morgens Müsli.",
+          "english": "Lina eats muesli in the morning."
+        },
+        {
+          "german": "Morgens isst Lina Müsli.",
+          "english": "In the morning Lina eats muesli."
+        },
+        {
+          "german": "Am Abend koche ich oft Fisch.",
+          "english": "In the evening I often cook fish."
+        },
+        {
+          "german": "Und wir trinken gern Saft und Wasser.",
+          "english": "And we happily drink juice and water."
+        }
+      ],
+      "builder": {
+        "fixedPrefix": "Morgens",
+        "solutionWords": [
+          "isst",
+          "Lina",
+          "Müsli"
+        ],
+        "wordPool": [
+          "isst",
+          "Lina",
+          "Müsli",
+          "essen",
+          "Abend",
+          "müsste"
+        ]
+      }
+    }
+  ]
+}
